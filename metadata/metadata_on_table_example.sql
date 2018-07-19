@@ -4,11 +4,12 @@ A definition of metadata can be found in the openmod glossary http://wiki.openmo
 A further description can be found on http://wiki.openmod-initiative.org/wiki/DatabaseRules
 Feedback for an update is collected in this issue: https://github.com/OpenEnergyPlatform/organisation/issues/10
 
+__url__         = "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata"
 __copyright__   = "© Reiner Lemoine Institut"
 __license__     = "Creative Commons Zero v1.0 Universal (CC0-1.0)"
-__url__         = "https://creativecommons.org/publicdomain/zero/1.0/"
+__license_url__ = "https://creativecommons.org/publicdomain/zero/1.0/"
 __author__      = "Ludee"
-__contains__    = "http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it","https://specs.frictionlessdata.io/data-package/"
+__contains__    = "http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it", "https://specs.frictionlessdata.io/data-package/"
 
 -- metadata description
 -- metadata template
