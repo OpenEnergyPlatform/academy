@@ -9,7 +9,7 @@ __copyright__   = "© Reiner Lemoine Institut"
 __license__     = "Creative Commons Zero v1.0 Universal (CC0-1.0)"
 __license_url__ = "https://creativecommons.org/publicdomain/zero/1.0/"
 __author__      = "Ludee"
-__contains__    = "http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it","https://specs.frictionlessdata.io/data-package/"
+__contains__    = "http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it", "https://specs.frictionlessdata.io/data-package/"
 
 -- metadata description
 -- metadata template

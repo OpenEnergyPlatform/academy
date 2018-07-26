@@ -9,7 +9,7 @@ __copyright__   = "© Reiner Lemoine Institut"
 __license__     = "Creative Commons Zero v1.0 Universal (CC0-1.0)"
 __license_url__ = "https://creativecommons.org/publicdomain/zero/1.0/"
 __author__      = "Ludee"
-__contains__    = "http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it","https://specs.frictionlessdata.io/data-package/"
+__contains__    = "http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it", "https://specs.frictionlessdata.io/data-package/"
 
 -- metadata description
 -- metadata template
@@ -21,17 +21,17 @@ Additional information:
 */
 
 -- test table
-DROP TABLE IF EXISTS    model_draft.test_table;
-CREATE TABLE            model_draft.test_table (
+DROP TABLE IF EXISTS    model_draft.oep_metadata_table_example_v13;
+CREATE TABLE            model_draft.oep_metadata_table_example_v13 (
     id      serial,
     year    integer,
     value   double precision,
     geom    geometry(Point, 4326),
-    CONSTRAINT table_pkey PRIMARY KEY (id) );
+    CONSTRAINT oep_metadata_table_example_v13_pkey PRIMARY KEY (id) );
 
 
 -- metadata description
-COMMENT ON TABLE model_draft.test_table IS '{
+COMMENT ON TABLE model_draft.oep_metadata_table_example_v13 IS '{
     "title": "Good example title",
     "description": "example metadata for example data",
     "language": [ "eng", "ger", "fre" ],
@@ -63,7 +63,7 @@ COMMENT ON TABLE model_draft.test_table IS '{
         {"name": "Ludee", "email": "none", "date": "2017-05-30", "comment": "Update metadata to version 1.3"},
         {"name": "Ludee", "email": "none", "date": "2017-06-26", "comment": "Update metadata version 1.3: move reference_date into temporal and remove some array"} ],
     "resources": [
-        {"name": "model_draft.test_table",
+        {"name": "model_draft.oep_metadata_table_example_v13",
         "format": "PostgreSQL",
         "fields": [
             {"name": "id", "description": "Unique identifier", "unit": "none"},
@@ -73,14 +73,11 @@ COMMENT ON TABLE model_draft.test_table IS '{
     "metadata_version": "1.3"}';
 
 -- select description
-SELECT obj_description('model_draft.test_table' ::regclass) ::json;
-
--- select description
-SELECT obj_description('model_draft.test_table' ::regclass) ::json;
+SELECT obj_description('model_draft.oep_metadata_table_example_v13' ::regclass) ::json;
 
 
 -- metadata template
-COMMENT ON TABLE model_draft.test_table IS '{
+COMMENT ON TABLE model_draft.oep_metadata_table_example_v13 IS '{
     "title": "",
     "description": "",
     "language": [ "eng", "ger" ],
@@ -117,4 +114,4 @@ COMMENT ON TABLE model_draft.test_table IS '{
     "metadata_version": "1.3"}';
 
 -- select description
-SELECT obj_description('model_draft.test_table' ::regclass) ::json;
+SELECT obj_description('model_draft.oep_metadata_table_example_v13' ::regclass) ::json;
