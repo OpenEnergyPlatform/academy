@@ -1,5 +1,5 @@
 /*
-This script provides an SQL example of the metadata documentation
+This script provides an SQL example of the metadata documentation.
 A definition of metadata can be found in the openmod glossary http://wiki.openmod-initiative.org/wiki/Metadata
 A further description can be found on http://wiki.openmod-initiative.org/wiki/DatabaseRules
 Feedback for an update is collected in this issue: https://github.com/OpenEnergyPlatform/organisation/issues/10
@@ -22,18 +22,19 @@ Additional information:
 */
 
 -- test table
-DROP TABLE IF EXISTS    model_draft.test_table_v14;
-CREATE TABLE            model_draft.test_table_v14 (
+DROP TABLE IF EXISTS    model_draft.oep_metadata_table_example_v14;
+CREATE TABLE            model_draft.oep_metadata_table_example_v14 (
     id      serial,
     year    integer,
     value   double precision,
     geom    geometry(Point, 4326),
-    CONSTRAINT table_pkey PRIMARY KEY (id) );
+    CONSTRAINT oep_metadata_table_example_v14_pkey PRIMARY KEY (id) );
 
 
 -- metadata description
-COMMENT ON TABLE model_draft.test_table_v14 IS '{
+COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "title": "Good example title",
+    "identifier": "",
     "description": "example metadata for example data",
     "language": [ "en-GB", "en-US", "de-DE", "fr-FR" ],
     "keywords": [ "example", "template", "test" ],
@@ -64,7 +65,7 @@ COMMENT ON TABLE model_draft.test_table_v14 IS '{
         {"name": "Ludee", "email": "none", "date": "2017-05-30", "comment": "Update metadata to version 1.3"},
         {"name": "Ludee", "email": "none", "date": "2017-06-26", "comment": "Update metadata version 1.3: move reference_date into temporal and remove some array"} ],
     "resources": [
-        {"name": "model_draft.test_table_v14",
+        {"name": "model_draft.oep_metadata_table_example_v14",
         "format": "PostgreSQL",
         "encoding" : "UTF-8",
         "fields": [
@@ -78,15 +79,16 @@ COMMENT ON TABLE model_draft.test_table_v14 IS '{
             "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/" }';
 
 -- select description
-SELECT obj_description('model_draft.test_table_v14' ::regclass) ::json;
+SELECT obj_description('model_draft.oep_metadata_table_example_v14' ::regclass) ::json;
 
 -- select description
-SELECT obj_description('model_draft.test_table_v14' ::regclass) ::json;
+SELECT obj_description('model_draft.oep_metadata_table_example_v14' ::regclass) ::json;
 
 
 -- metadata template
-COMMENT ON TABLE model_draft.test_table_v14 IS '{
+COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "title": "",
+    "identifier": "",
     "description": "",
     "language": [ "en-GB" ],
     "keywords": [ "" ],
@@ -122,11 +124,8 @@ COMMENT ON TABLE model_draft.test_table_v14 IS '{
             {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ] } ],
     "_comment": {
         "_metadata_version": "1.4",
-        "_url": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
-        "_copyright": "© Reiner Lemoine Institut",
         "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
         "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "_contains": " http://www.json.org/; http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it",
         "_additional_information": {
             "_dates": "Dates and time must follow the ISO8601 (JJJJ-MM-TT)",
             "_units": "Use a space between Numbers and units (100 m)",
@@ -134,4 +133,4 @@ COMMENT ON TABLE model_draft.test_table_v14 IS '{
             "_none": "If not applicable use 'none'"} } }';
 
 -- select description
-SELECT obj_description('model_draft.test_table_v14' ::regclass) ::json;
+SELECT obj_description('model_draft.oep_metadata_table_example_v14' ::regclass) ::json;
