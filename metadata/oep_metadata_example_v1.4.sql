@@ -83,6 +83,13 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
 -- format verification
 SELECT obj_description('model_draft.oep_metadata_table_example_v14' ::regclass) ::json;
 
+-- index GIST (geom)
+CREATE INDEX oep_metadata_table_example_v14_geom_idx
+    ON model_draft.oep_metadata_table_example_v14 USING GIST (geom);
+
+-- grant (oeuser)
+ALTER TABLE model_draft.oep_metadata_table_example_v14 OWNER TO oeuser;
+
 -- scenario log (project,version,io,schema_name,table_name,script_name,comment)
 SELECT scenario_log('OEP', 'examples','input','model_draft','oep_metadata_table_example_v14','oep_metadata_example_v1.4.sql',' ');
 
