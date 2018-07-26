@@ -21,7 +21,7 @@ Additional information:
 - If not applicable use "none"
 */
 
--- test table
+-- table
 DROP TABLE IF EXISTS    model_draft.oep_metadata_table_example_v14;
 CREATE TABLE            model_draft.oep_metadata_table_example_v14 (
     id      serial,
@@ -31,7 +31,7 @@ CREATE TABLE            model_draft.oep_metadata_table_example_v14 (
     CONSTRAINT oep_metadata_table_example_v14_pkey PRIMARY KEY (id) );
 
 
--- metadata description
+-- metadata
 COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "title": "Good example title",
     "identifier": "",
@@ -63,7 +63,9 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
         {"name": "Ludee", "email": "none", "date": "2017-03-16", "comment": "Add license to source"},
         {"name": "Ludee", "email": "none", "date": "2017-03-28", "comment": "Add copyright to source and license"},
         {"name": "Ludee", "email": "none", "date": "2017-05-30", "comment": "Update metadata to version 1.3"},
-        {"name": "Ludee", "email": "none", "date": "2017-06-26", "comment": "Update metadata version 1.3: move reference_date into temporal and remove some array"} ],
+        {"name": "Ludee", "email": "none", "date": "2017-06-26", "comment": "Update metadata version 1.3: move reference_date into temporal and remove some array"},
+        {"name": "Ludee", "email": "none", "date": "2018-07-19", "comment": "Update metadata version 1.4"},
+        {"name": "Ludee", "email": "none", "date": "2018-07-26", "comment": "Rename table and files"} ],
     "resources": [
         {"name": "model_draft.oep_metadata_table_example_v14",
         "format": "PostgreSQL",
@@ -78,14 +80,13 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
             "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
             "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/" }';
 
--- select description
+-- format verification
 SELECT obj_description('model_draft.oep_metadata_table_example_v14' ::regclass) ::json;
 
--- select description
-SELECT obj_description('model_draft.oep_metadata_table_example_v14' ::regclass) ::json;
+-- scenario log (project,version,io,schema_name,table_name,script_name,comment)
+SELECT scenario_log('OEP', 'examples','input','model_draft','oep_metadata_table_example_v14','oep_metadata_example_v1.4.sql',' ');
 
-
--- metadata template
+-- metadata
 COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "title": "",
     "identifier": "",
@@ -132,5 +133,5 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
             "_languages": "Languages must follow the IETF (BCP47) format (en-US; de-DE)",
             "_none": "If not applicable use 'none'"} } }';
 
--- select description
+-- format verification
 SELECT obj_description('model_draft.oep_metadata_table_example_v14' ::regclass) ::json;

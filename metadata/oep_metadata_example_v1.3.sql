@@ -20,7 +20,7 @@ Additional information:
 - If not applicable use "none"
 */
 
--- test table
+-- table
 DROP TABLE IF EXISTS    model_draft.oep_metadata_table_example_v13;
 CREATE TABLE            model_draft.oep_metadata_table_example_v13 (
     id      serial,
@@ -30,7 +30,7 @@ CREATE TABLE            model_draft.oep_metadata_table_example_v13 (
     CONSTRAINT oep_metadata_table_example_v13_pkey PRIMARY KEY (id) );
 
 
--- metadata description
+-- metadata
 COMMENT ON TABLE model_draft.oep_metadata_table_example_v13 IS '{
     "title": "Good example title",
     "description": "example metadata for example data",
@@ -72,11 +72,14 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v13 IS '{
             {"name": "geom", "description": "Geometry", "unit": "none"} ] } ],
     "metadata_version": "1.3"}';
 
--- select description
+-- format verification
 SELECT obj_description('model_draft.oep_metadata_table_example_v13' ::regclass) ::json;
 
+-- scenario log (project,version,io,schema_name,table_name,script_name,comment)
+SELECT scenario_log('OEP', 'examples','input','model_draft','oep_metadata_table_example_v13','oep_metadata_example_v1.3.sql',' ');
 
--- metadata template
+
+-- metadata
 COMMENT ON TABLE model_draft.oep_metadata_table_example_v13 IS '{
     "title": "",
     "description": "",
@@ -113,5 +116,5 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v13 IS '{
             {"name": "geom", "description": "Geometry", "unit": ""} ] } ],
     "metadata_version": "1.3"}';
 
--- select description
+-- format verification
 SELECT obj_description('model_draft.oep_metadata_table_example_v13' ::regclass) ::json;
