@@ -93,6 +93,7 @@ ALTER TABLE model_draft.oep_metadata_table_example_v14 OWNER TO oeuser;
 -- scenario log (project,version,io,schema_name,table_name,script_name,comment)
 SELECT scenario_log('OEP', 'examples','input','model_draft','oep_metadata_table_example_v14','oep_metadata_example_v1.4.sql',' ');
 
+
 -- metadata
 COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "title": "",
