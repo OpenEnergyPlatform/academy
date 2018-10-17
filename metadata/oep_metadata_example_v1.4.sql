@@ -44,8 +44,8 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
         "resolution": "100 m"},
     "temporal": 
         {"reference_date": "2016-01-01",
-        "start": "2017-01-01",
-        "end": "2017-12-31",
+        "start": "2017-01-01T00:00+1",
+        "end": "2017-12-31T23:00+1",
         "resolution": "1 h"},
     "sources": [
         {"name": "OpenEnergyPlatform Metadata Example", "description": "Metadata description", "url": "https://github.com/OpenEnergyPlatform", "license": "Creative Commons Zero v1.0 Universal (CC0-1.0)", "copyright": "© Reiner Lemoine Institut"},
@@ -136,7 +136,7 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
         "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
         "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
         "_additional_information": {
-            "_dates": "Dates and time must follow the ISO8601 (JJJJ-MM-TT)",
+            "_dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DDThh:mm:ss±hh)",
             "_units": "Use a space between Numbers and units (100 m)",
             "_languages": "Languages must follow the IETF (BCP47) format (en-US; de-DE)",
             "_none": "If not applicable use 'none'"} } }';
