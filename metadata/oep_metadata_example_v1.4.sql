@@ -39,6 +39,10 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "language": [ "en-GB", "en-US", "de-DE", "fr-FR" ],
     "keywords": [ "example", "template", "test" ],
     "publication_date": "2018-06-12",
+    "project": 
+        {"homepage": "",
+        "documentation": "",
+        "source_code": ""},
     "spatial": 
         {"location": "none",
         "extent": "europe",
