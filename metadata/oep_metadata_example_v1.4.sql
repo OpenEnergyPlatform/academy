@@ -40,9 +40,9 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "keywords": [ "example", "template", "test" ],
     "publication_date": "2018-06-12",
     "project": 
-        {"homepage": "",
-        "documentation": "",
-        "source_code": ""},
+        {"homepage": "https://reiner-lemoine-institut.de/szenariendb/",
+        "documentation": "https://github.com/OpenEnergyPlatform/organisation/wiki/metadata",
+        "source_code": "https://github.com/OpenEnergyPlatform/examples/tree/feature/metadata_v1.4/metadata"},
     "spatial": 
         {"location": "none",
         "extent": "europe",
@@ -108,6 +108,10 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "language": [ "en-GB" ],
     "keywords": [ "" ],
     "publication_date": "",
+    "project": 
+        {"homepage": "",
+        "documentation": "",
+        "source_code": ""},
     "spatial": 
         {"location": "",
         "extent": "",
