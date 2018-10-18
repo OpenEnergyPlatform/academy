@@ -51,12 +51,12 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "sources": [
         {"name": "OpenEnergyPlatform Metadata Example", "description": "Metadata description", "url": "https://github.com/OpenEnergyPlatform", "license": "Creative Commons Zero v1.0 Universal (CC0-1.0)", "copyright": "© Reiner Lemoine Institut"},
         {"name": "OpenStreetMap", "description": "A collaborative project to create a free editable map of the world", "url": "https://www.openstreetmap.org/", "license": "ODbL-1.0", "copyright": "© OpenStreetMap contributors"} ],
-    "license": 
+    "licenses": [
         {"id": "ODbL-1.0",
         "name": "Open Data Commons Open Database License 1.0",
         "url": "https://opendatacommons.org/licenses/odbl/1.0/",
         "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
-        "copyright": "© Reiner Lemoine Institut"},
+        "copyright": "© Reiner Lemoine Institut"}],
     "contributors": [
         {"name": "Ludee", "email": "none", "date": "2016-06-16", "object": "metadata", "comment": "Create metadata"},
         {"name": "Ludee", "email": "none", "date": "2016-11-22", "object": "metadata", "comment": "Update metadata"},
@@ -116,12 +116,12 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "sources": [
         {"name": "", "description": "", "url": "", "license": "", "copyright": ""},
         {"name": "", "description": "", "url": "", "license": "", "copyright": ""} ],
-    "license": 
+    "licenses": [
         {"id": "",
         "name": "",
         "url": "",
         "instruction": "",
-        "copyright": ""},
+        "copyright": ""}],
     "contributors": [
         {"name": "", "email": "", "date": "", "object": "", "comment": ""},
         {"name": "", "email": "", "date": "", "object": "", "comment": ""} ],
