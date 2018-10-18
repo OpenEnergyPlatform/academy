@@ -58,7 +58,7 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
         {"name": "OpenStreetMap", "description": "A collaborative project to create a free editable map of the world", "url": "https://www.openstreetmap.org/", "license": "ODbL-1.0", "copyright": "© OpenStreetMap contributors"} ],
     "licenses": [
         {"id": "ODbL-1.0",
-        "name": "Open Data Commons Open Database License 1.0",
+        "title": "Open Data Commons Open Database License 1.0",
         "url": "https://opendatacommons.org/licenses/odbl/1.0/",
         "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
         "copyright": "© Reiner Lemoine Institut"}],
@@ -128,7 +128,7 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
         {"name": "", "description": "", "url": "", "license": "", "copyright": ""} ],
     "licenses": [
         {"id": "",
-        "name": "",
+        "title": "",
         "url": "",
         "instruction": "",
         "copyright": ""}],
