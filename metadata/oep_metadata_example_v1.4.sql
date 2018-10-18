@@ -34,7 +34,7 @@ CREATE TABLE            model_draft.oep_metadata_table_example_v14 (
 -- metadata
 COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "title": "Good example title",
-    "identifier": "http://openenergyplatform.org/dataedit/view/model_draft/oep_metadata_table_example_v14",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/oep_metadata_table_example_v14",
     "description": "example metadata for example data",
     "language": [ "en-GB", "en-US", "de-DE", "fr-FR" ],
     "keywords": [ "example", "template", "test" ],
@@ -99,7 +99,7 @@ SELECT scenario_log('OEP', 'examples','input','model_draft','oep_metadata_table_
 -- metadata
 COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "title": "",
-    "identifier": "",
+    "id": "",
     "description": "",
     "language": [ "en-GB" ],
     "keywords": [ "" ],
