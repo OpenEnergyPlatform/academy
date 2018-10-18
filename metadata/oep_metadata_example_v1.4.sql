@@ -43,7 +43,8 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "project": 
         {"homepage": "https://reiner-lemoine-institut.de/szenariendb/",
         "documentation": "https://github.com/OpenEnergyPlatform/organisation/wiki/metadata",
-        "source_code": "https://github.com/OpenEnergyPlatform/examples/tree/feature/metadata_v1.4/metadata"},
+        "source_code": "https://github.com/OpenEnergyPlatform/examples/tree/feature/metadata_v1.4/metadata",
+        "contact": "https://github.com/Ludee"},
     "spatial": 
         {"location": "none",
         "extent": "europe",
@@ -54,8 +55,8 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
         "end": "2017-12-31T23:00+01",
         "resolution": "1 h"},
     "sources": [
-        {"name": "OpenEnergyPlatform Metadata Example", "description": "Metadata description", "url": "https://github.com/OpenEnergyPlatform", "license": "Creative Commons Zero v1.0 Universal (CC0-1.0)", "copyright": "© Reiner Lemoine Institut"},
-        {"name": "OpenStreetMap", "description": "A collaborative project to create a free editable map of the world", "url": "https://www.openstreetmap.org/", "license": "ODbL-1.0", "copyright": "© OpenStreetMap contributors"} ],
+        {"title": "OpenEnergyPlatform Metadata Example", "description": "Metadata description", "url": "https://github.com/OpenEnergyPlatform", "license": "Creative Commons Zero v1.0 Universal (CC0-1.0)", "copyright": "© Reiner Lemoine Institut"},
+        {"title": "OpenStreetMap", "description": "A collaborative project to create a free editable map of the world", "url": "https://www.openstreetmap.org/", "license": "ODbL-1.0", "copyright": "© OpenStreetMap contributors"} ],
     "licenses": [
         {"id": "ODbL-1.0",
         "title": "Open Data Commons Open Database License 1.0",
@@ -113,7 +114,8 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "project": 
         {"homepage": "",
         "documentation": "",
-        "source_code": ""},
+        "source_code": "",
+        "contact": ""},
     "spatial": 
         {"location": "",
         "extent": "",
@@ -124,8 +126,8 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
         "end": "",
         "resolution": ""},
     "sources": [
-        {"name": "", "description": "", "url": "", "license": "", "copyright": ""},
-        {"name": "", "description": "", "url": "", "license": "", "copyright": ""} ],
+        {"title": "", "description": "", "url": "", "license": "", "copyright": ""},
+        {"title": "", "description": "", "url": "", "license": "", "copyright": ""} ],
     "licenses": [
         {"id": "",
         "title": "",
