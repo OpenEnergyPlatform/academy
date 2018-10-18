@@ -38,6 +38,7 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "description": "example metadata for example data",
     "language": [ "en-GB", "en-US", "de-DE", "fr-FR" ],
     "keywords": [ "example", "template", "test" ],
+    "publication_date": "2018-06-12",
     "spatial": 
         {"location": "none",
         "extent": "europe",
@@ -102,6 +103,7 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
     "description": "",
     "language": [ "en-GB" ],
     "keywords": [ "" ],
+    "publication_date": "",
     "spatial": 
         {"location": "",
         "extent": "",
@@ -137,7 +139,7 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
         "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
         "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
         "_additional_information": {
-            "_dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DDThh:mm:ss±hh)",
+            "_dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
             "_units": "Use a space between Numbers and units (100 m)",
             "_languages": "Languages must follow the IETF (BCP47) format (en-US; de-DE)",
             "_none": "If not applicable use 'none'"} } }';
