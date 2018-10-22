@@ -51,9 +51,9 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
         "resolution": "100 m"},
     "temporal": 
         {"reference_date": "2016-01-01",
-        "start": "2017-01-01T00:00+01",
-        "end": "2017-12-31T23:00+01",
-        "resolution": "1 h"},
+        "ts_start": "2017-01-01T00:00+01",
+        "ts_end": "2017-12-31T23:00+01",
+        "ts_resolution": "1 h"},
     "sources": [
         {"title": "OpenEnergyPlatform Metadata Example", "description": "Metadata description", "url": "https://github.com/OpenEnergyPlatform", "license": "Creative Commons Zero v1.0 Universal (CC0-1.0)", "copyright": "© Reiner Lemoine Institut"},
         {"title": "OpenStreetMap", "description": "A collaborative project to create a free editable map of the world", "url": "https://www.openstreetmap.org/", "license": "ODbL-1.0", "copyright": "© OpenStreetMap contributors"} ],
@@ -130,9 +130,9 @@ COMMENT ON TABLE model_draft.template_table IS '{
         "resolution": ""},
     "temporal": 
         {"reference_date": "",
-        "start": "",
-        "end": "",
-        "resolution": ""},
+        "ts_start": "",
+        "ts_end": "",
+        "ts_resolution": ""},
     "sources": [
         {"title": "", "description": "", "url": "", "license": "", "copyright": ""},
         {"title": "", "description": "", "url": "", "license": "", "copyright": ""} ],

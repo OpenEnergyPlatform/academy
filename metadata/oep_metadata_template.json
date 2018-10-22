@@ -16,9 +16,9 @@
     "resolution": ""},
 "temporal": 
     {"reference_date": "",
-    "start": "",
-    "end": "",
-    "resolution": ""},
+    "ts_start": "",
+    "ts_end": "",
+    "ts_resolution": ""},
 "sources": [
     {"title": "", "description": "", "url": "", "license": "", "copyright": ""},
     {"title": "", "description": "", "url": "", "license": "", "copyright": ""} ],
