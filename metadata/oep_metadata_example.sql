@@ -87,7 +87,7 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
             {"name": "value", "description": "Example value", "type": "double precision", "unit": "MW"},
             {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ] } ],
     "_comment": {
-        "_metadata_version": "1.4",
+        "_metadata_version": "1.4-pre",
         "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
         "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
         "_additional_information": {
@@ -157,7 +157,7 @@ COMMENT ON TABLE model_draft.template_table IS '{
             {"name": "value", "description": "Example value", "type": "double precision", "unit": "none"},
             {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ] } ],
     "_comment": {
-        "_metadata_version": "1.4",
+        "_metadata_version": "1.4-pre",
         "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
         "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
         "_additional_information": {
