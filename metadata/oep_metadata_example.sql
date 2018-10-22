@@ -86,10 +86,15 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
             {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
             {"name": "value", "description": "Example value", "type": "double precision", "unit": "MW"},
             {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ] } ],
-        "_comment": {
-            "_metadata_version": "1.4" },
-            "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
-            "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/" }';
+    "_comment": {
+        "_metadata_version": "1.4",
+        "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
+        "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "_additional_information": {
+            "_dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+            "_units": "Use a space between Numbers and units (100 m)",
+            "_languages": "Languages must follow the IETF (BCP47) format (en-US; de-DE)",
+            "_none": "If not applicable use 'none'"} } }';
 
 -- format verification
 SELECT obj_description('model_draft.oep_metadata_table_example_v14' ::regclass) ::json;
@@ -105,8 +110,8 @@ ALTER TABLE model_draft.oep_metadata_table_example_v14 OWNER TO oeuser;
 SELECT scenario_log('OEP', 'examples','input','model_draft','oep_metadata_table_example_v14','oep_metadata_example_v1.4.sql',' ');
 
 
--- metadata
-COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '{
+-- metadata template
+COMMENT ON TABLE model_draft.template_table IS '{
     "name": "",
     "title": "",
     "id": "",
