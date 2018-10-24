@@ -1,0 +1,193 @@
+# Version 1.0.1, 17.04.2018,    ]init[ AG  dcat-ap.de Beispielimplementation als Maximale RDF/TURTLE Datei  (C) CC BY 4.0 "]init[ AG und SID Sachsen fuer GovData"
+
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/1.0.1/> .
+
+<http://transparenz.hamburg.de/>
+  a dcat:Catalog ;
+  dcat:Dataset [ a <http://dcat-ap.de/def/dcatde/contributorID> ], [ a dct:title ], [ a dct:title ], [ a dct:description ], [
+    a dct:publisher ;
+    foaf:Agent <http://www.hamburg.de/bue/>
+  ], [
+    a dct:creator ;
+    foaf:Agent [
+      a foaf:Person ;
+      foaf:name "Peter Schröder"
+    ]
+  ], [
+    a dct:contributor ;
+    foaf:Agent <http://www.hamburg.de/bue/>
+  ], [
+    a <http://dcat-ap.de/def/dcatde/originator> ;
+    foaf:Agent [
+      a foaf:Person ;
+      foaf:name "Peter Schröder"
+    ]
+  ], [
+    a <http://dcat-ap.de/def/dcatde/maintainer> ;
+    foaf:Agent [
+      a foaf:Person ;
+      foaf:name "Peter Schröder"
+    ]
+  ], [
+    a dcat:contactPoint ;
+    vcard:Individual [ a vcard:fn ], [
+      a vcard:hasEmail ;
+      vcard:hasValue <http://njh.me/michael.schroeder@bue.hamburg.de>
+    ], [
+      a vcard:hasTelephone ;
+      vcard:hasValue <+494042840-3494>
+    ]
+  ], [ a dcat:keyword ], [ a dcat:keyword ], [ a dcat:keyword ], [ a dcat:keyword ], [ a dcat:keyword ], [ a dcat:keyword ], [ a dcat:keyword ], [ a dcat:keyword ], [ a dcat:keyword ], [ a dcat:keyword ], [ a dcat:keyword ], [ a dcat:theme ], [ a dcat:theme ], [ a dct:conformsTo ], [ a foaf:page ], [ a dct:accrualPeriodicity ], [ a dct:hasVersion ], [ a dct:isVersionOf ], [ a dcat:landingPage ], [ a dct:language ], [ a dct:identifier ], [ a <http://www.w3.org/ns/adms#identifier> ], [ a <http://www.w3.org/ns/adms#identifier> ], [ a <http://www.w3.org/ns/adms#identifier> ], [ a dct:provenance ], [ a dct:relation ], [ a dct:issued ], [ a <http://www.w3.org/ns/adms#sample> ], [ a dct:source ], [
+    a dct:spatial ;
+    dct:Location [ a <http://www.w3.org/ns/locn#geographicName> ], [ a rdf:seeAlso ]
+  ], [
+    a dct:spatial ;
+    dct:Location [ a <http://www.w3.org/ns/locn#Geometry> ]
+  ], [
+    a dct:spatial ;
+    dct:Location [
+      a <http://www.w3.org/ns/locn#Address> ;
+      locn:fullAddress "Die Freie und Hansestadt Hamburg, Rathausmarkt 1, 20095 Hamburg " ;
+      locn:poBox "Postfach 1000" ;
+      locn:locatorDesignator "D" ;
+      locn:locatorName "Haus" ;
+      locn:addressArea "Hamburg" ;
+      locn:postName "Die Freie und Hansestadt Hamburg" ;
+      locn:adminUnitL2 <http://dcat-ap.de/def/politicalGeocoding/stateKey/02> ;
+      locn:adminUnitL1 <http://publications.europa.eu/resource/authority/atu/DEU> ;
+      locn:postCode "20095" ;
+      locn:addressID "ID 97653"
+    ]
+  ], [
+    a dct:temporal ;
+    dct:PeriodOfTime [ a schema:startDate ], [ a schema:endDate ]
+  ], [ a dct:modified ], [ a owl:versionInfo ], [ a <http://www.w3.org/ns/adms#versionNotes> ], [ a <http://dcat-ap.de/def/dcatde/politicalGeocodingLevelURI> ], [ a <http://dcat-ap.de/def/dcatde/politicalGeocodingURI> ], [ a <http://dcat-ap.de/def/dcatde/politicalGeocodingURI> ], [ a <http://dcat-ap.de/def/dcatde/geocodingDescription> ], [ a <http://dcat-ap.de/def/dcatde/geocodingDescription> ], [ a <http://dcat-ap.de/def/dcatde/legalBasis> ], [ a <http://dcat-ap.de/def/dcatde/legalBasis> ], [ a <http://dcat-ap.de/def/dcatde/qualityProcessURI> ], [ a dcat:distribution ], [ a dcat:distribution ], [ a dcat:distribution ], [ a dcat:distribution ], [ a dcat:distribution ] ;
+  dct:description "Das Transparenzportal Hamburg ist das im Hamburgischen Transparenzgesetz (HmbTG) geforderte Informationsregister, über das alle per Gesetz veröffentlichungspflichtigen Informationen anonym recherchiert werden können. Es ist der zentrale Zugang zu aktuellen Daten und Informationen der Hamburger Verwaltung und stellt, um die leichte Auffindbarkeit der gesuchten Inhalte zu gewährleisten, eine Suche über den Volltext aller Datensätze bereit. Über den Suchschlitz kann nach Stichworten gesucht werden, es ist aber auch möglich, mit Hilfe der erweiterten Suche genaue Einschränkungen, z.B. nach Dateiformat, Kategorie oder Zeiträumen, vorzunehmen. Neben den veröffentlichungspflichtigen Inhalten können über das Transparenzportal Hamburg auch Informationen und Daten recherchiert werden, die freiwillig und zur Weiterverarbeitung zugänglich gemacht werden (siehe Open Data)."@de, "Lorem Ipsum"@en ;
+  dct:publisher [
+    a foaf:Agent ;
+    foaf:Organization [ a foaf:name ], [ a dct:type ]
+  ] ;
+  dct:title "Transparenzportal Hamburg"@de, "Lorem Ipsum"@en ;
+  foaf:homepage <http://transparenz.hamburg.de/> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/GER>, <http://publications.europa.eu/resource/authority/language/ENG> ;
+  dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+  dct:issued "2017-03-09"^^xsd:date ;
+  dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme> ;
+  dct:hasPart <http://transparenz.hamburg.de/energie> ;
+  dct:isPartOf <https://www.govdata.de> ;
+  dcat:record <http://suche.transparenz.hamburg.de/dataset/naturraume-geest-und-marsch5> ;
+  dct:rights <http://transparenz.hamburg.de/rightsstatement> .
+
+<http://www.hamburg.de/bue/>
+  a foaf:Organization ;
+  foaf:name "Behörde für Umwelt und Energie (BUE), Amt für Umweltschutz" ;
+  dct:type <http://purl.org/adms/publishertype/LocalAuthority> .
+
+<http://suche.transparenz.hamburg.de/dataset/naturraume-geest-und-marsch5>
+  a dcat:CatalogRecord ;
+  foaf:primaryTopic <https://www.govdata.de/web/guest/suchen/-/details/naturraume-geest-und-marsch3> ;
+  dct:modified "2017-03-10T10:00:00"^^xsd:dateTime ;
+  dct:conformsTo <http://www.Referenz-auf-ein-Application-Profile.de> ;
+  adms:status <http://purl.org/adms/status/Completed> ;
+  dct:issued "2017-03-09"^^xsd:date ;
+  dct:description "Die Zuordnung des Hamburger Stadtgebietes zu den Naturräumen Geest und Marsch wird dargestellt." ;
+  dct:language <http://publications.europa.eu/resource/authority/language/GER> ;
+  dct:source <http://suche.transparenz.hamburg.de/dataset/naturraume-geest-und-marsch5> ;
+  dct:title "Naturräume Geest und Marsch" .
+
+<http://geodienste.hamburg.de/HH_WFS_Grundwasserschutz?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=BSU_Z_Grundwasserschutz:Geest-_Marsch>
+  a dcat:Distribution ;
+  dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+  dcat:accessURL <http://geodienste.hamburg.de/HH_WFS_Grundwasserschutz?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=BSU_Z_Grundwasserschutz:Geest-_Marsch> ;
+  dct:description "Das ist eine deutsche Beschreibung der Distribution 1" ;
+  dcat:byteSize "685246000"^^xsd:decimal ;
+  spdx:Checksum [ a spdx:checksumValue ], [ a spdx:algorithm ] ;
+  foaf:page <https://www.govdata.de/ckan/api/rest/dataset/naturraume-geest-und-marsch3> ;
+  dcat:downloadURL <http://geodienste.hamburg.de/HH_WFS_Grundwasserschutz?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=BSU_Z_Grundwasserschutz:Geest-_Marsch> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/GER> ;
+  dct:conformsTo <http://schemas.opengis.net/wfs/1.1.0/wfs.xsd> ;
+  dcat:mediaType <https://www.iana.org/assignments/media-types/application/gml+xml> ;
+  dct:issued "2017-02-27"^^xsd:date ;
+  adms:status <http://purl.org/adms/status/Completed> ;
+  dct:title "Download WFS Naturräume Geest und Marsch (GML)" ;
+  dct:modified "2017-03-07T10:00:00"^^xsd:dateTime ;
+  dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/available> ;
+  dcatde:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015"@de, "Free and Hanseatic City of Hamburg, Department of Environment and Energy, 2015"@en .
+
+<http://geodienste.hamburg.de/HH_WFS_Grundwasserschutz?REQUEST=GetCapabilities&SERVICE=WFS>
+  a dcat:Distribution ;
+  dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+  dcat:accessURL <http://geodienste.hamburg.de/HH_WFS_Grundwasserschutz?REQUEST=GetCapabilities&SERVICE=WFS> ;
+  dcat:byteSize "11097"^^xsd:decimal ;
+  spdx:Checksum [ a spdx:checksumValue ], [ a spdx:algorithm ] ;
+  foaf:page <https://www.govdata.de/ckan/api/rest/dataset/naturraume-geest-und-marsch3> ;
+  dcat:downloadURL <http://geodienste.hamburg.de/HH_WFS_Grundwasserschutz?REQUEST=GetCapabilities&SERVICE=WFS> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/GER> ;
+  dct:conformsTo <http://schemas.opengis.net/wfs/1.1.0/wfs.xsd> ;
+  dcat:mediaType <https://www.iana.org/assignments/media-types/application/gml+xml> ;
+  dct:issued "2017-02-27"^^xsd:date ;
+  adms:status <http://purl.org/adms/status/Completed> ;
+  dct:title "Dienst \\\"WFS Grundwasserschutz Hamburg\\\" (GetCapabilities)" ;
+  dct:modified "2017-03-07T10:00:00"^^xsd:dateTime ;
+  dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/available> ;
+  dcatde:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015"@de, "Free and Hanseatic City of Hamburg, Department of Environment and Energy, 2015"@en .
+
+<http://geodienste.hamburg.de/HH_WMS_Grundwasserschutz?REQUEST=GetCapabilities&SERVICE=WMS>
+  a dcat:Distribution ;
+  dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+  dcat:accessURL <http://geodienste.hamburg.de/HH_WMS_Grundwasserschutz?REQUEST=GetCapabilities&SERVICE=WMS> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/GER> ;
+  dct:conformsTo <http://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd> ;
+  dcat:mediaType <https://www.iana.org/assignments/media-types/application/gml+xml> ;
+  dct:issued "2017-02-27"^^xsd:date ;
+  adms:status <http://purl.org/adms/status/Completed> ;
+  dct:title "Dienst \\\"WMS Grundwasserschutz Hamburg\\\" (GetCapabilities)" ;
+  dct:modified "2017-03-07T10:00:00"^^xsd:dateTime ;
+  dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/available> ;
+  dcatde:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015"@de, "Free and Hanseatic City of Hamburg, Department of Environment and Energy, 2015"@en .
+
+<http://daten-hamburg.de/umwelt_klima/naturraeume_geest_und_marsch/Naturraeume_Geest_und_Marsch_HH_2017-02-20.zip>
+  a dcat:Distribution ;
+  dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+  dcat:accessURL <http://daten-hamburg.de/umwelt_klima/naturraeume_geest_und_marsch/Naturraeume_Geest_und_Marsch_HH_2017-02-20.zip> ;
+  dct:description "Das ist eine deutsche Beschreibung der Distribution 4" ;
+  dcat:byteSize "222441"^^xsd:decimal ;
+  spdx:Checksum [ a spdx:checksumValue ], [ a spdx:algorithm ] ;
+  foaf:page <https://www.govdata.de/ckan/api/rest/dataset/naturraume-geest-und-marsch3> ;
+  dcat:downloadURL <http://daten-hamburg.de/umwelt_klima/naturraeume_geest_und_marsch/Naturraeume_Geest_und_Marsch_HH_2017-02-20.zip> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/GER> ;
+  dcat:mediaType <https://www.iana.org/assignments/media-types/application/zip> ;
+  dct:issued "2017-02-27"^^xsd:date ;
+  adms:status <http://purl.org/adms/status/Completed> ;
+  dct:title "Download WFS Naturräume Geest und Marsch (GML)" ;
+  dct:modified "2017-03-07T10:00:00"^^xsd:dateTime ;
+  dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/available> ;
+  dcatde:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015"@de, "Free and Hanseatic City of Hamburg, Department of Environment and Energy, 2015"@en .
+
+<http://metaver.de/trefferanzeige?docuuid=4635D337-4805-4C32-A211-13F8C038BF27>
+  a dcat:Distribution ;
+  dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0/> ;
+  dcat:accessURL <http://metaver.de/trefferanzeige?docuuid=4635D337-4805-4C32-A211-13F8C038BF27> ;
+  dct:description "Das ist eine deutsche Beschreibung der Distribution 5" ;
+  dcat:byteSize "46933"^^xsd:decimal ;
+  spdx:Checksum [ a spdx:checksumValue ], [ a spdx:algorithm ] ;
+  foaf:page <https://www.govdata.de/ckan/api/rest/dataset/naturraume-geest-und-marsch3> ;
+  dcat:downloadURL <http://metaver.de/trefferanzeige?docuuid=4635D337-4805-4C32-A211-13F8C038BF27> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/GER> ;
+  dct:issued "2017-02-27"^^xsd:date ;
+  adms:status <http://purl.org/adms/status/Completed> ;
+  dct:title "Metadatenbeschreibung aus dem MetaVer" ;
+  dct:modified "2017-03-07T10:00:00"^^xsd:dateTime ;
+  dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+  dcatde:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015"@de, "Free and Hanseatic City of Hamburg, Department of Environment and Energy, 2015"@en .
