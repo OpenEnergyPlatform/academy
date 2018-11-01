@@ -5,20 +5,21 @@
 "language": [ "en-GB" ],
 "keywords": [ "" ],
 "publication_date": "",
-"project": 
+"context": 
     {"homepage": "",
     "documentation": "",
     "source_code": "",
-    "contact": ""},
+    "contact": "",
+    "grant_no": ""},
 "spatial": 
     {"location": "",
     "extent": "",
     "resolution": ""},
 "temporal": 
     {"reference_date": "",
-    "ts_start": "",
-    "ts_end": "",
-    "ts_resolution": ""},
+    "start": "",
+    "end": "",
+    "resolution": ""},
 "sources": [
     {"title": "", "description": "", "url": "", "license": "", "copyright": ""},
     {"title": "", "description": "", "url": "", "license": "", "copyright": ""} ],
