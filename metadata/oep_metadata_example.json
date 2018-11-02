@@ -8,7 +8,7 @@
 "context": 
     {"homepage": "https://reiner-lemoine-institut.de/szenariendb/",
     "documentation": "https://github.com/OpenEnergyPlatform/organisation/wiki/metadata",
-    "source_code": "https://github.com/OpenEnergyPlatform/examples/tree/feature/metadata_v1.4/metadata",
+    "source_code": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
     "contact": "https://github.com/Ludee",
     "grant_no": "03ET4057"},
 "spatial": 
@@ -43,23 +43,27 @@
     {"title": "Ludee", "email": "none", "date": "2016-11-22", "object": "metadata", "comment": "Update header and license"},
     {"title": "Ludee", "email": "none", "date": "2017-03-16", "object": "metadata", "comment": "Add license to source"},
     {"title": "Ludee", "email": "none", "date": "2017-03-28", "object": "metadata", "comment": "Add copyright to source and license"},
-    {"title": "Ludee", "email": "none", "date": "2017-05-30", "object": "metadata", "comment": "Update metadata to version 1.3"},
-    {"title": "Ludee", "email": "none", "date": "2017-06-26", "object": "metadata", "comment": "Update metadata version 1.3: move reference_date into temporal and remove some array"},
-    {"title": "Ludee", "email": "none", "date": "2018-07-19", "object": "metadata", "comment": "Update metadata version 1.4"},
+    {"title": "Ludee", "email": "none", "date": "2017-05-30", "object": "metadata", "comment": "Release metadata version 1.3"},
+    {"title": "Ludee", "email": "none", "date": "2017-06-26", "object": "metadata", "comment": "Move reference_date into temporal and remove array"},
+    {"title": "Ludee", "email": "none", "date": "2018-07-19", "object": "metadata", "comment": "Start metadata version 1.4"},
     {"title": "Ludee", "email": "none", "date": "2018-07-26", "object": "data", "comment": "Rename table and files"},
-    {"title": "Ludee", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add contribution onject"},
-    {"title": "christian-rli", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "made string datapackage compatible"} ],
+    {"title": "Ludee", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add contribution object"},
+    {"title": "christian-rli", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add datapackage compatibility"},
+    {"title": "Ludee", "email": "none", "date": "2018-11-02", "object": "metadata", "comment": "Release metadata version 1.4"}],
 "resources": [
-    {"name": "model_draft.oep_metadata_table_example_v14",
+    {"profile": "tabular-data-resource",
+    "name": "model_draft.oep_metadata_table_example_v14",
     "path": "http://openenergyplatform.org/dataedit/view/model_draft/oep_metadata_table_example_v14",
-    "profile": "tabular-data-resource",
     "format": "PostgreSQL",
     "encoding" : "UTF-8",
     "fields": [
         {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "none"},
         {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
         {"name": "value", "description": "Example value", "type": "double precision", "unit": "MW"},
-        {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ] } ],
+        {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
+    "dialect": 
+        {"delimiter": "none",
+        "decimal_separator": "."} } ],
 "_comment": {
     "_metadata_version": "1.4",
     "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
@@ -68,4 +72,4 @@
         "_dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
         "_units": "Use a space between Numbers and units (100 m)",
         "_languages": "Languages must follow the IETF (BCP47) format (en-US; de-DE)",
-        "_none": "If not applicable use 'none'"} } }
+        "_none": "If not applicable use (none)"} } }
