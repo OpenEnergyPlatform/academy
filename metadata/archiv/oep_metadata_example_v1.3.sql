@@ -20,18 +20,18 @@ Additional information:
 - If not applicable use "none"
 */
 
--- test table
-DROP TABLE IF EXISTS    model_draft.test_table;
-CREATE TABLE            model_draft.test_table (
+-- table
+DROP TABLE IF EXISTS    model_draft.oep_metadata_table_example_v13;
+CREATE TABLE            model_draft.oep_metadata_table_example_v13 (
     id      serial,
     year    integer,
     value   double precision,
     geom    geometry(Point, 4326),
-    CONSTRAINT table_pkey PRIMARY KEY (id) );
+    CONSTRAINT oep_metadata_table_example_v13_pkey PRIMARY KEY (id) );
 
 
--- metadata description
-COMMENT ON TABLE model_draft.test_table IS '{
+-- metadata
+COMMENT ON TABLE model_draft.oep_metadata_table_example_v13 IS '{
     "title": "Good example title",
     "description": "example metadata for example data",
     "language": [ "eng", "ger", "fre" ],
@@ -63,7 +63,7 @@ COMMENT ON TABLE model_draft.test_table IS '{
         {"name": "Ludee", "email": "none", "date": "2017-05-30", "comment": "Update metadata to version 1.3"},
         {"name": "Ludee", "email": "none", "date": "2017-06-26", "comment": "Update metadata version 1.3: move reference_date into temporal and remove some array"} ],
     "resources": [
-        {"name": "model_draft.test_table",
+        {"name": "model_draft.oep_metadata_table_example_v13",
         "format": "PostgreSQL",
         "fields": [
             {"name": "id", "description": "Unique identifier", "unit": "none"},
@@ -72,15 +72,22 @@ COMMENT ON TABLE model_draft.test_table IS '{
             {"name": "geom", "description": "Geometry", "unit": "none"} ] } ],
     "metadata_version": "1.3"}';
 
--- select description
-SELECT obj_description('model_draft.test_table' ::regclass) ::json;
+-- format verification
+SELECT obj_description('model_draft.oep_metadata_table_example_v13' ::regclass) ::json;
 
--- select description
-SELECT obj_description('model_draft.test_table' ::regclass) ::json;
+-- index GIST (geom)
+CREATE INDEX oep_metadata_table_example_v13_geom_idx
+    ON model_draft.oep_metadata_table_example_v13 USING GIST (geom);
+
+-- grant (oeuser)
+ALTER TABLE model_draft.oep_metadata_table_example_v13 OWNER TO oeuser;
+
+-- scenario log (project,version,io,schema_name,table_name,script_name,comment)
+SELECT scenario_log('OEP', 'examples','input','model_draft','oep_metadata_table_example_v13','oep_metadata_example_v1.3.sql',' ');
 
 
--- metadata template
-COMMENT ON TABLE model_draft.test_table IS '{
+-- metadata
+COMMENT ON TABLE model_draft.oep_metadata_table_example_v13 IS '{
     "title": "",
     "description": "",
     "language": [ "eng", "ger" ],
@@ -116,5 +123,5 @@ COMMENT ON TABLE model_draft.test_table IS '{
             {"name": "geom", "description": "Geometry", "unit": ""} ] } ],
     "metadata_version": "1.3"}';
 
--- select description
-SELECT obj_description('model_draft.test_table' ::regclass) ::json;
+-- format verification
+SELECT obj_description('model_draft.oep_metadata_table_example_v13' ::regclass) ::json;

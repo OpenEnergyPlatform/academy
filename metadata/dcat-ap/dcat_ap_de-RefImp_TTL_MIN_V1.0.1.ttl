@@ -1,0 +1,48 @@
+﻿# Version 1.0.1, 19.03.2018,   ]init[ AG  dcat-ap.de Beispielimplementation als Minimale RDF/TURTLE Datei  (C) CC BY 4.0 ]init[ AG und SID Sachsen fuer GovData"
+
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://transparenz.hamburg.de>
+  a dcat:Catalog ;
+  dcat:Dataset [ a <http://dcat-ap.de/def/dcatde/contributorID> ], [ a dct:title ], [ a dct:description ], [
+    a dct:publisher ;
+    foaf:Agent <http://www.hamburg.de/bue/>
+  ], [ a dct:identifier ], [ a dcat:distribution ], [ a dcat:distribution ], [ a dcat:distribution ], [ a dcat:distribution ], [ a dcat:distribution ] ;
+  dct:description "Das Transparenzportal Hamburg ist das im Hamburgischen Transparenzgesetz (HmbTG) geforderte Informationsregister, über das alle per Gesetz veröffentlichungspflichtigen Informationen anonym recherchiert werden können. Es ist der zentrale Zugang zu aktuellen Daten und Informationen der Hamburger Verwaltung und stellt, um die leichte Auffindbarkeit der gesuchten Inhalte zu gewährleisten, eine Suche über den Volltext aller Datensätze bereit. Über den Suchschlitz kann nach Stichworten gesucht werden, es ist aber auch möglich, mit Hilfe der erweiterten Suche genaue Einschränkungen, z.B. nach Dateiformat, Kategorie oder Zeiträumen, vorzunehmen. Neben den veröffentlichungspflichtigen Inhalten können über das Transparenzportal Hamburg auch Informationen und Daten recherchiert werden, die freiwillig und zur Weiterverarbeitung zugänglich gemacht werden (siehe Open Data)." ;
+  dct:publisher [
+    a foaf:Agent ;
+    foaf:Organization [ a foaf:name ], [ a dct:type ]
+  ] ;
+  dct:title "Transparenzportal Hamburg" .
+
+<http://www.hamburg.de/bue/>
+  a foaf:Organization ;
+  foaf:name "Behörde für Umwelt und Energie (BUE), Amt für Umweltschutz" ;
+  dct:type <http://purl.org/adms/publishertype/LocalAuthority> .
+
+<http://geodienste.hamburg.de/HH_WFS_Grundwasserschutz?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=BSU_Z_Grundwasserschutz:Geest-_Marsch>
+  a dcat:Distribution ;
+  dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0/> ;
+  dcat:accessURL <http://geodienste.hamburg.de/HH_WFS_Grundwasserschutz?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=BSU_Z_Grundwasserschutz:Geest-_Marsch> .
+
+<http://geodienste.hamburg.de/HH_WFS_Grundwasserschutz?REQUEST=GetCapabilities&SERVICE=WFS>
+  a dcat:Distribution ;
+  dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0/> ;
+  dcat:accessURL <http://geodienste.hamburg.de/HH_WFS_Grundwasserschutz?REQUEST=GetCapabilities&SERVICE=WFS> .
+
+<http://geodienste.hamburg.de/HH_WMS_Grundwasserschutz?REQUEST=GetCapabilities&SERVICE=WMS>
+  a dcat:Distribution ;
+  dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0/> ;
+  dcat:accessURL <http://geodienste.hamburg.de/HH_WMS_Grundwasserschutz?REQUEST=GetCapabilities&SERVICE=WMS> .
+
+<http://daten-hamburg.de/umwelt_klima/naturraeume_geest_und_marsch/Naturraeume_Geest_und_Marsch_HH_2017-02-20.zip>
+  a dcat:Distribution ;
+  dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0/> ;
+  dcat:accessURL <http://daten-hamburg.de/umwelt_klima/naturraeume_geest_und_marsch/Naturraeume_Geest_und_Marsch_HH_2017-02-20.zip> .
+
+<http://metaver.de/trefferanzeige?docuuid=4635D337-4805-4C32-A211-13F8C038BF27>
+  a dcat:Distribution ;
+  dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0/> ;
+  dcat:accessURL <http://metaver.de/trefferanzeige?docuuid=4635D337-4805-4C32-A211-13F8C038BF27> .
