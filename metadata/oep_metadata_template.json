@@ -21,12 +21,12 @@
     "end": "",
     "resolution": ""},
 "sources": [
-    {"title": "", "description": "", "url": "", "license": "", "copyright": ""},
-    {"title": "", "description": "", "url": "", "license": "", "copyright": ""} ],
+    {"title": "", "description": "", "path": "", "license": "", "copyright": ""},
+    {"title": "", "description": "", "path": "", "license": "", "copyright": ""} ],
 "licenses": [
     {"id": "",
     "title": "",
-    "url": "",
+    "path": "",
     "instruction": "",
     "copyright": ""}],
 "contributors": [
