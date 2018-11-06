@@ -10,7 +10,7 @@
     "documentation": "",
     "sourceCode": "",
     "contact": "",
-    "grant_no": ""},
+    "grantNo": ""},
 "spatial": 
     {"location": "",
     "extent": "",
@@ -21,12 +21,12 @@
     "end": "",
     "resolution": ""},
 "sources": [
-    {"title": "", "description": "", "path": "", "license": "", "copyright": ""},
-    {"title": "", "description": "", "path": "", "license": "", "copyright": ""} ],
+    {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""},
+    {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""} ],
 "licenses": [
     {"id": "",
     "title": "",
-    "path": "",
+    "path": "https://",
     "instruction": "",
     "copyright": ""}],
 "contributors": [
