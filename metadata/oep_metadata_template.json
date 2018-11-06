@@ -4,11 +4,11 @@
 "description": "",
 "language": [ "en-GB" ],
 "keywords": [ "" ],
-"publication_date": "",
+"publicationDate": "",
 "context": 
     {"homepage": "",
     "documentation": "",
-    "source_code": "",
+    "sourceCode": "",
     "contact": "",
     "grant_no": ""},
 "spatial": 
@@ -16,7 +16,7 @@
     "extent": "",
     "resolution": ""},
 "temporal": 
-    {"reference_date": "",
+    {"referenceDate": "",
     "start": "",
     "end": "",
     "resolution": ""},
@@ -45,12 +45,12 @@
         {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
     "dialect": 
         {"delimiter": "none",
-        "decimal_separator": "."} } ],
+        "decimalSeparator": "."} } ],
 "_comment": {
-    "_metadata_version": "1.4",
-    "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
-    "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "_additional_information": {
+    "_metadataVersion": "1.4",
+    "_metadataLicense": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
+    "_metadataLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "_additionalInformation": {
         "_dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
         "_units": "Use a space between numbers and units (100 m)",
         "_languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
