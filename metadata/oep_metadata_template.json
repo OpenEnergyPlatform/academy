@@ -24,11 +24,11 @@
     {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""},
     {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""} ],
 "licenses": [
-    {"id": "",
-    "title": "",
-    "path": "https://",
-    "instruction": "",
-    "copyright": ""}],
+    {"name": "CC-BY-4.0",
+    "title": "Creative Commons Attribution 4.0 International",
+    "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "instruction": "https://tldrlegal.com/license/creative-commons-attribution-4.0-international-(cc-by-4)",
+    "copyright": "© CopyrightOwner"}],
 "contributors": [
     {"title": "", "email": "", "date": "", "object": "", "comment": ""},
     {"title": "", "email": "", "date": "", "object": "", "comment": ""} ],
@@ -38,11 +38,13 @@
     "path": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
     "format": "PostgreSQL",
     "encoding" : "UTF-8",
-    "fields": [
-        {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "none"},
-        {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
-        {"name": "value", "description": "Example value", "type": "double precision", "unit": "none"},
-        {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
+    "schema": {
+        "fields": [
+            {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "none"},
+            {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
+            {"name": "value", "description": "Example value", "type": "double precision", "unit": "none"},
+            {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
+            "primaryKey": "id"},
     "dialect": 
         {"delimiter": "none",
         "decimalSeparator": "."} } ],
@@ -54,4 +56,5 @@
         "_dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
         "_units": "Use a space between numbers and units (100 m)",
         "_languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "_licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
         "_none": "If not applicable use (none)"} } }
