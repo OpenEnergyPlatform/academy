@@ -28,7 +28,7 @@
     "title": "Creative Commons Attribution 4.0 International",
     "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
     "instruction": "https://tldrlegal.com/license/creative-commons-attribution-4.0-international-(cc-by-4)",
-    "copyright": "© CopyrightOwner"}],
+    "attribution": "© CopyrightOwner"}],
 "contributors": [
     {"title": "", "email": "", "date": "", "object": "", "comment": ""},
     {"title": "", "email": "", "date": "", "object": "", "comment": ""} ],
@@ -49,9 +49,11 @@
         {"delimiter": "none",
         "decimalSeparator": "."} } ],
 "_comment": {
-    "_metadataVersion": "1.4",
-    "_metadataLicense": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
-    "_metadataLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "_metadataVersion": "OEP-1.4",
+    "_metadataLicense": 
+        {"name": "CC0-1.0",
+        "title": "Creative Commons Zero v1.0 Universal",
+        "path": "https://creativecommons.org/publicdomain/zero/1.0/"},
     "_additionalInformation": {
         "_dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
         "_units": "Use a space between numbers and units (100 m)",
