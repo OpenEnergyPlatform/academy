@@ -5,17 +5,17 @@
 "language": [ "en-GB" ],
 "keywords": [ "" ],
 "publicationDate": "",
-"context": 
+"context":
     {"homepage": "",
     "documentation": "",
     "sourceCode": "",
     "contact": "",
     "grantNo": ""},
-"spatial": 
+"spatial":
     {"location": "",
     "extent": "",
     "resolution": ""},
-"temporal": 
+"temporal":
     {"referenceDate": "",
     "start": "",
     "end": "",
@@ -45,18 +45,18 @@
             {"name": "value", "description": "Example value", "type": "double precision", "unit": "none"},
             {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
             "primaryKey": "id"},
-    "dialect": 
+    "dialect":
         {"delimiter": "none",
         "decimalSeparator": "."} } ],
-"_comment": {
-    "_metadataVersion": "OEP-1.4",
-    "_metadataLicense": 
+"metaMetadata":
+    {"metadataVersion": "OEP-1.4",
+    "metadataLicense":
         {"name": "CC0-1.0",
         "title": "Creative Commons Zero v1.0 Universal",
-        "path": "https://creativecommons.org/publicdomain/zero/1.0/"},
-    "_additionalInformation": {
-        "_dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
-        "_units": "Use a space between numbers and units (100 m)",
-        "_languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
-        "_licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
-        "_none": "If not applicable use (none)"} } }
+        "path": "https://creativecommons.org/publicdomain/zero/1.0/"}},
+"_comment":
+    {"dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+    "units": "Use a space between numbers and units (100 m)",
+    "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+    "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+    "none": "If not applicable use (none)"}}
