@@ -48,6 +48,9 @@
     "dialect":
         {"delimiter": "none",
         "decimalSeparator": "."} } ],
+"review": {
+    "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/wiki",
+    "badge": "platin"},
 "metaMetadata":
     {"metadataVersion": "OEP-1.4",
     "metadataLicense":
