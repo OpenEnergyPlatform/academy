@@ -44,7 +44,7 @@
             {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
             {"name": "value", "description": "Example value", "type": "double precision", "unit": "none"},
             {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
-            "primaryKey": "id"},
+        "primaryKey": "id"},
     "dialect":
         {"delimiter": "none",
         "decimalSeparator": "."} } ],
