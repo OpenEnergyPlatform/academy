@@ -87,9 +87,22 @@ def json_conversion(tablename, username, user_email, json_old_input, json_new_ou
     # To keep the sequence an Ordered dict is used
     d = OrderedDict()
 
+    d['name'] = ''
     d['title'] = json_old['title']
+    d['id'] = ''
     d['description'] = json_old['description']
     d['language'] = json_old['language']
+    d['keywords'] = ['']
+    d['publicationDate'] = ''
+
+    # context section
+    d_context = OrderedDict()
+    d['context'] = d_context
+    d_context['homepage'] = ''
+    d_context['documentation'] = ''
+    d_context['sourceCode'] = ''
+    d_context['contact'] = ''
+    d_context['grantNo'] = ''
 
     # filling the spatial section
     d_spatial = OrderedDict()
@@ -102,7 +115,7 @@ def json_conversion(tablename, username, user_email, json_old_input, json_new_ou
     # filling the temporal section
     d_temporal = OrderedDict()
     d['temporal'] = d_temporal
-    d_temporal['reference_date'] = json_old['temporal']['reference_date']
+    d_temporal['referenceDate'] = json_old['temporal']['reference_date']
     d_temporal['start'] = ''
     d_temporal['end'] = ''
     d_temporal['resolution'] = ''
@@ -111,29 +124,29 @@ def json_conversion(tablename, username, user_email, json_old_input, json_new_ou
     d['sources'] = []
     for i in range(len(json_old['sources'])):
         d['sources'].append(OrderedDict())
-        d['sources'][i]['name'] = json_old['sources'][i]['name']
+        d['sources'][i]['title'] = json_old['sources'][i]['name']
         d['sources'][i]['description'] = json_old['sources'][i]['description']
-        d['sources'][i]['url'] = json_old['sources'][i]['url']
+        d['sources'][i]['path'] = json_old['sources'][i]['url']
         d['sources'][i]['license'] = ''
         d['sources'][i]['copyright'] = json_old['sources'][i]['copyright']
 
     # filling the license section
-    d_license = OrderedDict()
-    d['license'] = d_license
-    d_license['id'] = json_old['license']['id']
-    d_license['name'] = json_old['license']['name']
-    d_license['version'] = json_old['license']['version']
-    d_license['url'] = json_old['license']['url']
-    d_license['instruction'] = json_old['license']['instruction']
-    d_license['copyright'] = json_old['license']['copyright']
+    d_licenses = OrderedDict()
+    d['licenses'] = d_licenses
+    d_licenses['name'] = json_old['license']['id']
+    d_licenses['title'] = json_old['license']['name']
+    d_licenses['path'] = json_old['license']['url']
+    d_licenses['instruction'] = json_old['license']['instruction']
+    d_licenses['attribution'] = json_old['license']['copyright']
 
     # filling the contributers section
     d['contributors'] = []
     for i in range(len(json_old['contributors'])):
         d['contributors'].append(OrderedDict())
-        d['contributors'][i]['name'] = json_old['contributors'][i]['name']
+        d['contributors'][i]['title'] = json_old['contributors'][i]['name']
         d['contributors'][i]['email'] = json_old['contributors'][i]['email']
         d['contributors'][i]['date'] = json_old['contributors'][i]['date']
+        d['contributors'][i]['object'] = '' 
         d['contributors'][i]['comment'] = json_old['contributors'][i]['comment']
 
     # extending with script-user information
@@ -144,22 +157,26 @@ def json_conversion(tablename, username, user_email, json_old_input, json_new_ou
     d['contributors'][index]['date'] = '{}-{}-{}'.format(now.year,
                                                          now.month,
                                                          now.day)
-    d['contributors'][index]['comment'] = 'Update metadata to v1.3'
+    d['contributors'][index]['comment'] = 'Update metadata to v1.3 using metadata conversion tool'
 
     # filling the resources section
     d['resources'] = []
     #print(json_old['resources'][0]['fields'])
     for i in range(len(json_old['resources'])):
         d['resources'].append(OrderedDict())
+        d['resources'][i]['profile'] = ''
         d['resources'][i]['name'] = '{}'.format(tablename)
+        d['resources'][i]['path'] = ''
         d['resources'][i]['format'] = 'PostgreSQL'
-        d['resources'][i]['fields'] = []
+        d['resources'][i]['encoding'] = ''
+        d['resources'][i]['schema'] = []
         for j in range(len(json_old['resources'][i]['fields'])):
-            d['resources'][i]['fields'].append(OrderedDict())
-            d['resources'][i]['fields'][j]['name'] = json_old['resources'][i]['fields'][j]['name']
-            d['resources'][i]['fields'][j]['description'] = \
+            d['resources'][i]['schema'].append(OrderedDict())
+            d['resources'][i]['schema'][j]['name'] = json_old['resources'][i]['fields'][j]['name']
+            d['resources'][i]['schema'][j]['description'] = \
                 json_old['resources'][i]['fields'][j]['description']
-            d['resources'][i]['fields'][j]['unit'] = json_old['resources'][i]['fields'][j]['unit']
+            d['resources'][i]['schema'][j]['unit'] = json_old['resources'][i]['fields'][j]['unit']
+            d['resources'][i]['schema'][j]['primaryKey'] = '' 
 
     d['metadata_version'] = '1.3'
 
