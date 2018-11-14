@@ -79,7 +79,7 @@ def json_conversion(tablename, username, user_email, json_old_input, json_new_ou
     # open json file
     f = open(json_old_input)
 
-    # transformign it to python dict with package json
+    # transforming it to python dict with package json
     json_old = json.load(f)
 
     # In the following a new structure is set. The yet implemented version is for metadata v1.2 to v1.3.
@@ -95,13 +95,14 @@ def json_conversion(tablename, username, user_email, json_old_input, json_new_ou
     d_spatial = OrderedDict()
     d['spatial'] = d_spatial
     d_spatial['location'] = ''
-    d_spatial['extend'] = json_old['spatial'][0]['extend']
-    d_spatial['resolution'] = json_old['spatial'][0]['resolution']
+#    d_spatial['extend'] = json_old['spatial'][0]['extend']
+    d_spatial['extent'] = json_old['spatial']['extent']
+    d_spatial['resolution'] = json_old['spatial']['resolution']
 
     # filling the temporal section
     d_temporal = OrderedDict()
     d['temporal'] = d_temporal
-    d_temporal['reference_date'] = json_old['reference_date']
+    d_temporal['reference_date'] = json_old['temporal']['reference_date']
     d_temporal['start'] = ''
     d_temporal['end'] = ''
     d_temporal['resolution'] = ''
@@ -119,12 +120,12 @@ def json_conversion(tablename, username, user_email, json_old_input, json_new_ou
     # filling the license section
     d_license = OrderedDict()
     d['license'] = d_license
-    d_license['id'] = json_old['license'][0]['id']
-    d_license['name'] = json_old['license'][0]['name']
-    d_license['version'] = json_old['license'][0]['version']
-    d_license['url'] = json_old['license'][0]['url']
-    d_license['instruction'] = json_old['license'][0]['instruction']
-    d_license['copyright'] = json_old['license'][0]['copyright']
+    d_license['id'] = json_old['license']['id']
+    d_license['name'] = json_old['license']['name']
+    d_license['version'] = json_old['license']['version']
+    d_license['url'] = json_old['license']['url']
+    d_license['instruction'] = json_old['license']['instruction']
+    d_license['copyright'] = json_old['license']['copyright']
 
     # filling the contributers section
     d['contributors'] = []
@@ -147,17 +148,18 @@ def json_conversion(tablename, username, user_email, json_old_input, json_new_ou
 
     # filling the resources section
     d['resources'] = []
+    #print(json_old['resources'][0]['fields'])
     for i in range(len(json_old['resources'])):
         d['resources'].append(OrderedDict())
         d['resources'][i]['name'] = '{}'.format(tablename)
         d['resources'][i]['format'] = 'PostgreSQL'
         d['resources'][i]['fields'] = []
-        for j in range(len(json_old['resources'][i]['schema']['fields'])):
+        for j in range(len(json_old['resources'][i]['fields'])):
             d['resources'][i]['fields'].append(OrderedDict())
-            d['resources'][i]['fields'][j]['name'] = json_old['resources'][i]['schema']['fields'][j]['name']
+            d['resources'][i]['fields'][j]['name'] = json_old['resources'][i]['fields'][j]['name']
             d['resources'][i]['fields'][j]['description'] = \
-                json_old['resources'][i]['schema']['fields'][j]['description']
-            d['resources'][i]['fields'][j]['unit'] = json_old['resources'][i]['schema']['fields'][j]['unit']
+                json_old['resources'][i]['fields'][j]['description']
+            d['resources'][i]['fields'][j]['unit'] = json_old['resources'][i]['fields'][j]['unit']
 
     d['metadata_version'] = '1.3'
 
