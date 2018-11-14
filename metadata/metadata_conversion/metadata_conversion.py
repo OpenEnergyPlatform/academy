@@ -11,7 +11,7 @@ conversion_tools.py file.
 import conversion_tools as ct
 
 
-old_sql = 'file_in.sql' # existing file to be converted
+old_sql = 'input_string_v1.3.sql' # existing file to be converted
 new_sql = 'new_sql.sql' # new metadata file to be created
 user = 'testuser' # user to be included in 'contributors'
 user_email = 'testemail' # user email to be included in 'contributors
