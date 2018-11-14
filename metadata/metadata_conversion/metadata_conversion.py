@@ -1,4 +1,7 @@
 """
+original author: KilianZimmerer <kikleer@altlautern.de>
+source taken from: https://github.com/open-fred/db/tree/master/utility/metadata_conversion
+
 Explanations:
 1. The conversion_tools.py file contains all necessary functions to convert metadata from metadata v1.2 to v1.3.
 2. For this automation the input file must contain one 'COMMENT ON TABLE' sql-query and NOT more. A prototype input file
