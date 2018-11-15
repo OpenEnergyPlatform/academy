@@ -146,7 +146,7 @@ def json_conversion(tablename, username, user_email, json_old_input, json_new_ou
         d['contributors'][i]['title'] = json_old['contributors'][i]['name']
         d['contributors'][i]['email'] = json_old['contributors'][i]['email']
         d['contributors'][i]['date'] = json_old['contributors'][i]['date']
-        d['contributors'][i]['object'] = '' 
+        d['contributors'][i]['object'] = ''
         d['contributors'][i]['comment'] = json_old['contributors'][i]['comment']
 
     # extending with script-user information
@@ -170,13 +170,18 @@ def json_conversion(tablename, username, user_email, json_old_input, json_new_ou
         d['resources'][i]['format'] = 'PostgreSQL'
         d['resources'][i]['encoding'] = ''
         d['resources'][i]['schema'] = []
-        for j in range(len(json_old['resources'][i]['fields'])):
+        for j in range(len(json_old['resources'])):
             d['resources'][i]['schema'].append(OrderedDict())
-            d['resources'][i]['schema'][j]['name'] = json_old['resources'][i]['fields'][j]['name']
-            d['resources'][i]['schema'][j]['description'] = \
-                json_old['resources'][i]['fields'][j]['description']
-            d['resources'][i]['schema'][j]['unit'] = json_old['resources'][i]['fields'][j]['unit']
-            d['resources'][i]['schema'][j]['primaryKey'] = '' 
+            d['resources'][i]['schema'][j]['fields'] = []
+            for k in range(len(json_old['resources'][i]['fields'])):
+                d['resources'][i]['schema'][j]['fields'].append(OrderedDict())
+                d['resources'][i]['schema'][j]['fields'][k]['name'] = json_old['resources'][i]['fields'][k]['name']
+                d['resources'][i]['schema'][j]['fields'][k]['description'] = json_old['resources'][i]['fields'][k]['description']
+                d['resources'][i]['schema'][j]['fields'][k]['type'] = ''
+                d['resources'][i]['schema'][j]['fields'][k]['unit'] = json_old['resources'][i]['fields'][k]['unit']
+            d['resources'][i]['schema'][j]['primaryKey'] = ''
+
+
 
     d['metadata_version'] = '1.3'
 
