@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import json
 from collections import OrderedDict
 import datetime
@@ -181,9 +184,29 @@ def json_conversion(tablename, username, user_email, json_old_input, json_new_ou
                 d['resources'][i]['schema'][j]['fields'][k]['unit'] = json_old['resources'][i]['fields'][k]['unit']
             d['resources'][i]['schema'][j]['primaryKey'] = ''
 
+    d_review = OrderedDict()
+    d['review'] = d_review
+    d_review['path'] = ''
+    d_review['badge'] = ''
 
+    d_metameta = OrderedDict()
+    d['metaMetadata'] = d_metameta
+    d_metameta['metadataVersion'] = ''
+    d_metameta['metadataLicense'] = OrderedDict()
+    d_metameta['metadataLicense']['name'] = ''
+    d_metameta['metadataLicense']['title'] = ''
+    d_metameta['metadataLicense']['path'] = ''
 
-    d['metadata_version'] = '1.3'
+    d_comment = OrderedDict()
+    d['_comment'] = d_comment
+    d_comment['metadata'] = 'Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)'
+    d_comment['dates'] = 'Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)'
+    d_comment['units'] = 'Use a space between numbers and units (100 m)'
+    d_comment['languages'] = 'Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)'
+    d_comment['licenses'] = 'License name must follow the SPDX License List (https://spdx.org/licenses/'
+    d_comment['review'] = 'Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)'
+    d_comment['none'] = 'If not applicable use (none)'
+
 
     # transforming back to json
     f = json.dumps(d, cls=MyJSONEncoder)
