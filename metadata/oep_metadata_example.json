@@ -23,20 +23,20 @@
 "sources": [
     {"title": "OpenEnergyPlatform Metadata Example",
     "description": "Metadata description",
-    "url": "https://github.com/OpenEnergyPlatform",
+    "path": "https://github.com/OpenEnergyPlatform",
     "license": "Creative Commons Zero v1.0 Universal (CC0-1.0)", 
     "copyright": "© Reiner Lemoine Institut"},
     {"title": "OpenStreetMap",
     "description": "A collaborative project to create a free editable map of the world",
-    "url": "https://www.openstreetmap.org/",
+    "path": "https://www.openstreetmap.org/",
     "license": "ODbL-1.0",
     "copyright": "© OpenStreetMap contributors"} ],
 "licenses": [
-    {"id": "ODbL-1.0",
+    {"name": "ODbL-1.0",
     "title": "Open Data Commons Open Database License 1.0",
-    "url": "https://opendatacommons.org/licenses/odbl/1.0/",
+    "path": "https://opendatacommons.org/licenses/odbl/1.0/",
     "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
-    "copyright": "© Reiner Lemoine Institut"}],
+    "attribution": "© Reiner Lemoine Institut"}],
 "contributors": [
     {"title": "Ludee", "email": "none", "date": "2016-06-16", "object": "metadata", "comment": "Create metadata"},
     {"title": "Ludee", "email": "none", "date": "2016-11-22", "object": "metadata", "comment": "Update metadata"},
@@ -49,27 +49,38 @@
     {"title": "Ludee", "email": "none", "date": "2018-07-26", "object": "data", "comment": "Rename table and files"},
     {"title": "Ludee", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add contribution object"},
     {"title": "christian-rli", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add datapackage compatibility"},
-    {"title": "Ludee", "email": "none", "date": "2018-11-02", "object": "metadata", "comment": "Release metadata version 1.4"}],
+    {"title": "Ludee", "email": "none", "date": "2018-11-02", "object": "metadata", "comment": "Release metadata version 1.4"},
+    {"title": "christian-rli", "email": "none", "date": "2019-02-05", "object": "metadata", "comment": "Apply template structure to example."}],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "model_draft.oep_metadata_table_example_v14",
     "path": "http://openenergyplatform.org/dataedit/view/model_draft/oep_metadata_table_example_v14",
     "format": "PostgreSQL",
     "encoding" : "UTF-8",
-    "fields": [
-        {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "none"},
-        {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
-        {"name": "value", "description": "Example value", "type": "double precision", "unit": "MW"},
-        {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
+    "schema": {
+        "fields": [
+            {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "none"},
+            {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
+            {"name": "value", "description": "Example value", "type": "double precision", "unit": "MW"},
+            {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
+        "primaryKey": "id"},
     "dialect": 
         {"delimiter": "none",
         "decimal_separator": "."} } ],
-"_comment": {
-    "_metadata_version": "1.4",
-    "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
-    "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "_additional_information": {
-        "_dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
-        "_units": "Use a space between Numbers and units (100 m)",
-        "_languages": "Languages must follow the IETF (BCP47) format (en-US; de-DE)",
-        "_none": "If not applicable use (none)"} } }
+"review": {
+    "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/wiki",
+    "badge": "platin"},
+"metaMetadata":
+    {"metadataVersion": "OEP-1.4",
+    "metadataLicense":
+        {"name": "CC0-1.0",
+        "title": "Creative Commons Zero v1.0 Universal",
+        "path": "https://creativecommons.org/publicdomain/zero/1.0/"}},
+"_comment":
+    {"metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+    "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+    "units": "Use a space between numbers and units (100 m)",
+    "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+    "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+    "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+    "none": "If not applicable use (none)"}}
