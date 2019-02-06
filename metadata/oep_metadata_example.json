@@ -4,19 +4,19 @@
 "description": "example metadata for example data",
 "language": [ "en-GB", "en-US", "de-DE", "fr-FR" ],
 "keywords": [ "example", "template", "test" ],
-"publication_date": "2018-06-12",
+"publicationDate": "2018-06-12",
 "context": 
     {"homepage": "https://reiner-lemoine-institut.de/szenariendb/",
     "documentation": "https://github.com/OpenEnergyPlatform/organisation/wiki/metadata",
-    "source_code": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
+    "sourceCode": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
     "contact": "https://github.com/Ludee",
-    "grant_no": "03ET4057"},
+    "grantNo": "03ET4057"},
 "spatial": 
     {"location": "none",
     "extent": "europe",
     "resolution": "100 m"},
 "temporal": 
-    {"reference_date": "2016-01-01",
+    {"referenceDate": "2016-01-01",
     "start": "2017-01-01T00:00+01",
     "end": "2017-12-31T23:00+01",
     "resolution": "1 h"},
@@ -44,7 +44,7 @@
     {"title": "Ludee", "email": "none", "date": "2017-03-16", "object": "metadata", "comment": "Add license to source"},
     {"title": "Ludee", "email": "none", "date": "2017-03-28", "object": "metadata", "comment": "Add copyright to source and license"},
     {"title": "Ludee", "email": "none", "date": "2017-05-30", "object": "metadata", "comment": "Release metadata version 1.3"},
-    {"title": "Ludee", "email": "none", "date": "2017-06-26", "object": "metadata", "comment": "Move reference_date into temporal and remove array"},
+    {"title": "Ludee", "email": "none", "date": "2017-06-26", "object": "metadata", "comment": "Move referenceDate into temporal and remove array"},
     {"title": "Ludee", "email": "none", "date": "2018-07-19", "object": "metadata", "comment": "Start metadata version 1.4"},
     {"title": "Ludee", "email": "none", "date": "2018-07-26", "object": "data", "comment": "Rename table and files"},
     {"title": "Ludee", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add contribution object"},
@@ -66,7 +66,7 @@
         "primaryKey": "id"},
     "dialect": 
         {"delimiter": "none",
-        "decimal_separator": "."} } ],
+        "decimalSeparator": "."} } ],
 "review": {
     "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/wiki",
     "badge": "platin"},
