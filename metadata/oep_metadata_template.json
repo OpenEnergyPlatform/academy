@@ -45,9 +45,11 @@
             {"name": "value", "description": "Example value", "type": "double precision", "unit": "none"},
             {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
         "primaryKey": ["id"],
-        "foreignKeys": {"fields": "year",
-               "reference": {"ressource": "schema.table",
-               "fields": "year"} } },
+        "foreignKeys": {
+                "fields": "year",
+                "reference": {
+                    "ressource": "schema.table",
+                    "fields": "year"} } },
     "dialect":
         {"delimiter": "none",
         "decimalSeparator": "."} } ],
