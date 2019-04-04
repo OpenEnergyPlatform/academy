@@ -100,11 +100,11 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '
             {"name": "value", "description": "Example value", "type": "double precision", "unit": "MW"},
             {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
         "primaryKey": ["id"],
-        "foreignKeys": {
-                "fields": "year",
+        "foreignKeys": [{
+                "fields": ["year"],
                 "reference": {
                     "ressource": "schema.table",
-                    "fields": "year"} } },
+                    "fields": ["year"] } } ] },
     "dialect": 
         {"delimiter": "none",
         "decimal_separator": "."} } ],
