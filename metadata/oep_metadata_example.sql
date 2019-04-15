@@ -103,7 +103,7 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '
         "foreignKeys": [{
                 "fields": ["year"],
                 "reference": {
-                    "ressource": "schema.table",
+                    "resource": "schema.table",
                     "fields": ["year"] } } ] },
     "dialect": 
         {"delimiter": "none",

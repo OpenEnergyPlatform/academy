@@ -68,7 +68,7 @@
         "foreignKeys": [{
                 "fields": ["year"],
                 "reference": {
-                    "ressource": "schema.table",
+                    "resource": "schema.table",
                     "fields": ["year"] } } ] },
     "dialect": 
         {"delimiter": "none",
