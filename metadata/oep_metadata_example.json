@@ -50,7 +50,8 @@
     {"title": "Ludee", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add contribution object"},
     {"title": "christian-rli", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add datapackage compatibility"},
     {"title": "Ludee", "email": "none", "date": "2018-11-02", "object": "metadata", "comment": "Release metadata version 1.4"},
-    {"title": "christian-rli", "email": "none", "date": "2019-02-05", "object": "metadata", "comment": "Apply template structure to example."}],
+    {"title": "christian-rli", "email": "none", "date": "2019-02-05", "object": "metadata", "comment": "Apply template structure to example."},
+    {"title": "Ludee", "email": "none", "date": "2019-03-22", "object": "metadata", "comment": "Hotfix foreignKeys"} ],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "model_draft.oep_metadata_table_example_v14",
@@ -63,7 +64,12 @@
             {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
             {"name": "value", "description": "Example value", "type": "double precision", "unit": "MW"},
             {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
-        "primaryKey": "id"},
+        "primaryKey": ["id"],
+        "foreignKeys": [{
+                "fields": ["year"],
+                "reference": {
+                    "resource": "schema.table",
+                    "fields": ["year"] } } ] },
     "dialect": 
         {"delimiter": "none",
         "decimalSeparator": "."} } ],
@@ -75,7 +81,7 @@
     "metadataLicense":
         {"name": "CC0-1.0",
         "title": "Creative Commons Zero v1.0 Universal",
-        "path": "https://creativecommons.org/publicdomain/zero/1.0/"}},
+        "path": "https://creativecommons.org/publicdomain/zero/1.0/"} },
 "_comment":
     {"metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
     "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
@@ -83,4 +89,4 @@
     "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
     "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
     "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
-    "none": "If not applicable use (none)"}}
+    "none": "If not applicable use (none)"} }

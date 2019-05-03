@@ -84,18 +84,27 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '
     {"title": "Ludee", "email": "none", "date": "2018-07-26", "object": "data", "comment": "Rename table and files"},
     {"title": "Ludee", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add contribution object"},
     {"title": "christian-rli", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add datapackage compatibility"},
-    {"title": "Ludee", "email": "none", "date": "2018-11-02", "object": "metadata", "comment": "Release metadata version 1.4"}],
+    {"title": "Ludee", "email": "none", "date": "2018-11-02", "object": "metadata", "comment": "Release metadata version 1.4"},
+    {"title": "christian-rli", "email": "none", "date": "2019-02-05", "object": "metadata", "comment": "Apply template structure to example."},
+    {"title": "Ludee", "email": "none", "date": "2019-03-22", "object": "metadata", "comment": "Hotfix foreignKeys"} ],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "model_draft.oep_metadata_table_example_v14",
     "path": "http://openenergyplatform.org/dataedit/view/model_draft/oep_metadata_table_example_v14",
     "format": "PostgreSQL",
     "encoding" : "UTF-8",
-    "fields": [
-        {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "none"},
-        {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
-        {"name": "value", "description": "Example value", "type": "double precision", "unit": "MW"},
-        {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
+    "schema": {
+        "fields": [
+            {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "none"},
+            {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
+            {"name": "value", "description": "Example value", "type": "double precision", "unit": "MW"},
+            {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
+        "primaryKey": ["id"],
+        "foreignKeys": [{
+                "fields": ["year"],
+                "reference": {
+                    "resource": "schema.table",
+                    "fields": ["year"] } } ] },
     "dialect": 
         {"delimiter": "none",
         "decimal_separator": "."} } ],
