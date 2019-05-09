@@ -54,7 +54,8 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '
     {"reference_date": "2016-01-01",
     "start": "2017-01-01T00:00+01",
     "end": "2017-12-31T23:00+01",
-    "resolution": "1 h"},
+    "resolution": "1 h"
+    "timestamp": "left"},
 "sources": [
     {"title": "OpenEnergyPlatform Metadata Example",
     "description": "Metadata description",

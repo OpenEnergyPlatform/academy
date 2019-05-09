@@ -19,7 +19,8 @@
     {"referenceDate": "",
     "start": "",
     "end": "",
-    "resolution": ""},
+    "resolution": "",
+    "timestamp": ""},
 "sources": [
     {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""},
     {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""} ],
