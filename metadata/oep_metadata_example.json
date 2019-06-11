@@ -10,6 +10,8 @@
     "documentation": "https://github.com/OpenEnergyPlatform/organisation/wiki/metadata",
     "sourceCode": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
     "contact": "https://github.com/Ludee",
+    "fundingAuthority": "Bundesministerium für Wirtschaft und Energie",
+    "fundingAuthorityLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg?__blob=poster&v=2",
     "grantNo": "03ET4057"},
 "spatial": 
     {"location": "none",
