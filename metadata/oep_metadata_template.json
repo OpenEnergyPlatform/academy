@@ -22,7 +22,8 @@
     "start": "",
     "end": "",
     "resolution": "",
-    "timestamp": ""},
+    "timestamp": "",
+    "aggregationType": ""},
 "sources": [
     {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""},
     {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""} ],
