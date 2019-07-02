@@ -43,10 +43,10 @@
     "encoding" : "UTF-8",
     "schema": {
         "fields": [
-            {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "none"},
-            {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
-            {"name": "value", "description": "Example value", "type": "double precision", "unit": "none"},
-            {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
+            {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "null"},
+            {"name": "year", "description": "Reference year", "type": "integer", "unit": "null"},
+            {"name": "value", "description": "Example value", "type": "double precision", "unit": "null"},
+            {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "null"} ],
         "primaryKey": ["id"],
         "foreignKeys": [{
                 "fields": ["year"],
@@ -54,11 +54,11 @@
                     "resource": "schema.table",
                     "fields": ["year"] } } ] },
     "dialect":
-        {"delimiter": "none",
+        {"delimiter": "null",
         "decimalSeparator": "."} } ],
 "review": {
-    "path": "none",
-    "badge": "none"},
+    "path": "null",
+    "badge": "null"},
 "metaMetadata":
     {"metadataVersion": "OEP-1.4",
     "metadataLicense":
@@ -72,4 +72,4 @@
     "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
     "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
     "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
-    "none": "If not applicable use (none)"}}
+    "null": "If not applicable use (null)"}}

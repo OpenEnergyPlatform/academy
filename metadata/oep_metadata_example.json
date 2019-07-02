@@ -14,7 +14,7 @@
     "fundingAuthorityLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg?__blob=poster&v=2",
     "grantNo": "03ET4057"},
 "spatial": 
-    {"location": "none",
+    {"location": "null",
     "extent": "europe",
     "resolution": "100 m"},
 "temporal": 
@@ -41,20 +41,20 @@
     "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
     "attribution": "© Reiner Lemoine Institut"}],
 "contributors": [
-    {"title": "Ludee", "email": "none", "date": "2016-06-16", "object": "metadata", "comment": "Create metadata"},
-    {"title": "Ludee", "email": "none", "date": "2016-11-22", "object": "metadata", "comment": "Update metadata"},
-    {"title": "Ludee", "email": "none", "date": "2016-11-22", "object": "metadata", "comment": "Update header and license"},
-    {"title": "Ludee", "email": "none", "date": "2017-03-16", "object": "metadata", "comment": "Add license to source"},
-    {"title": "Ludee", "email": "none", "date": "2017-03-28", "object": "metadata", "comment": "Add copyright to source and license"},
-    {"title": "Ludee", "email": "none", "date": "2017-05-30", "object": "metadata", "comment": "Release metadata version 1.3"},
-    {"title": "Ludee", "email": "none", "date": "2017-06-26", "object": "metadata", "comment": "Move referenceDate into temporal and remove array"},
-    {"title": "Ludee", "email": "none", "date": "2018-07-19", "object": "metadata", "comment": "Start metadata version 1.4"},
-    {"title": "Ludee", "email": "none", "date": "2018-07-26", "object": "data", "comment": "Rename table and files"},
-    {"title": "Ludee", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add contribution object"},
-    {"title": "christian-rli", "email": "none", "date": "2018-10-18", "object": "metadata", "comment": "Add datapackage compatibility"},
-    {"title": "Ludee", "email": "none", "date": "2018-11-02", "object": "metadata", "comment": "Release metadata version 1.4"},
-    {"title": "christian-rli", "email": "none", "date": "2019-02-05", "object": "metadata", "comment": "Apply template structure to example."},
-    {"title": "Ludee", "email": "none", "date": "2019-03-22", "object": "metadata", "comment": "Hotfix foreignKeys"} ],
+    {"title": "Ludee", "email": "null", "date": "2016-06-16", "object": "metadata", "comment": "Create metadata"},
+    {"title": "Ludee", "email": "null", "date": "2016-11-22", "object": "metadata", "comment": "Update metadata"},
+    {"title": "Ludee", "email": "null", "date": "2016-11-22", "object": "metadata", "comment": "Update header and license"},
+    {"title": "Ludee", "email": "null", "date": "2017-03-16", "object": "metadata", "comment": "Add license to source"},
+    {"title": "Ludee", "email": "null", "date": "2017-03-28", "object": "metadata", "comment": "Add copyright to source and license"},
+    {"title": "Ludee", "email": "null", "date": "2017-05-30", "object": "metadata", "comment": "Release metadata version 1.3"},
+    {"title": "Ludee", "email": "null", "date": "2017-06-26", "object": "metadata", "comment": "Move referenceDate into temporal and remove array"},
+    {"title": "Ludee", "email": "null", "date": "2018-07-19", "object": "metadata", "comment": "Start metadata version 1.4"},
+    {"title": "Ludee", "email": "null", "date": "2018-07-26", "object": "data", "comment": "Rename table and files"},
+    {"title": "Ludee", "email": "null", "date": "2018-10-18", "object": "metadata", "comment": "Add contribution object"},
+    {"title": "christian-rli", "email": "null", "date": "2018-10-18", "object": "metadata", "comment": "Add datapackage compatibility"},
+    {"title": "Ludee", "email": "null", "date": "2018-11-02", "object": "metadata", "comment": "Release metadata version 1.4"},
+    {"title": "christian-rli", "email": "null", "date": "2019-02-05", "object": "metadata", "comment": "Apply template structure to example."},
+    {"title": "Ludee", "email": "null", "date": "2019-03-22", "object": "metadata", "comment": "Hotfix foreignKeys"} ],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "model_draft.oep_metadata_table_example_v14",
@@ -63,10 +63,10 @@
     "encoding" : "UTF-8",
     "schema": {
         "fields": [
-            {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "none"},
-            {"name": "year", "description": "Reference year", "type": "integer", "unit": "none"},
+            {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "null"},
+            {"name": "year", "description": "Reference year", "type": "integer", "unit": "null"},
             {"name": "value", "description": "Example value", "type": "double precision", "unit": "MW"},
-            {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "none"} ],
+            {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "null"} ],
         "primaryKey": ["id"],
         "foreignKeys": [{
                 "fields": ["year"],
@@ -74,7 +74,7 @@
                     "resource": "schema.table",
                     "fields": ["year"] } } ] },
     "dialect": 
-        {"delimiter": "none",
+        {"delimiter": "null",
         "decimalSeparator": "."} } ],
 "review": {
     "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/wiki",
@@ -92,4 +92,4 @@
     "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
     "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
     "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
-    "none": "If not applicable use (none)"} }
+    "null": "If not applicable use (null)"} }
