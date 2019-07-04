@@ -1,8 +1,8 @@
-{"name": "oep_metadata_table_template_v14",
+{"name": "",
 "title": "",
 "id": "",
 "description": "",
-"language": [ "en-GB" ],
+"language": [ "" ],
 "keywords": [ "" ],
 "publicationDate": "",
 "context":
@@ -26,41 +26,39 @@
         "alignment": "",
         "aggregationType": ""} },
 "sources": [
-    {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""},
-    {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""} ],
+    {"title": "", "description": "", "path": "", "license": "", "copyright": ""},
+    {"title": "", "description": "", "path": "", "license": "", "copyright": ""} ],
 "licenses": [
-    {"name": "CC-BY-4.0",
-    "title": "Creative Commons Attribution 4.0 International",
-    "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
-    "instruction": "https://tldrlegal.com/license/creative-commons-attribution-4.0-international-(cc-by-4)",
-    "attribution": "© CopyrightOwner"}],
+    {"name": "",
+    "title": "",
+    "path": "",
+    "instruction": "",
+    "attribution": ""}],
 "contributors": [
     {"title": "", "email": "", "date": "", "object": "", "comment": ""},
     {"title": "", "email": "", "date": "", "object": "", "comment": ""} ],
 "resources": [
-    {"profile": "tabular-data-resource",
-    "name": "model_draft.oep_metadata_table_template_v14",
-    "path": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
-    "format": "PostgreSQL",
-    "encoding" : "UTF-8",
+    {"profile": "",
+    "name": "",
+    "path": "",
+    "format": "",
+    "encoding" : "",
     "schema": {
         "fields": [
-            {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "null"},
-            {"name": "year", "description": "Reference year", "type": "integer", "unit": "null"},
-            {"name": "value", "description": "Example value", "type": "double precision", "unit": "null"},
-            {"name": "geom", "description": "Geometry", "type": "geometry(Point, 4326)", "unit": "null"} ],
-        "primaryKey": ["id"],
+            {"name": "", "description": "", "type": "", "unit": ""},
+            {"name": "", "description": "", "type": "", "unit": ""} ],
+        "primaryKey": [""],
         "foreignKeys": [{
-                "fields": ["year"],
+                "fields": [""],
                 "reference": {
-                    "resource": "schema.table",
-                    "fields": ["year"] } } ] },
+                    "resource": "",
+                    "fields": [""] } } ] },
     "dialect":
-        {"delimiter": "null",
+        {"delimiter": "",
         "decimalSeparator": "."} } ],
 "review": {
-    "path": "null",
-    "badge": "null"},
+    "path": "",
+    "badge": ""},
 "metaMetadata":
     {"metadataVersion": "OEP-1.4",
     "metadataLicense":
