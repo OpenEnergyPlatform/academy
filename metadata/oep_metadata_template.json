@@ -17,13 +17,14 @@
     {"location": "",
     "extent": "",
     "resolution": ""},
-"temporal":
+"temporal": 
     {"referenceDate": "",
-    "start": "",
-    "end": "",
-    "resolution": "",
-    "timestamp": "",
-    "aggregationType": ""},
+    "timeseries": 
+        {"start": "",
+        "end": "",
+        "resolution": "",
+        "alignment": "",
+        "aggregationType": ""} },
 "sources": [
     {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""},
     {"title": "", "description": "", "path": "https://", "license": "", "copyright": ""} ],
