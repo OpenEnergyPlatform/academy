@@ -45,9 +45,10 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '
     "documentation": "https://github.com/OpenEnergyPlatform/organisation/wiki/metadata",
     "source_code": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
     "contact": "https://github.com/Ludee",
+    "grantNo": "03ET4057",
     "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
     "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg?__blob=poster&v=2",
-    "grant_no": "03ET4057"},
+    "publisherLogo": "https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png"},
 "spatial": 
     {"location": "null",
     "extent": "europe",
