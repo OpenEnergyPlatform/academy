@@ -2,8 +2,8 @@
 "title": "",
 "id": "",
 "description": "",
-"language": [ "" ],
-"keywords": [ "" ],
+"language": [""],
+"keywords": [""],
 "publicationDate": "",
 "context":
     {"homepage": "",
@@ -27,14 +27,30 @@
         "alignment": "",
         "aggregationType": ""} },
 "sources": [
-    {"title": "", "description": "", "path": "", "license": "", "copyright": ""},
-    {"title": "", "description": "", "path": "", "license": "", "copyright": ""} ],
+    {"title": "",
+    "description": "",
+    "path": "",
+    "licenses": [
+        {"name": "",
+        "title": "",
+        "path": "",
+        "instruction": "",
+        "attribution": ""} ] },
+    {"title": "",
+    "description": "",
+    "path": "",
+    "licenses": [
+        {"name": "",
+        "title": "",
+        "path": "",
+        "instruction": "",
+        "attribution": ""} ] } ],
 "licenses": [
     {"name": "",
     "title": "",
     "path": "",
     "instruction": "",
-    "attribution": ""}],
+    "attribution": ""} ],
 "contributors": [
     {"title": "", "email": "", "date": "", "object": "", "comment": ""},
     {"title": "", "email": "", "date": "", "object": "", "comment": ""} ],
@@ -65,7 +81,7 @@
     "metadataLicense":
         {"name": "CC0-1.0",
         "title": "Creative Commons Zero v1.0 Universal",
-        "path": "https://creativecommons.org/publicdomain/zero/1.0/"}},
+        "path": "https://creativecommons.org/publicdomain/zero/1.0/"} },
 "_comment":
     {"metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
     "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
@@ -73,4 +89,4 @@
     "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
     "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
     "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
-    "null": "If not applicable use (null)"}}
+    "null": "If not applicable use (null)"} }
