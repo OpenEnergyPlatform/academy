@@ -115,7 +115,7 @@ COMMENT ON TABLE model_draft.oep_metadata_table_example_v14 IS '
         {"delimiter": null,
         "decimal_separator": "."} } ],
 "_comment": {
-    "_metadata_version": "1.4",
+    "_metadata_version": "1.4.0",
     "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
     "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
     "_additional_information": {

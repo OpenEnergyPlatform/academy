@@ -83,7 +83,7 @@
     "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/wiki",
     "badge": "platin"},
 "metaMetadata":
-    {"metadataVersion": "OEP-1.4",
+    {"metadataVersion": "OEP-1.4.0",
     "metadataLicense":
         {"name": "CC0-1.0",
         "title": "Creative Commons Zero v1.0 Universal",
