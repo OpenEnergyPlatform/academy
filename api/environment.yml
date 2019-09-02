@@ -1,8 +1,5 @@
 name: py36_oep
 dependencies:
     - python=3.6
-    - pandas
-    - jupyter
-    - psycopg2
-    - geoalchemy2
-    - oedialect
+    - pip:
+          - -r requirements.txt
