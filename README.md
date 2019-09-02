@@ -10,4 +10,20 @@ This repository is licensed under [GNU Affero General Public License v3.0 (AGPL-
 
 ## Installation
 
-tbd
+### OEP API
+
+
+- Anaconda
+
+    From the base of the repository run
+    ```
+    conda env create -f api/environment.yml
+    ```
+
+- Virtualenv
+
+    Once you created a virtual environment (with python3), install the packages you need, i.e
+    run the following code form the base of the repository
+    ```
+    pip install -r api/requirements.txt
+    ```
