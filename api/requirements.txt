@@ -1,0 +1,13 @@
+requests
+matplotlib
+mplleaflet
+jupyterlab
+ipywidgets
+pandas
+xlsxwriter
+sqlalchemy
+oedialect
+geopandas
+descartes
+geoalchemy2
+folium
