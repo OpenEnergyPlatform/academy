@@ -13,7 +13,7 @@ from subprocess import run
 # untrack the changes to this file (prevent pushing token to github)
 run(['git', 'update-index', '--assume-unchanged', __file__])
 
-oep_url = 'http://oep.iks.cs.ovgu.de/'
+oep_url = 'https://openenergy-platform.org/'
 
 # Paste your token here if you do not know how to setup an environment variable
 OEP_TOKEN = ''
