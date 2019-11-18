@@ -15,12 +15,12 @@ COMMENT ON TABLE example.datatable IS '{
     "sources": [
             {"name": "Technical review and evaluation of Issue",
             "description": "Study financed by Organisation describes Issue. The study is authored by Jon Doe and Erika Mustermann",
-            "url": "http://dx.doi.org/1.1/j.d.2000.01.001",
+            "url": "https://doi.org/1.1/j.d.2000.01.001",
             "license": "",
             "copyright": "Publisher"},
             {"name": "Metastudy on Issue",
             "description": "Study financed by State Actor evaluates Issue in regions. The study is authored by Jane Doe and Otto Normal",
-            "url": "http://dx.doi.org/2.2/j.d.2022.02.022",
+            "url": "https://doi.org/2.2/j.d.2022.02.022",
             "license": "",
             "copyright": "Publisher2"}],
     "license": {
