@@ -87,8 +87,8 @@
         "decimalSeparator": "."} },
 
     {"profile": "tabular-data-resource",
-    "name": "oep-scenario-data_timeserie",
-    "path": "oep-scenario-data_timeserie.csv",
+    "name": "oep-scenario-data_timeseries",
+    "path": "oep-scenario-data_timeseries.csv",
     "format": "csv",
     "encoding" : "UTF-8",
     "schema": {
@@ -100,9 +100,33 @@
             {"name": "schema", "description": "1. classification", "type": "text", "unit": null},
             {"name": "field", "description": "2. classification", "type": "text", "unit": null},
             {"name": "category", "description": "3. classification", "type": "text", "unit": null},
-            {"name": "timeindex", "description": "Time step", "type": "timestamp/integer", "unit": null},
             {"name": "parameter", "description": "Parameter name", "type": "text", "unit": null},
-            {"name": "value", "description": "Parameter value", "type": "decimal", "unit": "kW"},
+            {"name": "ts_id", "description": "Parameter value", "type": "bigint", "unit": "unit"},
+            {"name": "unit", "description": "Parameter unit", "type": "text", "unit": null},
+            {"name": "tags", "description": "Free classification with key-value pairs", "type": "hstore", "unit": null},
+            {"name": "aggregation", "description": "Aggregation type (sum, mean, median)", "type": "text", "unit": null},
+            {"name": "source", "description": "Source", "type": "text", "unit": null},
+            {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
+        "primaryKey": ["id"],
+        "foreignKeys": [{
+                "fields": [""],
+                "reference": {
+                    "resource": "",
+                    "fields": [""] } } ] },
+    "dialect":
+        {"delimiter": ";",
+        "decimalSeparator": "."} },
+
+    {"profile": "tabular-data-resource",
+    "name": "oep-scenario-data_timeseries-data",
+    "path": "oep-scenario-data_timeseries-data.csv",
+    "format": "csv",
+    "encoding" : "UTF-8",
+    "schema": {
+        "fields": [
+            {"name": "ts_id", "description": "Unique identifier", "type": "bigint", "unit": null},
+            {"name": "timeindex", "description": "Scenario name", "type": "timestamp", "unit": null},
+            {"name": "value", "description": "Parameter value", "type": "decimal", "unit": "unit"},
             {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
         "primaryKey": ["id"],
         "foreignKeys": [{
