@@ -1,0 +1,157 @@
+{"name": "OEP-Szenariendatenformat",
+"title": "OpenEnergyPlatform data format for scenario data",
+"id": "",
+"description": "",
+"language": ["en-GB", "de-DE"],
+"keywords": [""],
+"publicationDate": "2020-04-14",
+"context":
+    {"homepage": "",
+    "documentation": "",
+    "sourceCode": "",
+    "contact": "",
+    "grantNo": "",
+    "fundingAgency": "",
+    "fundingAgencyLogo": "",
+    "publisherLogo": ""},
+"spatial":
+    {"location": "",
+    "extent": "",
+    "resolution": ""},
+"temporal": 
+    {"referenceDate": "",
+    "timeseries": 
+        {"start": "",
+        "end": "",
+        "resolution": "",
+        "alignment": "",
+        "aggregationType": ""} },
+"sources": [
+    {"title": "",
+    "description": "",
+    "path": "",
+    "licenses": [
+        {"name": "",
+        "title": "",
+        "path": "",
+        "instruction": "",
+        "attribution": ""} ] },
+    {"title": "",
+    "description": "",
+    "path": "",
+    "licenses": [
+        {"name": "",
+        "title": "",
+        "path": "",
+        "instruction": "",
+        "attribution": ""} ] } ],
+"licenses": [
+    {"name": "",
+    "title": "",
+    "path": "",
+    "instruction": "",
+    "attribution": ""} ],
+"contributors": [
+    {"title": "Ludee", "email": null, "date": "2020-04-14", "object": "metadata", "comment": "Create metadata template"},
+    {"title": "", "email": "", "date": "", "object": "", "comment": ""} ],
+"resources": [
+    {"profile": "tabular-data-resource",
+    "name": "oep-scenario-data_scalar",
+    "path": "oep-scenario-data_scalar.csv",
+    "format": "csv",
+    "encoding" : "UTF-8",
+    "schema": {
+        "fields": [
+            {"name": "id", "description": "Unique identifier", "type": "bigint", "unit": null},
+            {"name": "scenario", "description": "Scenario name", "type": "text", "unit": null},
+            {"name": "region", "description": "Country or region", "type": "text", "unit": null},
+            {"name": "year", "description": "Year", "type": "integer", "unit": null},
+            {"name": "schema", "description": "1. classification", "type": "text", "unit": null},
+            {"name": "field", "description": "2. classification", "type": "text", "unit": null},
+            {"name": "category", "description": "3. classification", "type": "text", "unit": null},
+            {"name": "parameter", "description": "Parameter name", "type": "text", "unit": null},
+            {"name": "value", "description": "Parameter value", "type": "decimal", "unit": "unit"},
+            {"name": "unit", "description": "Parameter unit", "type": "text", "unit": null},
+            {"name": "tags", "description": "Free classification with key-value pairs", "type": "hstore", "unit": null},
+            {"name": "aggregation", "description": "Aggregation type (sum, mean, median)", "type": "text", "unit": null},
+            {"name": "source", "description": "Source", "type": "text", "unit": null},
+            {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
+        "primaryKey": ["id"],
+        "foreignKeys": [{
+                "fields": [""],
+                "reference": {
+                    "resource": "",
+                    "fields": [""] } } ] },
+    "dialect":
+        {"delimiter": ";",
+        "decimalSeparator": "."} },
+
+    {"profile": "tabular-data-resource",
+    "name": "oep-scenario-data_timeseries",
+    "path": "oep-scenario-data_timeseries.csv",
+    "format": "csv",
+    "encoding" : "UTF-8",
+    "schema": {
+        "fields": [
+            {"name": "id", "description": "Unique identifier", "type": "bigint", "unit": null},
+            {"name": "scenario", "description": "Scenario name", "type": "text", "unit": null},
+            {"name": "region", "description": "Country or region", "type": "text", "unit": null},
+            {"name": "year", "description": "Year", "type": "integer", "unit": null},
+            {"name": "schema", "description": "1. classification", "type": "text", "unit": null},
+            {"name": "field", "description": "2. classification", "type": "text", "unit": null},
+            {"name": "category", "description": "3. classification", "type": "text", "unit": null},
+            {"name": "parameter", "description": "Parameter name", "type": "text", "unit": null},
+            {"name": "ts_id", "description": "Parameter value", "type": "bigint", "unit": "unit"},
+            {"name": "unit", "description": "Parameter unit", "type": "text", "unit": null},
+            {"name": "tags", "description": "Free classification with key-value pairs", "type": "hstore", "unit": null},
+            {"name": "aggregation", "description": "Aggregation type (sum, mean, median)", "type": "text", "unit": null},
+            {"name": "source", "description": "Source", "type": "text", "unit": null},
+            {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
+        "primaryKey": ["id"],
+        "foreignKeys": [{
+                "fields": [""],
+                "reference": {
+                    "resource": "",
+                    "fields": [""] } } ] },
+    "dialect":
+        {"delimiter": ";",
+        "decimalSeparator": "."} },
+
+    {"profile": "tabular-data-resource",
+    "name": "oep-scenario-data_timeseries-data",
+    "path": "oep-scenario-data_timeseries-data.csv",
+    "format": "csv",
+    "encoding" : "UTF-8",
+    "schema": {
+        "fields": [
+            {"name": "ts_id", "description": "Unique identifier", "type": "bigint", "unit": null},
+            {"name": "timeindex", "description": "Scenario name", "type": "timestamp", "unit": null},
+            {"name": "value", "description": "Parameter value", "type": "decimal", "unit": "unit"},
+            {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
+        "primaryKey": ["id"],
+        "foreignKeys": [{
+                "fields": [""],
+                "reference": {
+                    "resource": "",
+                    "fields": [""] } } ] },
+    "dialect":
+        {"delimiter": ";",
+        "decimalSeparator": "."} } ],
+
+"review": {
+    "path": "",
+    "badge": ""},
+"metaMetadata":
+    {"metadataVersion": "OEP-1.4.0",
+    "metadataLicense":
+        {"name": "CC0-1.0",
+        "title": "Creative Commons Zero v1.0 Universal",
+        "path": "https://creativecommons.org/publicdomain/zero/1.0/"} },
+"_comment":
+    {"metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+    "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+    "units": "Use a space between numbers and units (100 m)",
+    "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+    "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+    "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+    "null": "If not applicable use (null)"} }
