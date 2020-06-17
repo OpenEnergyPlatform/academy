@@ -1,0 +1,12 @@
+requests
+getpass
+sqlalchemy
+psycopg2-binary
+jmespath
+GeoAlchemy2
+oedialect
+pip install -i https://test.pypi.org/simple/ oem2orm
+geopandas
+pandas
+notebook
+ipykernel
