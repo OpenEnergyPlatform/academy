@@ -114,19 +114,7 @@
                 "primaryKey": [
                     "id"
                 ],
-                "foreignKeys": [
-                    {
-                        "fields": [
-                            ""
-                        ],
-                        "reference": {
-                            "resource": "",
-                            "fields": [ 
-                                ""
-                            ]
-                        }
-                    }
-                ]
+                "foreignKeys": []
             },
             "dialect": {
                 "delimiter": null,
