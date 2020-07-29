@@ -20,6 +20,7 @@ Here is a template for new release sections
 
 ### Added
 - secure way to deal with OEP API token
+- requirement for jupyter notebooks #81
 
 ### Removed
 - MaStR API tutorials to https://github.com/OpenEnergyPlatform/open-MaStR
