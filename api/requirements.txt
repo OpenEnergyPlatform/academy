@@ -2,6 +2,7 @@ requests
 matplotlib
 mplleaflet
 jupyterlab
+notebook
 ipywidgets
 pandas
 xlsxwriter
