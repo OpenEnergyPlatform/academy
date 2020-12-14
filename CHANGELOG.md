@@ -19,6 +19,7 @@ Here is a template for new release sections
 ## [Unreleased]
 
 ### Added
+- Add new tutorial that introduces to spatial query on the OEP.
 - secure way to deal with OEP API token
 - requirement for jupyter notebooks #81
 
