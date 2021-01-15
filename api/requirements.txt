@@ -1,5 +1,6 @@
 requests
 matplotlib
+missingno
 mplleaflet
 jupyterlab
 notebook
