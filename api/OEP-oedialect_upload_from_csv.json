@@ -1,0 +1,4 @@
+{
+  "name": "OEP-oedialect_upload_from_csv",
+  "displayName": "Upload csv data to a new table on the OEP using the oedialect"
+}
