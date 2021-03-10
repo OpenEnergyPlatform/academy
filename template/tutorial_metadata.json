@@ -1,0 +1,9 @@
+{
+  "name": "Template",
+  "displayName": "Readable/Understandable short template title",
+  "level": "Beginner/Intermediate/Expert",
+  "language": "de/en/fr",
+  "medium": "none/CC0/AGPL",
+  "email_contact": "email",
+  "github": "github handle"
+}
