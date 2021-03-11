@@ -1,6 +1,7 @@
 {
   "name": "Template",
   "displayName": "Readable/Understandable short template title",
+  "category": "Publication; I/O; OEP Introduction; Ontology; Other",
   "level": "Beginner/Intermediate/Expert",
   "language": "de/en/fr",
   "medium": "none/CC0/AGPL",
