@@ -4,7 +4,8 @@
   "category": "Publication; I/O; OEP Introduction; Ontology; Other",
   "level": "Beginner/Intermediate/Expert",
   "language": "de/en/fr",
-  "medium": "none/CC0/AGPL",
+  "medium": "video, text, jupyter notebook",
+  "license": "none/CC0/AGPL", 
   "email_contact": "email",
   "github": "github handle"
 }
