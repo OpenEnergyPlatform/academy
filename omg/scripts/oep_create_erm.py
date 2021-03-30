@@ -19,14 +19,18 @@ import importlib
 db = oem2orm.setup_db_connection()
 insp = inspect(db.engine)
 
-SCHEMA = "scenario"
-for table_name in insp.get_table_names(schema=SCHEMA):
-    saio.register_schema(SCHEMA, db.engine)
-    # from saio.scenario import Base
-    TableClass = getattr(importlib.import_module("saio."+SCHEMA), table_name)
-    # instance = TableClass()
+# add a slug to filter tables 
+filter_list = "oemof_b3"
 
-    filename = 'erm/'+table_name+'.pdf'
-    eralchemy.render_er(TableClass, filename)
-    print(table_name)
+SCHEMA = "model_draft"
+
+for table_name in insp.get_table_names(schema=SCHEMA):
+    if filter_list in table_name:
+        saio.register_schema(SCHEMA, db.engine)
+        # from saio.scenario import Base
+        TableClass = getattr(importlib.import_module("saio."+SCHEMA), table_name)
+        # instance = TableClass()
+
+        filename = 'model_draft/'+table_name+'.pdf'
+        eralchemy.render_er(TableClass, filename)
 
