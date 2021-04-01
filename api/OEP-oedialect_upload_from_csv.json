@@ -1,4 +1,11 @@
 {
   "name": "OEP-oedialect_upload_from_csv",
-  "displayName": "Upload csv data to a new table on the OEP using the oedialect"
+  "displayName": "Upload csv data to a new table on the OEP using the oedialect",
+  "category": "Upload/Download",
+  "level": "Intermediate",
+  "language": "en",
+  "medium": "jupyter notebook",
+  "license": "AGPL", 
+  "email_contact": "",
+  "github_contact": "christian-rli"
 }
