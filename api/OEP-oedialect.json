@@ -1,4 +1,11 @@
 {
   "name": "OEP_oedialect",
-  "displayName": "oedialect - Table Creation and OEP Upload with an SQLAlchemy Dialect"
+  "displayName": "oedialect - Table Creation and OEP Upload with an SQLAlchemy Dialect",
+  "category": "Upload/Download, Data Structure",
+  "level": "Expert",
+  "language": "en",
+  "medium": "jupyter notebook",
+  "license": "AGPL", 
+  "email_contact": "",
+  "github_contact": "henhuy, Ludee"
 }
