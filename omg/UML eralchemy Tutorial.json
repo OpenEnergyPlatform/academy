@@ -1,0 +1,11 @@
+{
+    "name": "UML eralchemy Tutorial",
+    "displayName": "Create simple Entity-Relationship-Modell (ERM) diagrams for any table on the OEP",
+    "category": "Data Structure",
+    "level": "Intermediate",
+    "language": "en",
+    "medium": "jupyter notebook",
+    "license": "AGPL", 
+    "email_contact": "",
+    "github_contact": "jh-RLI"
+}
