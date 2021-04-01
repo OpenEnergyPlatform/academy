@@ -1,4 +1,11 @@
 {
   "name": "normalize_and_denormalize",
-  "displayName": "Normalize and Denormalize Dataframes"
+  "displayName": "Normalize and Denormalize Dataframes",
+  "category": "Data Structure",
+  "level": "Intermediate",
+  "language": "en",
+  "medium": "video, jupyter notebook",
+  "license": "AGPL", 
+  "email_contact": "",
+  "github_contact": "Ludee"
 }
