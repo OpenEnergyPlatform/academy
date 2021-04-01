@@ -1,4 +1,11 @@
 {
     "name": "OEP-oedialect_geoquery_spatial-functions",
-    "displayName": "Getting started with postgis spatial functions using python"
+    "displayName": "Getting started with postgis spatial functions using python",
+    "category": "Upload/Download",
+    "level": "Expert",
+    "language": "en",
+    "medium": "jupyter notebook",
+    "license": "AGPL", 
+    "email_contact": "jonas.huber@rl-insitut.de",
+    "github_contact": "jh-RLI"
 }
