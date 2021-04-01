@@ -21,6 +21,8 @@ Here is a template for new release sections
 ### Added
 - secure way to deal with OEP API token
 - requirement for jupyter notebooks #81
+- add new tutorial on to create ERM Diagramm from OEP using SAIO and ERalchemy: UML eralchemy Tutorial (PR#117)
+- add script to automate the ERM Diagramm creation for all tables in schema, or filterd tables in schema (PR#117)
 
 ### Removed
 - MaStR API tutorials to https://github.com/OpenEnergyPlatform/open-MaStR
