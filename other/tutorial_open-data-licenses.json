@@ -1,4 +1,11 @@
 {
   "name": "tutorial_open-data-licenses",
-  "displayName": "Open Data Licensing Guide"
+  "displayName": "Open Data Licensing Guide",
+  "category": "Publication/Licensing",
+  "level": "Beginner",
+  "language": "en",
+  "medium": "text",
+  "license": "AGPL", 
+  "email_contact": "email",
+  "github_contact": "Ludee, christian-RLI"
 }
