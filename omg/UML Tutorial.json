@@ -1,4 +1,11 @@
 {
   "name": "UML_Workshop",
-  "displayName": "UML- Description and Plotting"
+  "displayName": "UML- Description and Plotting",
+  "category": " Data Structure",
+  "level": "Beginner",
+  "language": "en",
+  "medium": "jupyter notebook",
+  "license": "AGPL", 
+  "email_contact": "",
+  "github_contact": "Ludee"
 }
