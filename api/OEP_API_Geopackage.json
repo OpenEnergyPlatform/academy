@@ -1,0 +1,11 @@
+{
+    "name": "OEP_API_Geopackage",
+    "displayName": "Create a (Geo)Dataframe from OEP Data and export it as geopackage",
+    "category": "Upload/Download",
+    "level": "Intermediate",
+    "language": "en",
+    "medium": "jupyter notebook",
+    "license": "AGPL", 
+    "email_contact": "",
+    "github_contact": "TuPhanRLI, christian-rli"
+}
