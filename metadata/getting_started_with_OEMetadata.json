@@ -1,4 +1,11 @@
 {
   "name": "OEMetadata",
-  "displayName": "OEMetadata - What is it and how do I use it?"
+  "displayName": "OEMetadata - What is it and how do I use it?",
+  "category": "Publication/Licensing",
+  "level": "Beginner",
+  "language": "en",
+  "medium": "text",
+  "license": "AGPL", 
+  "email_contact": "",
+  "github_contact": "jh-RLI"
 }
