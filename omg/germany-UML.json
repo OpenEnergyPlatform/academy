@@ -1,4 +1,11 @@
 {
   "name": "UML_Workshop",
-  "displayName": "UML- Plotting a Germany Model"
+  "displayName": "UML- Plotting a Germany Model",
+  "category": "Other Topics",
+  "level": "Beginner",
+  "language": "en",
+  "medium": "jupyter notebook",
+  "license": "AGPL", 
+  "email_contact": "",
+  "github_contact": "Ludee"
 }
