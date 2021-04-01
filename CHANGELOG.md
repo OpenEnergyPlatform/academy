@@ -23,6 +23,7 @@ Here is a template for new release sections
 - Add new tutorial that introduces to spatial query on the OEP.
 - secure way to deal with OEP API token
 - requirement for jupyter notebooks #81
+- Create tutorial metadata template and update all existing meta.json with updated tutorial metadata content [PR#139] 
 
 ### Removed
 - MaStR API tutorials to https://github.com/OpenEnergyPlatform/open-MaStR
