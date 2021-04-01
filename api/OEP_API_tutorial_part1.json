@@ -1,4 +1,11 @@
 {
   "name": "OEP_API_tutorial_part1",
-  "displayName": "API tutorial 1 - Introduction to the OEP-API and basic table opperations"
+  "displayName": "API tutorial 1 - Introduction to the OEP-API and basic table opperations",
+  "category": "Upload/Download, Data Structure",
+  "level": "Beginner",
+  "language": "en",
+  "medium": "jupyter notebook",
+  "license": "AGPL", 
+  "email_contact": "",
+  "github_contact": "wolfbunke, Ludee, jh-RLI"
 }

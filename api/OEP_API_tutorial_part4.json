@@ -1,4 +1,11 @@
 {
   "name": "OEP_API_tutorial_part4",
-  "displayName": "API tutorial 4 - Process query result data and save to file"
+  "displayName": "API tutorial 4 - Process query result data and save to file",
+  "category": "Upload/Download, Other Topics",
+  "level": "Beginner",
+  "language": "en",
+  "medium": "jupyter notebook",
+  "license": "AGPL", 
+  "email_contact": "",
+  "github_contact": "wolfbunke, Ludee, jh-RLI"
 }

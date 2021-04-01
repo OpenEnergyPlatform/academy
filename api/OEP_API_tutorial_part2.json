@@ -1,4 +1,11 @@
 {
   "name": "OEP_API_tutorial_part2",
-  "displayName": "API tutorial 2 - Advanced OEP-API data queries using query parameters"
+  "displayName": "API tutorial 2 - Advanced OEP-API data queries using query parameters",
+  "category": "Upload/Download, Other Topics",
+  "level": "Beginner",
+  "language": "en",
+  "medium": "jupyter notebook",
+  "license": "AGPL", 
+  "email_contact": "",
+  "github_contact": "wolfbunke, Ludee, jh-RLI"
 }
