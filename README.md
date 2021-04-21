@@ -46,10 +46,9 @@ The [production example](template/tutorial_metadata_oep_example.json) shows how 
 Step by Step Guide:
 1. Create a tutorial with a name that describes the content. (Will be displayed on the OEP)
 2. Copy the [template](template/tutorial_metadata_template.json) .json file, add to the same folder as the new tutorial.
-2.1 Insert the values for each key/field, make sure to use [available identifiers](template/tutorial_metadata_oep_example.json). Some fields like `name:""` do not require a specific intentifier you are free to select the text here. 
 3. Update the name of the .json with the name of the new tutorial file. 
 4. Make sure to keep the .json as file format (tutorial_name.json)
-5. Update all values for each attribute/key ("attribute/key":"value") in the .json file. Make sure to keep the general JSON syntax.
+5. Update all values for each attribute/key ("attribute/key":"value") in the .json file. Make sure to keep the general JSON syntax. Also, make sure to use [available identifiers](template/tutorial_metadata_oep_example.json). Some fields like `name:""` do not require a specific intentifier you are free to select the text here. 
 6. Push all changes and files to the git branch you used to create the tutorial.
 7. Create a new pull request in this repository and tag a OEP-developer to review the changes.
 8. It will take some time (1 week up to 1 month) until the changes occur on the OEP website.
