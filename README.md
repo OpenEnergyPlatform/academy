@@ -34,12 +34,12 @@ every new [OEP release](https://github.com/OpenEnergyPlatform/oeplatform/blob/de
 
 ## Tutorial data model
 
-A data model describes an object and its attributes. Therefore we use a generic tutorial object that is also used on the OEP website internally. This approach supports the maintanablity of OEP tutorials in general as its also possible to create text or video based tutorials via the OEP website tutorials app/site. Since all tutorial variations are based on the same data model we make sure to display similar/matching data on the OEP website. 
+A data model describes an object and its attributes. Therefore we use a generic tutorial object that is also used on the OEP website internally. This approach supports the maintainability of OEP tutorials in general, because it is also possible to create text- or video-based tutorials via the OEP website tutorials app/page. Since all tutorial variations are based on the same data model we make sure to display similar/matching data on the OEP website. 
 
 We provide some ressources that document the OEP tutorials data model as [template](template/tutorial_metadata_oep_example.json) / [human readable example](template/tutorial_metadata_human_readable_names_example.json) / [production example](template/tutorial_metadata_oep_example.json). The human readable example provides possible human readable values for each tutorial attribute for better understanding (learning/first time hands on). We want the user to understand what information will be displayed on the OEP Website. 
 
 **Use this exampe to learn how to describe a new tutorial**
-The [production example](template/tutorial_metadata_oep_example.json) shows how to connect a new tutorial to the oep as the information provided here will be displaied on the OEP website. The difference to the human readale example is that we use numeric/text identifier to reference a specif (human readable) value as this prevents migration issues with the internal OEP (django) database if the data model is to be extended. Also the data model is a technical component and not intended to be used by a common non-technical user. 
+The [production example](template/tutorial_metadata_oep_example.json) shows how to connect a new tutorial to the oep as the information provided here will be displaied on the OEP website. The difference to the human readable example is that we use numeric/text identifier to reference a specif (human readable) value as this prevents migration issues with the internal OEP (django) database if the data model is to be extended. Also the data model is a technical component and not intended to be used by a common non-technical user. 
 
 ## Prepare a tutorial for the OEP Upload/Integration
 
