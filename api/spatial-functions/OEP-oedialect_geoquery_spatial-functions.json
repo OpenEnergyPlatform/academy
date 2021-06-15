@@ -6,18 +6,18 @@
       "names": "Upload/Download"
     },
     "level": {
-      "identifier": [1, 2, 3], 
-      "names": ["Beginner", "Intermediate", "Expert"]
+      "identifier": 3,
+      "names": "Expert"
     },
-    "language":  { 
-      "identifier": "en", 
+    "language":  {
+      "identifier": "en",
       "names": "english"
     },
     "medium": "jupyter",
     "license": {
-      "identifier": "agpl", 
+      "identifier": "agpl",
       "names": "AGPL"
-    }, 
+    },
     "email_contact": "jonas.huber@rl-insitut.de",
     "github_contact": "jh-RLI"
   }
