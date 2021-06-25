@@ -23,6 +23,7 @@ Here is a template for new release sections
 - Add new tutorial that introduces to spatial query on the OEP.
 - secure way to deal with OEP API token
 - requirement for jupyter notebooks #81
+- Create tutorial metadata template and update all existing meta.json with updated tutorial metadata content [PR#139] 
 - add new tutorial on to create ERM Diagramm from OEP using SAIO and ERalchemy: UML eralchemy Tutorial (PR#117)
 - add script to automate the ERM Diagramm creation for all tables in schema, or filterd tables in schema (PR#117)
 

@@ -1,12 +1,12 @@
 {
-    "name": "UML eralchemy Tutorial",
-    "displayName": "Create simple Entity-Relationship-Modell (ERM) diagrams for any table on the OEP",
+    "name": "OEP_API_Geopackage",
+    "displayName": "Create a (Geo)Dataframe from OEP Data and export it as geopackage",
     "category": {
-      "identifier": "data_structure",
-      "names": "Data Structure"
+      "identifier": "io",
+      "names": "Upload/Download"
     },
     "level": {
-      "identifier": 2, 
+      "identifier": 2,
       "names": "Intermediate"
     },
     "language":  { 
@@ -19,5 +19,5 @@
       "names": "AGPL"
     }, 
     "email_contact": "",
-    "github_contact": "jh-RLI"
+    "github_contact": ["TuPhanRLI", "christian-rli"]
   }
