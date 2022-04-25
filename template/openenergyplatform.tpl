@@ -1,5 +1,5 @@
 
-{% extends 'basic.tpl'%}
+{% extends 'lab/base.html.j2' %}
 
 {% block header %}
 {% endblock header %}
