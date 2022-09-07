@@ -1,12 +1,12 @@
 {
-  "name": "OEP_API_tutorial_part4",
-  "displayName": "API tutorial 4 - Process query result data and save to file",
+  "name": "tutorial_open-data-licenses",
+  "displayName": "Open Data Licensing Guide",
   "category": {
-    "identifier": "io",
-    "names": "Upload/Download"
+    "identifier": "publication",
+    "names": "Publication/Licensing"
   },
   "level": {
-    "identifier": 1, 
+    "identifier": 1,
     "names": "Beginner"
   },
   "language":  { 
@@ -19,5 +19,5 @@
     "names": "AGPL"
   }, 
   "email_contact": "",
-  "github_contact": ["wolfbunke", "Ludee", "jh-RLI"]
+  "github_contact": ["Ludee", "christian-RLI"]
 }

@@ -1,23 +1,23 @@
 {
-  "name": "OEMetadata",
-  "displayName": "OEMetadata - What is it and how do I use it?",
+  "name": "OEP_Research_Data_Publishing_Guidebook",
+  "displayName": "Guidebook - How to Publish Your Data on the OEP",
   "category": {
     "identifier": "publication",
     "names": "Publication/Licensing"
   },
   "level": {
-    "identifier": 1,
+    "identifier": 1, 
     "names": "Beginner"
   },
   "language":  { 
     "identifier": "en", 
-    "names": "english"
+    "names": "french"
   },
-  "medium": "text",
+  "medium": ["text", "jupyter"],
   "license": {
     "identifier": "agpl", 
     "names": "AGPL"
   }, 
   "email_contact": "",
-  "github_contact": "jh-RLI"
+  "github_contact": ["Ludee", "christian-RLI"]
 }

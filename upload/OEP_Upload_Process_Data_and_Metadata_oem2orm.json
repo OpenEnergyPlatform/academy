@@ -1,13 +1,13 @@
 {
-  "name": "OEP_API_tutorial_part4",
-  "displayName": "API tutorial 4 - Process query result data and save to file",
+  "name": "OEP_Upload_Process_Data_and_Metadata_oem2orm",
+  "displayName": "OEP Upload Process for data and metadata",
   "category": {
     "identifier": "io",
     "names": "Upload/Download"
   },
   "level": {
-    "identifier": 1, 
-    "names": "Beginner"
+    "identifier": 2, 
+    "names": "Intermediate"
   },
   "language":  { 
     "identifier": "en", 
@@ -19,5 +19,5 @@
     "names": "AGPL"
   }, 
   "email_contact": "",
-  "github_contact": ["wolfbunke", "Ludee", "jh-RLI"]
+  "github_contact": ["jh-RLI", "christian-RLI"]
 }

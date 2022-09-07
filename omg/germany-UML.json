@@ -1,9 +1,9 @@
 {
-  "name": "OEP_API_tutorial_part4",
-  "displayName": "API tutorial 4 - Process query result data and save to file",
+  "name": "UML_Workshop",
+  "displayName": "UML- Plotting a Germany Model",
   "category": {
-    "identifier": "io",
-    "names": "Upload/Download"
+    "identifier": ["data_structure", "other"],
+    "names": ["Data Structure", "Other Topics"]
   },
   "level": {
     "identifier": 1, 
@@ -19,5 +19,5 @@
     "names": "AGPL"
   }, 
   "email_contact": "",
-  "github_contact": ["wolfbunke", "Ludee", "jh-RLI"]
+  "github_contact": "Ludee"
 }
