@@ -18,4 +18,5 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install --upgrade -r requirements.txt
+      - run: python mkdocs_oep/setup.py develop
       - run: mkdocs gh-deploy --force

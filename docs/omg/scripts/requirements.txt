@@ -1,5 +1,0 @@
-sqlalchemy==1.3.23
-git+https://github.com/OpenEnergyPlatform/oedialect.git
-git+https://github.com/OpenEnergyPlatform/oem2orm.git
-eralchemy
-saio

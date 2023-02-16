@@ -1,0 +1,5 @@
+name: py36_oep
+dependencies:
+    - python=3.6
+    - pip:
+          - -r requirements.txt

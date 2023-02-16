@@ -1,0 +1,23 @@
+{
+  "name": "abschlussworkshop-szenariendb",
+  "displayName": "Abschlussworkshop SzenarienDB",
+  "category": {
+    "identifier": ["io", "data_structure"],
+    "names": ["Upload/Download", "Data Structure"]
+  },
+  "level": {
+    "identifier": [2],
+    "names": ["Intermediate"]
+  },
+  "language": {
+    "identifier": ["en"],
+    "names": ["english"]
+  },
+  "medium": ["jupyter"],
+  "license": {
+    "identifier": ["agpl"],
+    "names": ["AGPL"]
+  },
+  "email_contact": "jonas.huber@rl-institut.de",
+  "github_contact": "jh-RLI"
+}

@@ -1,0 +1,70 @@
+{
+  "name": "test_table_abschlussworkshop2",
+  "title": "Tabelle für Abschlussworkshop 2",
+  "id": "test_table_abschlussworkshop2",
+  "description": "Vorzeigetabelle für Abschlussworkshop 2 zur Präsentation der API",
+  "language": ["de"],
+  "keywords": [],
+  "publicationDate": "2021-01-20",
+  "context": {
+    "homepage": "openenergy-platform.org",
+    "documentation": "openenergy-platform.org"
+  },
+  "spatial": {
+    "extent": "Germany"
+  },
+  "sources": [],
+  "licenses": [],
+  "contributors": [],
+  "resources": [
+    {
+      "name": "test_table_abschlussworkshop2",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "bigint"
+          },
+          {
+            "name": "center_lon",
+            "type": "numeric"
+          },
+          {
+            "name": "center_lat",
+            "type": "numeric"
+          },
+          {
+            "name": "rs",
+            "type": "numeric"
+          },
+          {
+            "name": "gen",
+            "type": "varchar(50)"
+          },
+          {
+            "name": "wsk",
+            "type": "varchar(50)"
+          },
+          {
+            "name": "ewz",
+            "type": "numeric"
+          },
+          {
+            "name": "kfl",
+            "type": "numeric"
+          },
+          {
+            "name": "hat_bez",
+            "type": "boolean"
+          },
+          {
+            "name": "geometry_wkt",
+            "type": "varchar(50)"
+          }
+        ],
+        "primaryKey": [],
+        "foreignKeys": []
+      }
+    }
+  ]
+}

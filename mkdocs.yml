@@ -1,14 +1,23 @@
-site_name: OpenEnergyPlatform Tutorials
+site_name: OEP Tutorials
+
 theme:
     name: mkdocs
     locale: en
     include_sidebar: false
-  
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
- 
-  
+
+
 plugins:
-  - mkdocs-jupyter  
+  - mkdocs-jupyter
+  - mkdocs-oep:
+      icon:
+        code: code
+        text: bookmark
+        info: info
+        video: play
+      logo:
+        sirop: SIROP_logo_200.png
