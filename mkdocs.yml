@@ -1,0 +1,14 @@
+site_name: OpenEnergyPlatform Tutorials
+theme:
+    name: mkdocs
+    locale: en
+    include_sidebar: false
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+ 
+  
+plugins:
+  - mkdocs-jupyter  
