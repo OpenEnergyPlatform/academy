@@ -1,15 +1,48 @@
-site_name: OEP Tutorials
+# Project
+site_name: OEFamily Trainings
+site_url:
+site_description: A collection of training modules and tutorials for the Open Energy Family
 
+# Repository
+repo_name: OpenEnergyPlatform/tutorial
+repo_url: https://github.com/OpenEnergyPlatform/tutorial
+docs_dir: docs
+
+# Configuration
 theme:
-    name: mkdocs
+    name: material
     locale: en
     include_sidebar: false
+    palette:
+      # Palette toggle for dark mode
+      - scheme: slate
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+      # Palette toggle for light mode
+      - scheme: default
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+    icon:
+      repo: fontawesome/brands/github
+    features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.sections
+      - navigation.indexes
+      - navigation.path
+      - navigation.tracking
+      - navigation.top
+      - toc.follow
 
+# Extensions
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-
+  - toc:
+      permalink: 💙
 
 plugins:
   - mkdocs-jupyter
@@ -21,3 +54,10 @@ plugins:
         video: play
       logo:
         sirop: SIROP_logo_200.png
+
+# Customization
+extra:
+  generator: false
+
+extra_css:
+  - css/extra.css
