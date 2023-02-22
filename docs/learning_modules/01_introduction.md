@@ -12,13 +12,13 @@ you. If it is, please click the link to view the material.
 
 As a visual guide regarding what to expect behind the links, we use the following icons:
 
-oep-icon::code links to written training material. The material may include some code for guidance.
+:oep-icon-code: links to written training material. The material may include some code for guidance.
 
-oep-icon::text links to material focussing on code.
+:oep-icon-text: links to material focussing on code.
 
-oep-icon::info is some informational text without a link to specific material.
+:oep-icon-info: is some informational text without a link to specific material.
 
-oep-icon::video links to video material.
+:oep-icon-video: links to video material.
 
 Our training courses can grow over time. If you see the need for further documentation,
 please feel free to get in touch with us via our

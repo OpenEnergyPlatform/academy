@@ -25,7 +25,6 @@ theme:
           icon: material/brightness-7
           name: Switch to dark mode
     icon:
-      repo: fontawesome/brands/github
     features:
       - navigation.tabs
       - navigation.tabs.sticky
@@ -39,6 +38,11 @@ theme:
 # Extensions
 markdown_extensions:
   - admonition
+  - attr_list
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.details
   - pymdownx.superfences
   - toc:
@@ -48,10 +52,10 @@ plugins:
   - mkdocs-jupyter
   - mkdocs-oep:
       icon:
-        code: code
-        text: bookmark
-        info: info
-        video: play
+        code: fontawesome-solid-code
+        text: fontawesome-solid-bookmark
+        info: fontawesome-solid-info
+        video: fontawesome-solid-play
       logo:
         sirop: SIROP_logo_200.png
 
