@@ -3,7 +3,7 @@
 Learn how to register as a user with the Open Energy Platform (OEP) and why and how
 to register also with github.
 
-## For whom ist this training and what can you learn?
+## For whom is this training and what can you learn?
 
 :oep-icon-info: **This module is aimed at researchers, policy makers and any interested person, who**
 

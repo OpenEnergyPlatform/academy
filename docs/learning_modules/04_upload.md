@@ -2,7 +2,7 @@
 
 Learn how to publish data on the OEP.
 
-## For whom ist this training and what can you learn?
+## For whom is this training and what can you learn?
 
 :oep-icon-info: **This course is aimed at researchers, no matter whether you have programming skills or not, who**
 

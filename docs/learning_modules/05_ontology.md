@@ -7,7 +7,7 @@ takes place on [GitHub](https://github.com/OpenEnergyPlatform/ontology).
 In the following sections of this course we have bundled information on
 how to get involved and how to contribute to the OEO.
 
-## For whom ist this training and what can you learn?
+## For whom is this training and what can you learn?
 
 :oep-icon-info: **This course is aimed at researchers, policy makers and any interested person, who**
 
