@@ -51,9 +51,9 @@ General terms are universals and defined classes. Particulars, which are instanc
 
 ## 9. Use British English.
 For terms that have different spellings in British and American English, such as "organisation" / "organization", use the British variant as the label and add the American variant as an `IAO: alternative label`. See also [this issue](https://github.com/OpenEnergyPlatform/ontology/issues/771).
-This is a list
 
 ## Test 
+This is a list
 * one
 * two
 
