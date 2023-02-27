@@ -1,4 +1,4 @@
-# 06 - Enabling good semi-automatic scenario projection comparison on the Open Energy Platform
+# 06 - Enabling good semi-automatic scenario projection comparison
 This training course provides guidance on how you can document typical numerical data from climate and energy modelling so
 that the likelihood of a good-quality semi-automated scenario projection comparison based on the Open Enrgy Knowledgegraph (OEKG) increases. 
 
