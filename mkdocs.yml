@@ -14,16 +14,17 @@ theme:
     locale: en
     include_sidebar: false
     palette:
-      # Palette toggle for dark mode
-      - scheme: slate
-        toggle:
-          icon: material/brightness-4
-          name: Switch to light mode
       # Palette toggle for light mode
       - scheme: default
         toggle:
           icon: material/brightness-7
           name: Switch to dark mode
+      # Palette toggle for dark mode
+      - scheme: slate
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+
     icon:
     features:
       - navigation.tabs
@@ -32,14 +33,19 @@ theme:
       - navigation.indexes
       - navigation.path
       - navigation.tracking
+      - navigation.footer
       - navigation.top
       - toc.follow
+      - search.suggest
+      - search.share
+
 
 # Extensions
 markdown_extensions:
   - admonition
   - attr_list
   - def_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -49,7 +55,11 @@ markdown_extensions:
       permalink: 💙
 
 plugins:
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      include_source: True
+  - tags
+  - search:
+      lang: de
   - mkdocs-oep:
       icon:
         code: fontawesome-solid-code
@@ -59,7 +69,6 @@ plugins:
       logo:
         sirop: SIROP_logo_200.png
 
-# Customization
 extra:
   generator: false
 
