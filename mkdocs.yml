@@ -57,7 +57,8 @@ markdown_extensions:
 plugins:
   - mkdocs-jupyter:
       include_source: True
-  - tags
+  - tags:
+      tags_file: index.md
   - search:
       lang: de
   - mkdocs-oep:
@@ -66,8 +67,11 @@ plugins:
         text: fontawesome-solid-bookmark
         info: fontawesome-solid-info
         video: fontawesome-solid-play
+        mail: fontawesome-solid-envelope
+        github: fontawesome-brands-github
       logo:
         sirop: SIROP_logo_200.png
+        oep: OEP_logo_2_no_text.svg
 
 extra:
   generator: false
