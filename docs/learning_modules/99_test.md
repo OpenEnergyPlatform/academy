@@ -1,4 +1,4 @@
-# 06 - How to define a term in the OEO
+# 99 - How to define a term in the OEO
 
 ## 1. Use domain terminology.
 > A domain is a delineated portion of reality corresponding to a scientific discipline such as cell biology or electron microscopy, or to an area of knowledge or interest such as the Great War or stamp collecting or construction permits. Not everything that is part of an entity within a given domain is also part of that domain. Thus every human being has molecules as parts, but molecules do not form part of the domain of, for example, human geography, or human rights law."
