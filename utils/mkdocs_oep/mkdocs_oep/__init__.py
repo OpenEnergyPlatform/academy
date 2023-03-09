@@ -30,9 +30,16 @@ def get_relative_to_root(url):
     return path
 
 
+def is_notebook(file):
+    """check if any of the files are jupyter notebooks"""
+    return file.src_uri.endswith(".ipynb")
+
+
 class OepPlugin(mkdocs.plugins.BasePlugin[OepPluginConfig]):
     def on_page_markdown(self, markdown: str, page, config, files) -> str:
-
+        # -----------------------------------------------------------------------
+        # replace icons and logos shortcuts :oep-xxx-yyy:
+        # -----------------------------------------------------------------------
         path_prefix = get_relative_to_root(page.url)
 
         for key, val in set(re.findall(r":oep-([\w]+)-([\w]+):", markdown)):
@@ -45,7 +52,6 @@ class OepPlugin(mkdocs.plugins.BasePlugin[OepPluginConfig]):
                 markdown = markdown.replace(
                     search, f'<img src="{path_prefix}{IMG_PATH}/{logo}" alt="logo">'
                 )
-
             else:
                 raise NotImplementedError(f"Undefined prefix: oep-{key}")
 
