@@ -18,7 +18,7 @@ Learn to find and download [data](https://openenergy-platform.org/dataedit/schem
 
 ## How can I find relevant information on the OEP?
 
-:oep-icon-text: [How to find data on the OEP?](https://openenergy-platform.org/tutorials/18/) (tutorial):
+:oep-icon-text: [How to find data on the OEP?](../tutorials/search/18_find_data.md) (tutorial):
 
 This tutorial teaches you how to use the free text search and tags to filter for data on the OEP. You will see that you can use both approaches individually, but also combine freetext and tags to specify your data filter further.
 

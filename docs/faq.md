@@ -36,13 +36,13 @@ You can download data table as csv and as datapackage. It is really easy and [de
 
 If you want to use an interface, you can **upload data tables with our [Upload Wizard](https://openenergy-platform.org/dataedit/wizard/)**. How to use it, is described in the corresponding **[Upload Wizard Tutorial](https://openenergy-platform.org/tutorials/15/)**.
 
-If you would like to learn how to **upload data tables with the API**, we recommend our **[Beginners Guide (Section 2.1)](https://openenergy-platform.org/tutorials/11/).** This guide includes code snippets that you can use to get familiar to this approach.
+If you would like to learn how to **upload data tables with the API**, we recommend our **[Beginners Guide (Section 2.1)](../upload/11_beginners_guide.md).** This guide includes code snippets that you can use to get familiar to this approach.
 
 ---
 
 ## Data upload: How can I upload data to the OEP using the API?
 
-You can read the **[API documentation](https://oep-data-interface.readthedocs.io/en/latest/api/how_to.html)** and then build your custom queries for data upload. The **[Beginners Guide (Section 2.1)](https://openenergy-platform.org/tutorials/11/)** provides some code snippets if you want to take a short-cut.
+You can read the **[API documentation](https://oep-data-interface.readthedocs.io/en/latest/api/how_to.html)** and then build your custom queries for data upload. The **[Beginners Guide (Section 2.1)](../upload/11_beginners_guide.md)** provides some code snippets if you want to take a short-cut.
 
 ---
 

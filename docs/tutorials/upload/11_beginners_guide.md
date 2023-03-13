@@ -76,7 +76,7 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 *Prerequisite for this step is that you are a registered user on openenergy-platform.org*
 
-**OPTION: CSV WIZARD:** If you do not want to upload tables via the API, you can do so using the CSV-Wizard. Please consult **the tutorial under: <https://openenergy-platform.org/tutorials/15/>** and **then continue reading Section 2.2**
+**OPTION: CSV WIZARD:** If you do not want to upload tables via the API, you can do so using the CSV-Wizard. Please consult [this tutorial](12_wizard.md) and **then continue reading Section 2.2**
 
 *Please note: code snippets below are shown to highlight specific instances of a sequence of code. You find a complete sample code that you can copy & paste and try under 2.1.4* Complete code for one example*.*
 

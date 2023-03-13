@@ -13,4 +13,4 @@ can use the upload wizard, which is very intuitive and provides good support for
 As soon as the final data is finalized and the user makes no further changes, the data can be permanently stored at the corresponding topic. The stored data become visible to others. The upload process can take some time. The metadata and their evolution is stored in GitHub.
 
 **Hands-on reading:**
-One beginners guide to help you get started is here: [https://openenergy-platform.org/tutorials/11/](https://openenergy-platform.org/tutorials/11/)
+One beginners guide to help you get started is [here](../upload/11_beginners_guide.md)

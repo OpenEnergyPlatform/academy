@@ -29,7 +29,7 @@ This tutorial teaches you step-by-step on how to upload data from a .csv file to
 
 ## How can I publish data to the OEP as a beginner interested in programming?
 
-:oep-icon-text: , </i>:oep-icon-code: [Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process](https://openenergy-platform.org/tutorials/11/) (tutorial):
+:oep-icon-text: , </i>:oep-icon-code: [Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process](../upload/11_beginners_guide.md) (tutorial):
 
 This tutorial (also available as PDF) describes how to upload data to the OEP using Python and the REST-API. Several steps are needed to contribute actively to the platform. Some of these you only need to do once to get started. The steps described in this document are the following: Register at the OpenEnergy Platform, Register at github and get invited to the OpenEnergy Platform Group, Create data table(s) and upload data table(s), create metadata and upload metadata to github, initiate data review, create scenario factsheets.
 

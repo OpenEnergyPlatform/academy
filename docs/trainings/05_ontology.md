@@ -26,7 +26,7 @@ how to get involved and how to contribute to the OEO.
 
 :oep-icon-text: [The Open Energy Ontology – Overview](https://openenergy-platform.org/ontology/oeo/OEO_00000275):
 
-:oep-icon-video: [The Open Energy Ontology – Workshop](https://openenergy-platform.org/tutorials/5/):
+:oep-icon-video: [The Open Energy Ontology – Workshop](../tutorials/other/5_video_oeo.md):
 
 Get a quick overview what an ontology is and what the OEO is all about.
 
