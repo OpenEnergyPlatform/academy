@@ -18,13 +18,13 @@ Cloning the OEP is described in the **[GitHub repository *oeplatform*](https://g
 
 ## Data download: How can I download data tables from the OEP without the need to use the API
 
-You can download data table as csv and as datapackage. It is really easy and [described in this short tutorial](tutorials/download/19_download.md).
+You can download data table as csv and as datapackage. It is really easy and [described in this short tutorial](../tutorials/download/19_download.md).
 
 ---
 
 ## Data upload: How can I upload data tables to the OEP when I am not familiar working with APIs?
 
-If you want to use an interface, you can **upload data tables with our [Upload Wizard](https://openenergy-platform.org/dataedit/wizard/)**. How to use it, is described in the corresponding **[Upload Wizard Tutorial](tutorials/upload/12_wizard.md/)**.
+If you want to use an interface, you can **upload data tables with our [Upload Wizard](https://openenergy-platform.org/dataedit/wizard/)**. How to use it, is described in the corresponding **[Upload Wizard Tutorial](../upload/12_wizard.md)**.
 
 If you would like to learn how to **upload data tables with the API**, we recommend our **[Beginners Guide (Section 2.1)](../upload/11_beginners_guide.md).** This guide includes code snippets that you can use to get familiar to this approach.
 
