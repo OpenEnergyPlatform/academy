@@ -6,19 +6,9 @@ Last update: 2022-02-24
 
 ### Search: How do I search for data on the OEP?
 
-There is search functionality under [Database](https://openenergy-platform.org/dataedit/schemas). Use the search bar for free text and / or combine it with tags that are presented below the search bar. This will search through data and metadata and reduce the list of schemas to the list where your search term(s) were found. Click on the schema name and then see all the tables that conform to your search term(s). Alternatively, you can enter any scheme and search within the scheme in the same way. Here is a **[short tutorial with a visual on combining free text search and tags](https://openenergy-platform.org/tutorials/18/)**.
+There is search functionality under [Database](https://openenergy-platform.org/dataedit/schemas). Use the search bar for free text and / or combine it with tags that are presented below the search bar. This will search through data and metadata and reduce the list of schemas to the list where your search term(s) were found. Click on the schema name and then see all the tables that conform to your search term(s). Alternatively, you can enter any scheme and search within the scheme in the same way. Here is a **[short tutorial with a visual on combining free text search and tags](tutorials/search/18_find_data.md)**.
 
 ---
-
-## API: How can I work with data on the OEP using the API?
-
-There are a few API tutorials available that may come in handy:
- **[API tutorial 1 - Introduction to the OEP-API and basic table operations](https://openenergy-platform.org/tutorials/jupyter/OEP_API_tutorial_part1/),
- [API tutorial 2 - Advanced OEP-API data queries using query parameters](https://openenergy-platform.org/tutorials/jupyter/OEP_API_tutorial_part2/),
- [API tutorial 3 - Plot data and spatial data](https://openenergy-platform.org/tutorials/jupyter/OEP_API_tutorial_part3/),
- [API tutorial 4 - Process query result data and save to file](https://openenergy-platform.org/tutorials/jupyter/OEP_API_tutorial_part4/).**
-
- ---
 
 ## Clone: How do I clone the OEP?
 
@@ -28,13 +18,13 @@ Cloning the OEP is described in the **[GitHub repository *oeplatform*](https://g
 
 ## Data download: How can I download data tables from the OEP without the need to use the API
 
-You can download data table as csv and as datapackage. It is really easy and [described in this short tutorial](https://openenergy-platform.org/tutorials/19/).
+You can download data table as csv and as datapackage. It is really easy and [described in this short tutorial](tutorials/download/19_download.md).
 
 ---
 
 ## Data upload: How can I upload data tables to the OEP when I am not familiar working with APIs?
 
-If you want to use an interface, you can **upload data tables with our [Upload Wizard](https://openenergy-platform.org/dataedit/wizard/)**. How to use it, is described in the corresponding **[Upload Wizard Tutorial](https://openenergy-platform.org/tutorials/15/)**.
+If you want to use an interface, you can **upload data tables with our [Upload Wizard](https://openenergy-platform.org/dataedit/wizard/)**. How to use it, is described in the corresponding **[Upload Wizard Tutorial](tutorials/upload/12_wizard.md/)**.
 
 If you would like to learn how to **upload data tables with the API**, we recommend our **[Beginners Guide (Section 2.1)](../upload/11_beginners_guide.md).** This guide includes code snippets that you can use to get familiar to this approach.
 
