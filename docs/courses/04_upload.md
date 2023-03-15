@@ -39,11 +39,11 @@ This tutorial (also available as PDF) describes how to upload data to the OEP us
 
 The oeclient eases data sharing on the OEP. It is available via github and its readme teaches you how to install and use it.
 
-:oep-icon-code: [Upload csv data to a new table on the OEP using the oedialect](https://openenergy-platform.org/tutorials/jupyter/OEP-oedialect_upload_from_csv/) (tutorial):
+:oep-icon-code: [Upload csv data to a new table on the OEP using the oedialect](../tutorials/api/OEP-oedialect_upload_from_csv/) (tutorial):
 
 This jupyter notebook tutorial teaches you how to upload data from a .csv file to the OEP.
 
-:oep-icon-code: [Table creation and OEP upload with an SQLAlchemy Dialect](https://openenergy-platform.org/tutorials/jupyter/OEP_oedialect/) (tutorial):
+:oep-icon-code: [Table creation and OEP upload with an SQLAlchemy Dialect](../tutorials/api/OEP-oedialect/) (tutorial):
 
 If you are interested in using the SQLAlchemy dialect, this tutorial is for you. It shows you how to create and upload tables to the OEP using that dialect. This is a jupyter notebook tutorial.
 
@@ -56,13 +56,8 @@ This jupyter notebook tutorial provides you a quick way of having all the code a
 :oep-logo-sirop:
 
 Authors: Hannah Förster, Anne Siemons
-
 Copyright: (c) Öko-Institut (2022)
-
 Contact: oedb@oeko.de
-
 License: CC BY 4.0
-
 Attribution: Öko-Institut (2022): Upload - Contribute data to the OEP
-
 Last update: 2023-02-09
