@@ -68,7 +68,7 @@ plugins:
         mail: fontawesome-solid-envelope
         github: fontawesome-brands-github
       logo:
-        sirop: SIROP_logo_200.png
+        sirop: SIROP_logo_50.png
         oep: OEP_logo_2_no_text.svg
 
 extra:
