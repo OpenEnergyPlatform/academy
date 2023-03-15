@@ -29,7 +29,7 @@ This tutorial teaches you how to use the free text search and tags to filter for
 Learn how to use the REST-full-HTTP API in Python for selecting data on the OEP, make calculations
 with it and save the results to a file.
 
-:oep-icon-text: [How to download data - CSV and data package (tutorial)](..tutorials/download/19_download.md):
+:oep-icon-text: [How to download data - CSV and data package (tutorial)](../tutorials/download/19_download.md):
 
 Learn how easy it is do download any data table you are viewing on the OEP table with only one click and why a data package makes a difference.
 
