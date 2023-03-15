@@ -23,13 +23,13 @@ Learn how to publish data on the OEP.
 
 ## How can I publish data to the OEP without programming skills?
 
-:oep-icon-text: [Upload tables as csv](https://openenergy-platform.org/tutorials/15/) (tutorial):
+:oep-icon-text: [Upload tables as csv](../tutorials/upload/12_wizard.md) (tutorial):
 
 This tutorial teaches you step-by-step on how to upload data from a .csv file to the OEP using the csv upload wizard.
 
 ## How can I publish data to the OEP as a beginner interested in programming?
 
-:oep-icon-text: , </i>:oep-icon-code: [Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process](../upload/11_beginners_guide.md) (tutorial):
+:oep-icon-text: , </i>:oep-icon-code: [Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process](../tutorials/upload/11_beginners_guide.md) (tutorial):
 
 This tutorial (also available as PDF) describes how to upload data to the OEP using Python and the REST-API. Several steps are needed to contribute actively to the platform. Some of these you only need to do once to get started. The steps described in this document are the following: Register at the OpenEnergy Platform, Register at github and get invited to the OpenEnergy Platform Group, Create data table(s) and upload data table(s), create metadata and upload metadata to github, initiate data review, create scenario factsheets.
 
@@ -47,7 +47,7 @@ This jupyter notebook tutorial teaches you how to upload data from a .csv file t
 
 If you are interested in using the SQLAlchemy dialect, this tutorial is for you. It shows you how to create and upload tables to the OEP using that dialect. This is a jupyter notebook tutorial.
 
-:oep-icon-code: [How to Upload Your Data and Metadata to the OEP](https://openenergy-platform.org/tutorials/jupyter/OEP_Upload_Process_Data_and_Metadata_oem2orm/) (tutorial):
+:oep-icon-code: [How to Upload Your Data and Metadata to the OEP](../tutorials/OEP_Upload_Process_Data_and_Metadata_oem2orm.ipynb) (tutorial):
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand to upload your data and metadata to the OEP.
 

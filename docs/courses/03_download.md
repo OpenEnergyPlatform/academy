@@ -24,23 +24,23 @@ This tutorial teaches you how to use the free text search and tags to filter for
 
 ## How can I download data?
 
-:oep-icon-code: [Process query result data and save to file (tutorial)](https://openenergy-platform.org/tutorials/jupyter/OEP_API_tutorial_part4/):
+:oep-icon-code: [Process query result data and save to file (tutorial)](../tutorials/api/OEP_API_tutorial_part4.ipynb):
 
 Learn how to use the REST-full-HTTP API in Python for selecting data on the OEP, make calculations
 with it and save the results to a file.
 
-:oep-icon-text: [How to download data - CSV and data package (tutorial)](https://openenergy-platform.org/tutorials/19/):
+:oep-icon-text: [How to download data - CSV and data package (tutorial)](..tutorials/download/19_download.md):
 
 Learn how easy it is do download any data table you are viewing on the OEP table with only one click and why a data package makes a difference.
 
 ## How can I interact with data?
 
-:oep-icon-code: [Data queries via API (tutorial)](https://openenergy-platform.org/tutorials/jupyter/OEP_API_tutorial_part2/):
+:oep-icon-code: [Data queries via API (tutorial)](../tutorials/api/OEP_API_tutorial_part2.ipynb):
 
 This tutorial provides an overview of how you can select and filter data that resides on the OEP via the REST-full-HTTP
 API in Python
 
-:oep-icon-code: [Process query result data and save to file (tutorial)](https://openenergy-platform.org/tutorials/jupyter/OEP_API_tutorial_part4/):
+:oep-icon-code: [Process query result data and save to file (tutorial)](../tutorials/api/OEP_API_tutorial_part4.ipynb):
 
 Learn how to use the REST-full-HTTP API in Python for selecting data on the OEP, make calculations
 with it and save the results to a file.
