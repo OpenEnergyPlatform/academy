@@ -2,7 +2,8 @@ name: gh-pages
 on:
   push:
     branches:
-      - migrate-mkdocs
+      - develop
+      - master
 permissions:
   contents: write
 jobs:
