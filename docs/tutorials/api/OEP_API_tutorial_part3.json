@@ -1,0 +1,23 @@
+{
+  "name": "OEP_API_tutorial_part3",
+  "displayName": "API tutorial 3 - Plot data and spatial data",
+  "category": {
+    "identifier": "other",
+    "names": "Other Topics"
+  },
+  "level": {
+    "identifier": 1,
+    "names": "Beginner"
+  },
+  "language": {
+    "identifier": "en",
+    "names": "english"
+  },
+  "medium": "jupyter",
+  "license": {
+    "identifier": "agpl",
+    "names": "AGPL"
+  },
+  "email_contact": "",
+  "github_contact": ["wolfbunke", "Ludee", "jh-RLI"]
+}

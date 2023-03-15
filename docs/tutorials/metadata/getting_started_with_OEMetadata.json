@@ -1,0 +1,23 @@
+{
+  "name": "OEMetadata",
+  "displayName": "OEMetadata - What is it and how do I use it?",
+  "category": {
+    "identifier": "publication",
+    "names": "Publication/Licensing"
+  },
+  "level": {
+    "identifier": 1,
+    "names": "Beginner"
+  },
+  "language": {
+    "identifier": "en",
+    "names": "english"
+  },
+  "medium": "text",
+  "license": {
+    "identifier": "agpl",
+    "names": "AGPL"
+  },
+  "email_contact": "",
+  "github_contact": "jh-RLI"
+}
