@@ -1,5 +1,5 @@
 #  Questions
-**Disclaimer: This FAQ tutorial will grow over time and answer key questions for using the [Open Energy Platform (OEP)](https://www.openenergy-platform.org).**
+**Short answers to urgent questions regarding the [Open Energy Platform (OEP)](https://www.openenergy-platform.org) and other [Open Energy Family(OEF)](https://github.com/OpenEnergyPlatform) Members.**
 
 ---
 
