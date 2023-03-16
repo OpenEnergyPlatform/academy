@@ -363,5 +363,8 @@ This document described how to upload data and metadata to the OpenEnergy Platfo
 - Ideally you will continue to create one Factsheet for each category to complete your contribution.
 
 ---
+
+## About this tutorial 
 Authors: Hannah Förster, Victoria Liste, Christian Winger (all Öko-Institut). Copyright: Öko-Institut (2021). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut: Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process. Last update: 2023-01-11
+
 ---

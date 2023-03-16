@@ -54,5 +54,8 @@ We are logged in on the open energy platform
 * If everything checks out, click `Upload`
 
 ---
+
+## About this tutorial
 Author: Christian Winger (Öko-Institut). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Last update: 2021-03-04
+
 ---
