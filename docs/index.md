@@ -1,4 +1,4 @@
-# Home
+# Introduction
 
 Welcome to the training and tutorial section of the Open Energy Platform (OEP). Please use the navigation bar on top of the page to:
 
