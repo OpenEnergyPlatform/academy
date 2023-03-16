@@ -22,4 +22,4 @@ As a visual guide regarding what to expect behind the links, we use the followin
 
 Our training courses can grow over time. If you see the need for further documentation,
 please feel free to get in touch with us via our
-[contactform](https://openenergy-platform.org/contact/).
+[contact form](https://openenergy-platform.org/contact/).
