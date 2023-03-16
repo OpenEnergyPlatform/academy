@@ -60,6 +60,8 @@ We also recommend to consult our **[How-to-participate guide](https://github.com
 The whole development process of the OEP is Open Source, thus anyone can contribute to the OEP development. To do so, please read the **[contributing.md](https://github.com/OpenEnergyPlatform/oeplatform/blob/develop/CONTRIBUTING.md)** carefully.
 
 ---
-##### Authors: Hannah Förster (Öko-Institut). Copyright: Öko-Institut (2022). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Questions. Last update: 2023-03-16
+## About the question section
+
+ Authors: Hannah Förster (Öko-Institut). Copyright: Öko-Institut (2022). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Questions. Last update: 2023-03-16
 
 ---
