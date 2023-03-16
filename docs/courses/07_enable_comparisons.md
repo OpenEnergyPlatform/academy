@@ -25,21 +25,10 @@ Thus we decided to provide some guidance on how to structure and document your d
 
 
 
+---
 
-
-## About this training course
+## About this course
 
 :oep-logo-sirop:
 
-
-Authors: Hannah Förster
-
-Copyright: (c) Öko-Institut (2023)
-
-Contact: oedb@oeko.de
-
-License: CC BY 4.0
-
-Attribution: Öko-Institut (2023): Comparing data - Enable scenario projection comparison on the Open Energy Platform
-
-Last update: 2023-02-27
+##### Authors: Hannah Förster. Copyright: (c) Öko-Institut (2023). Contact: oedb@oeko.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2023): Comparing data - Enable scenario projection comparison on the Open Energy Platform. Last update: 2023-02-27

@@ -1,10 +1,9 @@
-Authors: Hannah Förster, Anne Siemons (Öko-Institut)
-License: CC BY 4.0: [https://creativecommons.org/licenses/by/4.0/deed.en](https://creativecommons.org/licenses/by/4.0/deed.en)
-Last update: 2022-02-24
+# :material-account-question-outline: Questions
+**Disclaimer: This FAQ tutorial will grow over time and answer key questions for using the [Open Energy Platform (OEP)](https://www.openenergy-platform.org).**
 
-**Disclaimer: This FAQ tutorial will grow over time and answer key questions for using the Open Energy Platform (OEP).**
+---
 
-### Search: How do I search for data on the OEP?
+## Search: How do I search for data on the OEP?
 
 There is search functionality under [Database](https://openenergy-platform.org/dataedit/schemas). Use the search bar for free text and / or combine it with tags that are presented below the search bar. This will search through data and metadata and reduce the list of schemas to the list where your search term(s) were found. Click on the schema name and then see all the tables that conform to your search term(s). Alternatively, you can enter any scheme and search within the scheme in the same way. Here is a **[short tutorial with a visual on combining free text search and tags](tutorials/search/18_find_data.md)**.
 
@@ -18,21 +17,21 @@ Cloning the OEP is described in the **[GitHub repository *oeplatform*](https://g
 
 ## Data download: How can I download data tables from the OEP without the need to use the API
 
-You can download data table as csv and as datapackage. It is really easy and [described in this short tutorial](https://openenergyplatform.github.io/tutorial/tutorials/download/19_download/).
+You can download data table as csv and as datapackage. It is really easy and [described in this short tutorial](tutorials/download/19_download.md).
 
 ---
 
 ## Data upload: How can I upload data tables to the OEP when I am not familiar working with APIs?
 
-If you want to use an interface, you can **upload data tables with our [Upload Wizard](https://openenergy-platform.org/dataedit/wizard/)**. How to use it, is described in the corresponding **[Upload Wizard Tutorial](https://openenergyplatform.github.io/tutorial/tutorials/upload/12_wizard/)**.
+If you want to use an interface, you can **upload data tables with our [Upload Wizard](https://openenergy-platform.org/dataedit/wizard/)**. How to use it, is described in the corresponding **[Upload Wizard Tutorial](tutorials/upload/12_wizard.md)**.
 
-If you would like to learn how to **upload data tables with the API**, we recommend our **[Beginners Guide (Section 2.1)](https://openenergyplatform.github.io/tutorial/tutorials/upload/11_beginners_guide/).** This guide includes code snippets that you can use to get familiar to this approach.
+If you would like to learn how to **upload data tables with the API**, we recommend our **[Beginners Guide (Section 2.1)](tutorials/upload/11_beginners_guide.md).** This guide includes code snippets that you can use to get familiar to this approach.
 
 ---
 
 ## Data upload: How can I upload data to the OEP using the API?
 
-You can read the **[API documentation](https://oep-data-interface.readthedocs.io/en/latest/api/how_to.html)** and then build your custom queries for data upload. The **[Beginners Guide (Section 2.1)](https://openenergyplatform.github.io/tutorial/tutorials/upload/11_beginners_guide/)** provides some code snippets if you want to take a short-cut.
+You can read the **[API documentation](https://oep-data-interface.readthedocs.io/en/latest/api/how_to.html)** and then build your custom queries for data upload. The **[Beginners Guide (Section 2.1)](tutorials/upload/11_beginners_guide.md)** provides some code snippets if you want to take a short-cut.
 
 ---
 
@@ -59,5 +58,8 @@ We also recommend to consult our **[How-to-participate guide](https://github.com
 ## OEP development: How can I contribute?
 
 The whole development process of the OEP is Open Source, thus anyone can contribute to the OEP development. To do so, please read the **[contributing.md](https://github.com/OpenEnergyPlatform/oeplatform/blob/develop/CONTRIBUTING.md)** carefully.
+
+---
+##### Authors: Hannah Förster (Öko-Institut). Copyright: Öko-Institut (2022). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Questions. Last update: 2023-03-16
 
 ---

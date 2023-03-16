@@ -1,11 +1,5 @@
 # Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process
 
-Authors: Hannah Förster, Victoria Liste, Christian Winger (all Öko-Institut)
-Copyright: Öko-Institut
-License: CC BY 4.0: <https://creativecommons.org/licenses/by/4.0/deed.en>
-Attribution: Öko-Institut: Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process
-Last update: 2023-01-11
-
 # About this guide
 
 This document describes how to upload data to the [OpenEnergy Platform](https://openenergy-platform.org/) (OEP) using [Python](https://www.python.org/) and the [REST-API](https://en.wikipedia.org/wiki/Representational_state_transfer) as well as a description on how to initiate the review process of that data.
@@ -367,3 +361,7 @@ This document described how to upload data and metadata to the OpenEnergy Platfo
     - When you are done – click on **Submit all**.
 
 - Ideally you will continue to create one Factsheet for each category to complete your contribution.
+
+---
+##### Authors: Hannah Förster, Victoria Liste, Christian Winger (all Öko-Institut). Copyright: Öko-Institut (2021). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut: Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process. Last update: 2023-01-11
+---

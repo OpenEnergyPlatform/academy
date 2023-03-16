@@ -1,9 +1,5 @@
 # Create and upload table from csv using the platform wizard
 
-Author: Christian Winger (Öko-Institut)
-License: CC BY 4.0: <https://creativecommons.org/licenses/by/4.0/deed.en>
-Last update: 2021-03-04
-
 ## Prerequisites
 
 We are using the following example csv `my_table.csv`, exported from Excel using semicolon as a delimiter and encoded in utf-8.
@@ -56,3 +52,7 @@ We are logged in on the open energy platform
   ![](https://openenergy-platform.org/media/image/2021/02/tutorial_upload_img5.png)
 
 * If everything checks out, click `Upload`
+
+---
+##### Author: Christian Winger (Öko-Institut). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Last update: 2021-03-04
+---
