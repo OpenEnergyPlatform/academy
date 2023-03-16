@@ -70,6 +70,7 @@ plugins:
       logo:
         sirop: SIROP_logo_50.png
         oep: OEP_logo_2_no_text.svg
+        bmwk: BMWK_Logo_mit_Foerderzusatz_en.png
 
 extra:
   generator: false
