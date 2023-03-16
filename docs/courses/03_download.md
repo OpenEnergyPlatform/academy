@@ -49,18 +49,10 @@ with it and save the results to a file.
 
 :oep-icon-info: Our current [scenario factsheets](https://openenergy-platform.org/factsheets/scenarios/) provide some dedicated information about specific scenarios for which projection data is available on the OEP. Please note, however, that their format was developed some time ago and they will undergo substantial updates. In the future, these scenario factsheets will be succeeded by [study factsheets (alpha)](https://openenergy-platform.org/factsheets/rdf/study/) that will hold more functionality. These improved factsheets will be based on RDF and the Open Energy Knowledge Graph (OEKG) which is currently under heavy development. Please note that this is therefore just a preview and not a fully functional feature yet.
 
-## About this training bundle
+---
+
+## About this course
 
 :oep-logo-sirop:
 
-Authors: Hannah Förster, Anne Siemons
-
-Copyright: (c) Öko-Institut (2022)
-
-Contact: oedb@oeko.de
-
-License: CC BY 4.0
-
-Attribution: Öko-Institut (2022): Download - Find and download / interact with data
-
-Last update: 2023-02-09
+Authors: Hannah Förster, Anne Siemons. Copyright: (c) Öko-Institut (2022). Contact: oedb@oeko.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Download - Find and download / interact with data. Last update: 2023-02-09

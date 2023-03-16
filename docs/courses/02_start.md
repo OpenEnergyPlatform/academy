@@ -45,18 +45,8 @@ If you do not yet have a github account, you need to [register with github](http
 
 A response will not be immediate. Please wait until you receive an invitation to the github group.
 
-## About this training bundle
-
+---
+## About this course
 :oep-logo-sirop:
 
-Authors: Hannah Förster
-
-Copyright: (c) Öko-Institut (2023)
-
-Contact: oedb@oeko.de
-
-License: CC BY 4.0
-
-Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform
-
-Last update: 2023-02-09
+Authors: Hannah Förster. Copyright: (c) Öko-Institut (2023). Contact: oedb@oeko.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform. Last update: 2023-02-09

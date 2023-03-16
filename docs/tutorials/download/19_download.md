@@ -9,6 +9,6 @@ You can download any data table on the OEP.  Both downloads include the correspo
 
 ---
 
-##### Authors: Hannah Förster (Öko-Institut). Copyright: Öko-Institut (2022). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): How to download data from the OEP - CSV and datapackage. Last update: 2023-03-16
+Authors: Hannah Förster (Öko-Institut). Copyright: Öko-Institut (2022). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): How to download data from the OEP - CSV and datapackage. Last update: 2023-03-16
 
 ---

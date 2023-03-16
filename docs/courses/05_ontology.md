@@ -175,4 +175,4 @@ Learn about the concepts behind the OEO (external link).
 
 :oep-logo-sirop:
 
-##### Authors: Ulf Mueller, Mirjam Stappel, Hannah Förster, Christian Winger. Copyright: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut. Contact: SIROP@iee.fraunhofer.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2023-02-08
+Authors: Ulf Mueller, Mirjam Stappel, Hannah Förster, Christian Winger. Copyright: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut. Contact: SIROP@iee.fraunhofer.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2023-02-08

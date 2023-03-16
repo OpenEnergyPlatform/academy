@@ -8,5 +8,5 @@ The example below exemplarily shows you how to use free-text (*parameters*) and 
 [<img src="https://openenergy-platform.org/media/image/2022/09/grafik.png" width="75%">](https://openenergy-platform.org/dataedit/view/scenario?query=parameters&tags=271)
 
 ---
-##### Authors: Hannah Förster, (Öko-Institut). Copyright: Öko-Institut. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Find data on the OEP. Last update: 2022-11-01
+Authors: Hannah Förster, (Öko-Institut). Copyright: Öko-Institut. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Find data on the OEP. Last update: 2022-11-01
 ---

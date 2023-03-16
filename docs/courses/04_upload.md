@@ -51,13 +51,10 @@ If you are interested in using the SQLAlchemy dialect, this tutorial is for you.
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand to upload your data and metadata to the OEP.
 
-## About this training bundle
+---
+
+## About this course
 
 :oep-logo-sirop:
 
-Authors: Hannah Förster, Anne Siemons
-Copyright: (c) Öko-Institut (2022)
-Contact: oedb@oeko.de
-License: CC BY 4.0
-Attribution: Öko-Institut (2022): Upload - Contribute data to the OEP
-Last update: 2023-02-09
+Authors: Hannah Förster, Anne Siemons. Copyright: (c) Öko-Institut (2022). Contact: oedb@oeko.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Upload - Contribute data to the OEP. Last update: 2023-02-09

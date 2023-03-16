@@ -1,4 +1,4 @@
-# :material-account-question-outline: Questions
+#  Questions
 **Disclaimer: This FAQ tutorial will grow over time and answer key questions for using the [Open Energy Platform (OEP)](https://www.openenergy-platform.org).**
 
 ---
