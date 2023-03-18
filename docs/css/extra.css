@@ -5,3 +5,11 @@
   /* --md-text-font-color:         #ffffff;  */
   /* --md-primary-fg-color--light: #ECB7B7; */
 }
+
+/* https://github.com/OpenEnergyPlatform/academy/issues/161
+make font in section after #about-this-course small
+*/
+
+#about-this-course ~ * {
+  font-size: x-small;
+}

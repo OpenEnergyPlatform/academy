@@ -55,4 +55,8 @@ with it and save the results to a file.
 
 :oep-logo-sirop:
 
-Authors: Hannah Förster, Anne Siemons. Copyright: (c) Öko-Institut (2022). Contact: oedb@oeko.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Download - Find and download / interact with data. Last update: 2023-02-09
+- Authors: Hannah Förster, Anne Siemons
+- Copyright: (c) Öko-Institut (2022)
+- Contact: oedb@oeko.de
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Öko-Institut (2022): Download - Find and download / interact with data. Last update: 2023-02-09
