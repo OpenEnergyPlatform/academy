@@ -1,4 +1,5 @@
-#  Questions
+# Questions
+
 **Short answers to urgent questions regarding the [Open Energy Platform (OEP)](https://www.openenergy-platform.org) and other [Open Energy Family(OEF)](https://github.com/OpenEnergyPlatform) Members.**
 
 ---
@@ -11,7 +12,7 @@ There is search functionality under [Database](https://openenergy-platform.org/d
 
 ## Clone: How do I clone the OEP?
 
-Cloning the OEP is described in the **[GitHub repository *oeplatform*](https://github.com/OpenEnergyPlatform/oeplatform#readme)**.
+Cloning the OEP is described in the **[GitHub repository _oeplatform_](https://github.com/OpenEnergyPlatform/oeplatform#readme)**.
 
 ---
 
@@ -37,19 +38,19 @@ You can read the **[API documentation](https://oep-data-interface.readthedocs.io
 
 ## Licenses: How do I find the license of a data table?
 
-Each table published on the OEP comes with metadata information attached. Metadata is displayed below the data table. If the contributor of the data table has provided the information, you will find the license under which you can re-use the data in the metadata under *Licenses*. Example: [**Global warming potentials from IPCC Assessment Reports**](https://openenergy-platform.org/dataedit/view/climate/szenariendb_gwp). Look for this part of the metadata:  ![](https://openenergy-platform.org/media/image/2021/08/sirop-license_GcOJaRJ.png)
+Each table published on the OEP comes with metadata information attached. Metadata is displayed below the data table. If the contributor of the data table has provided the information, you will find the license under which you can re-use the data in the metadata under _Licenses_. Example: [**Global warming potentials from IPCC Assessment Reports**](https://openenergy-platform.org/dataedit/view/climate/szenariendb_gwp). Look for this part of the metadata: ![](https://openenergy-platform.org/media/image/2021/08/sirop-license_GcOJaRJ.png)
 
 ---
 
 ## Metadata review: How can I contribute?
 
-Currently, the data review takes place in the **[GitHub repository *data-preprocessing*](https://github.com/OpenEnergyPlatform/data-preprocessing/issues)**. If you are interested to support with reviews, please read the **[manual on data review](https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)** and **[get in touch with us](https://openenergy-platform.org/contact/)**, so we can **[add you to the reviewer team](https://github.com/orgs/OpenEnergyPlatform/teams/oemetadata-reviewer)**. Please let us know your GitHub handle when you get in touch.
+Currently, the data review takes place in the **[GitHub repository _data-preprocessing_](https://github.com/OpenEnergyPlatform/data-preprocessing/issues)**. If you are interested to support with reviews, please read the **[manual on data review](https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)** and **[get in touch with us](https://openenergy-platform.org/contact/)**, so we can **[add you to the reviewer team](https://github.com/orgs/OpenEnergyPlatform/teams/oemetadata-reviewer)**. Please let us know your GitHub handle when you get in touch.
 
 ---
 
 ## OEO development: How do I suggest a new term for the OEO?
 
-You can suggest new terms to the OEO by posting an issue in the **[GitHub repository *ontology*](https://github.com/OpenEnergyPlatform/ontology/issues)**.
+You can suggest new terms to the OEO by posting an issue in the **[GitHub repository _ontology_](https://github.com/OpenEnergyPlatform/ontology/issues)**.
 We follow a certain **[discussion workflow](https://github.com/OpenEnergyPlatform/ontology/wiki/Discussion-workflow)** and invite you to post issues based on this workflow.
 We also recommend to consult our **[How-to-participate guide](https://github.com/OpenEnergyPlatform/ontology/wiki/Welcome!-How-to-participate)** on the OEO's Wiki.
 
@@ -60,8 +61,9 @@ We also recommend to consult our **[How-to-participate guide](https://github.com
 The whole development process of the OEP is Open Source, thus anyone can contribute to the OEP development. To do so, please read the **[contributing.md](https://github.com/OpenEnergyPlatform/oeplatform/blob/develop/CONTRIBUTING.md)** carefully.
 
 ---
+
 ## About the question section
 
- Authors: Hannah Förster (Öko-Institut). Copyright: Öko-Institut (2022). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Questions. Last update: 2023-03-16
+Authors: Hannah Förster (Öko-Institut). Copyright: Öko-Institut (2022). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Questions. Last update: 2023-03-16
 
 ---

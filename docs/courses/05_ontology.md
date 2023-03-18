@@ -164,10 +164,10 @@ Learn about the concepts behind the OEO (external link).
 - GitHub's [Getting Started page](https://docs.github.com/en/github/getting-started-with-github)
 - Protégé's [user guides](https://protegeproject.github.io/protege/)
 - BOOKS:
-    - Arp, Smith and Spear (2015) Building Ontologies with Basic Formal Ontology
-    - Keet (2018), Introduction to Ontology Engineering
-    - The classic Manchester [tutorial](http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/) on OWL and Protégé
-    - BFO and ontologies [tutorial](https://www.youtube.com/watch?v=p0buEjR3t8A&list=PLyngZgIl3WTg5f36E7r3W5px_58OOWE5I) by Barry Smith
+  - Arp, Smith and Spear (2015) Building Ontologies with Basic Formal Ontology
+  - Keet (2018), Introduction to Ontology Engineering
+  - The classic Manchester [tutorial](http://owl.cs.manchester.ac.uk/publications/talks-and-tutorials/protg-owl-tutorial/) on OWL and Protégé
+  - BFO and ontologies [tutorial](https://www.youtube.com/watch?v=p0buEjR3t8A&list=PLyngZgIl3WTg5f36E7r3W5px_58OOWE5I) by Barry Smith
 
 ---
 

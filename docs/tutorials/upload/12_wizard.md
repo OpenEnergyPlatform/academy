@@ -22,40 +22,41 @@ We are logged in on the open energy platform
 
 ## Create table using the wizard
 
-* On the platform go to the [database section](https://openenergy-platform.org/dataedit/schemas)
- ![](https://openenergy-platform.org/media/image/2021/02/tutorial_upload_img1.png)
-* Go to the [Create Table](https://openenergy-platform.org/dataedit/wizard/) section of the wizard.
-![](https://openenergy-platform.org/media/image/2021/02/tutorial_upload_img2.png)
-* enter a valid table name (only lowercase, only characters, number and underscore)
-* add your data columns with the appropriate [postgresql data types](https://www.postgresql.org/docs/current/datatype.html)
-* small popup windows give hints or explanation
-* the first column must always be a numerical type named `id`. The wizard has this as a default.
-* we don't have to use all the columns from the csv file and we also don#t have to use the same names, these can be mapped later. In this example, we use the following columns:
-![](https://openenergy-platform.org/media/image/2021/02/tutorial_upload_img3.png)
-* Click on `Create table`
-* if successful, you are redirected to upload section
+- On the platform go to the [database section](https://openenergy-platform.org/dataedit/schemas)
+  ![](https://openenergy-platform.org/media/image/2021/02/tutorial_upload_img1.png)
+- Go to the [Create Table](https://openenergy-platform.org/dataedit/wizard/) section of the wizard.
+  ![](https://openenergy-platform.org/media/image/2021/02/tutorial_upload_img2.png)
+- enter a valid table name (only lowercase, only characters, number and underscore)
+- add your data columns with the appropriate [postgresql data types](https://www.postgresql.org/docs/current/datatype.html)
+- small popup windows give hints or explanation
+- the first column must always be a numerical type named `id`. The wizard has this as a default.
+- we don't have to use all the columns from the csv file and we also don#t have to use the same names, these can be mapped later. In this example, we use the following columns:
+  ![](https://openenergy-platform.org/media/image/2021/02/tutorial_upload_img3.png)
+- Click on `Create table`
+- if successful, you are redirected to upload section
 
 ## Upload a csv file using the wizard
 
-* The title shows the selected table name and the number of rows currently in it (you can upload multiple times)
-* You may specify the csv file encoding and delimiter character, or leave it blank for automatic detection (which may be wrong though). The `Header` checkbox is activated to indicate that the first line in the file contains column names.
-* You can click on `Show example csv for current configuration` to see an example snippet of a valid csv file for your table
-* Click on `Browse` and select your csv file from your local drive.
-* You can click on `Show preview` to see the first few lines of your file. This may help to detect encoding errors.
+- The title shows the selected table name and the number of rows currently in it (you can upload multiple times)
+- You may specify the csv file encoding and delimiter character, or leave it blank for automatic detection (which may be wrong though). The `Header` checkbox is activated to indicate that the first line in the file contains column names.
+- You can click on `Show example csv for current configuration` to see an example snippet of a valid csv file for your table
+- Click on `Browse` and select your csv file from your local drive.
+- You can click on `Show preview` to see the first few lines of your file. This may help to detect encoding errors.
 
 ![](https://openenergy-platform.org/media/image/2021/02/tutorial_upload_img4.png)
 
-* Map the columns from your csv file to the columns in your database. Columns with the same name are automatically filled out for you.
-* In our example, we ignore the columns `center_lon`, `center_lat` and `area_km2` and rename `rs` to `region_key`
-* While you change the column mappings, the preview below shows the application of the mapping for the first few rows.
+- Map the columns from your csv file to the columns in your database. Columns with the same name are automatically filled out for you.
+- In our example, we ignore the columns `center_lon`, `center_lat` and `area_km2` and rename `rs` to `region_key`
+- While you change the column mappings, the preview below shows the application of the mapping for the first few rows.
 
   ![](https://openenergy-platform.org/media/image/2021/02/tutorial_upload_img5.png)
 
-* If everything checks out, click `Upload`
+- If everything checks out, click `Upload`
 
 ---
 
 ## About this tutorial
+
 Author: Christian Winger (Öko-Institut). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Last update: 2021-03-04
 
 ---

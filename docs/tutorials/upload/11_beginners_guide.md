@@ -18,37 +18,37 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 - Create factsheets
 
-# 1.  Things you only need to do once
+# 1. Things you only need to do once
 
 ## 1.1. Register at the OpenEnergy Platform
 
 - Registration
 
-    - Click [Login](https://openenergy-platform.org/user/login/?next=/) button on Homepage and choose the option **Create a new account.**
+  - Click [Login](https://openenergy-platform.org/user/login/?next=/) button on Homepage and choose the option **Create a new account.**
 
-    - OR: go directly to <https://openenergy-platform.org/user/register>:
+  - OR: go directly to <https://openenergy-platform.org/user/register>:
 
-        ![](https://openenergy-platform.org/media/image/2020/12/register.png)
+    ![](https://openenergy-platform.org/media/image/2020/12/register.png)
 
-    - Fill out the required fields and click on **Submit.**
+  - Fill out the required fields and click on **Submit.**
 
-    - You will receive an activation email, sent to your email address.
+  - You will receive an activation email, sent to your email address.
 
-    - Follow the instructions received in the email.
+  - Follow the instructions received in the email.
 
-    - After successfully activating and logging into your account, you will see your information as in the screenshot below:
+  - After successfully activating and logging into your account, you will see your information as in the screenshot below:
 
-        ![](https://openenergy-platform.org/media/image/2020/12/apitoken.png)
+    ![](https://openenergy-platform.org/media/image/2020/12/apitoken.png)
 
-    - API-Token
+  - API-Token
 
-        - The API token is necessary to make authenticated requests to the API.
+    - The API token is necessary to make authenticated requests to the API.
 
-        - After you logged into the OEP, click the member icon at the upper right corner:
+    - After you logged into the OEP, click the member icon at the upper right corner:
 
-            ![](https://openenergy-platform.org/media/image/2020/12/logout.png)
+      ![](https://openenergy-platform.org/media/image/2020/12/logout.png)
 
-        - You can find your API-Token under **Your Security Information** by clicking on **Show token:**
+    - You can find your API-Token under **Your Security Information** by clicking on **Show token:**
 
 ## 1.2. Register at github and get invited to OpenEnergyPlatform Group
 
@@ -56,27 +56,27 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 - You will then need to become a member of the group OpenEnergyPlatform: <https://github.com/OpenEnergyPlatform> by getting invited to the group. This works as follows:
 
-    - Get in touch via the contact form on the OpenEnergyPlatform: <https://openenergy-platform.org/contact/>.
+  - Get in touch via the contact form on the OpenEnergyPlatform: <https://openenergy-platform.org/contact/>.
 
-    - Fill in the form with your request to be added to the OpenEnergyPlatform group on github. An example text is provided in the screenshot below.
+  - Fill in the form with your request to be added to the OpenEnergyPlatform group on github. An example text is provided in the screenshot below.
 
-        ![](https://openenergy-platform.org/media/image/2020/12/contact.png)
+    ![](https://openenergy-platform.org/media/image/2020/12/contact.png)
 
-    - A response will not be immediate. Please wait until you receive an invitation to the github group. Only then you will be able to upload metadata and initiate data review.
+  - A response will not be immediate. Please wait until you receive an invitation to the github group. Only then you will be able to upload metadata and initiate data review.
 
-# 2.  Things you will need to do any time you contribute new data and metadata
+# 2. Things you will need to do any time you contribute new data and metadata
 
 ## 2.1. Create and upload data table(s)
 
-*Prerequisite for this step is that you are a registered user on openenergy-platform.org*
+_Prerequisite for this step is that you are a registered user on openenergy-platform.org_
 
 **OPTION: CSV WIZARD:** If you do not want to upload tables via the API, you can do so using the CSV-Wizard. Please consult [this tutorial](12_wizard.md) and **then continue reading Section 2.2**
 
-*Please note: code snippets below are shown to highlight specific instances of a sequence of code. You find a complete sample code that you can copy & paste and try under 2.1.4* Complete code for one example*.*
+_Please note: code snippets below are shown to highlight specific instances of a sequence of code. You find a complete sample code that you can copy & paste and try under 2.1.4_ Complete code for one example*.*
 
 - The REST-API can be used with any language than can make HTTP(s) requests.
 
-- Most requests require you to add an authorization header: Authorization: **Token API\_TOKEN**, where you substitute **API\_TOKEN** with your token as described above.
+- Most requests require you to add an authorization header: Authorization: **Token API_TOKEN**, where you substitute **API_TOKEN** with your token as described above.
 
 - All requests (and most responses) will use json data as payload (the actual data content of the request).
 
@@ -177,7 +177,7 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 - Let's say you have an Excel workbook named **CountryValues.xlsx**, with a worksheet named **data** as depicted below:
 
-    ![](https://openenergy-platform.org/media/image/2020/12/excel.png)
+  ![](https://openenergy-platform.org/media/image/2020/12/excel.png)
 
 - Your API-Token is **xxxxxxxxxxxxx**, and your desired table name shall be `my_example_table`. Please note that, while it is highly unlikely, there may already exist a table with this particular name created by another person. If this is the case, the example below will not work. Then, please choose another name for your table and substitute every instance with 'my_example_table' below with the name you have chosen.
 
@@ -290,7 +290,7 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 ## 2.2. Create metadata
 
-- You must save your meta data in a json file  following the examples from [github](https://github.com/OpenEnergyPlatform/examples/blob/master/metadata/oep_metadata_template.json). (A plain text file with the suffix .json, following the JSON specifications. Here is one of many tutorials for that: <https://www.digitalocean.com/community/tutorials/an-introduction-to-json>)
+- You must save your meta data in a json file following the examples from [github](https://github.com/OpenEnergyPlatform/examples/blob/master/metadata/oep_metadata_template.json). (A plain text file with the suffix .json, following the JSON specifications. Here is one of many tutorials for that: <https://www.digitalocean.com/community/tutorials/an-introduction-to-json>)
 
 - A documentation of the OEP metadata standard can be found [here](https://github.com/OpenEnergyPlatform/oemetadata/blob/master/metadata/latest/metadata_key_description.md). This can guide you what information to put where and in which format.
 
@@ -298,29 +298,29 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 - Then upload metadata to github as described below.
 
-*Prerequisite for this step is that you have a github account and you are member of the OpenEnergy Platform group on github.*
+_Prerequisite for this step is that you have a github account and you are member of the OpenEnergy Platform group on github._
 
-- Once your data table(s) have been uploaded to *model_draft* schema on the OpenEnergy Platform, you will need to submit this information and the metadata to github into the [data-preprocessing repository](https://github.com/OpenEnergyPlatform/data-preprocessing/tree/master/data-review)
+- Once your data table(s) have been uploaded to _model_draft_ schema on the OpenEnergy Platform, you will need to submit this information and the metadata to github into the [data-preprocessing repository](https://github.com/OpenEnergyPlatform/data-preprocessing/tree/master/data-review)
 
 - In the [data-review folder](https://github.com/OpenEnergyPlatform/data-preprocessing/tree/master/data-review) you need to **create a new branch** with a suitable name for your data:
 
-    - Click [upload files](https://github.com/OpenEnergyPlatform/data-preprocessing/upload/master/data-review)
+  - Click [upload files](https://github.com/OpenEnergyPlatform/data-preprocessing/upload/master/data-review)
 
-        - Select your meta data json file(s)
+    - Select your meta data json file(s)
 
-        - Describe the files and context, to make it easier for the reviewer.
+    - Describe the files and context, to make it easier for the reviewer.
 
-        - At the end of the form create the new branch **/review/###NAME###** and give it a suitable name (e.g. name of the scenario)
+    - At the end of the form create the new branch **/review/###NAME###** and give it a suitable name (e.g. name of the scenario)
 
-      ![](https://openenergy-platform.org/media/image/2020/12/review.png)
+    ![](https://openenergy-platform.org/media/image/2020/12/review.png)
 
 ## 2.3. Initiate review
 
-*Prerequisite for this step is that you have a github account and you are member of the OpenEnergy Platform group.*
+_Prerequisite for this step is that you have a github account and you are member of the OpenEnergy Platform group._
 
 - Create a new issue in the [data-preprocessing](https://github.com/OpenEnergyPlatform/data-preprocessing/issues) repository to describe your recent upload and the context:
 
-    ![](https://openenergy-platform.org/media/image/2020/12/issue.png)
+  ![](https://openenergy-platform.org/media/image/2020/12/issue.png)
 
 - See an example issue here: <https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27>
 
@@ -328,7 +328,7 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 - Select the label **review**.
 
-    ![](https://openenergy-platform.org/media/image/2020/12/review2.png)
+  ![](https://openenergy-platform.org/media/image/2020/12/review2.png)
 
 - Now you have completed the whole process from your side. All you need to do now is to wait until a reviewer has dedicated time to review your data. If you have not enabled email-notifications in github, we suggest you check back into the issue you created on a regular basis.
 
@@ -342,29 +342,30 @@ This document described how to upload data and metadata to the OpenEnergy Platfo
 
 - Select a suitable factsheet category from the drop-down menu
 
-    - Frameworks: to describe the fundamental structure or toolbox to build a model, e.g. TIMES
+  - Frameworks: to describe the fundamental structure or toolbox to build a model, e.g. TIMES
 
-    - Models: to describe a model that has been used to run a scenario; ideally this relates to a scenario for which you have uploaded data to the OEP.
+  - Models: to describe a model that has been used to run a scenario; ideally this relates to a scenario for which you have uploaded data to the OEP.
 
-    - Scenarios: to describe a scenario; ideally one for which you have uploaded data to the OEP already.
+  - Scenarios: to describe a scenario; ideally one for which you have uploaded data to the OEP already.
 
 - Each category has a plus button next to the title to access the fill out form
 
 - Scenario Factsheet option offers you to create a new scenario factsheet for a new study or add a Scenario Factsheet to an existing study.
 
-    ![](https://openenergy-platform.org/media/image/2020/12/factsheet.png)
+  ![](https://openenergy-platform.org/media/image/2020/12/factsheet.png)
 
 - Fill out the interactive fields and choose from the pre-defined responses
 
-    - There are different tabs including further required fields marked with a *.
+  - There are different tabs including further required fields marked with a \*.
 
-    - When you are done – click on **Submit all**.
+  - When you are done – click on **Submit all**.
 
 - Ideally you will continue to create one Factsheet for each category to complete your contribution.
 
 ---
 
-## About this tutorial 
+## About this tutorial
+
 Authors: Hannah Förster, Victoria Liste, Christian Winger (all Öko-Institut). Copyright: Öko-Institut (2021). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut: Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process. Last update: 2023-01-11
 
 ---

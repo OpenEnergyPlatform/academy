@@ -23,3 +23,8 @@ repos:
         additional_dependencies:
             - flake8-black>=0.1.1
         args: ["--max-line-length=88", "--ignore=E20,W503"] # black compatible
+-   repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.0.0-alpha.6
+    hooks:
+    -   id: prettier
+        files: \.(css|less|md|json|sql)$

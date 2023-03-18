@@ -35,7 +35,7 @@ You can find your API-Token under _Your Security Information_ by clicking on _Sh
 
 :oep-icon-info: **Why register with github?**
 
-When you interact with the OEP you also interact with the Open Energy Family (OEF). The development of the OEF and OEP is a community effort that takes place openly at [github](https://www.github.com>) in the github group [Open Energy Platform](https://github.com/OpenEnergyPlatform). There, the various family members of the OEF are developed in different [repositories](<<https://github.com/orgs/OpenEnergyPlatform/repositories>). We welcome you to also participate in their development. To be able to do so, you will thus need to register with github. You can do so at no cost.
+When you interact with the OEP you also interact with the Open Energy Family (OEF). The development of the OEF and OEP is a community effort that takes place openly at [github](https://www.github.com>) in the github group [Open Energy Platform](https://github.com/OpenEnergyPlatform). There, the various family members of the OEF are developed in different [repositories](<https://github.com/orgs/OpenEnergyPlatform/repositories). We welcome you to also participate in their development. To be able to do so, you will thus need to register with github. You can do so at no cost.
 
 :oep-icon-info: **How to register with github and become part of the Open Energy Family team?**
 
@@ -46,7 +46,9 @@ If you do not yet have a github account, you need to [register with github](http
 A response will not be immediate. Please wait until you receive an invitation to the github group.
 
 ---
+
 ## About this course
+
 :oep-logo-sirop:
 
 Authors: Hannah Förster. Copyright: (c) Öko-Institut (2023). Contact: oedb@oeko.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform. Last update: 2023-02-09

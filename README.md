@@ -9,11 +9,11 @@ The generated website is here: [https://openenergyplatform.github.io/academy/](h
 
 ## How to Contribute
 
-* place tutorials as markdown or juypter notebooks inside an appropriate section under `docs`.
-* in a local checkout (with installed dependencies), you can run `mkdocs build` to create the website in `site`
-* the website is created using [MkDocs](https://www.mkdocs.org/user-guide/writing-your-docs/)
+- place tutorials as markdown or juypter notebooks inside an appropriate section under `docs`.
+- in a local checkout (with installed dependencies), you can run `mkdocs build` to create the website in `site`
+- the website is created using [MkDocs](https://www.mkdocs.org/user-guide/writing-your-docs/)
   and the [Material Theme](https://squidfunk.github.io/mkdocs-material/reference/)
-* the website will be rebuild when pushing to `master` (and currently also `develop`)
+- the website will be rebuild when pushing to `master` (and currently also `develop`)
 
 ## License / Copyright
 
