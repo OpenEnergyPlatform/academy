@@ -5,7 +5,7 @@ site_description: A collection of courses, tutorials, and questions for the Open
 
 # Repository
 repo_name: OpenEnergyPlatform/tutorial
-repo_url: https://github.com/OpenEnergyPlatform/tutorial
+repo_url: https://github.com/OpenEnergyPlatform/academy
 docs_dir: docs
 
 # Configuration
