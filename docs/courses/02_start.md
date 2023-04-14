@@ -12,7 +12,7 @@ to register also with github.
 
 :oep-icon-info: **After reading the sections of this training course you will**
 
-- wants to interact as a user with the OEP
+- be able to interact as a user with the OEP
 - understand why a github account is needed to contribute to development
 - be able to register with github
 
@@ -25,7 +25,7 @@ You can also go directly to [Register](https://openenergy-platform.org/user/regi
 
 ![](https://openenergy-platform.org/media/image/2020/12/apitoken.png)
 
-The API token is necessary to make authenticated requests to the API. After you logged into the OEP, click the member icon at the upper right corner:
+The API token is necessary to make authenticated requests to the API. You will use the API in case you want to connect to the OEP using programming skills. After you logged into the OEP, click the member icon at the upper right corner:
 
 ![](https://openenergy-platform.org/media/image/2020/12/logout.png)
 
@@ -35,7 +35,7 @@ You can find your API-Token under _Your Security Information_ by clicking on _Sh
 
 :oep-icon-info: **Why register with github?**
 
-When you interact with the OEP you also interact with the Open Energy Family (OEF). The development of the OEF and OEP is a community effort that takes place openly at [github](https://www.github.com>) in the github group [Open Energy Platform](https://github.com/OpenEnergyPlatform). There, the various family members of the OEF are developed in different [repositories](<<https://github.com/orgs/OpenEnergyPlatform/repositories).> We welcome you to also participate in their development. To be able to do so, you will thus need to register with github. You can do so at no cost.
+When you interact with the OEP you also interact with the Open Energy Family (OEF). The development of the OEF and OEP is a community effort that takes place openly at github in the github group [Open Energy Platform](https://github.com/OpenEnergyPlatform). There, the various family members of the OEF are developed in different [repositories](https://github.com/orgs/OpenEnergyPlatform/repositories).> We welcome you to also participate in their development. To be able to do so, you will thus need to register with github. You can do so at no cost.
 
 :oep-icon-info: **How to register with github and become part of the Open Energy Family team?**
 
