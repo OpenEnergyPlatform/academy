@@ -47,10 +47,10 @@ Below we summarise this in a tabular format for easy reference. We name the vari
 |  Data |Suggested unit   | Note   |
 |---|---|---|
 |  [GDP](https://openenergy-platform.org/ontology/oeo/OEO_00140013) |Million Euro (base year)   |  real monetary values allow easier comparison |
-|  [Gross value added](https://openenergy-platform.org/ontology/oeo/OEO_00140023) per sector | Milltion Euro (base year)  | real monetary values allow easier comparison  |
+|  [Gross value added](https://openenergy-platform.org/ontology/oeo/OEO_00140023) per sector | Million Euro (base year)  | real monetary values allow easier comparison  |
 | [Population](https://openenergy-platform.org/ontology/oeo/OEO_00230013)  | persons   |   |
 |  International [natural gas](https://openenergy-platform.org/ontology/oeo/OEO_00000292) [import price](https://openenergy-platform.org/ontology/oeo/OEO_00240036) | Euro (base year) / MWh   | real monetary values allow easier comparison  |
-| International [crude oil](https://openenergy-platform.org/ontology/oeo/OEO_00000115) import price  | Euro (base year ) / MWh   | real monetary values allow easier comparison  |
+| International [crude oil](https://openenergy-platform.org/ontology/oeo/OEO_00000115) import price  | Euro (base year) / MWh   | real monetary values allow easier comparison  |
 | International [coal](https://openenergy-platform.org/ontology/oeo/OEO_00000088) import price   | Euro (base year) / MWh  | real monetary values allow easier comparison  |
 |Total [primary energy consumption](https://openenergy-platform.org/ontology/oeo/OEO_00050018)|MWh||
 |Primary energy consumption by [energy carrier](https://openenergy-platform.org/ontology/oeo/OEO_00020039)|MWh||
@@ -59,13 +59,13 @@ Below we summarise this in a tabular format for easy reference. We name the vari
 |Final energy consumption by energy carrier|MWh||
 |[Steel](https://openenergy-platform.org/ontology/oeo/OEO_00240034) production|Mt||
 |[Cement](https://openenergy-platform.org/ontology/oeo/OEO_00240029) production|Mt||
-|Number of passenger kilometres (all modes)|Million pkm||
-|Freight transport tonnes (all modes)|Million tkm||
+|Passenger [transport performance](http://openenergy-platform.org/ontology/oeo/OEO_00320000) (all modes)|Million [pkm](http://openenergy-platform.org/ontology/oeo/OEO_00320002)||
+|Freight [transport performance](http://openenergy-platform.org/ontology/oeo/OEO_00320000) (all modes)|Million [tkm](http://openenergy-platform.org/ontology/oeo/OEO_00320003)||
 |Heating degree days|°C temperature sum||
 |Cooling degree days|°C temperature sum||
 |Total [Generation capacity](https://openenergy-platform.org/ontology/oeo/OEO_00010257)|MW||
 |Generation capacity by energy carrier|MW||
-|[Energy storage](https://openenergy-platform.org/ontology/oeo/OEO_00000159) capacity|MWh||
+|[Energy storage](http://openenergy-platform.org/ontology/oeo/OEO_00230000)|MWh||
 |Grid restrictions|true/false||
 
 
