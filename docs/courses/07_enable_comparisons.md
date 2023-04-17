@@ -1,4 +1,4 @@
-# 06 - Comparing data - Enable scenario projection comparison (under development)
+# 06 - Comparing data - Enable scenario projection comparison
 
 This training course provides guidance on how you can document typical numerical data from climate and energy modelling so
 that the likelihood of a good-quality semi-automated scenario projection comparison based on the Open Enrgy Knowledgegraph (OEKG) increases.
@@ -18,13 +18,15 @@ that the likelihood of a good-quality semi-automated scenario projection compari
 
 The OEP allows you to contribute numerical data in any structure and in any unit you want to. This is an important design feature of the OEP: it allows for a broad contribution of scenario projection data from heterogenous backgrounds. By allowing this, the OEP makes it easy for its users to contribute their data, without forcing them to invest additional time to obey to a mandatory format.
 
-This potential heterogenity of how numerical data is structured and documented in terms of units, makes it challenging for semi-automated scenario projection comparisons to provide spot on reusults.
+This potential heterogenity of how numerical data is structured and documented in terms of units, makes it challenging for semi-automated scenario projection comparisons to provide spot on results.
 
 Thus we decided to provide some guidance on how to document your data so that the likelihood increases this data contributes to good quality semi-automated scenario projection comparisons that - sometime in the future - the OEKG will offer on the OEP.
 
-Below we compiled a limited list of key input- and output data to many energy system models. For those we suggest to report data in specific units that are commonly used. 
+Below we compiled a limited list of key input- and output data to many energy systems models. For those we suggest to report data in specific units.
 
-Below we summarise this in a tabular format for easy reference. If a variable / parameter is already represented in the [Open Energy Ontology](https://openenergy-platform.org/ontology/) (OEO) we linked to its definition the first time it occurs below. 
+Below we summarise this in a tabular format for easy reference. We name the variable / parameter and the unit we suggest you to report that information.
+
+ If a variable / parameter is already represented in the [Open Energy Ontology](https://openenergy-platform.org/ontology/) (OEO) we link to its definition the first time it occurs below so that you can check for its exact definition. 
 
 ## Key output data
 
