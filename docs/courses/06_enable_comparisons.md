@@ -32,8 +32,8 @@ Below we summarise this in a tabular format for easy reference. We name the vari
 
 |  Data |Suggested unit   | Note  |
 |---|---|---|
-|  [GHG emissions](https://openenergy-platform.org/ontology/oeo/OEO_00140082) per sector |Mt [CO2e](https://openenergy-platform.org/ontology/oeo/OEO_00140083)   |per [CRF sector](https://openenergy-platform.org/ontology/oeo/OEO_00010402) if possible|
-| CO2 emissions  | Mt CO2e |  per CRF sector if possible |
+|  [GHG emissions](https://openenergy-platform.org/ontology/oeo/OEO_00140082) per sector |Mt [CO2e](https://openenergy-platform.org/ontology/oeo/OEO_00140083)   | if possible by sector using a [CRF sector division]([https://openenergy-platform.org/ontology/oeo/OEO_00010402](http://openenergy-platform.org/ontology/oeo/OEO_00010055)) or a [CRF-based sector division](https://openenergy-platform.org/ontology/oeo/OEO_00010402) |
+| [CO2 emissions](http://openenergy-platform.org/ontology/oeo/OEO_00260008)  | Mt CO2e |  if possible by sector using a CRF sector division or a CRF-based sector division |
 | [marginal cost](https://openenergy-platform.org/ontology/oeo/OEO_00040008) of electricity generation    | Euro (base year) / MWh   | real monetary values allow easier comparison |
 |[levelised cost of electricity](https://openenergy-platform.org/ontology/oeo/OEO_00020127) generation|Euro (base year) / MWh|real monetary values allow easier comparison|
 |net electricity imports|GWh||
