@@ -7,7 +7,8 @@ takes place on [GitHub](https://github.com/OpenEnergyPlatform/ontology).
 In the following sections of this course we have bundled information on
 how to get involved and how to contribute to the OEO.
 
-You can provide feedback to this course on github: https://github.com/OpenEnergyPlatform/academy/issues/167
+You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
+
 
 ## For whom is this training and what can you learn?
 
@@ -181,4 +182,4 @@ Learn about the concepts behind the OEO (external link).
 - Copyright: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut
 - Contact: SIROP@iee.fraunhofer.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2023-05-17
-- You can provide feedback to this course on github: https://github.com/OpenEnergyPlatform/academy/issues/167
+- You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
