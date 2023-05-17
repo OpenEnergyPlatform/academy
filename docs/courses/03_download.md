@@ -2,6 +2,8 @@
 
 Learn to find and download [data](https://openenergy-platform.org/dataedit/schemas) on the OEP.
 
+You can provide feedback to this course on github: https://github.com/OpenEnergyPlatform/academy/issues/165
+
 ## For whom is this training and what can you learn?
 
 :oep-icon-info: **This course is aimed at researchers, policy makers and any interested person, who**
@@ -59,4 +61,5 @@ with it and save the results to a file.
 - Copyright: (c) Öko-Institut (2022)
 - Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2022): Download - Find and download / interact with data. Last update: 2023-02-09
+- Attribution: Öko-Institut (2022): Download - Find and download / interact with data. Last update: 2023-05-17
+-You can provide feedback to this course on github: https://github.com/OpenEnergyPlatform/academy/issues/165
