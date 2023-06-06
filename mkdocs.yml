@@ -11,6 +11,7 @@ docs_dir: docs
 # Configuration
 theme:
     name: material
+    logo: data/img/OpenEnergyFamily_Logo_Academy_white.png
     locale: en
     include_sidebar: false
     palette:
@@ -72,8 +73,10 @@ plugins:
         oep: OEP_logo_2_no_text.svg
         bmwk: BMWK_Logo_mit_Foerderzusatz_en.png
 
+# Customization
 extra:
   generator: false
+  homepage: https://openenergy-platform.org/
 
 extra_css:
   - css/extra.css
