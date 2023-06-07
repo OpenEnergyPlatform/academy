@@ -30,7 +30,7 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 ## Who is involved in a review?
 
-## What are my tasks as a reviwer?
+## What are my tasks as a reviewer?
 
 ## #TODO include existing material
 
