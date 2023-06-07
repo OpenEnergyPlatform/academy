@@ -68,7 +68,7 @@ License and Citation
 .. |badge_repo_counts| image:: http://hits.dwyl.com/OpenEnergyPlatform/academy.svg
     :alt: counter
 
-.. |badge_contributors| image:: https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square
+.. |badge_contributors| image:: https://img.shields.io/github/all-contributors/OpenEnergyPlatform/academy/develop
     :alt: contributors
 
 .. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/OpenEnergyPlatform/academy
