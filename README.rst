@@ -1,5 +1,5 @@
 
-.. figure:: https://avatars2.githubusercontent.com/u/37101913?s=400&u=9b593cfdb6048a05ea6e72d333169a65e7c922be&v=4
+.. figure:: https://user-images.githubusercontent.com/14353512/244203755-9ced7f61-45e2-459c-961b-8d51653cee0e.png
     :align: left
     :target: https://openenergyplatform.github.io/academy/
     :alt: Repo logo
@@ -59,7 +59,7 @@ License and Citation
     :alt: License
 
 .. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/OpenEnergyPlatform/academy/gh-pages.yml?branch=production
-    :target: https://rl-institut.github.io/super-repo/
+    :target: https://openenergyplatform.github.io/academy/
     :alt: Documentation
 
 .. |badge_contributing| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
