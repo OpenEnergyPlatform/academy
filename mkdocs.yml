@@ -1,6 +1,6 @@
 # Project
 site_name: Open Energy Academy
-site_url:
+site_url: https://openenergyplatform.github.io/academy
 site_description: A collection of courses, tutorials, and questions for the Open Energy Family
 
 # Repository
@@ -40,6 +40,19 @@ theme:
       - search.suggest
       - search.share
 
+  icon:
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.tracking
+    - navigation.footer
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.share
 
 # Extensions
 markdown_extensions:

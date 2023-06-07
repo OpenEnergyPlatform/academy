@@ -1,7 +1,8 @@
 # 02 - How to get started with the Open Energy Family and Platform
 
-Learn how to register as a user with the Open Energy Platform (OEP) and why and how
-to register also with github.
+Learn how to register as a user with the Open Energy Platform (OEP) and why and how to register also with github.
+
+You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/164](https://github.com/OpenEnergyPlatform/academy/issues/164)
 
 ## For whom is this training and what can you learn?
 
@@ -55,4 +56,5 @@ A response will not be immediate. Please wait until you receive an invitation to
 - Copyright: (c) Öko-Institut (2023)
 - Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform. Last update: 2023-02-09
+- Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform. Last update: 2023-05-17
+- You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/164](https://github.com/OpenEnergyPlatform/academy/issues/164)
