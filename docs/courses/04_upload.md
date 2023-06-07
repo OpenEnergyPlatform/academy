@@ -48,7 +48,7 @@ This jupyter notebook tutorial teaches you how to upload data from a .csv file t
 
 If you are interested in using the SQLAlchemy dialect, this tutorial is for you. It shows you how to create and upload tables to the OEP using that dialect. This is a jupyter notebook tutorial.
 
-:oep-icon-code: [How to Upload Your Data and Metadata to the OEP](../tutorials/OEP_Upload_Process_Data_and_Metadata_oem2orm.ipynb) (tutorial):
+:oep-icon-code: [How to Upload Your Data and Metadata to the OEP](../tutorials/upload/OEP_Upload_Process_Data_and_Metadata_oem2orm.ipynb) (tutorial):
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand to upload your data and metadata to the OEP.
 
