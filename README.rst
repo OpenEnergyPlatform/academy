@@ -32,15 +32,14 @@ Open Energy Academy
 Introduction
 ============
 | A collection of training courses, tutorials, and questions.
-| .
-| The goal is to .
+| The goal is to provide easy access to the use and development of the OEFamily.
 
 Documentation
 =============
-| The documentation is created using `MkDocs <https://www.mkdocs.org/>`_ and the `Material Theme <https://squidfunk.github.io/mkdocs-material/reference/`_.
+| The documentation is created using `MkDocs <https://www.mkdocs.org/>`_ and the `Material Theme <https://squidfunk.github.io/mkdocs-material/reference/>`_.
 | All files are stored in the ``docs`` folder of the repository.
 | A **GitHub Actions** deploys the ``production`` branch on a **GitHub Page**.
-| The documentation page is `openenergyplatform.github.io/academy/ https://openenergyplatform.github.io/academy/`_
+| The documentation page is `openenergyplatform.github.io/academy/ <https://openenergyplatform.github.io/academy/>`_
 
 Collaboration
 =============
