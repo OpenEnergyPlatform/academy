@@ -22,7 +22,7 @@ Closes #
 ### PR-Assignee
 - [ ] 🐙 Follow the workflow in [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/academy/blob/production/CONTRIBUTING.md)
 - [ ] 📝 Update the [CHANGELOG.md](https://github.com/OpenEnergyPlatform/academy/blob/production/CHANGELOG.md)
-- [ ] 📙 Update the documentation
+- [ ] 🐙 Assign a reviewer to the PR
 
 ### Reviewer
 - [ ] 🐙 Follow the [Reviewer Guidelines](https://github.com/OpenEnergyPlatform/academy/blob/production/CONTRIBUTING.md#40-let-someone-else-review-your-pr)
