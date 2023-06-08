@@ -22,6 +22,7 @@ Here is a template for new release sections
 
 ### Added
 
+- Add the file CONTRIBUTE.md [(#194)](https://github.com/OpenEnergyPlatform/academy/pull/194)
 - Add new tutorial that introcudes to oemetadata #101
 - Add new tutorial that introduces to spatial query on the OEP.
 - secure way to deal with OEP API token
