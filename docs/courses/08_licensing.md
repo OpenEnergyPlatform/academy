@@ -31,7 +31,7 @@ addresses questionable edge cases and offers unambiguous terms.
 
 ## Open Data
 
-Data that lack a suitable open license cannot be considered open.
+Data that lack a suitable open license cannot be considered open.<br>
 The [Open Knowledge Foundation](https://okfn.org/) defines 
 [open data](https://opendefinition.org/) and content as following.<br>
 
