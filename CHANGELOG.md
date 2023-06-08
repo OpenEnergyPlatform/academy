@@ -22,7 +22,7 @@ Here is a template for new release sections
 
 ### Added
 
-- Add new licensing course #190
+- Add new licensing course [(#190)](https://github.com/OpenEnergyPlatform/academy/pull/190)
 - Add new tutorial that introcudes to oemetadata #101
 - Add new tutorial that introduces to spatial query on the OEP.
 - secure way to deal with OEP API token
@@ -33,5 +33,5 @@ Here is a template for new release sections
 
 ### Removed
 
+- FOSTER Open Licensing Course (integrated in new licensing course) [(#190)](https://github.com/OpenEnergyPlatform/academy/pull/190)
 - MaStR API tutorials to https://github.com/OpenEnergyPlatform/open-MaStR
-- FOSTER Open Licensing Course (integrated in new licensing course)
