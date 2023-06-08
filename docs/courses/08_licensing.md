@@ -52,7 +52,7 @@ The main difference between open data licenses and free or open-source software 
 There are already established lists of open source licenses that ensure the four freedoms, such as the list provided by the Open Source Initiative (OSI). 
 However, it is essential to understand the specific characteristics of each license to determine which one is best suited for your data.
 
-:oep-icon-text: [Open Data Licenses](https://openenergyplatform.github.io/academy/tutorials/metadata/tutorial_open-data-licenses/):
+:oep-icon-text: [Open Data Licenses](https://openenergyplatform.github.io/academy/tutorials/licensing/tutorial_open-data-licenses/):
 
 Learn the different types of Open Data licenses and where to use them. 
 
