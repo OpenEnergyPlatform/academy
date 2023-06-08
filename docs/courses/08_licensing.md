@@ -240,6 +240,25 @@ licenses.
 
 :oep-icon-code: [DALICC API - compatibilitycheck](https://api.dalicc.net/docs#/compatibilitycheck/compatibility_compatibilitycheck__post)
 
+
+## Supplementary material and further readings
+
+### FOSTER Portal
+
+The [FOSTER portal](https://www.fosteropenscience.eu/) is an e-learning platform 
+that brings together the best training resources addressed to those who need to know more about Open Science, 
+or need to develop strategies and skills for implementing Open Science practices 
+in their daily workflows. 
+Here you will find a growing collection of training materials. 
+Many different users - from early-career researchers, to data managers, 
+librarians, research administrators, and graduate schools - can benefit from 
+the portal. 
+In order to meet their needs, the existing materials will be extended from 
+basic to more advanced-level resources. In addition, discipline-specific 
+resources will be created._
+
+:oep-icon-info: [FORSTER Course: Open Licensing](https://www.fosteropenscience.eu/learning/open-licensing)
+
 ---
 
 ## About this course
