@@ -19,15 +19,16 @@ tags:
 - how to upload, download and edit OEMetadata
 - how to use the different tools available for OEMetadata
 
-## What are OEMetadata?
+## Introduction: What is Metadata?
+
+ToDo
+
+## What is the Open Energy Metadata?
 
 - The [Open Energy Metadata](https://github.com/OpenEnergyPlatform/oemetadata) (OEMetadata) describe a metadata standard used to annotate energy related data
 - The development of OEMetadata is a community effort and takes place on [GitHub](https://github.com/OpenEnergyPlatform/oemetadata/issues)
 - In the following sections of this course we have collected information on how to use the standard
 - There is a short :oep-icon-code: [tutorial on how to get started with OEMetadata](../tutorials/metadata/getting_started_with_OEMetadata.ipynb)
-- A poster that describes the structure of the OEMetadata and their relation to the [Open Energy Ontology](05_ontology.md) and the [Open Peer Review](09_peer_review.md) #ADD ZENODO POSTER LINK
-- A presentation that describes the ontology structure in detail and puts it in broader context #ADD ZENODO PRESENTATION LINK
-
 
 ## What's the meaning of all the metadata keys?
 
@@ -45,6 +46,13 @@ tags:
 - An additional helpful tool for publishing a set of data with associated metadata is `oem2orm`. It can translate table descriptions from metadata into a database structure via an object relational mapper. That way it can take a valid pair of data and metadata and upload it directly to the OEP. The structures of both need to be valid. :oep-icon-code: [A tutorial on the use of oem2orm](../tutorials/upload/OEP_Upload_Process_Data_and_Metadata_oem2orm.ipynb) explains the upload process
 - The `oep client` is a tool that can create, upload, download and delete tables. It also downloads and updates metadata. It's more versatile than oem2orm but less focussed on metadata. There is a :oep-icon-code: [tutorial using oem2orm and oepclient](../tutorials/http://localhost:8888/notebooks/docs/tutorials/upload/OEP_Upload_Process_Data_and_Metadata_oep-client.ipynb) to upload some data and metadata
 - How to :oep-icon-code: [Validate that your metadata is a datapackage](../tutorials/metadata/getting_started_with_OEMetadata.ipynb)
+
+## Supplementary material and further readings
+
+- A poster that describes the structure of the OEMetadata and their relation to the [Open Energy Ontology](05_ontology.md): 
+	- [Poster] Open Energy Metadata (OEMetadata): Publishing Energy Data Enriched with Ontology References [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8026863.svg)](https://doi.org/10.5281/zenodo.8026863)
+- A presentation that describes the ontology structure in detail and puts it in broader context
+	- [Presentation] Capacity building session - Hülk - Publication of FAIR Data and Metadata: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7835380.svg)](https://doi.org/10.5281/zenodo.7835380)
 
 ---
 
