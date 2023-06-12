@@ -44,7 +44,7 @@ ToDo
 
 - A tool for [metadata conversion and integration is `OMI`](https://github.com/OpenEnergyPlatform/omi)
 - An additional helpful tool for publishing a set of data with associated metadata is `oem2orm`. It can translate table descriptions from metadata into a database structure via an object relational mapper. That way it can take a valid pair of data and metadata and upload it directly to the OEP. The structures of both need to be valid. :oep-icon-code: [A tutorial on the use of oem2orm](../tutorials/upload/OEP_Upload_Process_Data_and_Metadata_oem2orm.ipynb) explains the upload process
-- The `oep client` is a tool that can create, upload, download and delete tables. It also downloads and updates metadata. It's more versatile than oem2orm but less focussed on metadata. There is a :oep-icon-code: [tutorial using oem2orm and oepclient](../tutorials/http://localhost:8888/notebooks/docs/tutorials/upload/OEP_Upload_Process_Data_and_Metadata_oep-client.ipynb) to upload some data and metadata
+- The `oep client` is a tool that can create, upload, download and delete tables. It also downloads and updates metadata. It's more versatile than oem2orm but less focussed on metadata. There is a :oep-icon-code: [tutorial using oem2orm and oepclient](../tutorials/upload/OEP_Upload_Process_Data_and_Metadata_oep-client.ipynb) to upload some data and metadata
 - How to :oep-icon-code: [Validate that your metadata is a datapackage](../tutorials/metadata/getting_started_with_OEMetadata.ipynb)
 
 ## Supplementary material and further readings
