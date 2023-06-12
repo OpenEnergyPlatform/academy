@@ -9,6 +9,10 @@ tags:
 
 You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/189](https://github.com/OpenEnergyPlatform/academy/issues/189)
 
+!!! note 
+
+    The Open Peer Review on the OEP is under current development!
+
 
 ## For whom is this training and what can you learn?
 
@@ -110,7 +114,6 @@ It offers a progress indicator and a summary page.
 
 ## How to evaluate and present the review? What are badges?
 
-
 Based on a scientific survey, the individual metadata keys were evaluated and 
 categorized into groups. By accepting all entries in this section, 
 a corresponding badge is awarded. These badges are named after precious metals 
@@ -120,15 +123,26 @@ Todo: Link to documentation of the badges
 
 ## Who is involved in a review?
 
+### Data Contributor
 
+The original creator of a table has all permissions and is the owner.
 
-## What are my tasks as a reviewer?
+### Reviewer
+
+Every registered member of the OEP can start a OPR of every table.
+You cannot start the review of the tables if you are the owner.
+
+### Editor / Community Manager
+
+The editor asks members to start and submit a review for specific tables.
+When a review started and is not completed the editor can close the review to proceed.
+In case the contributor and reviewer do not come an agreement, the editor decides.
+The editor is not implemented yet.
 
 ## Supplementary material and further readings
 
 - Stephan's notes and thesis
-- [Journal of Open Source Software (JOSS)](https://joss.theoj.org/)
-  - The Journal of Open Source Software is a developer friendly, open access journal for research software packages.
+- [Journal of Open Source Software (JOSS)](https://joss.theoj.org/): A developer friendly, open access journal for research software packages.
 
 ---
 
