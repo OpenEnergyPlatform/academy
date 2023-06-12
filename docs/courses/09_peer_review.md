@@ -11,7 +11,7 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 !!! note 
 
-    The Open Peer Review on the OEP is under current development!
+    The Open Peer Review on the OEP is currently under development!
 
 
 ## For whom is this training and what can you learn?
