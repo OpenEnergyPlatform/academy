@@ -31,7 +31,7 @@ addresses questionable edge cases and offers unambiguous terms.
 
 ## Open Data
 
-Data that lack a suitable open license cannot be considered open.<br>
+Data that lack a suitable open license cannot be considered as open.<br>
 The [Open Knowledge Foundation](https://okfn.org/) defines 
 [open data](https://opendefinition.org/) and content as following.<br>
 
@@ -49,10 +49,10 @@ originally defined for [free software](https://en.wikipedia.org/wiki/The_Free_So
 These freedoms can also be applied to open data, allowing users to freely use, analyse, share, and modify the data. 
 The main difference between open data licenses and free or open-source software licenses lies in the obligations that must be met to obtain these rights.
 
-There are already established lists of open source licenses that ensure the four freedoms, such as the list provided by the Open Source Initiative (OSI). 
+There are lists of already established open source licenses that ensure the four freedoms, such as the list provided by the Open Source Initiative (OSI). 
 However, it is essential to understand the specific characteristics of each license to determine which one is best suited for your data.
 
-:oep-icon-text: [Open Data Licenses](https://openenergyplatform.github.io/academy/tutorials/licensing/tutorial_open-data-licenses/):
+:oep-icon-text: [Open Data Licenses](../tutorials/licensing/tutorial_open-data-licenses.ipynb):
 
 Learn the different types of Open Data licenses and where to use them. 
 
@@ -62,17 +62,17 @@ The [Open Energy Metadata](https://github.com/OpenEnergyPlatform/oemetadata)
 Standard is based on the [Frictionless Data Package Specifications](https://frictionlessdata.io/).
 The license for a resource (table or datapackage) is specified by three fields:
 
-- **name**: The name must be the identifier of the [SPDX License List](https://spdx.org/licenses/)
-- **path**: A url-or-path (string, that is a fully qualified HTTP address, or a relative POSIX path)
+- **name**: An identifier of the [SPDX License List](https://spdx.org/licenses/)
+- **path**: A URL or path (string, that is a fully qualified HTTP address, or a relative POSIX path)
 - **title**: A human-readable title of the license
 
 More details on applying licenses can be found in the [Frictionless Data blog post](https://frictionlessdata.io/blog/2018/03/27/applying-licenses/).<br>
-In addition, two useful keys are included in the metadata to simplify reuse and legal understanding:
+Additionally, the metadata include two useful keys that simplify reuse and legal understanding:
 
-- **instruction**: A short description of rights and restrictions. The use of [tl;drLegal](https://tldrlegal.com/license/odc-open-database-license-(odbl)) is recommended. Example: You are free to share and change, but you must attribute, and share derivations under the same license. See for further information.
-- **attribution**: The copyright owner of the data. If attribution licenses are used, that name must be acknowledged. Example: © Reiner Lemoine Institut
+- **instruction**: A short description of rights and restrictions. The use of [tl;drLegal](https://tldrlegal.com/license/odc-open-database-license-(odbl)) is recommended. For Example: "You are free to share and change, but you must attribute, and share derivations under the same license. See for further information."
+- **attribution**: The copyright owner of the data. If attribution licenses are used, that name must be acknowledged. For Example: "© Reiner Lemoine Institut"
 
-The license is included as an array (list) by default. This allows dual licensing.
+The license is included as an array (list) by default. This allows for dual licensing.
 
 :oep-icon-info: [OEMetadata keys with a description and example](https://github.com/OpenEnergyPlatform/oemetadata/blob/master/metadata/latest/metadata_key_description.md#license-keys)
 
@@ -112,7 +112,7 @@ A suitable format is:
 
 **"Title"** [Source] © **Author** [Author link] | **License** [License link]
 
-An example is:
+For example:
 
 "[MaStR - Marktstammdatenregister](https://www.marktstammdatenregister.de/MaStR)" © [Bundesnetzagentur für Elektrizität, 
 Gas, Telekommunikation, Post und Eisenbahnen](https://www.bundesnetzagentur.de/) | [Datenlizenz Deutschland – Namensnennung – Version 2.0 (DL-DE-BY-2.0)](https://www.govdata.de/dl-de/by-2-0)
@@ -198,7 +198,7 @@ subtle nuances.
 ### DALICC
 
 The project [DALICC ("Data Licenses Clearance Center")](https://docs.dalicc.net/) 
-s an EU-funded research project aimed at developing a platform and tools to 
+iss an EU-funded research project aimed at developing a platform and tools to 
 support the identification, clearance, and management of data licenses. 
 The project's goal is to address the challenges surrounding data licensing in 
 order to foster data interoperability, reuse, and sharing while ensuring legal 
