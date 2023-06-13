@@ -21,10 +21,10 @@ tags:
 
 ## Introduction: What is Metadata?
 
-Metadata, in simple terms, refers to data about data. 
-It provides valuable information about the characteristics, properties, 
-and context of a particular piece of data. 
-Think of it as the "who, what, when, where, and how" of data. 
+Metadata, in simple terms, refer to data about data.
+They provide valuable information regarding the characteristics, properties,
+and context of a specific data item.
+Metadata answer the questions of "who, what, when, where, and how" related to the data.
 Metadata plays a crucial role in organizing, managing, and understanding information.
 
 ## What is the Open Energy Metadata?
