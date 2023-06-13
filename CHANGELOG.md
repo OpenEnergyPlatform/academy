@@ -22,6 +22,7 @@ Here is a template for new release sections
 
 ### Added
 
+- Add general section to metadata tutorial [(#198)](https://github.com/OpenEnergyPlatform/academy/pull/198)
 - Add the file CONTRIBUTE.md [(#194)](https://github.com/OpenEnergyPlatform/academy/pull/194)
 - Add new metadata course [(#195)](https://github.com/OpenEnergyPlatform/academy/pull/195)
 - Add new licensing course [(#190)](https://github.com/OpenEnergyPlatform/academy/pull/190)
