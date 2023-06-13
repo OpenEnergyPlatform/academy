@@ -22,6 +22,7 @@ Here is a template for new release sections
 
 ### Added
 
+- Add new metadata course [(#195)](https://github.com/OpenEnergyPlatform/academy/pull/195)
 - Add new licensing course [(#190)](https://github.com/OpenEnergyPlatform/academy/pull/190)
 - Add Issue and PR templates [(#193)](https://github.com/OpenEnergyPlatform/academy/pull/193)
 - Add new tutorial that introcudes to oemetadata #101
