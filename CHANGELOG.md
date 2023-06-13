@@ -22,6 +22,7 @@ Here is a template for new release sections
 
 ### Added
 
+- Add new licensing course [(#190)](https://github.com/OpenEnergyPlatform/academy/pull/190)
 - Add Issue and PR templates [(#193)](https://github.com/OpenEnergyPlatform/academy/pull/193)
 - Add new tutorial that introcudes to oemetadata #101
 - Add new tutorial that introduces to spatial query on the OEP.
@@ -33,4 +34,5 @@ Here is a template for new release sections
 
 ### Removed
 
+- FOSTER Open Licensing Course (integrated in new licensing course) [(#190)](https://github.com/OpenEnergyPlatform/academy/pull/190)
 - MaStR API tutorials to https://github.com/OpenEnergyPlatform/open-MaStR
