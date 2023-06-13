@@ -119,7 +119,12 @@ categorized into groups. By accepting all entries in this section,
 a corresponding badge is awarded. These badges are named after precious metals 
 such as "iron," "bronze," "silver," "gold," and "platinum."
 
-Todo: Link to documentation of the badges
+- **Iron** – Technically required for data structure
+- **Bronze** – Basic description of the data
+- **Silver** – Supplement description of the data
+- **Gold** – Extended description of the context
+- **Platinum** – Ontological annotation
+
 
 ## Who is involved in a review?
 
@@ -141,8 +146,8 @@ The editor is not implemented yet.
 
 ## Supplementary material and further readings
 
-- Stephan's notes and thesis
 - [Journal of Open Source Software (JOSS)](https://joss.theoj.org/): A developer friendly, open access journal for research software packages.
+- Ross-Hellauer T, Deppe A, Schmidt B (2017) Survey on open peer review: Attitudes and experience amongst editors, authors and reviewers. PLOS ONE 12(12): e0189311. https://doi.org/10.1371/journal.pone.0189311
 
 ---
 
