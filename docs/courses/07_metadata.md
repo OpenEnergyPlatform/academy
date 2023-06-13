@@ -29,20 +29,20 @@ Metadata plays a crucial role in organizing, managing, and understanding informa
 
 ## What is the Open Energy Metadata?
 
-- The [Open Energy Metadata](https://github.com/OpenEnergyPlatform/oemetadata) (OEMetadata) describe a metadata standard used to annotate energy related data
+- [Open Energy Metadata](https://github.com/OpenEnergyPlatform/oemetadata) (OEMetadata) describe a metadata standard used to annotate energy related data
 - The development of OEMetadata is a community effort and takes place on [GitHub](https://github.com/OpenEnergyPlatform/oemetadata/issues)
 - In the following sections of this course we have collected information on how to use the standard
 - There is a short :oep-icon-code: [tutorial on how to get started with OEMetadata](../tutorials/metadata/getting_started_with_OEMetadata.ipynb)
 
 ## What's the meaning of all the metadata keys?
 
-- There is a comprehensive list of keys, their meaning and example uses in the :oep-icon-text: [key description](https://github.com/OpenEnergyPlatform/oemetadata/blob/master/metadata/latest/metadata_key_description.md) in the OEMetadata repository
+- The OEMetadata repository provides a comprehensive list of keys, along with their meanings and examples of their uses, in the [key description](https://github.com/OpenEnergyPlatform/oemetadata/blob/master/metadata/latest/metadata_key_description.md) section.
 
 ## How can I work with OEMetadata?
 
+- A :oep-icon-code: [guide on publishing data on the OEP](../tutorials/upload/OEP_Research_Data_Publishing_Guidebook.ipynb) includes the creation of metadata
 - For all datasets on the [Open Energy Platform (OEP)](https://openenergy-platform.org/), you can look at provided metadata by clicking on "Meta Information"
     - If you are the owner of the dataset, you can click "edit" and you're directly working on the OEMetadata
-- [A guide on publishing data on the OEP](../tutorials/upload/OEP_Research_Data_Publishing_Guidebook.ipynb) includes the creation of metadata
 
 ## What other tools to work with OEMetadata are there?
 
