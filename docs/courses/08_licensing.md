@@ -138,8 +138,8 @@ Researchers and data practitioners need to navigate licensing agreements,
 contact the copyright holders, negotiate data-sharing agreements, and comply 
 with data protection regulations to gain access to non-open data.
 
-In Germany, the [Gesetz über Urheberrecht und verwandte Schutzrechte (UrhG)](https://www.gesetze-im-internet.de/urhg) contains the 
-paragraph [60c Wissenschaftliche Forschung (Copyright Act, § 60c Scientific Research)](https://www.gesetze-im-internet.de/urhg/__60c.html) that 
+In Germany, the [Act on Copyright and Related Rights / Gesetz über Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz)](https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html) contains the 
+paragraph [60c Scientific research (Copyright Act, § 60c Scientific Research)](https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0479) that 
 provides provisions specifically for non-commercial scientific research. 
 According to this law:
 
