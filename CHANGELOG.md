@@ -38,6 +38,7 @@ Here is a template for new release sections
 
 ### Updated
 
+- Licensing course: Update link to UrhG [(#201)](https://github.com/OpenEnergyPlatform/academy/pull/201)
 - Update the GitHub repo link [(#200)](https://github.com/OpenEnergyPlatform/academy/pull/200)
 
 ### Removed
