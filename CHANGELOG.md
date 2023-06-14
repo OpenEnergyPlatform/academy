@@ -36,6 +36,10 @@ Here is a template for new release sections
 - add new tutorial on to create ERM Diagramm from OEP using SAIO and ERalchemy: UML eralchemy Tutorial (PR#117)
 - add script to automate the ERM Diagramm creation for all tables in schema, or filterd tables in schema (PR#117)
 
+### Updated
+
+- Update the GitHub repo link [(#200)](https://github.com/OpenEnergyPlatform/academy/pull/200)
+
 ### Removed
 
 - FOSTER Open Licensing Course (integrated in new licensing course) [(#190)](https://github.com/OpenEnergyPlatform/academy/pull/190)

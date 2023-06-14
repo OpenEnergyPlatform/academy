@@ -4,7 +4,7 @@ site_url: https://openenergyplatform.github.io/academy
 site_description: A collection of courses, tutorials, and questions for the Open Energy Family
 
 # Repository
-repo_name: OpenEnergyPlatform/tutorial
+repo_name: OpenEnergyPlatform/academy
 repo_url: https://github.com/OpenEnergyPlatform/academy
 docs_dir: docs
 
