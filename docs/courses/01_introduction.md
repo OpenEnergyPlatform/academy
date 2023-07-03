@@ -5,8 +5,7 @@ the OEP. Each training course provides learning materials which cater to differe
 levels of expertise. Some are targeted at fluent programmers, others are targeted at
 persons who prefer to interact with the OEP visually.
 
-You will then see a targetedselection of training materials. Each of these materials is described by a short
-abstract that will help you decide whether this is material that will be helpful for
+Each of these materials is described by a short abstract that will help you decide whether this is material that will be helpful for
 you. If it is, please click the link to view the material.
 
 As a visual guide regarding what to expect behind the links, we use the following icons:
