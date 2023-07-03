@@ -1,7 +1,7 @@
 # 01 - Introduction
 
 We have created training courses which provide various material on how to interact with
-the OEP. Each training course provides learning materials which cater to different
+the Open Energy Platform (OEP). Each training course provides learning materials which cater to different
 levels of expertise. Some are targeted at fluent programmers, others are targeted at
 persons who prefer to interact with the OEP visually.
 
