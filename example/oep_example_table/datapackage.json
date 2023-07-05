@@ -196,6 +196,25 @@
                         ]
                     },
                     {
+                        "name": "is_active",
+                        "description": "true/false if installation is active",
+                        "type": "boolean",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
                         "name": "value",
                         "description": "Installed capacity",
                         "type": "double precision",
