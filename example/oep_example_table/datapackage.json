@@ -1,8 +1,8 @@
 {
-    "name": "oep_table_example",
-    "title": "OEP Table Example",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/oep_metadata_table_example",
-    "description": "This table is an example table with OEMetadata for the OEP.",
+    "name": "oep_example_table",
+    "title": "OEP Example Table",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/oep_example_table",
+    "description": "This is an example table with OEMetadata for the OEP.",
     "language": [
         "en-GB",
         "en-US",
@@ -26,43 +26,36 @@
     ],
     "publicationDate": "2023-07-03",
     "context": {
-        "homepage": "https://reiner-lemoine-institut.de/lod-geoss/",
-        "documentation": "https://openenergy-platform.org/tutorials/jupyter/OEMetadata/",
-        "sourceCode": "https://github.com/OpenEnergyPlatform/oemetadata/tree/master",
-        "contact": "https://github.com/Ludee",
-        "grantNo": "03EI1005",
+        "homepage": "https://openenergy-platform.org/",
+        "documentation": "https://openenergyplatform.github.io/academy/",
+        "sourceCode": "https://github.com/OpenEnergyPlatform/academy",
+        "contact": "https://openenergy-platform.org/contact/",
+        "grantNo": "03EI1035",
         "fundingAgency": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK)",
         "fundingAgencyLogo": "https://commons.wikimedia.org/wiki/File:BMWi_Logo_2021.svg#/media/File:BMWi_Logo_2021.svg",
-        "publisherLogo": "https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png"
+        "publisherLogo": "https://github.com/OpenEnergyPlatform/organisation/blob/production/logo/OpenEnergyFamily_Logo_OpenEnergyFamily.png"
     },
     "spatial": {
         "location": null,
-        "extent": "europe",
-        "resolution": "100 m"
+        "extent": "germany",
+        "resolution": "country"
     },
     "temporal": {
-        "referenceDate": "2016-01-01",
+        "referenceDate": "2023-07-03",
         "timeseries": [
             {
-                "start": "2017-01-01T00:00+01",
-                "end": "2017-12-31T23:00+01",
-                "resolution": "1 h",
-                "alignment": "left",
-                "aggregationType": "sum"
-            },
-            {
-                "start": "2018-01-01T00:00+01",
-                "end": "2019-06-01T23:00+01",
-                "resolution": "15 min",
-                "alignment": "right",
+                "start": "2021-01-01T00:00+01",
+                "end": "2022-12-31T23:00+01",
+                "resolution": "1 year",
+                "alignment": null,
                 "aggregationType": "sum"
             }
         ]
     },
     "sources": [
         {
-            "title": "OpenEnergyPlatform Metadata Example",
-            "description": "Metadata description",
+            "title": "Open Energy Family - Example Table ",
+            "description": "Table example",
             "path": "https://github.com/OpenEnergyPlatform",
             "licenses": [
                 {
@@ -70,174 +63,34 @@
                     "title": "Creative Commons Zero v1.0 Universal",
                     "path": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
                     "instruction": "You are free: To Share, To Create, To Adapt",
-                    "attribution": "© Reiner Lemoine Institut"
-                }
-            ]
-        },
-        {
-            "title": "OpenStreetMap",
-            "description": "A collaborative project to create a free editable map of the world",
-            "path": "https://www.openstreetmap.org/",
-            "licenses": [
-                {
-                    "name": "ODbL-1.0",
-                    "title": "Open Data Commons Open Database License 1.0",
-                    "path": "https://opendatacommons.org/licenses/odbl/1.0/index.html",
-                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
-                    "attribution": "© OpenStreetMap contributors"
+                    "attribution": "© Open Energy Family"
                 }
             ]
         }
     ],
     "licenses": [
         {
-            "name": "ODbL-1.0",
-            "title": "Open Data Commons Open Database License 1.0",
-            "path": "https://opendatacommons.org/licenses/odbl/1.0/",
-            "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
-            "attribution": "© Reiner Lemoine Institut © OpenStreetMap contributors"
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "instruction": "You are free: To Share, To Create, To Adapt",
+            "attribution": "© Open Energy Family"
         }
     ],
     "contributors": [
         {
             "title": "Ludee",
             "email": null,
-            "date": "2016-06-16",
+            "date": "2023-07-03",
             "object": "metadata",
             "comment": "Create metadata"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2016-11-22",
-            "object": "metadata",
-            "comment": "Update metadata"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2016-11-22",
-            "object": "metadata",
-            "comment": "Update header and license"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2017-03-16",
-            "object": "metadata",
-            "comment": "Add license to source"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2017-03-28",
-            "object": "metadata",
-            "comment": "Add copyright to source and license"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2017-05-30",
-            "object": "metadata",
-            "comment": "Release metadata version 1.3"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2017-06-26",
-            "object": "metadata",
-            "comment": "Move referenceDate into temporal and remove array"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2018-07-19",
-            "object": "metadata",
-            "comment": "Start metadata version 1.4"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2018-07-26",
-            "object": "data",
-            "comment": "Rename table and files"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2018-10-18",
-            "object": "metadata",
-            "comment": "Add contribution object"
-        },
-        {
-            "title": "christian-rli",
-            "email": null,
-            "date": "2018-10-18",
-            "object": "metadata",
-            "comment": "Add datapackage compatibility"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2018-11-02",
-            "object": "metadata",
-            "comment": "Release metadata version 1.4"
-        },
-        {
-            "title": "christian-rli",
-            "email": null,
-            "date": "2019-02-05",
-            "object": "metadata",
-            "comment": "Apply template structure to example"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2019-03-22",
-            "object": "metadata",
-            "comment": "Hotfix foreignKeys"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2019-07-09",
-            "object": "metadata",
-            "comment": "Release metadata version OEP-1.3.0"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2021-11-15",
-            "object": "metadata",
-            "comment": "Release metadata version OEP-1.5.0"
-        },
-        {
-            "title": "Ludee",
-            "email": null,
-            "date": "2022-02-15",
-            "object": "metadata",
-            "comment": "Release metadata version OEP-1.5.1"
-        },
-        {
-            "title": "jh-RLI",
-            "email": null,
-            "date": "2022-11-18",
-            "object": "metadata",
-            "comment": "Release metadata version OEP-1.5.2"
-        },
-        {
-            "title": "christian-rli",
-            "email": null,
-            "date": "2023-05-30",
-            "object": "metadata",
-            "comment": "Release metadata version OEP-1.6.0"
         }
     ],
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "model_draft.oep_metadata_table_example",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/oep_metadata_table_example",
+            "name": "model_draft.oep_example_table",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/oep_example_table",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
@@ -262,14 +115,14 @@
                         ]
                     },
                     {
-                        "name": "name",
-                        "description": "Example name",
+                        "name": "technology",
+                        "description": "Technology name",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": "written name",
-                                "path": "https://openenergy-platform.org/ontology/oeo/IAO_0000590"
+                                "name": "technology",
+                                "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000407"
                             }
                         ],
                         "valueReference": [
@@ -311,8 +164,27 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": "year",
-                                "path": "https://openenergy-platform.org/ontology/oeo/UO_0000036"
+                                "name": "annual",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020161"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "date",
+                        "description": "Start of the time series",
+                        "type": "integer",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": "start time",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00030031"
                             }
                         ],
                         "valueReference": [
@@ -325,13 +197,17 @@
                     },
                     {
                         "name": "value",
-                        "description": "Example value",
+                        "description": "Installed capacity",
                         "type": "double precision",
                         "unit": "MW",
                         "isAbout": [
                             {
                                 "name": "quantity value",
                                 "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000350"
+                            },
+                            {
+                                "name": "nameplate capacity",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00230003"
                             }
                         ],
                         "valueReference": [
@@ -365,19 +241,7 @@
                 "primaryKey": [
                     "id"
                 ],
-                "foreignKeys": [
-                    {
-                        "fields": [
-                            "year"
-                        ],
-                        "reference": {
-                            "resource": "schema.table",
-                            "fields": [
-                                "year"
-                            ]
-                        }
-                    }
-                ]
+                "foreignKeys": []
             },
             "dialect": {
                 "delimiter": null,
@@ -385,11 +249,11 @@
             }
         }
     ],
-    "@id": "https://databus.dbpedia.org/kurzum/mastr/bnetza-mastr/01.04.00",
+    "@id": null,
     "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/develop/metadata/latest/context.json",
     "review": {
-        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues",
-        "badge": "Platinum"
+        "path": null,
+        "badge": null
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.6.0",
