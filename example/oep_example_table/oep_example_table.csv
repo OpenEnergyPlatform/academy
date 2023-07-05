@@ -1,5 +1,5 @@
 id,technologytype,year,date,is_active,value,comment,geometry
-1,wind,onshore,2021,2021-01-01,55.93,true,,
-2,wind,offshore,2021,2021-01-01,7.79,false,Including nearshore,
-3,wind,onshore,2022,2022-01-01,58.05,true,,
-4,wind,offshore,2022,2022-01-01,8.13,false,Including nearshore,
+1,wind,onshore,2021,2021-01-01,55.93,true,
+2,wind,offshore,2021,2021-01-01,7.79,false,Including nearshore
+3,wind,onshore,2022,2022-01-01,58.05,true,
+4,wind,offshore,2022,2022-01-01,8.13,false,Including nearshore
