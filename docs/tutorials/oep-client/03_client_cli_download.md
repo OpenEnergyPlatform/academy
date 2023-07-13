@@ -1,11 +1,11 @@
 # OEP Client Tutorial 03 - Download data using the OEP Client in the command line
 
-<img src="https://raw.githubusercontent.com/OpenEnergyPlatform/academy/develop/docs/data/img/OEP_logo_2_no_text.svg" alt="OpenEnergy Platform" height="75" width="75"/>
-
 ## Learnings
 
+This tutorials will enable you to:
+
 - [Download data](#download-data)
-- [Download filtered data (Not implemented yet)](#download-filtered-data)
+- [Download filtered data](#download-filtered-data)
 - [Download metadata](#download-metadata)
 
 ## Requirements
