@@ -32,7 +32,7 @@ Metadata plays a crucial role in organizing, managing, and understanding informa
 - [Open Energy Metadata](https://github.com/OpenEnergyPlatform/oemetadata) (OEMetadata) describe a metadata standard used to annotate energy related data
 - The development of OEMetadata is a community effort and takes place on [GitHub](https://github.com/OpenEnergyPlatform/oemetadata/issues)
 - In the following sections of this course we have collected information on how to use the standard
-- There is a short :oep-icon-code: [tutorial on how to get started with OEMetadata](../tutorials/metadata/getting_started_with_OEMetadata.ipynb)
+- There is a short :oep-icon-code: [tutorial on how to get started with OEMetadata](../tutorials/99_other/getting_started_with_OEMetadata.ipynb)
 
 ## What's the meaning of all the metadata keys?
 
@@ -40,23 +40,23 @@ Metadata plays a crucial role in organizing, managing, and understanding informa
 
 ## How can I work with OEMetadata?
 
-- A :oep-icon-code: [guide on publishing data on the OEP](../tutorials/upload/OEP_Research_Data_Publishing_Guidebook.ipynb) includes the creation of metadata
+- A :oep-icon-code: [guide on publishing data on the OEP](../tutorials/99_other/OEP_Research_Data_Publishing_Guidebook.ipynb) includes the creation of metadata
 - For all datasets on the [Open Energy Platform (OEP)](https://openenergy-platform.org/), you can look at provided metadata by clicking on "Meta Information"
-    - If you are the owner of the dataset, you can click "edit" and you're directly working on the OEMetadata
+  - If you are the owner of the dataset, you can click "edit" and you're directly working on the OEMetadata
 
 ## What other tools to work with OEMetadata are there?
 
 - A tool for [metadata conversion and integration is `OMI`](https://github.com/OpenEnergyPlatform/omi)
-- An additional helpful tool for publishing a set of data with associated metadata is `oem2orm`. It can translate table descriptions from metadata into a database structure via an object relational mapper. That way it can take a valid pair of data and metadata and upload it directly to the OEP. The structures of both need to be valid. :oep-icon-code: [A tutorial on the use of oem2orm](../tutorials/upload/OEP_Upload_Process_Data_and_Metadata_oem2orm.ipynb) explains the upload process
-- The `oep client` is a tool that can create, upload, download and delete tables. It also downloads and updates metadata. It's more versatile than oem2orm but less focussed on metadata. There is a :oep-icon-code: [tutorial using oem2orm and oepclient](../tutorials/upload/OEP_Upload_Process_Data_and_Metadata_oep-client.ipynb) to upload some data and metadata
-- How to :oep-icon-code: [Validate that your metadata is a datapackage](../tutorials/metadata/getting_started_with_OEMetadata.ipynb)
+- An additional helpful tool for publishing a set of data with associated metadata is `oem2orm`. It can translate table descriptions from metadata into a database structure via an object relational mapper. That way it can take a valid pair of data and metadata and upload it directly to the OEP. The structures of both need to be valid. :oep-icon-code: [A tutorial on the use of oem2orm](../tutorials/99_other/OEP_Upload_Process_Data_and_Metadata_oem2orm.ipynb) explains the upload process
+- The `oep client` is a tool that can create, upload, download and delete tables. It also downloads and updates metadata. It's more versatile than oem2orm but less focussed on metadata. There is a :oep-icon-code: [tutorial using oem2orm and oepclient](../tutorials/99_other/OEP_Upload_Process_Data_and_Metadata_oep-client.ipynb) to upload some data and metadata
+- How to :oep-icon-code: [Validate that your metadata is a datapackage](../tutorials/99_other/getting_started_with_OEMetadata.ipynb)
 
 ## Supplementary material and further readings
 
-- A poster that describes the structure of the OEMetadata and their relation to the [Open Energy Ontology](05_ontology.md): 
-	- [Poster] Open Energy Metadata (OEMetadata): Publishing Energy Data Enriched with Ontology References [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8026863.svg)](https://doi.org/10.5281/zenodo.8026863)
+- A poster that describes the structure of the OEMetadata and their relation to the [Open Energy Ontology](05_ontology.md):
+  - [Poster] Open Energy Metadata (OEMetadata): Publishing Energy Data Enriched with Ontology References [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8026863.svg)](https://doi.org/10.5281/zenodo.8026863)
 - A presentation that describes the ontology structure in detail and puts it in broader context
-	- [Presentation] Capacity building session - Hülk - Publication of FAIR Data and Metadata: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7835380.svg)](https://doi.org/10.5281/zenodo.7835380)
+  - [Presentation] Capacity building session - Hülk - Publication of FAIR Data and Metadata: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7835380.svg)](https://doi.org/10.5281/zenodo.7835380)
 
 ---
 

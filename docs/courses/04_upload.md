@@ -23,13 +23,13 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 ## How can I publish data to the OEP without programming skills?
 
-:oep-icon-text: [Upload tables as csv](../tutorials/upload/12_wizard.md) (tutorial):
+:oep-icon-text: [Upload tables as csv](../tutorials/99_other/wizard.md) (tutorial):
 
 This tutorial teaches you step-by-step on how to upload data from a .csv file to the OEP using the csv upload wizard.
 
 ## How can I publish data to the OEP as a beginner interested in programming?
 
-:oep-icon-text: , </i>:oep-icon-code: [Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process](../tutorials/upload/11_beginners_guide.md) (tutorial):
+:oep-icon-text: , </i>:oep-icon-code: [Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process](../tutorials/99_other/beginners_guide.md) (tutorial):
 
 This tutorial (also available as PDF) describes how to upload data to the OEP using Python and the REST-API. Several steps are needed to contribute actively to the platform. Some of these you only need to do once to get started. The steps described in this document are the following: Register at the OpenEnergy Platform, Register at github and get invited to the OpenEnergy Platform Group, Create data table(s) and upload data table(s), create metadata and upload metadata to github, initiate data review, create scenario factsheets.
 
@@ -39,7 +39,7 @@ This tutorial (also available as PDF) describes how to upload data to the OEP us
 
 This is a link to github where the oeclient resides, including the documentation. You can use the client to upload data to the OEP.
 
-:oep-icon-code: [How to Upload Your Data and Metadata to the OEP](../tutorials/api/02_api_upload.ipynb) (tutorial):
+:oep-icon-code: [How to Upload Your Data and Metadata to the OEP](../tutorials/01_api/02_api_upload.ipynb) (tutorial):
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand to upload your data and metadata to the OEP.
 

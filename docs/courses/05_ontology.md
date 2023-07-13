@@ -9,7 +9,6 @@ how to get involved and how to contribute to the OEO.
 
 You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
-
 ## For whom is this training and what can you learn?
 
 :oep-icon-info: **This course is aimed at researchers, policy makers and any interested person, who**
@@ -29,7 +28,7 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 :oep-icon-text: [The Open Energy Ontology – Overview](https://openenergy-platform.org/ontology/oeo/OEO_00000275):
 
-:oep-icon-video: [The Open Energy Ontology – Workshop](../tutorials/other/5_video_oeo.md):
+:oep-icon-video: [The Open Energy Ontology – Workshop](../tutorials/99_other/video_oeo.md):
 
 Get a quick overview what an ontology is and what the OEO is all about.
 

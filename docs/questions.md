@@ -6,7 +6,7 @@
 
 ## Search: How do I search for data on the OEP?
 
-There is search functionality under [Database](https://openenergy-platform.org/dataedit/schemas). Use the search bar for free text and / or combine it with tags that are presented below the search bar. This will search through data and metadata and reduce the list of schemas to the list where your search term(s) were found. Click on the schema name and then see all the tables that conform to your search term(s). Alternatively, you can enter any scheme and search within the scheme in the same way. Here is a **[short tutorial with a visual on combining free text search and tags](tutorials/search/18_find_data.md)**.
+There is search functionality under [Database](https://openenergy-platform.org/dataedit/schemas). Use the search bar for free text and / or combine it with tags that are presented below the search bar. This will search through data and metadata and reduce the list of schemas to the list where your search term(s) were found. Click on the schema name and then see all the tables that conform to your search term(s). Alternatively, you can enter any scheme and search within the scheme in the same way. Here is a **[short tutorial with a visual on combining free text search and tags](./tutorials/99_other/find_data.md)**.
 
 ---
 
@@ -18,21 +18,21 @@ Cloning the OEP is described in the **[GitHub repository _oeplatform_](https://g
 
 ## Data download: How can I download data tables from the OEP without the need to use the API
 
-You can download data table as csv and as datapackage. It is really easy and [described in this short tutorial](tutorials/download/19_download.md).
+You can download data table as csv and as datapackage. It is really easy and [described in this short tutorial](tutorials/99_other/download.md).
 
 ---
 
 ## Data upload: How can I upload data tables to the OEP when I am not familiar working with APIs?
 
-If you want to use an interface, you can **upload data tables with our [Upload Wizard](https://openenergy-platform.org/dataedit/wizard/)**. How to use it, is described in the corresponding **[Upload Wizard Tutorial](tutorials/upload/12_wizard.md)**.
+If you want to use an interface, you can **upload data tables with our [Upload Wizard](https://openenergy-platform.org/dataedit/wizard/)**. How to use it, is described in the corresponding **[Upload Wizard Tutorial](tutorials/99_other/wizard.md)**.
 
-If you would like to learn how to **upload data tables with the API**, we recommend our **[Beginners Guide (Section 2.1)](tutorials/upload/11_beginners_guide.md).** This guide includes code snippets that you can use to get familiar to this approach.
+If you would like to learn how to **upload data tables with the API**, we recommend our **[Beginners Guide (Section 2.1)](tutorials/99_other/beginners_guide.md).** This guide includes code snippets that you can use to get familiar to this approach.
 
 ---
 
 ## Data upload: How can I upload data to the OEP using the API?
 
-You can read the **[API documentation](https://oep-data-interface.readthedocs.io/en/latest/api/how_to.html)** and then build your custom queries for data upload. The **[Beginners Guide (Section 2.1)](tutorials/upload/11_beginners_guide.md)** provides some code snippets if you want to take a short-cut.
+You can read the **[API documentation](https://oep-data-interface.readthedocs.io/en/latest/api/how_to.html)** and then build your custom queries for data upload. The **[Beginners Guide (Section 2.1)](tutorials/99_other/beginners_guide.md)** provides some code snippets if you want to take a short-cut.
 
 ---
 

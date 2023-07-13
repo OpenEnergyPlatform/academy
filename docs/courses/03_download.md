@@ -20,29 +20,29 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 ## How can I find relevant information on the OEP?
 
-:oep-icon-text: [How to find data on the OEP?](../tutorials/search/18_find_data.md) (tutorial):
+:oep-icon-text: [How to find data on the OEP?](../tutorials/99_other/find_data.md) (tutorial):
 
 This tutorial teaches you how to use the free text search and tags to filter for data on the OEP. You will see that you can use both approaches individually, but also combine freetext and tags to specify your data filter further.
 
 ## How can I download data?
 
-:oep-icon-code: [Process query result data and save to file (tutorial)](../tutorials/api/OEP_API_tutorial_part4.ipynb):
+:oep-icon-code: [Process query result data and save to file (tutorial)](../tutorials/01_api/01_api_download.ipynb):
 
 Learn how to use the REST-full-HTTP API in Python for selecting data on the OEP, make calculations
 with it and save the results to a file.
 
-:oep-icon-text: [How to download data - CSV and data package (tutorial)](../tutorials/download/19_download.md):
+:oep-icon-text: [How to download data - CSV and data package (tutorial)](../tutorials/99_other/download.md):
 
 Learn how easy it is do download any data table you are viewing on the OEP table with only one click and why a data package makes a difference.
 
 ## How can I interact with data?
 
-:oep-icon-code: [Data queries via API (tutorial)](../tutorials/api/OEP_API_tutorial_part2.ipynb):
+:oep-icon-code: [Data queries via API (tutorial)](../tutorials/01_api/01_api_download.ipynb):
 
 This tutorial provides an overview of how you can select and filter data that resides on the OEP via the REST-full-HTTP
 API in Python
 
-:oep-icon-code: [Process query result data and save to file (tutorial)](../tutorials/api/OEP_API_tutorial_part4.ipynb):
+:oep-icon-code: [Process query result data and save to file (tutorial)](../tutorials/01_api/01_api_download.ipynb):
 
 Learn how to use the REST-full-HTTP API in Python for selecting data on the OEP, make calculations
 with it and save the results to a file.
@@ -62,4 +62,4 @@ with it and save the results to a file.
 - Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2022): Download - Find and download / interact with data. Last update: 2023-05-17
--You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/165](https://github.com/OpenEnergyPlatform/academy/issues/165)
+  -You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/165](https://github.com/OpenEnergyPlatform/academy/issues/165)
