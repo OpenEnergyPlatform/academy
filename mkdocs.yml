@@ -74,8 +74,14 @@ plugins:
         oep: OEP_logo_2_no_text.svg
         bmwk: BMWK_Logo_mit_Foerderzusatz_en.png
   - redirects:
+      # redirect pages where we already published the urls
       redirect_maps:
-        other/1_checklist.md: courses/other/1_checklist.md
+        other/1_checklist.md: tutorials/99_other/checklist.md
+        tutorials/upload/data_preprocessing/7_database_data.md: tutorials/99_other/database_data.md
+        tutorials/upload/08_upload.md: courses/04_upload.md
+        tutorials/upload/11_beginners_guide.md: tutorials/99_other/beginners_guide.md
+        tutorials/metadata/tutorial_open-data-licenses.md: tutorials/99_other/tutorial_open-data-licenses.ipynb
+        tutorials/metadata/16_licensing.md: courses/08_licensing.md
 
 # Customization
 extra:
