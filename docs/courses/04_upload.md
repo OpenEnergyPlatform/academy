@@ -19,8 +19,8 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 :oep-icon-info: **After reading the sections of this training course you will**
 
 - be able to publish data on the OEP using a visual interface - this is for those of you who do not want to program
-- be able to publish data on the OEP with the RES-full-HTTP API in python - this is for those of you who want to akquire some programming skills
-- be able to publish data using the oeclient, the oedialect, SQLAlchemy - this one is for those of you who can program already
+- be able to publish data on the OEP with the REST-full-HTTP API in python - this is for those of you who want to akquire some programming skills
+- be able to publish data using the oeclient or the OEP REST-API using python - this one is for those of you who can program already
 
 ## How can I publish data to the OEP without programming skills?
 
