@@ -83,19 +83,14 @@ License and Citation
 .. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/OpenEnergyPlatform/academy
     :alt: closes issues
 
+
 Linklist for projects in the Energieforschungsprogramm
-============
-Checklist for working with open data: https://openenergyplatform.github.io/academy/tutorials/other/1_checklist/
+======================================================
 
-How to generate database conform data: https://openenergyplatform.github.io/academy/tutorials/upload/data_preprocessing/7_database_data/
-
-How to upload data to the OEP: 2 ways!: https://openenergyplatform.github.io/academy/tutorials/upload/08_upload/
-
-Beginners Guidance: How to upload data to the OpenEnergy Platform and initiate the review
+* Checklist for working with open data: https://openenergyplatform.github.io/academy/tutorials/other/1_checklist/
+* How to generate database conform data: https://openenergyplatform.github.io/academy/tutorials/upload/data_preprocessing/7_database_data/
+* How to upload data to the OEP: 2 ways!: https://openenergyplatform.github.io/academy/tutorials/upload/08_upload/
+* Beginners Guidance: How to upload data to the OpenEnergy Platform and initiate the review
 process: https://openenergyplatform.github.io/academy/tutorials/upload/11_beginners_guide/
-
-Open Data Licensing Guide: https://openenergyplatform.github.io/academy/tutorials/metadata/tutorial_open-data-licenses
-
-Licensing Course (FOSTER portal): https://openenergyplatform.github.io/academy/tutorials/metadata/16_licensing/
-
-
+* Open Data Licensing Guide: https://openenergyplatform.github.io/academy/tutorials/metadata/tutorial_open-data-licenses
+* Licensing Course (FOSTER portal): https://openenergyplatform.github.io/academy/tutorials/metadata/16_licensing/
