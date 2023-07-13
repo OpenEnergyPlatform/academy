@@ -1,0 +1,44 @@
+{
+  "id": "test_table_74864",
+  "keywords": ["energy", "installations", "geo"],
+  "languages": ["EN"],
+  "resources": [
+    {
+      "name": "test_table_74864",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "description": "numerical id of this data point"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "name of installation"
+          },
+          {
+            "name": "is_active",
+            "type": "boolean",
+            "description": "true/false if installation is active"
+          },
+          {
+            "name": "capacity_mw",
+            "type": "number",
+            "description": "installed capacity in MW"
+          },
+          {
+            "name": "installation_datetime_utc",
+            "type": "string",
+            "description": "date (and time) when installation was build"
+          },
+          {
+            "name": "location",
+            "type": " geojson",
+            "description": "point location of installation"
+          }
+        ]
+      }
+    }
+  ]
+}
