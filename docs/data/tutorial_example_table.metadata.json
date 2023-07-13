@@ -1,10 +1,10 @@
 {
-  "id": "test_table",
+  "id": "tutorial_example_table",
   "keywords": ["energy", "installations", "geo"],
   "languages": ["EN"],
   "resources": [
     {
-      "name": "test_table",
+      "name": "tutorial_example_table",
       "schema": {
         "fields": [
           {

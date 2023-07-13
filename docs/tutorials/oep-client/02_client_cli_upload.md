@@ -42,9 +42,9 @@ This tutorials will enable you to:
 Download the example data:
 
 ```shell
-wget https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/upload_tutorial_example_data.csv
-wget https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/upload_tutorial_example_data.json
-wget https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/upload_tutorial_example_data.metadata.json
+wget https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.data.csv
+wget https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.data.json
+wget https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.metadata.json
 ```
 
 ## Create table
