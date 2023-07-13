@@ -1,10 +1,10 @@
 {
-  "id": "test_table_74864",
+  "id": "test_table",
   "keywords": ["energy", "installations", "geo"],
   "languages": ["EN"],
   "resources": [
     {
-      "name": "test_table_74864",
+      "name": "test_table",
       "schema": {
         "fields": [
           {
@@ -15,6 +15,7 @@
           {
             "name": "name",
             "type": "string",
+            "data_type": "varchar(128)",
             "description": "name of installation"
           },
           {
@@ -30,11 +31,13 @@
           {
             "name": "installation_datetime_utc",
             "type": "string",
+            "data_type": "datetime",
             "description": "date (and time) when installation was build"
           },
           {
             "name": "location",
-            "type": " geojson",
+            "type": "geojson",
+            "data_type": "geometry",
             "description": "point location of installation"
           }
         ]

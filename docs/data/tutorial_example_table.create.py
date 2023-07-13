@@ -3,6 +3,7 @@ create the example in the model draft,
 so that it is consistent with upload tutorial
 """
 
+import json
 from getpass import getpass
 from os import environ
 
@@ -23,19 +24,18 @@ table_schema = {
         {"name": "location", "data_type": "geometry"},
     ]
 }
-ex_data_loc = (
-    "https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data"
-)
 
 req.delete(table_api_url, headers=auth_headers)
 req.put(
     table_api_url, json={"query": table_schema}, headers=auth_headers
 ).raise_for_status()
-data = req.get(f"{ex_data_loc}/upload_tutorial_example_data.json").json()
+with open("tutorial_example_table.data.json", "rb") as file:
+    data = json.load(file)
 res = req.post(
     table_api_url + "rows/new", json={"query": data}, headers=auth_headers
 ).raise_for_status()
-metadata = req.get(f"{ex_data_loc}/upload_tutorial_example_data.metadata.json").json()
+with open("tutorial_example_table.metadata.json", "rb") as file:
+    metadata = json.load(file)
 res = req.post(
     table_api_url + "meta/", json=metadata, headers=auth_headers
 ).raise_for_status()
