@@ -86,10 +86,22 @@ To be able to execute this part you will need to have executed the [setup](#setu
     oep-client --token $token --schema $topic insert $table tutorial_example_table.data.json
   ```
 
+  or using csv data instead of json:
+
+  ```shell
+    oep-client --token $token --schema $topic insert $table tutorial_example_table.data.json
+  ```
+
 - Windows
 
   ```cmd
     oep-client --token %token% --schema %topic% insert %table% tutorial_example_table.data.json
+  ```
+
+  or using csv data instead of json:
+
+  ```cmd
+    oep-client --token %token% --schema %topic% insert %table% tutorial_example_table.data.csv
   ```
 
 ## Upload metadata
