@@ -9,7 +9,6 @@ tags:
 Learn how to publish data on the OEP.
 You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/166](https://github.com/OpenEnergyPlatform/academy/issues/166)
 
-
 ## For whom is this training and what can you learn?
 
 :oep-icon-info: **This course is aimed at researchers, no matter whether you have programming skills or not, who**
@@ -38,9 +37,9 @@ This tutorial (also available as PDF) describes how to upload data to the OEP us
 
 :oep-icon-code: [Use the oeclient to upload data to the OEP](https://github.com/OpenEnergyPlatform/oep-client/) (github link):
 
-This is a link to github where the oeclient resides, including the documentation. You can use the client to upload data to the OEP. 
+This is a link to github where the oeclient resides, including the documentation. You can use the client to upload data to the OEP.
 
-:oep-icon-code: [How to Upload Your Data and Metadata to the OEP](../tutorials/api/01_api_upload.ipynb) (tutorial):
+:oep-icon-code: [How to Upload Your Data and Metadata to the OEP](../tutorials/api/02_api_upload.ipynb) (tutorial):
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand to upload your data and metadata to the OEP.
 
