@@ -15,7 +15,7 @@ This tutorials will enable you to:
 
 - Python packages:
 
-  - `oep-client` (installs also the command line tool)
+  - `oep-client>=0.13` (installs also the command line tool)
   - `wget` (or similar, to download example data)
 
 - Skills:
@@ -26,15 +26,15 @@ This tutorials will enable you to:
 - Linux
 
   ```shell
-  table=test_table_$RANDOM
+  table=tutorial_example_table_$RANDOM
   topic=sandbox
   token=$OEP_API_TOKEN
   ```
 
 - Windows
 
-  ```shell
-  SET table=test_table_%RANDOM%
+  ```cmd
+  SET table=tutorial_example_table_%RANDOM%
   SET topic=sandbox
   SET token=%OEP_API_TOKEN%
   ```
@@ -47,6 +47,14 @@ wget https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/doc
 wget https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.metadata.json
 ```
 
+## Help
+
+Show available commands:
+
+```shell
+oep-client --help
+```
+
 ## Create table
 
 This part of the code creates the table you will later upload to the OEP.
@@ -56,11 +64,65 @@ To be able to execute this part you will need to have executed the [setup](#setu
 - Linux
 
   ```shell
-
+    oep-client --token $token --schema $topic create $table tutorial_example_table.metadata.json
   ```
 
 - Windows
 
+  ```cmd
+    oep-client --token %token% --schema %topic% create %table% tutorial_example_table.metadata.json
+  ```
+
+## Upload data
+
+This part of the code uploads the table that you have created above to the OEP.
+
+To be able to execute this part you will need to have executed the [setup](#setup) and you will need to have [created a table](#create-table).
+
+- Linux
+
   ```shell
-  oep-client --token %token% --schema %topic% create %table% upload_tutorial_example_data.metadata.json
+    oep-client --token $token --schema $topic insert $table tutorial_example_table.data.json
+  ```
+
+- Windows
+
+  ```cmd
+    oep-client --token %token% --schema %topic% insert %table% tutorial_example_table.data.json
+  ```
+
+## Upload metadata
+
+This part of the code will upload metadata that described the data in your table to the OEP.
+
+To be able to execute this part you will need to have executed the [setup](#setup) and you will need to have [created a table](#create-table).
+
+- Linux
+
+  ```shell
+    oep-client --token $token --schema $topic metadata set $table tutorial_example_table.metadata.json
+  ```
+
+- Windows
+
+  ```cmd
+    oep-client --token %token% --schema %topic% metadata set %table% tutorial_example_table.metadata.json
+  ```
+
+## Delete table
+
+This part of the code deletes the table (including the metadata) that you have uploaded to the OEP.
+
+To be able to execute this part you will need to have executed the [setup](#setup) and you will need to have [created a table](#create-table).
+
+- Linux
+
+  ```shell
+  oep-client --token $token --schema $topic drop $table
+  ```
+
+- Windows
+
+  ```cmd
+  oep-client --token %token% --schema %topic% drop %table%
   ```

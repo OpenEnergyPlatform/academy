@@ -27,9 +27,17 @@
 
 - Windows
 
-  ```shell
+  ```cmd
   SET table=tutorial_example_table
   ```
+
+## Help
+
+Show available commands:
+
+```shell
+oep-client --help
+```
 
 ## Download data
 
@@ -38,26 +46,39 @@ requires execution of [setup](#setup)
 - Linux
 
   ```shell
-  oep-client select $table output.json
+  oep-client select $table output.data.json
   ```
 
   ```shell
-  oep-client select $table $table.csv
+  oep-client select $table $table.data.csv
   ```
 
 - Windows
 
-  ```shell
-  oep-client select %table% %table%.json
+  ```cmd
+  oep-client select %table% %table%.data.json
   ```
 
-  ```shell
-  oep-client select %table% %table%.csv
+  ```cmd
+  oep-client select %table% %table%.data.csv
   ```
 
 ## Download filtered data
 
-Not yet implemented
+In this example, we dont save the data to a file
+but just show results in the command line:
+
+- Linux
+
+  ```cmd
+  oep-client select $table --where "is_active=true" --where "capacity_mw>10"
+  ```
+
+- Windows
+
+  ```cmd
+  oep-client select %table% --where "is_active=true" --where "capacity_mw>10"
+  ```
 
 ## Download metadata
 
@@ -69,6 +90,6 @@ Not yet implemented
 
 - Windows
 
-  ```shell
+  ```cmd
   oep-client metadata get %table% %table%.metadata.json
   ```
