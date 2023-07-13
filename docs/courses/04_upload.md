@@ -40,7 +40,7 @@ This tutorial (also available as PDF) describes how to upload data to the OEP us
 
 This is a link to github where the oeclient resides, including the documentation. You can use the client to upload data to the OEP. 
 
-:oep-icon-code: [How to Upload Your Data and Metadata to the OEP](../tutorials/api/01_api_download.ipynb) (tutorial):
+:oep-icon-code: [How to Upload Your Data and Metadata to the OEP](../tutorials/api/01_api_upload.ipynb) (tutorial):
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand to upload your data and metadata to the OEP.
 
