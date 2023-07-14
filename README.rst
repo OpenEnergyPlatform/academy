@@ -87,6 +87,8 @@ License and Citation
 Linklist for projects in the Energieforschungsprogramm
 ======================================================
 
+If the tutorials change, please modify the redirects in mkdocs.yml [redirect_maps]
+
 * Checklist for working with open data: https://openenergyplatform.github.io/academy/tutorials/other/1_checklist/
 * How to generate database conform data: https://openenergyplatform.github.io/academy/tutorials/upload/data_preprocessing/7_database_data/
 * How to upload data to the OEP: 2 ways!: https://openenergyplatform.github.io/academy/tutorials/upload/08_upload/
