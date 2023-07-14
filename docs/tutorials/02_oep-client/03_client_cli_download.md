@@ -15,7 +15,7 @@ This tutorials will enable you to:
 
 - Python packages:
 
-  - `oep-client` (installs also the command line tool)
+  - `oep-client>=0.14` (installs also the command line tool)
 
 - Skills:
   - use the command line
@@ -49,18 +49,10 @@ requires execution of [setup](#setup)
 - Linux
 
   ```shell
-  oep-client select $table output.data.json
-  ```
-
-  ```shell
   oep-client select $table $table.data.csv
   ```
 
 - Windows
-
-  ```cmd
-  oep-client select %table% %table%.data.json
-  ```
 
   ```cmd
   oep-client select %table% %table%.data.csv
@@ -88,11 +80,11 @@ but just show results in the command line:
 - Linux
 
   ```shell
-  oep-client metadata get $table $table.metadata.json
+  oep-client metadata get $table
   ```
 
 - Windows
 
   ```cmd
-  oep-client metadata get %table% %table%.metadata.json
+  oep-client metadata get %table%
   ```

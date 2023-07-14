@@ -1,4 +1,4 @@
-# OEP Client Tutorial 03 - Upload data using the OEP Client in the command line
+# OEP Client Tutorial 04 - Upload data using the OEP Client in the command line
 
 <!-- keep img below title and without align="left"  -->
 <img src="https://raw.githubusercontent.com/OpenEnergyPlatform/academy/develop/docs/data/img/OEP_logo_2_no_text.svg" alt="OpenEnergy Platform" height="75" width="75" />
@@ -16,8 +16,7 @@ This tutorials will enable you to:
 
 - Python packages:
 
-  - `oep-client>=0.13` (installs also the command line tool)
-  - `wget` (or similar, to download example data)
+  - `oep-client>=0.14` (installs also the command line tool)
 
 - Skills:
   - use the command line
@@ -30,6 +29,8 @@ This tutorials will enable you to:
   table=tutorial_example_table_$RANDOM
   topic=sandbox
   token=$OEP_API_TOKEN
+  example_data=https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.data.csv
+  example_metadata=https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.metadata.json
   ```
 
 - Windows
@@ -38,15 +39,9 @@ This tutorials will enable you to:
   SET table=tutorial_example_table_%RANDOM%
   SET topic=sandbox
   SET token=%OEP_API_TOKEN%
+  SET example_data=https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.data.csv
+  SET example_metadata=https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.metadata.json
   ```
-
-Download the example data:
-
-```shell
-wget https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.data.csv
-wget https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.data.json
-wget https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.metadata.json
-```
 
 ## Help
 
@@ -60,18 +55,20 @@ oep-client --help
 
 This part of the code creates the table you will later upload to the OEP.
 
+We need the metadata to get the table schema (columns).
+
 To be able to execute this part you will need to have executed the [setup](#setup)
 
 - Linux
 
   ```shell
-    oep-client --token $token --schema $topic create $table tutorial_example_table.metadata.json
+    oep-client --token $token --schema $topic create $table $example_metadata
   ```
 
 - Windows
 
   ```cmd
-    oep-client --token %token% --schema %topic% create %table% tutorial_example_table.metadata.json
+    oep-client --token %token% --schema %topic% create %table% %example_metadata%
   ```
 
 ## Upload data
@@ -83,25 +80,13 @@ To be able to execute this part you will need to have executed the [setup](#setu
 - Linux
 
   ```shell
-    oep-client --token $token --schema $topic insert $table tutorial_example_table.data.json
-  ```
-
-  or using csv data instead of json:
-
-  ```shell
-    oep-client --token $token --schema $topic insert $table tutorial_example_table.data.json
+    oep-client --token $token --schema $topic insert $table $example_data
   ```
 
 - Windows
 
   ```cmd
-    oep-client --token %token% --schema %topic% insert %table% tutorial_example_table.data.json
-  ```
-
-  or using csv data instead of json:
-
-  ```cmd
-    oep-client --token %token% --schema %topic% insert %table% tutorial_example_table.data.csv
+    oep-client --token %token% --schema %topic% insert %table% %example_data%
   ```
 
 ## Upload metadata
@@ -113,13 +98,13 @@ To be able to execute this part you will need to have executed the [setup](#setu
 - Linux
 
   ```shell
-    oep-client --token $token --schema $topic metadata set $table tutorial_example_table.metadata.json
+    oep-client --token $token --schema $topic metadata set $table $example_metadata
   ```
 
 - Windows
 
   ```cmd
-    oep-client --token %token% --schema %topic% metadata set %table% tutorial_example_table.metadata.json
+    oep-client --token %token% --schema %topic% metadata set %table% %example_metadata%
   ```
 
 ## Delete table
