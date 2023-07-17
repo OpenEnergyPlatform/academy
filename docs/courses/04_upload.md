@@ -35,7 +35,7 @@ This tutorial (also available as PDF) describes how to upload data to the OEP us
 
 ## How can I publish data to the OEP with programming skills?
 
-:using the API :oep-icon-code: [How to Upload  Data (and Metadata) using the API](../tutorials/01_api/02_api_upload.ipynb) (tutorial:
+:oep-icon-code: [How to upload data (and ,etadata) using the API](../tutorials/01_api/02_api_upload.ipynb) (tutorial:
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand to upload your data and metadata to the OEP.
 
