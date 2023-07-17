@@ -35,13 +35,25 @@ This tutorial (also available as PDF) describes how to upload data to the OEP us
 
 ## How can I publish data to the OEP with programming skills?
 
-:oep-icon-code: [Use the oeclient to upload data to the OEP](https://github.com/OpenEnergyPlatform/oep-client/) (github link):
-
-This is a link to github where the oeclient resides, including the documentation. You can use the client to upload data to the OEP.
-
-:oep-icon-code: [How to Upload Your Data and Metadata to the OEP](../tutorials/01_api/02_api_upload.ipynb) (tutorial):
+:using the API :oep-icon-code: [How to Upload  Data (and Metadata) using the API](../tutorials/01_api/02_api_upload.ipynb) (tutorial:
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand to upload your data and metadata to the OEP.
+
+:oep-icon-code: [Use the OEP Client to upload data to the OEP](https://github.com/OpenEnergyPlatform/oep-client/) (github link):
+
+This is a link to github where the OEP Client resides, including the documentation. You can use the OEP Client to upload data to the OEP. Below are two more specific tutorials providing you with hands-on information to use the OEP Client. 
+
+:oep-icon-code: [Upload data using the OEP Client in a python script](../tutorials/02_oep-client/02_client_python_upload/) (tutorial):
+
+This jupyter notebook tutorial provides you a quick way of having all the code at hand to use the OEP Client to upload your data and metadata to the OEP. You will use a python script. 
+
+:oep-icon-code: [UUpload data using the OEP Client in the command line](../tutorials/02_oep-client/04_client_cli_upload/) (tutorial):
+
+This jupyter notebook tutorial provides you a quick way of having all the code at hand for using the OEP Client to upload your data and metadata to the OEP. You will use the command line. 
+
+
+
+
 
 ---
 
