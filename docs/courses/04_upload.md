@@ -47,7 +47,7 @@ This is a link to github where the OEP Client resides, including the documentati
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand to use the OEP Client to upload your data and metadata to the OEP. You will use a python script. 
 
-:oep-icon-code: [UUpload data using the OEP Client in the command line](../tutorials/02_oep-client/04_client_cli_upload.ipynb) (tutorial):
+:oep-icon-code: [Upload data using the OEP Client in the command line](../tutorials/02_oep-client/04_client_cli_upload.md) (tutorial):
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand for using the OEP Client to upload your data and metadata to the OEP. You will use the command line. 
 
