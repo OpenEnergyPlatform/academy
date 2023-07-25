@@ -23,12 +23,14 @@ This tutorials will enable you to:
 
 ## Setup
 
+For the setup commands to work, you need to set your personal OEP API token as an environment variable. Alternatively, you can assign your token directly to the token variable. You can find the token on your OEP profile page.
+
 - Linux
 
   ```shell
+  token=$OEP_API_TOKEN
   table=tutorial_example_table_$RANDOM
   topic=sandbox
-  token=$OEP_API_TOKEN
   example_data=https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.data.csv
   example_metadata=https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.metadata.json
   ```
@@ -36,9 +38,9 @@ This tutorials will enable you to:
 - Windows
 
   ```cmd
+  SET token=%OEP_API_TOKEN%
   SET table=tutorial_example_table_%RANDOM%
   SET topic=sandbox
-  SET token=%OEP_API_TOKEN%
   SET example_data=https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.data.csv
   SET example_metadata=https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/data/tutorial_example_table.metadata.json
   ```
