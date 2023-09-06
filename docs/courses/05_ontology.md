@@ -1,6 +1,8 @@
 # 05 - Ontology
 
-## Course 1 - How can I contribute to the Open Energy Ontology?
+## Part 1 - General introduction on ontologies and the OEO -- Under construction!
+
+### How can I contribute to the Open Energy Ontology?
 
 Development of the Open Energy Ontology (OEO) is a community effort and
 takes place on [GitHub](https://github.com/OpenEnergyPlatform/ontology).
@@ -9,7 +11,7 @@ how to get involved and how to contribute to the OEO.
 
 You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
-## For whom is this training and what can you learn?
+### For whom is this training and what can you learn?
 
 :oep-icon-info: **This course is aimed at researchers, policy makers and any interested person, who**
 
@@ -24,7 +26,7 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 - what the different levels of contribution are and
 - what steps you have to fulfill to add new terms and concepts to the OEO.
 
-## Where can I get general information on ontologies and the OEO?
+### Where can I get general information on ontologies and the OEO?
 
 :oep-icon-text: [The Open Energy Ontology – Overview](https://openenergy-platform.org/ontology/oeo/OEO_00000275):
 
@@ -44,7 +46,7 @@ Learn how the OEO is embedded in the Open Energy Family (OEF).
 
 Learn how to get involved and start participating in the OEO.
 
-## Why should I contribute to the OEO?
+### Why should I contribute to the OEO?
 
 :oep-icon-info: The OEO provides a controlled vocabulary for the domain of
 energy system modelling and energy research. Within the
@@ -58,7 +60,7 @@ powerful tool for data annotation and comparison within energy
 research, make your data more visible and increase its impact in your
 working field.
 
-## How do I get started?
+### How do I get started?
 
 :oep-icon-text: [How to participate in the OEO](https://github.com/OpenEnergyPlatform/ontology/wiki/Welcome!-How-to-participate):
 
@@ -88,7 +90,7 @@ Get familiar with the logic and semantic structure of the OEO.
 Learn about the guiding principles for choosing terms, creating
 definitions and maintaining the taxonomy of the OEO.
 
-## What different ways of contributing to the OEO are there?
+### What different ways of contributing to the OEO are there?
 
 :oep-icon-info: Contribution to the OEO can take place on different levels: You
 may only want to take part in discussions on topics you are interested
@@ -117,7 +119,7 @@ e.g. concepts, terms, or their relations to the OEO.
 Find out how to take part in discussions and in OEO developer
 meetings.
 
-## How do I add new terms, concepts and relations to the OEO?
+### How do I add new terms, concepts and relations to the OEO?
 
 :oep-icon-text: [Semantic structure of the OEO](https://github.com/OpenEnergyPlatform/ontology/wiki/Structure-of-the-OEO):
 
@@ -143,7 +145,7 @@ terms, or their relations to the OEO.
 
 Learn how to deal with ambiguous terms on the OEO.
 
-## Where do I get help, if got stuck?
+### Where do I get help, if got stuck?
 
 :oep-icon-text: [Tutorials on special topics](https://github.com/OpenEnergyPlatform/ontology/wiki/Tutorials):
 
@@ -155,7 +157,7 @@ module.
 Use the contact form of the Open Energy Platform to get in touch with
 us.
 
-## Supplementary material and further readings
+### Supplementary material and further readings
 
 :oep-icon-text: [Introducing the Open Energy Ontology: Enhancing data interpretation and interfacing in energy systems analysis (scientific paper)](https://www.sciencedirect.com/science/article/pii/S2666546821000288?via%3Dihub):
 
@@ -173,7 +175,7 @@ Learn about the concepts behind the OEO (external link).
 
 ---
 
-## About this course
+### About this course
 
 :oep-logo-sirop:
 
@@ -182,3 +184,61 @@ Learn about the concepts behind the OEO (external link).
 - Contact: SIROP@iee.fraunhofer.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2023-05-17
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
+
+---
+
+## Part 2 - How to become an OEO developer 
+
+### For whom is this training and what can you learn?
+
+:oep-icon-info: **This course is aimed at (energy system) researchers who**
+
+- want to understand the OEO design choices,
+- want to get to know the OEO development processes,
+- want to participate in ontology development and
+- want to collaborate developping a powerful open-source tool to enhance data management in the energy domain under the FAIR principles.
+
+:oep-icon-info: **After reading the sections of this module, you will know**
+
+- which skills are needed for OEO development,
+- how the OEO development process works and
+- how to participate in OEO development.
+
+### Prerequisit skills for OEO development
+OEO development requires some skills which will help you understand the OEO better and enable you to participate in the ontology development. 
+These are:
+- BFO basics
+- Protégé and OWL basics
+- github and git
+
+#### BFO basics
+OEO uses the formal structure and design principles of Basic Formal Ontology (BFO). 
+The more you are familiar with BFO, the better you can contribute to the development process.
+
+:oep-icon-text: The "BFO bible" is the book _Arp, Smith and Spear (2015): Building Ontologies with Basic Formal Ontology_. If you decide to become an OEO developer, you should read this book. It is also helpfull if you want to look up stuff at a later state.
+
+For a quick overview on BFO, here are some links.
+- ...
+
+#### Protégé and OWL basics
+
+#### github and git basics
+
+### OEO specific knowledge and skills
+- Paper on Ontology development
+- OEO introdutory paper
+- OEO wiki
+
+---
+
+### About this course
+
+:oep-logo-sirop:
+
+- Authors: Mirjam Stappel, Hannah Förster, Christian Hofmann, Christian Winger
+- Copyright: Otto-von-Guericke-Universität, Öko-Institut, Reiner-Lemoine-Institute
+- Contact: SIROP@iee.fraunhofer.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2023-05-17
+- You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
+
+---
