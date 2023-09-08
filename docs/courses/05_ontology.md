@@ -215,10 +215,12 @@ These are:
 OEO uses the formal structure and design principles of Basic Formal Ontology (BFO). 
 The more you are familiar with BFO, the better you can contribute to the development process.
 
-:oep-icon-text: The "BFO bible" is the book _Arp, Smith and Spear (2015): Building Ontologies with Basic Formal Ontology_. If you decide to become an OEO developer, you should read this book. It is also helpfull if you want to look up stuff at a later state.
+:oep-icon-video: For a quick overview on BFO, this video tutorial gives an introduction.
+[Building Ontologies with Basic Formal Ontology](https://www.youtube.com/watch?v=joC4NZgLtqA)
 
-For a quick overview on BFO, here are some links.
-- ...
+:oep-icon-text: The standard literature on BFO is [_Arp, Smith and Spear (2015): Building Ontologies with Basic Formal Ontology_](https://direct.mit.edu/books/book/4044/Building-Ontologies-with-Basic-Formal-Ontology). If you decide to become an OEO developer, you should read this book. It is also helpfull if you want to look up stuff at a later state.
+
+tbd: specification, bfo wiki and github
 
 #### Protégé and OWL basics
 
