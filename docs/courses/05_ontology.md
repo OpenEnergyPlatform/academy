@@ -1,6 +1,68 @@
 # 05 - Ontology
 
-## Part 1 - General introduction on ontologies and the OEO -- Under construction!
+## Part 1 - How to become an OEO developer 
+
+### For whom is this training and what can you learn?
+
+:oep-icon-info: **This course is aimed at (energy system) researchers who**
+
+- want to understand the OEO design choices,
+- want to get to know the OEO development processes,
+- want to participate in ontology development and
+- want to collaborate developping a powerful open-source tool to enhance data management in the energy domain under the FAIR principles.
+
+:oep-icon-info: **After reading the sections of this module, you will know**
+
+- which skills are needed for OEO development,
+- how the OEO development process works and
+- how to participate in OEO development.
+
+### Prerequisit skills for OEO development
+OEO development requires some skills which will help you understand the OEO better and enable you to participate in the ontology development. 
+These are:
+- BFO basics
+- Protégé and OWL basics
+- github and git
+
+#### BFO basics
+OEO uses the formal structure and design principles of Basic Formal Ontology (BFO). 
+The more you are familiar with BFO, the better you can contribute to the development process.
+
+:oep-icon-video: For a quick overview on BFO, this video tutorial gives an introduction.
+[Building Ontologies with Basic Formal Ontology](https://www.youtube.com/watch?v=joC4NZgLtqA)
+
+:oep-icon-text: The standard literature on BFO is [_Arp, Smith and Spear (2015): Building Ontologies with Basic Formal Ontology_](https://direct.mit.edu/books/book/4044/Building-Ontologies-with-Basic-Formal-Ontology). If you decide to become an OEO developer, you should read this book. It is also helpfull if you want to look up stuff at a later state.
+
+Please also checkout [BFO on github](https://github.com/BFO-ontology/BFO). In the [BFO github wiki](https://github.com/BFO-ontology/BFO/wiki) you can find some more other publications and information on BFO. 
+
+#### Protégé and OWL basics
+OEO is based on the Web Ontology Language OWL and uses Manchester Syntax. Protégé is the tool that we are using for OEO development. 
+To become familiar with Protégé and OWL, we recommend to study the [Pizza tutorial](https://www.michaeldebellis.com/post/new-protege-pizza-tutorial) by Micheal DeBellis, especially chapter 1 to 7. 
+
+You can find the OWL2 and Manchester Syntax documentation [here](https://www.w3.org/TR/owl2-manchester-syntax/) for further reading.
+
+#### github and git basics
+
+### OEO specific knowledge and skills
+- Paper on Ontology development
+- OEO introdutory paper
+- OEO wiki
+
+---
+
+### About this course
+
+:oep-logo-sirop:
+
+- Authors: Mirjam Stappel, Hannah Förster, Christian Hofmann, Christian Winger
+- Copyright: Otto-von-Guericke-Universität, Öko-Institut, Reiner-Lemoine-Institute
+- Contact: SIROP@iee.fraunhofer.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2023-05-17
+- You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
+
+---
+
+## Part 2 - General introduction on ontologies and the OEO -- Under construction!
 
 ### How can I contribute to the Open Energy Ontology?
 
@@ -187,60 +249,3 @@ Learn about the concepts behind the OEO (external link).
 
 ---
 
-## Part 2 - How to become an OEO developer 
-
-### For whom is this training and what can you learn?
-
-:oep-icon-info: **This course is aimed at (energy system) researchers who**
-
-- want to understand the OEO design choices,
-- want to get to know the OEO development processes,
-- want to participate in ontology development and
-- want to collaborate developping a powerful open-source tool to enhance data management in the energy domain under the FAIR principles.
-
-:oep-icon-info: **After reading the sections of this module, you will know**
-
-- which skills are needed for OEO development,
-- how the OEO development process works and
-- how to participate in OEO development.
-
-### Prerequisit skills for OEO development
-OEO development requires some skills which will help you understand the OEO better and enable you to participate in the ontology development. 
-These are:
-- BFO basics
-- Protégé and OWL basics
-- github and git
-
-#### BFO basics
-OEO uses the formal structure and design principles of Basic Formal Ontology (BFO). 
-The more you are familiar with BFO, the better you can contribute to the development process.
-
-:oep-icon-video: For a quick overview on BFO, this video tutorial gives an introduction.
-[Building Ontologies with Basic Formal Ontology](https://www.youtube.com/watch?v=joC4NZgLtqA)
-
-:oep-icon-text: The standard literature on BFO is [_Arp, Smith and Spear (2015): Building Ontologies with Basic Formal Ontology_](https://direct.mit.edu/books/book/4044/Building-Ontologies-with-Basic-Formal-Ontology). If you decide to become an OEO developer, you should read this book. It is also helpfull if you want to look up stuff at a later state.
-
-tbd: specification, bfo wiki and github
-
-#### Protégé and OWL basics
-
-#### github and git basics
-
-### OEO specific knowledge and skills
-- Paper on Ontology development
-- OEO introdutory paper
-- OEO wiki
-
----
-
-### About this course
-
-:oep-logo-sirop:
-
-- Authors: Mirjam Stappel, Hannah Förster, Christian Hofmann, Christian Winger
-- Copyright: Otto-von-Guericke-Universität, Öko-Institut, Reiner-Lemoine-Institute
-- Contact: SIROP@iee.fraunhofer.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2023-05-17
-- You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
-
----
