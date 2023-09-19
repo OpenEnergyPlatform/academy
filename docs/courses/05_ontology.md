@@ -42,6 +42,7 @@ To become familiar with Protégé and OWL, we recommend to study the [Pizza tuto
 You can find the OWL2 and Manchester Syntax documentation [here](https://www.w3.org/TR/owl2-manchester-syntax/) for further reading.
 
 #### github and git basics
+The documentations of the OEO development, its discussion and version control takes mainly place on GitHub. 
 
 ### OEO specific knowledge and skills
 - Paper on Ontology development
