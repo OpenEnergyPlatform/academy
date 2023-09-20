@@ -17,12 +17,13 @@
 - how the OEO development process works and
 - how to participate in OEO development.
 
-### What are prerequisit skills for OEO development?
+### What are prerequisit skills for ontology development?
 OEO development requires some skills which will help you understand the OEO better and enable you to participate in the ontology development. 
 These are:
 1. BFO basics
 2. Protégé and OWL basics
-3. github and git
+3. GitHub and git
+4. OEO specific knowledge
 
 #### 1. BFO basics
 OEO uses the formal structure and design principles of Basic Formal Ontology (BFO). 
@@ -49,11 +50,27 @@ The documentations of the OEO development, its discussion and version control al
 - There, you can also learn, how to [set up git](https://docs.github.com/en/get-started/quickstart/set-up-git).
 - An introductory tutorial on how to use git you can find [here](https://githowto.com/).
 
-### OEO specific knowledge and skills
+### Which OEO specific knowledge do I need?
+
+We published an introductory paper about the OEO in 2021 in the journal Energy and AI. It gives you a good overview over the domain, the structure and the workflow of OEO development.
+
+:oep-icon-text: [Introducing the Open Energy Ontology: Enhancing data interpretation and interfacing in energy systems analysis](https://www.sciencedirect.com/science/article/pii/S2666546821000288)
+
+The OEO wiki provides you details on how best practice principles of ontology development are applied to OEO development: https://github.com/OpenEnergyPlatform/ontology/wiki/Best-Practice-Principles
+
+The general workflow for OEO development is described in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub. 
+Important: to participate in the OEO development process on GitHub, you need to be part of the [OpenEnergyFamily organization](https://github.com/OpenEnergyPlatform)!
+
+Since energy is a complex physical phenomenon and challenging to describe ontologically, we published another OEO specific paper that describes, how we decided to represent energy and energy carriers in the OEO. 
+
+:oep-icon-text: [The representation of energy, energy carriers and
+fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-3249/paper1-Ensusto.pdf)
+
 
 - Paper on Ontology development
-- OEO introdutory paper
-- OEO wiki
+
+- OEO wiki: design choices
+- 
 
 ---
 
