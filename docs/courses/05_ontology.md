@@ -58,9 +58,6 @@ We published an introductory paper about the OEO in 2021 in the journal Energy a
 
 The OEO wiki provides you details on how best practice principles of ontology development are applied to OEO development: https://github.com/OpenEnergyPlatform/ontology/wiki/Best-Practice-Principles
 
-The general workflow for OEO development is described in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub. 
-Important: to participate in the OEO development process on GitHub, you need to be part of the [OpenEnergyFamily organization](https://github.com/OpenEnergyPlatform)!
-
 Since energy is a complex physical phenomenon and challenging to describe ontologically, we published another OEO specific paper that describes, how we decided to represent energy and energy carriers in the OEO. 
 
 :oep-icon-text: [The representation of energy, energy carriers and
@@ -71,6 +68,13 @@ fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publica
 
 - OEO wiki: design choices
 - 
+### I have read everything - how can I join the developer team now?
+
+1. Get in touch with us!
+2. We always welcome new members to the development team in our regular oeo-dev-meetings, where organizational stuff and content related issues are discussed.
+3. To participate in the OEO development process on GitHub, you need to be part of the [OpenEnergyFamily organization](https://github.com/OpenEnergyPlatform).
+4. Afterwards, you can follow all instructions and explainations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub. 
+
 
 ---
 
