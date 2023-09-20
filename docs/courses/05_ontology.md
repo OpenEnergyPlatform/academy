@@ -63,11 +63,8 @@ Since energy is a complex physical phenomenon and challenging to describe ontolo
 :oep-icon-text: [The representation of energy, energy carriers and
 fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-3249/paper1-Ensusto.pdf)
 
-
-- Paper on Ontology development
-
-- OEO wiki: design choices
-- 
+- to be completed -
+  
 ### I have read everything - how can I join the developer team now?
 
 1. Get in touch with us!
