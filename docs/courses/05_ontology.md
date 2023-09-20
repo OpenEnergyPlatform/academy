@@ -17,14 +17,14 @@
 - how the OEO development process works and
 - how to participate in OEO development.
 
-### Prerequisit skills for OEO development
+### What are prerequisit skills for OEO development?
 OEO development requires some skills which will help you understand the OEO better and enable you to participate in the ontology development. 
 These are:
-- BFO basics
-- Protégé and OWL basics
-- github and git
+1. BFO basics
+2. Protégé and OWL basics
+3. github and git
 
-#### BFO basics
+#### 1. BFO basics
 OEO uses the formal structure and design principles of Basic Formal Ontology (BFO). 
 The more you are familiar with BFO, the better you can contribute to the development process.
 
@@ -35,16 +35,22 @@ The more you are familiar with BFO, the better you can contribute to the develop
 
 Please also checkout [BFO on github](https://github.com/BFO-ontology/BFO). In the [BFO github wiki](https://github.com/BFO-ontology/BFO/wiki) you can find some more other publications and information on BFO. 
 
-#### Protégé and OWL basics
+#### 2. Protégé and OWL basics
 OEO is based on the Web Ontology Language OWL and uses Manchester Syntax. Protégé is the tool that we are using for OEO development. 
-To become familiar with Protégé and OWL, we recommend to study the [Pizza tutorial](https://www.michaeldebellis.com/post/new-protege-pizza-tutorial) by Micheal DeBellis, especially chapter 1 to 7. 
+:oep-icon-text: To become familiar with Protégé and OWL, we recommend to study the [Pizza tutorial](https://www.michaeldebellis.com/post/new-protege-pizza-tutorial) by Micheal DeBellis, especially chapter 1 to 7.
+For the tutorial, and the OEO development later, you have to install Protégé on your computer. 
 
 You can find the OWL2 and Manchester Syntax documentation [here](https://www.w3.org/TR/owl2-manchester-syntax/) for further reading.
 
-#### github and git basics
-The documentations of the OEO development, its discussion and version control takes mainly place on GitHub. 
+#### 3. GitHub and git basics
+The documentations of the OEO development, its discussion and version control all take place on GitHub. Therefore, it is necesarry to familiarize with the GitHub platform and the version control software [git](https://git-scm.com/).
+
+- GitHub provides a helpful guide for the [first steps with your GitHub account](https://docs.github.com/de/get-started/onboarding/getting-started-with-your-github-account). 
+- There, you can also learn, how to [set up git](https://docs.github.com/en/get-started/quickstart/set-up-git).
+- An introductory tutorial on how to use git you can find [here](https://githowto.com/).
 
 ### OEO specific knowledge and skills
+
 - Paper on Ontology development
 - OEO introdutory paper
 - OEO wiki
