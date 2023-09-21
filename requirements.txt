@@ -1,5 +1,6 @@
-mkdocs
+mkdocs>=1.5
 mkdocs-material
 mkdocs-jupyter
 mkdocs-redirects
+mkdocs-include-dir-to-nav
 beautifulsoup4
