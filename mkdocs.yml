@@ -82,6 +82,8 @@ plugins:
         tutorials/upload/11_beginners_guide.md: tutorials/99_other/beginners_guide.md
         tutorials/metadata/tutorial_open-data-licenses.md: tutorials/99_other/tutorial_open-data-licenses.ipynb
         tutorials/metadata/16_licensing.md: courses/08_licensing.md
+  - include_dir_to_nav:
+      file_pattern: '.*\.(md|ipynb)$'
 
 # Customization
 extra:
@@ -90,3 +92,16 @@ extra:
 
 extra_css:
   - css/extra.css
+
+
+nav:
+  - Introduction: index.md
+  - Courses: courses/
+  - Tutorials: tutorials/
+  - Questions: questions.md
+  - Metainfo: meta.md
+
+# new in mkdocs 1.5
+# NOTE: this only suppresses warning
+not_in_nav: |
+  legacy/*
