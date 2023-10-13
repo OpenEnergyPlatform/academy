@@ -1,4 +1,4 @@
-# 05 - OpenEnergyOntology
+# 05 - About the Open Energy Ontology
 
 ## Part 1 - How to become an OEO developer
 
@@ -41,6 +41,7 @@ The [BFO code](https://github.com/BFO-ontology/BFO) is hosted on GitHub where th
 #### 2. Protégé and OWL basics
 
 OEO is based on the Web Ontology Language OWL and uses Manchester Syntax. Protégé is the tool used for OEO development.
+
 :oep-icon-text: To become familiar with Protégé and OWL, we recommend studying the [Pizza tutorial](https://www.michaeldebellis.com/post/new-protege-pizza-tutorial) by Micheal DeBellis, especially chapter 1 to 7.
 For the tutorial, as well as OEO development, you will have to install Protégé on your computer.
 
@@ -82,8 +83,8 @@ fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publica
 
 :oep-logo-sirop:
 
-- Authors: Ulf Mueller, Mirjam Stappel, Hannah Förster, Christian Winger
-- Copyright: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut
+- Authors: Mirjam Stappel, Christian Hofmann, Hannah Förster, Christian Winger, Ulf Mueller
+- Copyright: Otto-von-Guericke-Universität, Fraunhofer IEE, Öko-Institut, Reiner Lemoine Institut
 - Contact: SIROP@iee.fraunhofer.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2023-05-17
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
