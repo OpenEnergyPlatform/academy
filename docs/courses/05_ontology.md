@@ -73,9 +73,10 @@ fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publica
 ### I have read everything - how can I join the developer team now?
 
 1. Get in touch with us!
-2. We always welcome new members to the development team in our regular oeo-dev-meetings, where we discuss organizational things and content related issues.
-3. To participate in the OEO development process on GitHub, you need to be part of the [OpenEnergyFamily organization](https://github.com/OpenEnergyPlatform).
+2. We always welcome new members to the development team in our regular oeo-dev-meetings, where we discuss organizational things and content related issues. 
+3. To participate in the OEO development and discussion process on GitHub, you need to be part of the [OpenEnergyFamily organization](https://github.com/OpenEnergyPlatform).
 4. Afterwards, you can follow all instructions and explainations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub.
+5. In all discussions, whether in an online meeting or on GitHub, we follow our [Code of Conduct](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CODE_OF_CONDUCT.md).
 
 ## [Part 2 - General introduction on ontologies and the OEO -- Under construction!](../legacy/05_ontology_legacy.md)
 
