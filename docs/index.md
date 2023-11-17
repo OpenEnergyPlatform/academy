@@ -4,9 +4,7 @@ Welcome to the training and tutorial section of the Open Energy Platform (OEP). 
 
 # :material-school-outline: Courses
 
- We recommend this section as an entrypoint for your work with the Open Energy Family (OEF) tools on the OEP. A [courses](courses/01_introduction.md) typically consists of a collection of several tutorials as well as other learning materials.
-
- weave together  a collection of materials that cater to different target users.
+ We recommend this section as an entrypoint for your work with the Open Energy Family (OEF) tools on the OEP. A [course](courses/01_introduction.md) typically consists of a collection of several tutorials as well as other learning materials, so you can choose which of the materials fits best to your needs.
 
 
 # :material-script-outline: Tutorials
