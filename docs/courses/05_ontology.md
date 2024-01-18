@@ -13,7 +13,7 @@
 
 :oep-icon-info: **After reading the sections of this module, you will know**
 
-- which skills are needed for OEO development,
+- which skills you need for OEO development,
 - how the OEO development process works and
 - how to participate in OEO development.
 
