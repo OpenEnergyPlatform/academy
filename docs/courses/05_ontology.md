@@ -29,7 +29,7 @@ The following skills will help you understand the OEO better and enable you to p
 #### 1. BFO basics
 
 The OEO uses the formal structure and design principles of the Basic Formal Ontology (BFO).
-The more familiar you are with BFO, the better you can contribute to the development process.
+The more familiar you are with BFO, the better you will be able to contribute to the OEO development process.
 
 :oep-icon-video: This video tutorial (78 min) provides an overview and introduction to BFO.
 [Building Ontologies with Basic Formal Ontology](https://www.youtube.com/watch?v=joC4NZgLtqA)
@@ -40,7 +40,7 @@ The [BFO code](https://github.com/BFO-ontology/BFO) is hosted on GitHub where th
 
 #### 2. Protégé and OWL basics
 
-OEO is based on the Web Ontology Language OWL and uses Manchester Syntax. Protégé is the tool used for OEO development.
+The OEO is based on the Web Ontology Language OWL and uses Manchester Syntax. Protégé is the tool used for OEO development.
 
 :oep-icon-text: To become familiar with Protégé and OWL, we recommend studying the [Pizza tutorial](https://www.michaeldebellis.com/post/new-protege-pizza-tutorial) by Micheal DeBellis, especially chapter 1 to 7.
 For the tutorial, as well as OEO development, you will have to install Protégé on your computer.
@@ -49,7 +49,7 @@ You can find the OWL2 and Manchester Syntax documentation [here](https://www.w3.
 
 #### 3. GitHub and git basics
 
-The documentations of the OEO development, its discussion and version control all take place on GitHub. Therefore, it is necesarry to be familiar with versioning control via [git](https://git-scm.com/) and GitHub as a platform.
+The documentation of the OEO development, its discussion and version control all take place on GitHub. Therefore, it is necessary to be familiar with versioning control via [git](https://git-scm.com/) and GitHub as a platform.
 
 - GitHub provides a helpful guide for the [first steps with your GitHub account](https://docs.github.com/de/get-started/onboarding/getting-started-with-your-github-account).
 - There, you can also learn, how to [set up git](https://docs.github.com/en/get-started/quickstart/set-up-git).
@@ -63,7 +63,7 @@ We published an introductory paper about the OEO in the journal Energy and AI in
 
 The OEO wiki provides details on how best practice principles of ontology development are applied to OEO development: https://github.com/OpenEnergyPlatform/ontology/wiki/Best-Practice-Principles
 
-Energy is a complex physical phenomenon and challenging to describe ontologically. We published another OEO specific paper that describes, how we decided to represent energy and energy carriers in the OEO.
+Energy is a complex physical phenomenon and challenging to describe ontologically. We published another OEO specific paper that describes how we decided to represent energy and energy carriers in the OEO.
 
 :oep-icon-text: [The representation of energy, energy carriers and
 fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-3249/paper1-Ensusto.pdf)
@@ -73,9 +73,9 @@ fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publica
 ### I have read everything - how can I join the developer team now?
 
 1. Get in touch with us!
-2. We always welcome new members to the development team in our regular oeo-dev-meetings, where we discuss organizational things and content related issues. 
-3. To participate in the OEO development and discussion process on GitHub, you need to be part of the [OpenEnergyFamily organization](https://github.com/OpenEnergyPlatform).
-4. Afterwards, you can follow all instructions and explainations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub.
+2. We always welcome new members to the development team in our regular oeo-dev-meetings, where we discuss organisational things and content related issues. 
+3. To participate in the OEO development and discussion process on GitHub, you will need to become part of the [OpenEnergyFamily organisation](https://github.com/OpenEnergyPlatform).
+4. Afterwards, you can follow all instructions and explanations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub.
 5. In all discussions, whether in an online meeting or on GitHub, we follow our [Code of Conduct](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CODE_OF_CONDUCT.md).
 
 ## [Part 2 - General introduction on ontologies and the OEO -- Under construction!](../legacy/05_ontology_legacy.md)
@@ -87,7 +87,7 @@ fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publica
 - Authors: Mirjam Stappel, Christian Hofmann, Hannah Förster, Christian Winger, Ulf Mueller
 - Copyright: Otto-von-Guericke-Universität, Fraunhofer IEE, Öko-Institut, Reiner Lemoine Institut
 - Contact: SIROP@iee.fraunhofer.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Fraunhofer IEE, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2023-05-17
+- Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2024-01-18
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
 ---
