@@ -1,3 +1,4 @@
+setuptools
 mkdocs>=1.5
 mkdocs-material
 mkdocs-jupyter
