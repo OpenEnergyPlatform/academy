@@ -25,11 +25,11 @@ To upload your data to [open energy database](https://openenergy-platform.org/da
 Here, we show you how to register with the OEP. Click the [Login](https://openenergy-platform.org/user/login/?next=/) button on the top right of the homepage and choose the option _Create a new account_.
 You can also go directly to [Register](https://openenergy-platform.org/user/register). Then fill out the required fields and click on _Submit_. You will receive an activation email at the email address you provided. Please follow the instructions received in the email. After successfully activating and logging into your account, you will see your information as in the screenshot:
 
-![image](docs\data\img\profile-view.JPG)
+![image](https://github.com/OpenEnergyPlatform/academy/blob/production/docs/data/img/02_profile-view.JPG?raw=true)
 
-This includes your profile information and any data tables you have already contributed to the OEP. Under Settings, you will be able to view your API token, by clicking _Show token:_:
+This includes your profile information and any data tables you have already contributed to the OEP. Under Settings, you will be able to view your API token, by clicking _Show token:_
 
-![image](docs\data\img\profile-api.JPG)
+![image](https://github.com/OpenEnergyPlatform/academy/blob/production/docs/data/img/02_profile-api.JPG?raw=true)
 
 The API token is necessary to make authenticated requests to the API (API = Application Programming Interface). You will use the API in case you want to connect to the OEP using programming skills.
 
