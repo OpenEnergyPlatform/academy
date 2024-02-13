@@ -1,6 +1,6 @@
 # 02 - How to get started with the Open Energy Family and Platform
 
-Learn how to register as a user with the Open Energy Platform (OEP) and why and how to register also with github.
+You will learn how to register as a user with the Open Energy Platform (OEP) and why and how to register also with github.
 
 You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/164](https://github.com/OpenEnergyPlatform/academy/issues/164)
 
@@ -21,16 +21,17 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 :oep-icon-info: **How do I register with the Open Energy Platform?**
 
-To upload your data to [open energy database](https://openenergy-platform.org/dataedit/schemas) of the OEP, you will need to have a user account. Here, we show you how to register with the OEP. Click the [Login](https://openenergy-platform.org/user/login/?next=/) button on the top right of the homepage and choose the option _Create a new account_.
-You can also go directly to [Register](https://openenergy-platform.org/user/register). Then fill out the required fields and click on _Submit_. You will receive an activation email, sent to your email address. Simply follow the instructions received in the email. After successfully activating and logging into your account, you will see your information as in the screenshot:
+To upload your data to [open energy database](https://openenergy-platform.org/dataedit/schemas) of the OEP, you require  a user account on the OEP. 
+Here, we show you how to register with the OEP. Click the [Login](https://openenergy-platform.org/user/login/?next=/) button on the top right of the homepage and choose the option _Create a new account_.
+You can also go directly to [Register](https://openenergy-platform.org/user/register). Then fill out the required fields and click on _Submit_. You will receive an activation email at the email address you provided. Please follow the instructions received in the email. After successfully activating and logging into your account, you will see your information as in the screenshot:
 
-![](https://openenergy-platform.org/media/image/2020/12/apitoken.png)
+![image](docs\data\img\profile-view.JPG)
 
-The API token is necessary to make authenticated requests to the API. You will use the API in case you want to connect to the OEP using programming skills. After you logged into the OEP, click the member icon at the upper right corner:
+This includes your profile information and any data tables you have already contributed to the OEP. Under Settings, you will be able to view your API token, by clicking _Show token:_:
 
-![](https://openenergy-platform.org/media/image/2020/12/logout.png)
+![image](docs\data\img\profile-api.JPG)
 
-You can find your API-Token under _Your Security Information_ by clicking on _Show token:_
+The API token is necessary to make authenticated requests to the API (API = Application Programming Interface). You will use the API in case you want to connect to the OEP using programming skills.
 
 ## Why and how to register with github?
 
@@ -56,5 +57,5 @@ A response will not be immediate. Please wait until you receive an invitation to
 - Copyright: (c) Öko-Institut (2023)
 - Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform. Last update: 2023-05-17
+- Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform. Last update: 2024-02-13
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/164](https://github.com/OpenEnergyPlatform/academy/issues/164)
