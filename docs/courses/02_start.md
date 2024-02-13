@@ -25,11 +25,12 @@ To upload your data to [open energy database](https://openenergy-platform.org/da
 Here, we show you how to register with the OEP. Click the [Login](https://openenergy-platform.org/user/login/?next=/) button on the top right of the homepage and choose the option _Create a new account_.
 You can also go directly to [Register](https://openenergy-platform.org/user/register). Then fill out the required fields and click on _Submit_. You will receive an activation email at the email address you provided. Please follow the instructions received in the email. After successfully activating and logging into your account, you will see your information as in the screenshot:
 
-![image](https://github.com/OpenEnergyPlatform/academy/blob/production/docs/data/img/02_profile-view.JPG?raw=true)
+![image](../data/img/02_profile-view.JPG)
+
 
 This includes your profile information and any data tables you have already contributed to the OEP. Under Settings, you will be able to view your API token, by clicking _Show token:_
 
-![image](https://github.com/OpenEnergyPlatform/academy/blob/production/docs/data/img/02_profile-api.JPG?raw=true)
+![image](../data/img/02_profile-api.JPG)
 
 The API token is necessary to make authenticated requests to the API (API = Application Programming Interface). You will use the API in case you want to connect to the OEP using programming skills.
 
@@ -43,7 +44,7 @@ When you interact with the OEP you also interact with the Open Energy Family (OE
 
 If you do not yet have a github account, you need to [register with github](https://github.com/join). You will then need to become a member of the group [OpenEnergyPlatform](https://github.com/OpenEnergyPlatform) by getting invited to the group. This works as follows: Get in touch via the [OpenEnergy Platform contact form](https://openenergy-platform.org/contact). Fill in the form with your request to be added to the OpenEnergyPlatform group on github. An example text is provided in the screenshot below:
 
-![image](https://github.com/OpenEnergyPlatform/academy/blob/production/docs/data/img/02_contact.JPG?raw=true)
+![image](../data/img/02_contact.JPG)
 
 The response is not automated and thus not immediate. Please wait until you receive an invitation to the github group.
 
