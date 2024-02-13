@@ -43,9 +43,9 @@ When you interact with the OEP you also interact with the Open Energy Family (OE
 
 If you do not yet have a github account, you need to [register with github](https://github.com/join). You will then need to become a member of the group [OpenEnergyPlatform](https://github.com/OpenEnergyPlatform) by getting invited to the group. This works as follows: Get in touch via the [OpenEnergy Platform contact form](https://openenergy-platform.org/contact). Fill in the form with your request to be added to the OpenEnergyPlatform group on github. An example text is provided in the screenshot below:
 
-![](https://openenergy-platform.org/media/image/2020/12/contact.png)
+![image](https://github.com/OpenEnergyPlatform/academy/blob/production/docs/data/img/02_contact.JPG?raw=true)
 
-A response will not be immediate. Please wait until you receive an invitation to the github group.
+The response is not automated and thus not immediate. Please wait until you receive an invitation to the github group.
 
 ---
 
