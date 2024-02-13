@@ -1,14 +1,7 @@
 # 01 - Introduction
 
-We have created training courses which provide various material on how to interact with
-the Open Energy Platform (OEP). Each training course provides learning materials which cater to different
-levels of expertise. Some are targeted at fluent programmers, others are targeted at
-persons who prefer to interact with the OEP visually.
-
-Each of these materials is described by a short abstract that will help you decide whether this is material that will be helpful for
-you. If it is, please click the link to view the material.
-
-As a visual guide regarding what to expect behind the links, we use the following icons:
+Welcome to the training section of the Open Energy Platform (OEP), the Open Energy Academy (OEA). On the OEA, we have created a series of training courses which provide various material on how to interact with OEP.  Each of our training courses provides targeted content directly within the course and / or links to learning materials which cater to different levels of expertise. Some materials are targeted at fluent programmers, others are targeted at persons who prefer to interact with the OEP visually. 
+As a visual guide regarding what to expect behind links you find in a training couse, we use the following icons:
 
 :oep-icon-code: links to written training material. The material may include some code for guidance.
 
@@ -18,6 +11,4 @@ As a visual guide regarding what to expect behind the links, we use the followin
 
 :oep-icon-video: links to video material.
 
-Our training courses can grow over time. If you see the need for further documentation,
-please feel free to get in touch with us via our
-[contact form](https://openenergy-platform.org/contact/).
+Our training courses will grow over time. If you see the need for further topics that you see the need for documentation, please feel free to get in touch with us via our [contact form](https://openenergy-platform.org/contact/).
