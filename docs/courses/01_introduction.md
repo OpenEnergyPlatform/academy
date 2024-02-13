@@ -13,4 +13,8 @@ As a visual guide regarding what to expect behind links you may find in a traini
 
 Our training courses will grow over time. If you see the need for further topics that you see the need for documentation, please feel free to get in touch with us via our [contact form](https://openenergy-platform.org/contact/).
 
+
+
+:oep-logo-sirop:
+
 - Last update: 2024-02-13
