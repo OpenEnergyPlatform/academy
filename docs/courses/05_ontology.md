@@ -57,18 +57,20 @@ The documentation of the OEO development, its discussion and version control all
 
 ### Which OEO specific knowledge do I need?
 
-We published an introductory paper about the OEO in the journal Energy and AI in 2021. It provides a good overview over the domain, the structure and the workflow of OEO development.
-
 :oep-icon-text: [Introducing the Open Energy Ontology: Enhancing data interpretation and interfacing in energy systems analysis](https://www.sciencedirect.com/science/article/pii/S2666546821000288)
 
-The OEO wiki provides details on how best practice principles of ontology development are applied to OEO development: https://github.com/OpenEnergyPlatform/ontology/wiki/Best-Practice-Principles
+We published an introductory paper about the OEO in the journal Energy and AI in 2021. It provides a good overview over the domain, the structure and the workflow of OEO development.
 
-Energy is a complex physical phenomenon and challenging to describe ontologically. We published another OEO specific paper that describes how we decided to represent energy and energy carriers in the OEO.
+ :oep-icon-text: [OEO Wiki](https://github.com/OpenEnergyPlatform/ontology/wiki/Best-Practice-Principles)
+
+ The OEO wiki provides details on how best practice principles of ontology development are applied to OEO development:
 
 :oep-icon-text: [The representation of energy, energy carriers and
 fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-3249/paper1-Ensusto.pdf)
 
-- to be completed -
+Energy is a complex physical phenomenon and challenging to describe ontologically. We published another OEO specific paper that describes how we decided to represent energy and energy carriers in the OEO.
+
+
 
 ### I have read everything - how can I join the developer team now?
 
@@ -78,7 +80,7 @@ fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publica
 4. Afterwards, you can follow all instructions and explanations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub.
 5. In all discussions, whether in an online meeting or on GitHub, we follow our [Code of Conduct](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CODE_OF_CONDUCT.md).
 
-## [Part 2 - General introduction on ontologies and the OEO -- Under construction!](../legacy/05_ontology_legacy.md)
+
 
 ### About this course
 
@@ -87,7 +89,7 @@ fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publica
 - Authors: Mirjam Stappel, Christian Hofmann, Hannah Förster, Christian Winger, Ulf Mueller
 - Copyright: Otto-von-Guericke-Universität, Fraunhofer IEE, Öko-Institut, Reiner Lemoine Institut
 - Contact: SIROP@iee.fraunhofer.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2024-01-18
+- Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2024-02-14
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
 ---
