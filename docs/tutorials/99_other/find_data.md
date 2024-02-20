@@ -10,6 +10,7 @@ The example below exemplarily shows you how to use free-text (_parameters_) and 
 ---
 
 ## About this tutorial
+
 :oep-logo-sirop:
 
 - Authors: Hannah Förster 
