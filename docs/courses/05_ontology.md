@@ -82,7 +82,7 @@ Energy is a complex physical phenomenon and challenging to describe ontologicall
 
 
 ---
-### About this course
+## About this course
 
 :oep-logo-sirop:
 
