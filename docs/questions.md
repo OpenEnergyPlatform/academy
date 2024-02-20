@@ -6,7 +6,7 @@
 
 ## Search: How do I search for data on the OEP?
 
-There is search functionality under [Database](https://openenergy-platform.org/dataedit/schemas). Use the search bar for free text and / or combine it with tags that are presented below the search bar. This will search through data and metadata and reduce the list of schemas to the list where your search term(s) were found. Click on the schema name and then see all the tables that conform to your search term(s). Alternatively, you can enter any scheme and search within the scheme in the same way. Here is a **[short tutorial with a visual on combining free text search and tags](./tutorials/99_other/find_data.md)**.
+The [open energy database](https://openenergy-platform.org/dataedit/schemas) comes with search functionality. You can use the search bar for free text and / or combine this with tags that are presented next to the the search bar as a drop-down menu. This will search through data and metadata and reduce the list of topics to the list where your search term(s) were found. Click on the topic name and then see all the tables that conform to your search term(s). Alternatively, you can click and open any topic and search within this topic in the same way. Here is a **[short tutorial with a visual on combining free text search and tags](./tutorials/99_other/find_data.md)**.
 
 ---
 
