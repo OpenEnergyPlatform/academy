@@ -175,7 +175,7 @@ Learn about the concepts behind the OEO (external link).
 
 ---
 
-### About this course
+## About this course
 
 :oep-logo-sirop:
 

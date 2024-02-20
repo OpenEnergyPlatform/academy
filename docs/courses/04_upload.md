@@ -41,19 +41,15 @@ This jupyter notebook tutorial provides you a quick way of having all the code a
 
 :oep-icon-code: [Use the OEP Client to upload data to the OEP](https://github.com/OpenEnergyPlatform/oep-client/) (github link):
 
-This is a link to github where the OEP Client resides, including the documentation. You can use the OEP Client to upload data to the OEP. Below are two more specific tutorials providing you with hands-on information to use the OEP Client. 
+This is a link to github where the OEP Client resides, including the documentation. You can use the OEP Client to upload data to the OEP. Below are two more specific tutorials providing you with hands-on information to use the OEP Client.
 
 :oep-icon-code: [Upload data using the OEP Client in a python script](../tutorials/02_oep-client/02_client_python_upload.ipynb) (tutorial):
 
-This jupyter notebook tutorial provides you a quick way of having all the code at hand to use the OEP Client to upload your data and metadata to the OEP. You will use a python script. 
+This jupyter notebook tutorial provides you a quick way of having all the code at hand to use the OEP Client to upload your data and metadata to the OEP. You will use a python script.
 
 :oep-icon-code: [Upload data using the OEP Client in the command line](../tutorials/02_oep-client/04_client_cli_upload.md) (tutorial):
 
-This jupyter notebook tutorial provides you a quick way of having all the code at hand for using the OEP Client to upload your data and metadata to the OEP. You will use the command line. 
-
-
-
-
+This jupyter notebook tutorial provides you a quick way of having all the code at hand for using the OEP Client to upload your data and metadata to the OEP. You will use the command line.
 
 ---
 
@@ -65,6 +61,6 @@ This jupyter notebook tutorial provides you a quick way of having all the code a
 - Copyright: [Öko-Institut](https://www.oeko.de) (2022)
 - Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2022): Upload - Contribute data to the OEP. 
+- Attribution: Öko-Institut (2022): Upload - Contribute data to the OEP.
 - Last update: 2023-05-17
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/166](https://github.com/OpenEnergyPlatform/academy/issues/166)

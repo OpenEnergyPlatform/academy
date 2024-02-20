@@ -21,12 +21,11 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 :oep-icon-info: **How do I register with the Open Energy Platform?**
 
-To upload your data to [open energy database](https://openenergy-platform.org/dataedit/schemas) of the OEP, you require  a user account on the OEP. 
+To upload your data to [open energy database](https://openenergy-platform.org/dataedit/schemas) of the OEP, you require a user account on the OEP.
 Here, we show you how to register with the OEP. Click the [Login](https://openenergy-platform.org/user/login/?next=/) button on the top right of the homepage and choose the option _Create a new account_.
 You can also go directly to [Register](https://openenergy-platform.org/user/register). Then fill out the required fields and click on _Submit_. You will receive an activation email at the email address you provided. Please follow the instructions received in the email. After successfully activating and logging into your account, you will see your information as in the screenshot:
 
 ![image](../data/img/02_profile-view.JPG)
-
 
 This includes your profile information and any data tables you have already contributed to the OEP. Under Settings, you will be able to view your API token, by clicking _Show token:_
 
@@ -58,6 +57,6 @@ The response is not automated and thus not immediate. Please wait until you rece
 - Copyright: [Öko-Institut](https://www.oeko.de) (2023)
 - Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform. 
+- Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform.
 - Last update: 2024-02-13
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/164](https://github.com/OpenEnergyPlatform/academy/issues/164)

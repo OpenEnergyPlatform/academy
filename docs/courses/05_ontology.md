@@ -61,36 +61,34 @@ The documentation of the OEO development, its discussion and version control all
 
 We published an introductory paper about the OEO in the journal Energy and AI in 2021. It provides a good overview over the domain, the structure and the workflow of OEO development.
 
- :oep-icon-text: [OEO Wiki](https://github.com/OpenEnergyPlatform/ontology/wiki/Best-Practice-Principles)
+:oep-icon-text: [OEO Wiki](https://github.com/OpenEnergyPlatform/ontology/wiki/Best-Practice-Principles)
 
- The OEO wiki provides details on how best practice principles of ontology development are applied to OEO development:
+The OEO wiki provides details on how best practice principles of ontology development are applied to OEO development:
 
 :oep-icon-text: [The representation of energy, energy carriers and
 fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-3249/paper1-Ensusto.pdf)
 
 Energy is a complex physical phenomenon and challenging to describe ontologically. We published another OEO specific paper that describes how we decided to represent energy and energy carriers in the OEO.
 
-
-
 ### I have read everything - how can I join the developer team now?
 
 1. Get in touch with us!
-2. We always welcome new members to the development team in our regular oeo-dev-meetings, where we discuss organisational things and content related issues. 
+2. We always welcome new members to the development team in our regular oeo-dev-meetings, where we discuss organisational things and content related issues.
 3. To participate in the OEO development and discussion process on GitHub, you will need to become part of the [OpenEnergyFamily organisation](https://github.com/OpenEnergyPlatform).
 4. Afterwards, you can follow all instructions and explanations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub.
 5. In all discussions, whether in an online meeting or on GitHub, we follow our [Code of Conduct](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CODE_OF_CONDUCT.md).
 
-
 ---
+
 ## About this course
 
 :oep-logo-sirop:
 
 - Authors: Mirjam Stappel, Christian Hofmann, Hannah Förster, Christian Winger, Ulf Mueller
 - Copyright: Otto-von-Guericke-Universität, Fraunhofer IEE, Öko-Institut, Reiner Lemoine Institut (2023)
-- Contact: SIROP@iee.fraunhofer.de. 
+- Contact: SIROP@iee.fraunhofer.de.
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. 
+- Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO.
 - Last update: 2024-02-14
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 

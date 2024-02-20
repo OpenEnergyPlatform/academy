@@ -89,11 +89,12 @@ but just show results in the command line:
   oep-client metadata get %table%
   ```
 
-
 ## About this tutorial
+
+:oep-logo-sirop:
 
 - Author: Christian Winger
 - Copyright: [Öko-Institut](https://www.oeko.de) (2024)
-- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) 
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2024): OEP Client Tutorial 03 - Download data from the Open Energy Platform using the OEP Client in the command line
 - Last update 2024-02-20

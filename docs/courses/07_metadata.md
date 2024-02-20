@@ -4,6 +4,7 @@ tags:
 ---
 
 # 07 - Metadata
+
 You can provide [feedback to this course](https://github.com/OpenEnergyPlatform/academy/issues/187) on GitHub
 
 ## Who is this course for and what can you learn?
