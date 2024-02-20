@@ -10,7 +10,11 @@ The example below exemplarily shows you how to use free-text (_parameters_) and 
 ---
 
 ## About this tutorial
+:oep-logo-sirop:
 
-Authors: Hannah Förster, (Öko-Institut). Copyright: Öko-Institut. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Find data on the OEP. Last update: 2024-02-20
+- Authors: Hannah Förster 
+- Copyright: Öko-Institut
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). 
+- Attribution: Öko-Institut (2022): Find data on the OEP. Last update: 2024-02-20
 
 ---
