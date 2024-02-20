@@ -1,4 +1,4 @@
-# OEP Client Tutorial 04 - Upload data using the OEP Client in the command line
+# OEP Client Tutorial 04 - Upload data to the Open Energy Platform using the OEP Client in the command line
 
 <!-- keep img below title and without align="left"  -->
 <img src="https://raw.githubusercontent.com/OpenEnergyPlatform/academy/develop/docs/data/img/OEP_logo_2_no_text.svg" alt="OpenEnergy Platform" height="75" width="75" />
@@ -126,3 +126,11 @@ To be able to execute this part you will need to have executed the [setup](#setu
   ```cmd
   oep-client --token %token% --schema %topic% drop %table%
   ```
+
+## About this tutorial
+
+- Author: Christian Winger
+- Copyright: [Öko-Institut](https://www.oeko.de) (2024)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) 
+- Attribution: Öko-Institut (2024): OEP Client Tutorial 04 - Upload data to the Open Energy Platform using the OEP Client in the command line
+- Last update 2024-02-20
