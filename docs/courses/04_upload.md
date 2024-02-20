@@ -62,7 +62,7 @@ This jupyter notebook tutorial provides you a quick way of having all the code a
 :oep-logo-sirop:
 
 - Authors: Hannah Förster, Anne Siemons
-- Copyright: (c) Öko-Institut (2022)
+- Copyright: [Öko-Institut](https://www.oeko.de) (2022)
 - Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2022): Upload - Contribute data to the OEP. Last update: 2023-05-17

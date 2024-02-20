@@ -14,7 +14,7 @@ The example below exemplarily shows you how to use free-text (_parameters_) and 
 :oep-logo-sirop:
 
 - Authors: Hannah Förster 
-- Copyright: Öko-Institut
+- Copyright: [Öko-Institut](https://www.oeko.de) (2022)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). 
 - Attribution: Öko-Institut (2022): Find data on the OEP. Last update: 2024-02-20
 

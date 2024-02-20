@@ -264,7 +264,7 @@ resources will be created.\_
 :oep-logo-sirop:
 
 - Authors: Ludwig Hülk, Christian Hofmann
-- Copyright: © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
+- Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
 - Contact:
 - License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Open Energy Academy - Licensing Course © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)

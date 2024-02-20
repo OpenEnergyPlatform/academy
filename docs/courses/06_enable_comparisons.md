@@ -74,7 +74,7 @@ If a variable / parameter is already represented in the [Open Energy Ontology](h
 :oep-logo-sirop:
 
 - Authors: Hannah Förster
-- Copyright: (c) Öko-Institut (2023)
+- Copyright: [Öko-Institut](https://www.oeko.de) (2023)
 - Contact: oedb@oeko.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2023): Comparing data - Enable scenario projection comparison on the Open Energy Platform. Last update: 2024-02-14
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/174](https://github.com/OpenEnergyPlatform/academy/issues/174)

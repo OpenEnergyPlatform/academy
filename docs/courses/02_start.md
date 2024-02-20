@@ -55,7 +55,7 @@ The response is not automated and thus not immediate. Please wait until you rece
 :oep-logo-sirop:
 
 - Authors: Hannah Förster
-- Copyright: (c) Öko-Institut (2023)
+- Copyright: [Öko-Institut](https://www.oeko.de) (2023)
 - Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform. Last update: 2024-02-13

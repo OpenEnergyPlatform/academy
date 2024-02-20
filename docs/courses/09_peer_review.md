@@ -156,7 +156,7 @@ The editor is not implemented yet.
 :oep-logo-sirop:
 
 - Authors: Ludwig Hülk (Ludee), Christian Hofmann, Stephan Uller
-- Copyright: © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
+- Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
 - Contact: datenzentrum@rl-institut.de
 - License: Creative Commons Attribution 4.0 International ([CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en))
 - Attribution: Open Energy Academy - Licensing Course © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/) | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
