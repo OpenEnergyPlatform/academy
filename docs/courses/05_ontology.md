@@ -1,4 +1,4 @@
-# 05 - About the Open Energy Ontology
+# 05 - The Open Energy Ontology
 
 ## Part 1 - How to become an OEO developer
 
