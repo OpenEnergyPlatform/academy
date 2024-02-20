@@ -7,9 +7,9 @@
 }
 
 /* https://github.com/OpenEnergyPlatform/academy/issues/161
-make font in section after #about-this-course small
+make font in section after ## About ... small
 */
 
-#about-this-course ~ * {
+h2.section-about ~ * {
   font-size: x-small;
 }

@@ -1,9 +1,10 @@
 """
 See: https://www.mkdocs.org/dev-guide/plugins/#developing-plugins
 """
+
 import re
 
-# import bs4
+import bs4
 import mkdocs
 
 IMG_PATH = "data/img"
@@ -58,7 +59,14 @@ class OepPlugin(mkdocs.plugins.BasePlugin[OepPluginConfig]):
         return markdown
 
     def on_page_content(self, html: str, page, config, files) -> str:
-        # soup = bs4.BeautifulSoup(html)
-        # bs4.Tag("i", attrs={"class": ""})
-        # html = str(soup)
+        soup = bs4.BeautifulSoup(html)
+
+        import re
+
+        # if level 2 header starts with "About": mark this with "section-about" class
+        # so that css can change formatting to small font
+        for item in soup.find_all("h2", attrs={"id": re.compile("about.*")}):
+            item["class"] = "section-about"
+
+        html = str(soup)
         return html
