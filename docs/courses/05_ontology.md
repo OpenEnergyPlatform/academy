@@ -88,7 +88,8 @@ Energy is a complex physical phenomenon and challenging to describe ontologicall
 
 - Authors: Mirjam Stappel, Christian Hofmann, Hannah Förster, Christian Winger, Ulf Mueller
 - Copyright: Otto-von-Guericke-Universität, Fraunhofer IEE, Öko-Institut, Reiner Lemoine Institut (2023)
-- Contact: SIROP@iee.fraunhofer.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Contact: SIROP@iee.fraunhofer.de. 
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO. Last update: 2024-02-14
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
