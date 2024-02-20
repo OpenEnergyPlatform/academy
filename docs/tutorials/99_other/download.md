@@ -17,7 +17,7 @@ The datapackage additionally holds the attached metadata as a [json string](http
 
 - Authors: Hannah Förster 
 - Copyright: Öko-Institut (2022)
-- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). 
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2022): How to download data from the OEP - CSV and datapackage. Last update: 2024-02-20
 
 ---
