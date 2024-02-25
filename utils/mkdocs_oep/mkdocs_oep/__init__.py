@@ -54,7 +54,7 @@ class OepPlugin(mkdocs.plugins.BasePlugin[OepPluginConfig]):
         # if level 2 header starts with "About": mark this with "section-about" class
         # so that css can change formatting to small font
         # -----------------------------------------------------------------------
-        soup = bs4.BeautifulSoup(html)
+        soup = bs4.BeautifulSoup(html, features="html.parser")
         for item in soup.find_all("h2", attrs={"id": re.compile("^about.*")}):
             item["class"] = "section-about"
         html = str(soup)

@@ -95,7 +95,7 @@ extra_css:
 
 
 nav:
-  - Introduction: index.md
+  - Start: index.md
   - Courses: courses/
   - Tutorials: tutorials/
   - Questions: questions.md
