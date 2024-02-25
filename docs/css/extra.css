@@ -13,3 +13,12 @@ make font in section after ## About ... small
 h2.section-about ~ * {
   font-size: x-small;
 }
+
+/* https://github.com/OpenEnergyPlatform/academy/issues/209 */
+
+.md-typeset h1 {
+  margin-bottom: 0.5em;
+}
+p {
+  margin-bottom: 2.5em;
+}

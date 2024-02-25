@@ -23,19 +23,19 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 ## How can I publish data to the OEP without programming skills?
 
-:oep-icon-text: [Upload tables as csv](../tutorials/99_other/wizard.md) (tutorial):
+:oep-icon-text: [Upload tables as csv](../tutorials/99 Other/wizard.md) (tutorial):
 
 This tutorial teaches you step-by-step on how to upload data from a .csv file to the OEP using the csv upload wizard.
 
 ## How can I publish data to the OEP as a beginner interested in programming?
 
-:oep-icon-text: , </i>:oep-icon-code: [Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process](../tutorials/99_other/beginners_guide.md) (tutorial):
+:oep-icon-text: , </i>:oep-icon-code: [Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process](../tutorials/99 Other/beginners_guide.md) (tutorial):
 
 This tutorial (also available as PDF) describes how to upload data to the OEP using Python and the REST-API. Several steps are needed to contribute actively to the platform. Some of these you only need to do once to get started. The steps described in this document are the following: Register at the OpenEnergy Platform, Register at github and get invited to the OpenEnergy Platform Group, Create data table(s) and upload data table(s), create metadata and upload metadata to github, initiate data review, create scenario factsheets.
 
 ## How can I publish data to the OEP with programming skills?
 
-:oep-icon-code: [How to upload data (and metadata) using the API](../tutorials/01_api/02_api_upload.ipynb) (tutorial:
+:oep-icon-code: [How to upload data (and metadata) using the API](../tutorials/01 API/02_api_upload.ipynb) (tutorial:
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand to upload your data and metadata to the OEP.
 
@@ -43,11 +43,11 @@ This jupyter notebook tutorial provides you a quick way of having all the code a
 
 This is a link to github where the OEP Client resides, including the documentation. You can use the OEP Client to upload data to the OEP. Below are two more specific tutorials providing you with hands-on information to use the OEP Client.
 
-:oep-icon-code: [Upload data using the OEP Client in a python script](../tutorials/02_oep-client/02_client_python_upload.ipynb) (tutorial):
+:oep-icon-code: [Upload data using the OEP Client in a python script](../tutorials/02 OEP Client/02_client_python_upload.ipynb) (tutorial):
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand to use the OEP Client to upload your data and metadata to the OEP. You will use a python script.
 
-:oep-icon-code: [Upload data using the OEP Client in the command line](../tutorials/02_oep-client/04_client_cli_upload.md) (tutorial):
+:oep-icon-code: [Upload data using the OEP Client in the command line](../tutorials/02 OEP Client/04_client_cli_upload.md) (tutorial):
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand for using the OEP Client to upload your data and metadata to the OEP. You will use the command line.
 
