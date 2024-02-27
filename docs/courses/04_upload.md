@@ -62,5 +62,5 @@ This jupyter notebook tutorial provides you a quick way of having all the code a
 - Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2022): Upload - Contribute data to the OEP.
-- Last update: 2023-05-17
+- Last update: :oep-auto-lastupdate:
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/166](https://github.com/OpenEnergyPlatform/academy/issues/166)

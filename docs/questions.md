@@ -66,6 +66,6 @@ The whole development process of the OEP is Open Source, thus anyone can contrib
 
 :oep-logo-sirop:
 
-Authors: Hannah Förster (Öko-Institut). Copyright: Öko-Institut (2022). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Questions. Last update: 2023-03-16
+Authors: Hannah Förster (Öko-Institut). Copyright: Öko-Institut (2022). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Questions. Last update: :oep-auto-lastupdate:
 
 ---

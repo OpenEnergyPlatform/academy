@@ -58,5 +58,5 @@ The response is not automated and thus not immediate. Please wait until you rece
 - Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform.
-- Last update: 2024-02-13
+- Last update: :oep-auto-lastupdate:
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/164](https://github.com/OpenEnergyPlatform/academy/issues/164)

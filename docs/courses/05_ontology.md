@@ -89,7 +89,7 @@ Energy is a complex physical phenomenon and challenging to describe ontologicall
 - Contact: SIROP@iee.fraunhofer.de.
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO.
-- Last update: 2024-02-14
+- Last update: :oep-auto-lastupdate:
 - You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
 ---

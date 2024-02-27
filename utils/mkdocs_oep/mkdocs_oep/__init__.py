@@ -2,6 +2,8 @@
 See: https://www.mkdocs.org/dev-guide/plugins/#developing-plugins
 """
 
+import datetime
+import os
 import re
 
 import bs4
@@ -70,5 +72,12 @@ class OepPlugin(mkdocs.plugins.BasePlugin[OepPluginConfig]):
                 html = html.replace(
                     search, f'<img src="{path_prefix}{IMG_PATH}/{logo}" alt="logo">'
                 )
+            elif key == "auto" and val == "lastupdate":
+                # replace with last modification timestamp
+                # from file system (hopefully git checkout preserves that)
+                datestr = datetime.datetime.fromtimestamp(
+                    os.stat(page.file.abs_src_path).st_mtime
+                ).strftime("%Y-%m-%d")
+                html = html.replace(search, datestr)
 
         return html

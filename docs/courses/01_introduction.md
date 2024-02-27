@@ -15,4 +15,4 @@ Our training courses will grow over time. If you see the need for further topics
 
 :oep-logo-sirop:
 
-- Last update: 2024-02-13
+- Last update: :oep-auto-lastupdate:
