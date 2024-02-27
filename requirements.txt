@@ -1,8 +1,8 @@
 setuptools
-mkdocs>=1.5
-mkdocs-material
-mkdocs-jupyter==0.24.2
-bleach[css]>=5.0 # for mkdocs-jupyter
-mkdocs-redirects
-mkdocs-include-dir-to-nav
-beautifulsoup4
+mkdocs~=1.5
+mkdocs-material~=9.5
+mkdocs-jupyter~=0.24
+bleach[css]~=6.1 # for mkdocs-jupyter
+mkdocs-redirects~=1.2
+mkdocs-include-dir-to-nav~=1.2
+beautifulsoup4>=4.0,<5.0
