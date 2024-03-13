@@ -1,6 +1,6 @@
 # 05 - The Open Energy Ontology
 
-## Part 1 - How to become an OEO developer
+## How to become an OEO developer
 
 ### For whom is this training and what can you learn?
 
@@ -58,16 +58,13 @@ The documentation of the OEO development, its discussion and version control all
 ### Which OEO specific knowledge do I need?
 
 :oep-icon-text: [Introducing the Open Energy Ontology: Enhancing data interpretation and interfacing in energy systems analysis](https://www.sciencedirect.com/science/article/pii/S2666546821000288)
-
 We published an introductory paper about the OEO in the journal Energy and AI in 2021. It provides a good overview over the domain, the structure and the workflow of OEO development.
 
 :oep-icon-text: [OEO Wiki](https://github.com/OpenEnergyPlatform/ontology/wiki/Best-Practice-Principles)
-
-The OEO wiki provides details on how best practice principles of ontology development are applied to OEO development:
+The OEO wiki provides details on how best practice principles of ontology development are applied to OEO development.
 
 :oep-icon-text: [The representation of energy, energy carriers and
 fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-3249/paper1-Ensusto.pdf)
-
 Energy is a complex physical phenomenon and challenging to describe ontologically. We published another OEO specific paper that describes how we decided to represent energy and energy carriers in the OEO.
 
 ### I have read everything - how can I join the developer team now?
