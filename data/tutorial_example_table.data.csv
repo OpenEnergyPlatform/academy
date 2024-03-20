@@ -1,0 +1,4 @@
+name,is_active,capacity_mw,installation_datetime_utc,location
+unit1,True,1.2,2010-02-03 00:00:00,POINT(53.12 8.345)
+unit2,False,2.1,2010-01-08,
+unit3,True,100,2010-01-02 10:30:00,Point(55.34 7.34)
