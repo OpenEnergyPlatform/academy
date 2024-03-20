@@ -76,12 +76,11 @@ plugins:
   - redirects:
       # redirect pages where we already published the urls
       redirect_maps:
-        tutorials/01_api/01_api_download/: tutorials/01 API/01_api_download.ipynb
-        tutorials/other/1_checklist.md: tutorials/99 Other/checklist.md
-        tutorials/upload/data_preprocessing/7_database_data.md: tutorials/99 Other/database_data.md
+        tutorials/other/1_checklist.md: tutorials/99_other/checklist.md
+        tutorials/upload/data_preprocessing/7_database_data.md: tutorials/99_other/database_data.md
         tutorials/upload/08_upload.md: courses/04_upload.md
-        tutorials/upload/11_beginners_guide.md: tutorials/99 Other/beginners_guide.md
-        tutorials/metadata/tutorial_open-data-licenses.md: tutorials/99 Other/tutorial_open-data-licenses.ipynb
+        tutorials/upload/11_beginners_guide.md: tutorials/99_other/beginners_guide.md
+        tutorials/metadata/tutorial_open-data-licenses.md: tutorials/99_other/tutorial_open-data-licenses.ipynb
         tutorials/metadata/16_licensing.md: courses/08_licensing.md
   - include_dir_to_nav:
       file_pattern: '.*\.(md|ipynb)$'
@@ -94,11 +93,15 @@ extra:
 extra_css:
   - css/extra.css
 
-
 nav:
   - Start: index.md
   - Courses: courses/
-  - Tutorials: tutorials/
+  # manually add subfolders so we can rename the section titles
+  - Tutorials:
+      - index.md: tutorials/index.md
+      - API: tutorials/01_api/
+      - OEP Client: tutorials/02_oep_client/
+      - Other: tutorials/99_other/
   - Questions: questions.md
   - Metainfo: meta.md
 
