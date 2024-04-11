@@ -43,7 +43,7 @@ Metadata plays a crucial role in organizing, managing, and understanding informa
 ## How can I work with OEMetadata?
 
 - A :oep-icon-code: [guide on publishing data on the OEP](../tutorials/99_other/OEP_Research_Data_Publishing_Guidebook.ipynb) includes the creation of metadata
-- For all datasets on the [Open Energy Platform (OEP)](https://openenergy-platform.org/), you can look at provided metadata by clicking on "Meta Information"
+- For all datasets on the [Open Energy Platform (OEP)](https://openenergyplatform.org/), you can look at provided metadata by clicking on "Meta Information"
   - If you are the owner of the dataset, you can click "edit" and you're directly working on the OEMetadata
 
 ## What other tools to work with OEMetadata are there?

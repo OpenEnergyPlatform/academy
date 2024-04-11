@@ -27,7 +27,7 @@ The following checklist will help you to prepare your data in a way that you wil
 10. In case of dates
     a. Always use the same format
     b. Think about your time zone
-    c. In case of time intervals, which time stamp alignment do you use, start, middle or end alignment? (see [OEO](http://openenergy-platform.org/ontology/oeo/OEO_00140044) time stamp alignment)
+    c. In case of time intervals, which time stamp alignment do you use, start, middle or end alignment? (see [OEO](http://openenergyplatform.org/ontology/oeo/OEO_00140044) time stamp alignment)
 11. Make sure your model (input and) output data has always the same format: that will make your life easier to work with the OEP but also for your own post-processing
 12. If you have multiple tables, make sure they can be linked to one another
     a. e.g. Person with first and surname and table with cars and car owners surname. And see figure: "Good Example"
@@ -36,13 +36,13 @@ This is a poor and a good example. This gives an Idea how to solve these problem
 
 **Poor Example**
 
-![](https://openenergy-platform.org/media/image/2020/11/grafik_Bsj2Etf.png)
+![](https://openenergyplatform.org/media/image/2020/11/grafik_Bsj2Etf.png)
 
 **Good Example**
 
 For good examples there are two options on how to split the timer series.
 
 1. This option is used in case of many wind turbine and solar park data:
-   ![](https://openenergy-platform.org/media/image/2020/11/grafik_6AiAzdf.png)
+   ![](https://openenergyplatform.org/media/image/2020/11/grafik_6AiAzdf.png)
 2. This option is used if there are not as many wind turbines and solar parks
-   ![](https://openenergy-platform.org/media/image/2020/11/grafik_dPJYucg.png)
+   ![](https://openenergyplatform.org/media/image/2020/11/grafik_dPJYucg.png)

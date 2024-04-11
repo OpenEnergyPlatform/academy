@@ -11,7 +11,7 @@ As a visual guide regarding what to expect behind links you may find in a traini
 
 :oep-icon-video: links to video material.
 
-Our training courses will grow over time. If you see the need for further topics that you see the need for documentation, please feel free to get in touch with us via our [contact form](https://openenergy-platform.org/contact/).
+Our training courses will grow over time. If you see the need for further topics that you see the need for documentation, please feel free to get in touch with us via our [contact form](https://openenergyplatform.org/contact/).
 
 :oep-logo-sirop:
 

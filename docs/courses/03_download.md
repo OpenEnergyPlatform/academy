@@ -1,6 +1,6 @@
 # 03 - Download - Find and download / interact with data
 
-Learn to find and download [data](https://openenergy-platform.org/dataedit/schemas) on the OEP.
+Learn to find and download [data](https://openenergyplatform.org/dataedit/schemas) on the OEP.
 
 You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/165](https://github.com/OpenEnergyPlatform/academy/issues/165)
 
@@ -49,7 +49,7 @@ with it and save the results to a file.
 
 ## How can I find relevant information about scenarios on the OEP?
 
-:oep-icon-info: Our current [scenario factsheets](https://openenergy-platform.org/factsheets/scenarios/) provide some dedicated information about specific scenarios for which projection data is available on the OEP. Please note, however, that their format was developed some time ago and they will undergo substantial updates. In the future, these scenario factsheets will be succeeded by [study factsheets (alpha)](https://openenergy-platform.org/factsheets/rdf/study/) that will hold more functionality. These improved factsheets will be based on RDF and the Open Energy Knowledge Graph (OEKG) which is currently under heavy development. Please note that this is therefore just a preview and not a fully functional feature yet.
+:oep-icon-info: Our current [scenario factsheets](https://openenergyplatform.org/factsheets/scenarios/) provide some dedicated information about specific scenarios for which projection data is available on the OEP. Please note, however, that their format was developed some time ago and they will undergo substantial updates. In the future, these scenario factsheets will be succeeded by [study factsheets (alpha)](https://openenergyplatform.org/factsheets/rdf/study/) that will hold more functionality. These improved factsheets will be based on RDF and the Open Energy Knowledge Graph (OEKG) which is currently under heavy development. Please note that this is therefore just a preview and not a fully functional feature yet.
 
 ---
 

@@ -2,7 +2,7 @@
 
 You want to download and access data? Then simply look out for these two buttons when you are viewing a data table - green for csv download only, yellow for datapackage download. It is as easy as this.
 
-<a href="https://openenergy-platform.org/dataedit/view/scenario/eu_leg_data_2016_eea" target="blank"><img src="https://openenergy-platform.org/media/image/2022/02/grafik_QD5yqnf.png" width="200px"></a>
+<a href="https://openenergyplatform.org/dataedit/view/scenario/eu_leg_data_2016_eea" target="blank"><img src="https://openenergyplatform.org/media/image/2022/02/grafik_QD5yqnf.png" width="200px"></a>
 <i class="fa fa-hand-pointer text-muted mx-1"> </i>
 
 Click the image to jump to a dataset to try yourself.

@@ -4,6 +4,6 @@ Currently, the Open Energy Academy is developed within the BMWK-funded SIROP pro
 
 Contact: oedb@oeko.de
 
-The Open Energy Academy is part of the [Open Energy Family](https://openenergy-platform.org/about/).
+The Open Energy Academy is part of the [Open Energy Family](https://openenergyplatform.org/about/).
 
 :oep-logo-bmwk:
