@@ -5,3 +5,11 @@ authors:
     given-names: "Ludwig"
     alias: "@Ludee"
     affiliation: "Reiner Lemoine Institut"
+    orcid: "https://orcid.org/0000-0003-4655-2321"
+title: "academy"
+type: software
+license: AGPL-3.0
+version: - 
+doi: 
+date-released: -
+url: "https://github.com/OpenEnergyPlatform/academy"
