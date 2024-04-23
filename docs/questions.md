@@ -1,6 +1,6 @@
 # Questions
 
-**Short answers to urgent questions regarding the [Open Energy Platform (OEP)](https://www.openenergyplatform.org) and other [Open Energy Family(OEF)](https://github.com/OpenEnergyPlatform) Members.**
+**Short answers to urgent questions regarding the [Open Energy Platform (OEP)](https://openenergyplatform.org) and other [Open Energy Family(OEF)](https://github.com/OpenEnergyPlatform) Members.**
 
 ---
 
