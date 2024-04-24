@@ -1,15 +1,36 @@
 cff-version: 1.2.0
-message: "If you use this software, please leave your name for reference.
+message: If you use this software, please cite it was below.
 authors:
-  - family-names: "Hülk"
-    given-names: "Ludwig"
+  - name: Hannah Förster
+    alias: @han-f
+    affiliation: Öko-Institut e.V
+  - name: Lukas Emele
+    alias: @l-emele
+    affiliation: Öko-Institut e.V
+  - name: Christian Hofmann
+    alias: @christian-rli
+    affiliation: Reiner Lemoine Institut
+  - name: Jonas Huber
+    alias: @jh-RLI
+    affiliation: Reiner Lemoine Institut
+  - name: Ludwig Hülk
     alias: "@Ludee"
-    affiliation: "Reiner Lemoine Institut"
-    orcid: "https://orcid.org/0000-0003-4655-2321"
-title: "academy"
-type: software
+    affiliation: "Öko-Institut e.V"
+    orcid: https://orcid.org/0000-0003-4655-2321
+  - name: Vismaya Jochem
+    alias: @vismayajochem
+    affiliation: Reiner Lemoine Institut
+  - name: Adel Memariani
+    alias: @adelmemariani
+    affiliation: OvGU
+  - name: Mirjam Stappel
+    alias: @stap-m
+    affiliation: OvGU
+  - name: Christian Winger
+    alias: @wingechr
+    affiliation: Öko-Institut e.V
+title: "Open Energy Academy"
 license: AGPL-3.0
-version: - 
-doi: 
-date-released: -
 url: "https://github.com/OpenEnergyPlatform/academy"
+citation:
+  - text: "Förster et al. (2024). Open Energy Academy. https://openenergyplatform.github.io/academy"
