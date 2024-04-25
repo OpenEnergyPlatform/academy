@@ -44,7 +44,7 @@ You review and answer questions.
 ## Workflow
 
 The intention of this repository is to provide a reasonably quick interface to
-make changed to the documentation pages called Open Energy Academy. Therefore
+make changes to the documentation pages called Open Energy Academy. Therefore,
 our commonly used git workflow does not apply here. You are allowed to make
 changes directly in the production branch und push them to appear on the live
 website. You may fix small typos directly leaving a summary in your commit
@@ -162,7 +162,7 @@ If you are the reviewer:
 
 #### 4.1. Merge the PR
 
-Merging in this repository should not privode any problems. If anything out of the ordinary orrurs, follow the GitHub guide [merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request).
+Merging in this repository should not privode any problems. If anything out of the ordinary occurs, follow the GitHub guide [merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request).
 
 #### 4.2. Delete the feature branch
 
