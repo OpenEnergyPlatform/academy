@@ -59,7 +59,7 @@ publishing them.
 
 - production - includes the current stable version
 
-#### 2.1. Creating a new (local) branch
+#### Creating a new (local) branch
 
 Create a new feature branch:
 
@@ -80,7 +80,7 @@ Check branch status:
 git status
 ```
 
-#### 2.3. Commit your changes
+#### Commit your changes
 
 If the file does not exist on the remote server yet, use:
 
@@ -105,7 +105,7 @@ Write a good `commit message`:
 
 Examples of commit message: `Added function with some method #42` or `Update documentation for commit messages #1`
 
-#### 2.4 Fix your latest commit message
+#### Fix your latest commit message
 
 Do you want to improve your latest commit message? <br>
 Is your latest commit not pushed yet? <br>
@@ -115,7 +115,7 @@ Edit the commit message of your latest commit:
 git commit --amend
 ```
 
-### 3. Push your commits
+### Push your commits
 
 Push your `local` branch on the remote server `origin`. <br>
 If your branch does not exist on the remote server yet, use:
@@ -131,14 +131,14 @@ step, push regularly with:
 git push
 ```
 
-### 4. Submit a pull request (PR)
+### Submit a pull request (PR)
 
 Only if you want others to review a larger set of changes you made, create a pull request. <br>
 The `PR title` describes the problem you have solved. <br>
 Fill the PR template:
 
 - Summary of the discussion
-- Type of change (CHANGELOG.md)
+- Type of change
 
 Add `close #issueNumber` to [automatically close](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) the corresponding issue. <br>
 Assign a `Reviewer` or GitHub team. <br>
@@ -147,7 +147,7 @@ Add suitable GitHub `Labels` <br>
 Link the corresponding issue in `Development` <br>
 Create the PR
 
-#### 4.4. Let someone else review your PR
+#### Let someone else review your PR
 
 Assign one reviewer or a user group and get into contact.
 
@@ -159,15 +159,15 @@ If you are the reviewer:
 - If all tests pass and all changes are good, `Approve` the PR.
 - Leave a comment and some nice words!
 
-#### 4.1. Merge the PR
+#### Merge the PR
 
 Merging in this repository should not privode any problems. If anything out of the ordinary occurs, follow the GitHub guide [merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request).
 
-#### 4.2. Delete the feature branch
+#### Delete the feature branch
 
 After merging you can delete the feature branch. If truly necessary git allows reconstruction of deleted branches. 
 
-### 5. Close the issue
+### Close the issue
 
 Check that all steps have taken place:
 
