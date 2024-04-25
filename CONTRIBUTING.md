@@ -97,12 +97,11 @@ git commit filename.md
 Write a good `commit message`:
 
 - "If applied, this commit will ..."
-- Follow [existing conventions for commit messages](https://chris.beams.io/posts/git-commit)
-- Keep the subject line [shorter than 50 characters](https://chris.beams.io/posts/git-commit/#limit-50)
-- Do not commit more than a few changes at the time: [atomic commits](https://en.wikipedia.org/wiki/Atomic_commit)
-- Use [imperative](https://chris.beams.io/posts/git-commit/#imperative)
-- Do not end the commit message with a [period](https://chris.beams.io/posts/git-commit/#end) ~~.~~
-- Allways end the commit message with the `issueNumber` including the "#"
+- Keep the subject line shorter than 50 characters
+- Do not commit more than a few changes at the time
+- Use imperative
+- Do not end the commit message with a period
+- Always end the commit message with the `issueNumber` including the "#"
 
 Examples of commit message: `Added function with some method #42` or `Update documentation for commit messages #1`
 
