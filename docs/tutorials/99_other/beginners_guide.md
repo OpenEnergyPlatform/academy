@@ -72,9 +72,9 @@ _Prerequisite for this step is that you are a registered user on openenergyplatf
 
 **OPTION: CSV WIZARD:** If you do not want to upload tables via the API, you can do so using the CSV-Wizard. Please consult [this tutorial](wizard.md) and **then continue reading Section 2.2**
 
-_Please note: code snippets below are shown to highlight specific instances of a sequence of code. You find a complete sample code that you can copy & paste and try under 2.1.4_ Complete code for one example*.*
+_Please note: code snippets below are shown to highlight specific instances of a sequence of code. You find a complete sample code that you can copy & paste and try under [2.1.4_ Complete code for one example](https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/#214-complete-code-for-one-example)*.*
 
-- The REST-API can be used with any language than can make HTTP(s) requests.
+- The REST-API can be used with any language that can make HTTP(s) requests.
 
 - Most requests require you to add an authorization header: Authorization: **Token API_TOKEN**, where you substitute **API_TOKEN** with your token as described above.
 
