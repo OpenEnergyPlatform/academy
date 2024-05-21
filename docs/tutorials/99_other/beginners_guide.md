@@ -338,29 +338,29 @@ This document described how to upload data and metadata to the OpenEnergy Platfo
 
 ## 3.1. Create Factsheets
 
-- The drop-down menu shows you the 3 different Factsheet categories and the tab **Overview**, which offers an introduction and explanation of the Factsheet options.
+- The drop-down menu shows you the 3 different Factsheet categories and the tab **Overview**, which offers an introduction and explanation of the Factsheet options
 
-- Select a suitable factsheet category from the drop-down menu.
+- Select a suitable factsheet category from the drop-down menu
 
-  - Frameworks: to describe the fundamental structure or toolbox to build a model, e.g. TIMES.
+  - Frameworks: to describe the fundamental structure or toolbox to build a model, e.g. TIMES
 
-  - Models: to describe a model that has been used to run a scenario; ideally this relates to a scenario for which you have uploaded data to the OEP.
+  - Models: to describe a model that has been used to run a scenario; ideally this relates to a scenario for which you have uploaded data to the OEP
 
-  - Scenarios: to describe a scenario; ideally one for which you have uploaded data to the OEP already.
+  - Scenarios: to describe a scenario; ideally one for which you have uploaded data to the OEP already
 
-- Each category has a plus button next to the title to access the fill out form.
+- Each category has a plus button next to the title to access the fill out form
 
-- Scenario Factsheet option offers you to create a new scenario factsheet for a new study or add a Scenario Factsheet to an existing study.
+- Scenario Factsheet option offers you to create a new scenario factsheet for a new study or add a Scenario Factsheet to an existing study
 
   ![](https://openenergyplatform.org/media/image/2020/12/factsheet.png)
 
-- Fill out the interactive fields and choose from the pre-defined responses.
+- Fill out the interactive fields and choose from the pre-defined responses
 
-  - There are different tabs including further required fields marked with a \*.
+  - There are different tabs including further required fields marked with a \*
 
-  - When you are done – click on **Submit all**.
+  - When you are done – click on **Submit all**
 
-- Ideally you will continue to create one Factsheet for each category to complete your contribution.
+- Ideally you will continue to create one Factsheet for each category to complete your contribution
 
 ---
 
