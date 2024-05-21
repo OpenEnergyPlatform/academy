@@ -70,9 +70,9 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 _Prerequisite for this step is that you are a registered user on openenergyplatform.org_
 
-**OPTION: CSV WIZARD:** If you do not want to upload tables via the API, you can do so using the CSV-Wizard. Please consult [this tutorial](wizard.md) and **then continue reading Section 2.2**
+**OPTION: CSV WIZARD:** If you do not want to upload tables via the API, you can do so using the CSV-Wizard. Please consult [this tutorial](wizard.md) and **then continue reading [Section 2.2](https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/#2-things-you-will-need-to-do-any-time-you-contribute-new-data-and-metadata)**
 
-_Please note: code snippets below are shown to highlight specific instances of a sequence of code. You find a complete sample code that you can copy & paste and try under [2.1.4_ Complete code for one example](https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/#214-complete-code-for-one-example)*.*
+_Please note: code snippets below are shown to highlight specific instances of a sequence of code. You find a complete sample code that you can copy & paste and try under [2.1.4_ Complete code for one example](https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/#214-complete-code-for-one-example)_
 
 - The REST-API can be used with any language that can make HTTP(s) requests.
 
@@ -103,7 +103,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
 - You will need to create the tables at first in the **model_draft** schema. This schema is used for data that is still preliminary and subject to changes. After a successful review later, the table will be moved to the final target schema.
 
-- You need to specify the name of the new table (TABLE_NAME), which should be a valid post-gresql table name, without spaces, ideally only containing lower case letters, numbers and underscores.
+- You need to specify the name of the new table (TABLE_NAME), which should be a valid PostgreSQL table name, without spaces, ideally only containing lower case letters, numbers and underscores.
 
 - You also need to specify names and data types of your columns, which also must be [valid postgres data types](https://www.postgresql.org/docs/current/datatype.html).
 
@@ -179,7 +179,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
   ![](https://openenergyplatform.org/media/image/2020/12/excel.png)
 
-- Your API-Token is **xxxxxxxxxxxxx**, and your desired table name shall be `my_example_table`. Please note that, while it is highly unlikely, there may already exist a table with this particular name created by another person. If this is the case, the example below will not work. Then, please choose another name for your table and substitute every instance with 'my_example_table' below with the name you have chosen.
+- Your API-Token is **xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx**, and your desired table name shall be `my_example_table`. Please note that, while it is highly unlikely, there may already exist a table with this particular name created by another person. If this is the case, the example below will not work. Then, please choose another name for your table and substitute every instance with 'my_example_table' below with the name you have chosen.
 
 - Save the example code below as `example.py` in the same folder as the Excel workbook, then [open a command line](https://www.lifewire.com/how-to-open-command-prompt-2618089), [navigate to the folder](https://www.wikihow.com/Change-Directories-in-Command-Prompt), and type `python3 example.py`
 
@@ -196,7 +196,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
 ```python
     # --------------------------------------
-    # delete table (in case it already exists
+    # delete table (in case it already exists)
     # --------------------------------------
     # prepare api url
     url = API_URL + '/schema/model_draft/tables/' + TABLE_NAME
@@ -338,23 +338,23 @@ This document described how to upload data and metadata to the OpenEnergy Platfo
 
 ## 3.1. Create Factsheets
 
-- The drop-down menu shows you the 3 different Factsheet categories and the tab **Overview**, which offers an introduction and explanation of the Factsheet options
+- The drop-down menu shows you the 3 different Factsheet categories and the tab **Overview**, which offers an introduction and explanation of the Factsheet options.
 
-- Select a suitable factsheet category from the drop-down menu
+- Select a suitable factsheet category from the drop-down menu.
 
-  - Frameworks: to describe the fundamental structure or toolbox to build a model, e.g. TIMES
+  - Frameworks: to describe the fundamental structure or toolbox to build a model, e.g. TIMES.
 
   - Models: to describe a model that has been used to run a scenario; ideally this relates to a scenario for which you have uploaded data to the OEP.
 
   - Scenarios: to describe a scenario; ideally one for which you have uploaded data to the OEP already.
 
-- Each category has a plus button next to the title to access the fill out form
+- Each category has a plus button next to the title to access the fill out form.
 
 - Scenario Factsheet option offers you to create a new scenario factsheet for a new study or add a Scenario Factsheet to an existing study.
 
   ![](https://openenergyplatform.org/media/image/2020/12/factsheet.png)
 
-- Fill out the interactive fields and choose from the pre-defined responses
+- Fill out the interactive fields and choose from the pre-defined responses.
 
   - There are different tabs including further required fields marked with a \*.
 
