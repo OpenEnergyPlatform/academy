@@ -8,7 +8,7 @@ We recommend this section as an entrypoint for your work with the Open Energy Fa
 
 # :material-script-outline: Tutorials
 
-Browse our single topic [tutorials](tutorials/index.md). This is your destination if you are interested in a specific task at hand, for example how to [upload data to the OEP using the API](tutorials/01 API/02_api_upload.ipynb).
+Browse our single topic [tutorials](tutorials/index.md). This is your destination if you are interested in a specific task at hand, for example how to [upload data to the OEP using the API](tutorials/01_api/02_api_upload.ipynb).
 
 # :material-account-question-outline: Questions
 

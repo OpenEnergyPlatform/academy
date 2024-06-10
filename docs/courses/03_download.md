@@ -1,6 +1,6 @@
 # 03 - Download - Find and download / interact with data
 
-Learn to find and download [data](https://openenergy-platform.org/dataedit/schemas) on the OEP.
+Learn to find and download [data](https://openenergyplatform.org/dataedit/schemas) on the OEP.
 
 You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/165](https://github.com/OpenEnergyPlatform/academy/issues/165)
 
@@ -20,36 +20,36 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 ## How can I find relevant information on the OEP?
 
-:oep-icon-text: [How to find data on the OEP?](../tutorials/99 Other/find_data.md) (tutorial):
+:oep-icon-text: [How to find data on the OEP?](../tutorials/99_other/find_data.md) (tutorial):
 
 This tutorial teaches you how to use the free text search and tags to filter for data on the OEP. You will see that you can use both approaches individually, but also combine freetext and tags to specify your data filter further.
 
 ## How can I download data?
 
-:oep-icon-code: [Process query result data and save to file (tutorial)](../tutorials/01 API/01_api_download.ipynb):
+:oep-icon-code: [Process query result data and save to file (tutorial)](../tutorials/01_api/01_api_download.ipynb):
 
 Learn how to use the REST-full-HTTP API in Python for selecting data on the OEP, make calculations
 with it and save the results to a file.
 
-:oep-icon-text: [How to download data - CSV and data package (tutorial)](../tutorials/99 Other/download.md):
+:oep-icon-text: [How to download data - CSV and data package (tutorial)](../tutorials/99_other/download.md):
 
 Learn how easy it is do download any data table you are viewing on the OEP table with only one click and why a data package makes a difference.
 
 ## How can I interact with data?
 
-:oep-icon-code: [Data queries via API (tutorial)](../tutorials/01 API/01_api_download.ipynb):
+:oep-icon-code: [Data queries via API (tutorial)](../tutorials/01_api/01_api_download.ipynb):
 
 This tutorial provides an overview of how you can select and filter data that resides on the OEP via the REST-full-HTTP
 API in Python
 
-:oep-icon-code: [Process query result data and save to file (tutorial)](../tutorials/01 API/01_api_download.ipynb):
+:oep-icon-code: [Process query result data and save to file (tutorial)](../tutorials/01_api/01_api_download.ipynb):
 
 Learn how to use the REST-full-HTTP API in Python for selecting data on the OEP, make calculations
 with it and save the results to a file.
 
 ## How can I find relevant information about scenarios on the OEP?
 
-:oep-icon-info: Our current [scenario factsheets](https://openenergy-platform.org/factsheets/scenarios/) provide some dedicated information about specific scenarios for which projection data is available on the OEP. Please note, however, that their format was developed some time ago and they will undergo substantial updates. In the future, these scenario factsheets will be succeeded by [study factsheets (alpha)](https://openenergy-platform.org/factsheets/rdf/study/) that will hold more functionality. These improved factsheets will be based on RDF and the Open Energy Knowledge Graph (OEKG) which is currently under heavy development. Please note that this is therefore just a preview and not a fully functional feature yet.
+:oep-icon-info: Our current [scenario factsheets](https://openenergyplatform.org/factsheets/scenarios/) provide some dedicated information about specific scenarios for which projection data is available on the OEP. Please note, however, that their format was developed some time ago and they will undergo substantial updates. In the future, these scenario factsheets will be succeeded by [study factsheets (alpha)](https://openenergyplatform.org/factsheets/rdf/study/) that will hold more functionality. These improved factsheets will be based on RDF and the Open Energy Knowledge Graph (OEKG) which is currently under heavy development. Please note that this is therefore just a preview and not a fully functional feature yet.
 
 ---
 

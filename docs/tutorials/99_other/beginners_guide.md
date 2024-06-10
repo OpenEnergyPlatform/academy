@@ -2,7 +2,7 @@
 
 # About this guide
 
-This document describes how to upload data to the [OpenEnergy Platform](https://openenergy-platform.org/) (OEP) using [Python](https://www.python.org/) and the [REST-API](https://en.wikipedia.org/wiki/Representational_state_transfer) as well as a description on how to initiate the review process of that data.
+This document describes how to upload data to the [OpenEnergy Platform](https://openenergyplatform.org/) (OEP) using [Python](https://www.python.org/) and the [REST-API](https://en.wikipedia.org/wiki/Representational_state_transfer) as well as a description on how to initiate the review process of that data.
 
 Several steps are needed to contribute actively to the platform. Some of them you only need to do once to get started. The steps described in this document are the following:
 
@@ -24,11 +24,11 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 - Registration
 
-  - Click [Login](https://openenergy-platform.org/user/login/?next=/) button on Homepage and choose the option **Create a new account.**
+  - Click [Login](https://openenergyplatform.org/user/login/?next=/) button on Homepage and choose the option **Create a new account.**
 
-  - OR: go directly to <https://openenergy-platform.org/user/register>:
+  - OR: go directly to <https://openenergyplatform.org/user/register>:
 
-    ![](https://openenergy-platform.org/media/image/2020/12/register.png)
+    ![](https://openenergyplatform.org/media/image/2020/12/register.png)
 
   - Fill out the required fields and click on **Submit.**
 
@@ -38,7 +38,7 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
   - After successfully activating and logging into your account, you will see your information as in the screenshot below:
 
-    ![](https://openenergy-platform.org/media/image/2020/12/apitoken.png)
+    ![](https://openenergyplatform.org/media/image/2020/12/apitoken.png)
 
   - API-Token
 
@@ -46,7 +46,7 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
     - After you logged into the OEP, click the member icon at the upper right corner:
 
-      ![](https://openenergy-platform.org/media/image/2020/12/logout.png)
+      ![](https://openenergyplatform.org/media/image/2020/12/logout.png)
 
     - You can find your API-Token under **Your Security Information** by clicking on **Show token:**
 
@@ -56,11 +56,11 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 - You will then need to become a member of the group OpenEnergyPlatform: <https://github.com/OpenEnergyPlatform> by getting invited to the group. This works as follows:
 
-  - Get in touch via the contact form on the OpenEnergyPlatform: <https://openenergy-platform.org/contact/>.
+  - Get in touch via the contact form on the OpenEnergyPlatform: <https://openenergyplatform.org/contact/>.
 
   - Fill in the form with your request to be added to the OpenEnergyPlatform group on github. An example text is provided in the screenshot below.
 
-    ![](https://openenergy-platform.org/media/image/2020/12/contact.png)
+    ![](https://openenergyplatform.org/media/image/2020/12/contact.png)
 
   - A response will not be immediate. Please wait until you receive an invitation to the github group. Only then you will be able to upload metadata and initiate data review.
 
@@ -68,13 +68,13 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 ## 2.1. Create and upload data table(s)
 
-_Prerequisite for this step is that you are a registered user on openenergy-platform.org_
+_Prerequisite for this step is that you are a registered user on openenergyplatform.org_
 
-**OPTION: CSV WIZARD:** If you do not want to upload tables via the API, you can do so using the CSV-Wizard. Please consult [this tutorial](wizard.md) and **then continue reading Section 2.2**
+**OPTION: CSV WIZARD:** If you do not want to upload tables via the API, you can do so using the CSV-Wizard. Please consult [this tutorial](wizard.md) and **then continue reading [Section 2.2](https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/#2-things-you-will-need-to-do-any-time-you-contribute-new-data-and-metadata)**
 
-_Please note: code snippets below are shown to highlight specific instances of a sequence of code. You find a complete sample code that you can copy & paste and try under 2.1.4_ Complete code for one example*.*
+_Please note: code snippets below are shown to highlight specific instances of a sequence of code. You find a complete sample code that you can copy & paste and try under [2.1.4_ Complete code for one example](https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/#214-complete-code-for-one-example)_
 
-- The REST-API can be used with any language than can make HTTP(s) requests.
+- The REST-API can be used with any language that can make HTTP(s) requests.
 
 - Most requests require you to add an authorization header: Authorization: **Token API_TOKEN**, where you substitute **API_TOKEN** with your token as described above.
 
@@ -84,7 +84,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
 ```python
     import requests
-    API_URL = 'https://openenergy-platform.org/api/v0'
+    API_URL = 'https://openenergyplatform.org/api/v0'
     session = requests.Session()
     session.headers = {'Authorization': 'Token %s' % API_TOKEN}
 ```
@@ -103,7 +103,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
 - You will need to create the tables at first in the **model_draft** schema. This schema is used for data that is still preliminary and subject to changes. After a successful review later, the table will be moved to the final target schema.
 
-- You need to specify the name of the new table (TABLE_NAME), which should be a valid post-gresql table name, without spaces, ideally only containing lower case letters, numbers and underscores.
+- You need to specify the name of the new table (TABLE_NAME), which should be a valid PostgreSQL table name, without spaces, ideally only containing lower case letters, numbers and underscores.
 
 - You also need to specify names and data types of your columns, which also must be [valid postgres data types](https://www.postgresql.org/docs/current/datatype.html).
 
@@ -177,9 +177,9 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
 - Let's say you have an Excel workbook named **CountryValues.xlsx**, with a worksheet named **data** as depicted below:
 
-  ![](https://openenergy-platform.org/media/image/2020/12/excel.png)
+  ![](https://openenergyplatform.org/media/image/2020/12/excel.png)
 
-- Your API-Token is **xxxxxxxxxxxxx**, and your desired table name shall be `my_example_table`. Please note that, while it is highly unlikely, there may already exist a table with this particular name created by another person. If this is the case, the example below will not work. Then, please choose another name for your table and substitute every instance with 'my_example_table' below with the name you have chosen.
+- Your API-Token is **xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx**, and your desired table name shall be `my_example_table`. Please note that, while it is highly unlikely, there may already exist a table with this particular name created by another person. If this is the case, the example below will not work. Then, please choose another name for your table and substitute every instance with 'my_example_table' below with the name you have chosen.
 
 - Save the example code below as `example.py` in the same folder as the Excel workbook, then [open a command line](https://www.lifewire.com/how-to-open-command-prompt-2618089), [navigate to the folder](https://www.wikihow.com/Change-Directories-in-Command-Prompt), and type `python3 example.py`
 
@@ -189,14 +189,14 @@ _Please note: code snippets below are shown to highlight specific instances of a
     import pandas as pd
     API_TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
     TABLE_NAME = 'my_example_table'
-    API_URL = 'https://openenergy-platform.org/api/v0'
+    API_URL = 'https://openenergyplatform.org/api/v0'
     session = requests.Session()
     session.headers = {'Authorization': 'Token %s' % API_TOKEN}
 ```
 
 ```python
     # --------------------------------------
-    # delete table (in case it already exists
+    # delete table (in case it already exists)
     # --------------------------------------
     # prepare api url
     url = API_URL + '/schema/model_draft/tables/' + TABLE_NAME
@@ -268,7 +268,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
     # --------------------------------------
     # read data (to check if everything was ok)
     # or search for your table here:
-    # https://openenergy-platform.org/dataedit/view/model_draft/tables/my_example_table
+    # https://openenergyplatform.org/dataedit/view/model_draft/tables/my_example_table
     # --------------------------------------
     # prepare api url
     url = API_URL + '/schema/model_draft/tables/' + TABLE_NAME + '/rows'
@@ -312,7 +312,7 @@ _Prerequisite for this step is that you have a github account and you are member
 
     - At the end of the form create the new branch **/review/###NAME###** and give it a suitable name (e.g. name of the scenario)
 
-    ![](https://openenergy-platform.org/media/image/2020/12/review.png)
+    ![](https://openenergyplatform.org/media/image/2020/12/review.png)
 
 ## 2.3. Initiate review
 
@@ -320,7 +320,7 @@ _Prerequisite for this step is that you have a github account and you are member
 
 - Create a new issue in the [data-preprocessing](https://github.com/OpenEnergyPlatform/data-preprocessing/issues) repository to describe your recent upload and the context:
 
-  ![](https://openenergy-platform.org/media/image/2020/12/issue.png)
+  ![](https://openenergyplatform.org/media/image/2020/12/issue.png)
 
 - See an example issue here: <https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27>
 
@@ -328,7 +328,7 @@ _Prerequisite for this step is that you have a github account and you are member
 
 - Select the label **review**.
 
-  ![](https://openenergy-platform.org/media/image/2020/12/review2.png)
+  ![](https://openenergyplatform.org/media/image/2020/12/review2.png)
 
 - Now you have completed the whole process from your side. All you need to do now is to wait until a reviewer has dedicated time to review your data. If you have not enabled email-notifications in github, we suggest you check back into the issue you created on a regular basis.
 
@@ -344,23 +344,23 @@ This document described how to upload data and metadata to the OpenEnergy Platfo
 
   - Frameworks: to describe the fundamental structure or toolbox to build a model, e.g. TIMES
 
-  - Models: to describe a model that has been used to run a scenario; ideally this relates to a scenario for which you have uploaded data to the OEP.
+  - Models: to describe a model that has been used to run a scenario; ideally this relates to a scenario for which you have uploaded data to the OEP
 
-  - Scenarios: to describe a scenario; ideally one for which you have uploaded data to the OEP already.
+  - Scenarios: to describe a scenario; ideally one for which you have uploaded data to the OEP already
 
 - Each category has a plus button next to the title to access the fill out form
 
-- Scenario Factsheet option offers you to create a new scenario factsheet for a new study or add a Scenario Factsheet to an existing study.
+- Scenario Factsheet option offers you to create a new scenario factsheet for a new study or add a Scenario Factsheet to an existing study
 
-  ![](https://openenergy-platform.org/media/image/2020/12/factsheet.png)
+  ![](https://openenergyplatform.org/media/image/2020/12/factsheet.png)
 
 - Fill out the interactive fields and choose from the pre-defined responses
 
-  - There are different tabs including further required fields marked with a \*.
+  - There are different tabs including further required fields marked with a \*
 
-  - When you are done – click on **Submit all**.
+  - When you are done – click on **Submit all**
 
-- Ideally you will continue to create one Factsheet for each category to complete your contribution.
+- Ideally you will continue to create one Factsheet for each category to complete your contribution
 
 ---
 

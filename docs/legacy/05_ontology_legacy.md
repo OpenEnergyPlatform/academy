@@ -28,17 +28,17 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 ### Where can I get general information on ontologies and the OEO?
 
-:oep-icon-text: [The Open Energy Ontology – Overview](https://openenergy-platform.org/ontology/oeo/OEO_00000275):
+:oep-icon-text: [The Open Energy Ontology – Overview](https://openenergyplatform.org/ontology/oeo/OEO_00000275):
 
-:oep-icon-video: [The Open Energy Ontology – Workshop](../tutorials/99 Other/video_oeo.md):
+:oep-icon-video: [The Open Energy Ontology – Workshop](../tutorials/99_other/video_oeo.md):
 
 Get a quick overview what an ontology is and what the OEO is all about.
 
-:oep-icon-text: [Open Energy Ontology Viewer](https://openenergy-platform.org/viewer/oeo/):
+:oep-icon-text: [Open Energy Ontology Viewer](https://openenergyplatform.org/viewer/oeo/):
 
 Browse the terms of the OEO and their definitions and view their hierarchical structure.
 
-:oep-icon-text: [General introduction to the Open Energy Family](https://openenergy-platform.org/about/):
+:oep-icon-text: [General introduction to the Open Energy Family](https://openenergyplatform.org/about/):
 
 Learn how the OEO is embedded in the Open Energy Family (OEF).
 
@@ -50,7 +50,7 @@ Learn how to get involved and start participating in the OEO.
 
 :oep-icon-info: The OEO provides a controlled vocabulary for the domain of
 energy system modelling and energy research. Within the
-[Open Energy Family](https://openenergy-platform.org/about/)
+[Open Energy Family](https://openenergyplatform.org/about/)
 the OEO links the
 different family members by means of a machine readable and machine
 actionable terminology. By this it ensures better comparability,
@@ -123,7 +123,7 @@ meetings.
 
 :oep-icon-text: [Semantic structure of the OEO](https://github.com/OpenEnergyPlatform/ontology/wiki/Structure-of-the-OEO):
 
-:oep-icon-text: [Semantic structure of the OEO – Workshop](https://openenergy-platform.org/tutorials/):
+:oep-icon-text: [Semantic structure of the OEO – Workshop](https://openenergyplatform.org/tutorials/):
 
 Get familiar with the logic and semantic structure of the OEO.
 
@@ -152,7 +152,7 @@ Learn how to deal with ambiguous terms on the OEO.
 Search for topics, that are not addressed in this capacity building
 module.
 
-:oep-icon-text: [Contact form](https://openenergy-platform.org/contact/):
+:oep-icon-text: [Contact form](https://openenergyplatform.org/contact/):
 
 Use the contact form of the Open Energy Platform to get in touch with
 us.

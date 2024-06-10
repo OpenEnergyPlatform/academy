@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use contributed to this software, please leave your name for reference.
+authors:
+  - name: Hannah Förster
+    alias: @han-f
+    affiliation: Öko-Institut e.V
+  - name: Lukas Emele
+    alias: @l-emele
+    affiliation: Öko-Institut e.V
+  - name: Christian Hofmann
+    alias: @christian-rli
+    affiliation: Reiner Lemoine Institut
+  - name: Jonas Huber
+    alias: @jh-RLI
+    affiliation: Reiner Lemoine Institut
+  - name: Ludwig Hülk
+    alias: "@Ludee"
+    affiliation: "Öko-Institut e.V"
+    orcid: https://orcid.org/0000-0003-4655-2321
+  - name: Vismaya Jochem
+    alias: @vismayajochem
+    affiliation: Reiner Lemoine Institut
+  - name: Adel Memariani
+    alias: @adelmemariani
+    affiliation: OvGU
+  - name: Mirjam Stappel
+    alias: @stap-m
+    affiliation: OvGU
+  - name: Christian Winger
+    alias: @wingechr
+    affiliation: Öko-Institut e.V

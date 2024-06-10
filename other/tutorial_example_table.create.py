@@ -13,7 +13,7 @@ topic = "model_draft"
 table = "tutorial_example_table"
 token = environ.get("OEP_API_TOKEN") or getpass("Enter your OEP API token:")
 auth_headers = {"Authorization": "Token %s" % token}
-table_api_url = f"https://openenergy-platform.org/api/v0/schema/{topic}/tables/{table}/"
+table_api_url = f"https://openenergyplatform.org/api/v0/schema/{topic}/tables/{table}/"
 table_schema = {
     "columns": [
         {"name": "id", "data_type": "bigserial", "primary_key": True},

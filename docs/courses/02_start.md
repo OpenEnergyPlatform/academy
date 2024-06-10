@@ -21,9 +21,9 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 :oep-icon-info: **How do I register with the Open Energy Platform?**
 
-To upload your data to [open energy database](https://openenergy-platform.org/dataedit/schemas) of the OEP, you require a user account on the OEP.
-Here, we show you how to register with the OEP. Click the [Login](https://openenergy-platform.org/user/login/?next=/) button on the top right of the homepage and choose the option _Create a new account_.
-You can also go directly to [Register](https://openenergy-platform.org/user/register). Then fill out the required fields and click on _Submit_. You will receive an activation email at the email address you provided. Please follow the instructions received in the email. After successfully activating and logging into your account, you will see your information as in the screenshot:
+To upload your data to [open energy database](https://openenergyplatform.org/dataedit/schemas) of the OEP, you require a user account on the OEP.
+Here, we show you how to register with the OEP. Click the [Login](https://openenergyplatform.org/user/login/?next=/) button on the top right of the homepage and choose the option _Create a new account_.
+You can also go directly to [Register](https://openenergyplatform.org/user/register). Then fill out the required fields and click on _Submit_. You will receive an activation email at the email address you provided. Please follow the instructions received in the email. After successfully activating and logging into your account, you will see your information as in the screenshot:
 
 ![image](../data/img/02_profile-view.JPG)
 
@@ -41,7 +41,7 @@ When you interact with the OEP you also interact with the Open Energy Family (OE
 
 :oep-icon-info: **How to register with github and become part of the Open Energy Family team?**
 
-If you do not yet have a github account, you need to [register with github](https://github.com/join). You will then need to become a member of the group [OpenEnergyPlatform](https://github.com/OpenEnergyPlatform) by getting invited to the group. This works as follows: Get in touch via the [OpenEnergy Platform contact form](https://openenergy-platform.org/contact). Fill in the form with your request to be added to the OpenEnergyPlatform group on github. An example text is provided in the screenshot below:
+If you do not yet have a github account, you need to [register with github](https://github.com/join). You will then need to become a member of the group [OpenEnergyPlatform](https://github.com/OpenEnergyPlatform) by getting invited to the group. This works as follows: Get in touch via the [OpenEnergy Platform contact form](https://openenergyplatform.org/contact). Fill in the form with your request to be added to the OpenEnergyPlatform group on github. An example text is provided in the screenshot below:
 
 ![image](../data/img/02_contact.JPG)
 
