@@ -15,8 +15,7 @@ To get familiar with research data management in general, we recommend to visit 
 Courses are training materials which are typically a longer read covering a topic, for example you can learn on [how to get started with the OEP](courses/02_start.md). We recommend visiting courses as an entrypoint for your work with the Open Energy Platform. A [course](courses/01_introduction.md) typically consists of a main text and a collection of several tutorials as well as other learning materials, so you can choose which of the materials fits best to your needs. 
 
 # :material-script-outline: Tutorials
-
-Browse our single topic [tutorials](tutorials/index.md). This is your destination if you are interested in a specific task at hand that you want to solve quickly, for example how to [upload data to the OEP using the API](tutorials/01_api/02_api_upload.ipynb).
+The [tutorials](tutorials/index.md) are materials targeted at a specific topic and dove right into it. Thus, this is your destination if you are interested in a specific task at hand that you want to solve quickly and you do not require a lot of context, for example if you directly want to [upload data to the OEP using the API](tutorials/01_api/02_api_upload.ipynb).
 
 # :material-account-question-outline: Questions
 
