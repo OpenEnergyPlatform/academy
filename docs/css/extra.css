@@ -22,3 +22,10 @@ h2.section-about ~ * {
 p {
   margin-bottom: 2.5em;
 }
+
+table th:first-child,
+table td:first-child {
+    width: auto !important;  /* Set the desired width */
+    min-width: 1.5em !important;  /* Ensure the column doesn't shrink below this width */
+    word-wrap: break-word;  /* Break long words to fit within the column */
+}
