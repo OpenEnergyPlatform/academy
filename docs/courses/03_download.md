@@ -49,7 +49,7 @@ with it and save the results to a file.
 
 ## How can I find relevant information about scenarios on the OEP?
 
-:oep-icon-info: Our current [scenario factsheets](https://openenergyplatform.org/factsheets/scenarios/) provide some dedicated information about specific scenarios for which projection data is available on the OEP. Please note, however, that their format was developed some time ago and they will undergo substantial updates. In the future, these scenario factsheets will be succeeded by [study factsheets (alpha)](https://openenergyplatform.org/factsheets/rdf/study/) that will hold more functionality. These improved factsheets will be based on RDF and the Open Energy Knowledge Graph (OEKG) which is currently under heavy development. Please note that this is therefore just a preview and not a fully functional feature yet.
+:oep-icon-info: Our [scenario bundles](https://openenergyplatform.org/scenario-bundles/main) provide dedicated information about scenarios and their context. Context for example includes the study reports that deal with the scenario(s), the projection data available on the OEP that were created using the scenario(s), the sectors and technologies depicted and so on. These bundles are be based on RDF and the Open Energy Knowledge Graph (OEKG) and they are tied to the [Open Energy Ontology](https://openenergyplatform.org/ontology/) (OEO) for improving comparability across scenario bundles. 
 
 ---
 
