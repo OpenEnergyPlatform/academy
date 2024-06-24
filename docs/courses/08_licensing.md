@@ -253,7 +253,7 @@ librarians, research administrators, and graduate schools - can benefit from
 the portal.
 In order to meet their needs, the existing materials will be extended from
 basic to more advanced-level resources. In addition, discipline-specific
-resources will be created.\
+resources will be created.
 
 :oep-icon-info: [FORSTER Course: Open Licensing](https://www.fosteropenscience.eu/learning/open-licensing)
 
