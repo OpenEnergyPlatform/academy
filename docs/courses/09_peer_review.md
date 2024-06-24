@@ -142,7 +142,7 @@ You cannot start the review of the tables if you are the owner.
 
 The editor asks members to start and submit a review for specific tables.
 When a review started and is not completed the editor can close the review to proceed.
-In case the contributor and reviewer do not come an agreement, the editor decides.
+In case the contributor and reviewer do not come to an agreement, the editor decides.
 The editor is not implemented yet.
 
 ## Supplementary material and further readings
