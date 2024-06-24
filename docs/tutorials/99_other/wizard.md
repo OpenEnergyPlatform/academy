@@ -27,10 +27,10 @@ We are logged in on the open energy platform
 - Go to the [Create Table](https://openenergyplatform.org/dataedit/wizard/) section of the wizard.
   ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img2.png)
 - enter a valid table name (only lowercase, only characters, number and underscore)
-- add your data columns with the appropriate [postgresql data types](https://www.postgresql.org/docs/current/datatype.html)
+- add your data columns with the appropriate [PostgreSQL data types](https://www.postgresql.org/docs/current/datatype.html)
 - small popup windows give hints or explanation
 - the first column must always be a numerical type named `id`. The wizard has this as a default.
-- we don't have to use all the columns from the csv file and we also don#t have to use the same names, these can be mapped later. In this example, we use the following columns:
+- we don't have to use all the columns from the csv file and we also don't have to use the same names, these can be mapped later. In this example, we use the following columns:
   ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img3.png)
 - Click on `Create table`
 - if successful, you are redirected to upload section
