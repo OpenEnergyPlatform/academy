@@ -22,36 +22,38 @@ We are logged in on the open energy platform
 
 ## Create table using the wizard
 
-- On the platform go to the [database section](https://openenergyplatform.org/dataedit/schemas)
+- On the platform go to the [database section](https://openenergyplatform.org/dataedit/schemas).
   ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img1.png)
-- Go to the [Create Table](https://openenergyplatform.org/dataedit/wizard/) section of the wizard.
-  ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img2.png)
-- enter a valid table name (only lowercase, only characters, number and underscore)
-- add your data columns with the appropriate [PostgreSQL data types](https://www.postgresql.org/docs/current/datatype.html)
-- small popup windows give hints or explanation
-- the first column must always be a numerical type named `id`. The wizard has this as a default.
-- we don't have to use all the columns from the csv file and we also don't have to use the same names, these can be mapped later. In this example, we use the following columns:
+- Click on [+ data set](https://openenergyplatform.org/dataedit/wizard/) in the `model_draft` section.
+- Unfold the `Create Table` section of the wizard.
+- Enter a valid table name (only lowercase, only characters, number and underscore).
+- Add your data columns with the appropriate [PostgreSQL data types](https://www.postgresql.org/docs/current/datatype.html)
+- Small popup windows give hints or explanations.
+- The first column must always be a numerical type named `id`. The wizard has this as a default.
+- We don't have to use all the columns from the csv file and we also don't have to use the same names, these can be mapped later. In this example, we use the following columns:
   ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img3.png)
-- Click on `Create table`
-- if successful, you are redirected to upload section
+- Click on `Create table`.
+- If successful, you are redirected to the upload section.
 
 ## Upload a csv file using the wizard
 
-- The title shows the selected table name and the number of rows currently in it (you can upload multiple times)
-- You may specify the csv file encoding and delimiter character, or leave it blank for automatic detection (which may be wrong though). The `Header` checkbox is activated to indicate that the first line in the file contains column names.
-- You can click on `Show example csv for current configuration` to see an example snippet of a valid csv file for your table
+- On the platform go to the [database section](https://openenergyplatform.org/dataedit/schemas).
+- Click on [+ data set](https://openenergyplatform.org/dataedit/wizard/) in the `model_draft` section.
+- Unfold the `Upload CSV` section of the wizard.
 - Click on `Browse` and select your csv file from your local drive.
+- You may specify the csv file encoding and delimiter character, or leave it blank for automatic detection (which may be wrong though). The `Header` checkbox is activated to indicate that the first line in the file contains column names.
+- You can click on `Show example csv for current configuration` to see an example snippet of a valid csv file for your table.
 - You can click on `Show preview` to see the first few lines of your file. This may help to detect encoding errors.
 
 ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img4.png)
 
 - Map the columns from your csv file to the columns in your database. Columns with the same name are automatically filled out for you.
-- In our example, we ignore the columns `center_lon`, `center_lat` and `area_km2` and rename `rs` to `region_key`
+- In our example, we ignore the columns `center_lon`, `center_lat` and `area_km2` and rename `rs` to `region_key`.
 - While you change the column mappings, the preview below shows the application of the mapping for the first few rows.
 
   ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img5.png)
 
-- If everything checks out, click `Upload`
+- If everything checks out, click `Upload`.
 
 ---
 
