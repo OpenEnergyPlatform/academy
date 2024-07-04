@@ -32,7 +32,7 @@ The following checklist will help you to prepare your data in a way that you wil
 12. If you have multiple tables, make sure they can be linked to one another
     a. e.g. Person with first and surname and table with cars and car owners surname. And see figure: "Good Example"
 
-This is a poor and a good example. This gives an Idea how to solve these problems, there are many good ways to solve it and two possibilities are show here.
+This is a poor and a good example. This gives an Idea how to solve these problems, there are many good ways to solve it and two possibilities are shown here.
 
 **Poor Example**
 

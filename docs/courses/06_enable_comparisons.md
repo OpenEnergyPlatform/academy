@@ -7,10 +7,10 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 ## For whom is this training and what can you learn?
 
-:oep-icon-info: **This course is aimed at researchers, no matter whether you have programming skills or not, who**
+:oep-icon-info: **This course is aimed at researchers, no matter whether you have programming skills or not, who want**
 
-- want to publish their data on the OEP
-- want that their data enables good quality [scenario projection](https://openenergyplatform.org/ontology/oeo/OEO_00010262) comparisons
+- to publish their data on the OEP
+- that their data enables good quality [scenario projection](https://openenergyplatform.org/ontology/oeo/OEO_00010262) comparisons
 
 :oep-icon-info: **After reading the sections of this training course you will**
 

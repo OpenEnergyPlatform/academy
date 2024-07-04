@@ -13,6 +13,9 @@ This tutorials will enable you to:
 - [Delete the table and the corresponding metadata](#delete-table)
 
 ## Requirements
+To execute the following code you will need to need to be a registered user on the OEP and
+  - have your OEP API token at hand. You find this in settings tab in your profile page. (If you don't have a token see [Things you only need to do once](https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/#1-things-you-only-need-to-do-once).)
+  - Set the OEP_API_TOKEN env.variable to your token: (OEP_API_TOKEN='your token')
 
 - Python packages:
 

@@ -4,12 +4,12 @@
 
 ### For whom is this training and what can you learn?
 
-:oep-icon-info: **This course is aimed at (energy system) researchers who**
+:oep-icon-info: **This course is aimed at (energy system) researchers who want to**
 
-- want to understand the OEO design choices,
-- want to get to know the OEO development processes,
-- want to participate in ontology development and
-- want to collaborate developping a powerful open-source tool to enhance data management in the energy domain under the FAIR principles.
+- understand the OEO design choices,
+- get to know the OEO development processes,
+- participate in ontology development and
+- collaborate developping a powerful open-source tool to enhance data management in the energy domain under the FAIR principles.
 
 :oep-icon-info: **After reading the sections of this module, you will know**
 

@@ -16,7 +16,6 @@ Version: super-repo v0.1.0
 
 ## Types of interaction
 
-This repository is following the [Contributor Covenant Code of Conduct](https://github.com/OpenEnergyPlatform/academy/blob/main/CODE_OF_CONDUCT.md). <br>
 Please be self-reflective and always maintain a good culture of discussion and active participation.
 
 ### A. Use
@@ -24,7 +23,6 @@ Please be self-reflective and always maintain a good culture of discussion and a
 Since the open license allows free use, no notification is required.
 However, for the authors it is valuable information who uses the software for what purpose.
 Indicators are `Watch`, `Fork` and `Starred` of the repository.
-If you are a user, please add your name and details in USERS.cff
 
 ### B. Comment
 
@@ -34,92 +32,45 @@ If you wish, add your name and details to `CITATION.cff`.
 
 ### C. Contribute and Review
 
-You add code and become an author of the repository.
-You have to follow the workflow!
+Add code or text and become an author of the repository.
+Please follow the workflow!
+If you are a contributor to this repository, please add your name and details in USERS.cff
 
-### D. Maintain and Release
+### D. Maintain
 
 You contribute and take care of the repository.
 You review and answer questions.
-You coordinate and carry out the release.
 
 ## Workflow
 
-The workflow for contributing to this project was inspired by the workflow described by [Vincent Driessen](https://nvie.com/posts/a-successful-git-branching-model/).
+The intention of this repository is to provide a reasonably quick interface to
+make changes to the documentation pages called Open Energy Academy. Therefore,
+our commonly used git workflow does not apply here. You are allowed to make
+changes directly in the production branch und push them to appear on the live
+website. You may fix small typos directly leaving a summary in your commit
+message. For anything larger, please write an issue using the issue template.
+You can either solve that issue yourself and reference it in your commit
+message or assign someone else to the issue.
 
-### 1. Describe the issue on GitHub
-
-Create [an issue](https://help.github.com/en/articles/creating-an-issue)
-in the GitHub repository.
-The `issue title` describes the problem you will address. <br>
-This is an important step as it forces one to think about the "issue".
-Make a checklist for all needed steps if possible.
-
-### 2. Solve the issue locally
-
-#### 2.0. Get the latest version of the `develop` branch
-
-Load the `develop branch`:
-
-```bash
-git checkout develop
-```
-
-Update with the latest version:
-
-```bash
-git pull
-```
+You are welcome to open a new branch and work on larger topics before
+publishing them.
 
 ##### Permanent branches
 
 - production - includes the current stable version
-- gh-pages - Contains the compiled documentation
 
-#### 2.1. Create a new (local) branch
+#### Creating a new (local) branch
 
 Create a new feature branch:
 
 ```bash
-git checkout -b feature-1314-my-feature
+git checkout -b feature-my-feature
 ```
 
-Naming convention for branches: `type`-`issue-nr`-`short-description`
+Naming convention for branches: `type`-`short-description`
+Examples of branch names: `feature-add-new-ontology-class`
 
-##### `type`
-
-- feature - includes the feature that will be implemented
-- hotfix - includes small improvements before an release, should be branched from a release branch
-- release - includes the current version to be released
-
-The majority of the development will be done in `feature` branches.
-
-##### `issue-nr`
-
-The `issueNumber` should be taken from Step 1. Do not use the "#".
-
-##### `short-description`
-
-Describe shortly what the branch is about.
-Avoid long and short descriptive names for branches, 2-4 words are optimal.
-
-##### Other hints
-
-- Separate words with `-` (minus)
-- Avoid using capital letters
-- Do not put your name to the branch name, it's a collaborative project
-- Branch names should be precise and informative
-
-Examples of branch names: `feature-42-add-new-ontology-class`, `feature-911-branch-naming-convention`, `hotfix-404-update-api`, `release-v0.10.0`
-
-#### 2.2. Start editing the files
-
-- Divide your feature into small logical units
-- Start to write the documentation or a docstring
-- Don't rush, have the commit messages in mind
-- Add your changes to the CHANGELOG.md
-
-On first commit to the repo:
+On your first commit to the repo:
 
 - Add your name and details to CITATION.cff
 
@@ -129,7 +80,7 @@ Check branch status:
 git status
 ```
 
-#### 2.3. Commit your changes
+#### Commit your changes
 
 If the file does not exist on the remote server yet, use:
 
@@ -146,16 +97,15 @@ git commit filename.md
 Write a good `commit message`:
 
 - "If applied, this commit will ..."
-- Follow [existing conventions for commit messages](https://chris.beams.io/posts/git-commit)
-- Keep the subject line [shorter than 50 characters](https://chris.beams.io/posts/git-commit/#limit-50)
-- Do not commit more than a few changes at the time: [atomic commits](https://en.wikipedia.org/wiki/Atomic_commit)
-- Use [imperative](https://chris.beams.io/posts/git-commit/#imperative)
-- Do not end the commit message with a [period](https://chris.beams.io/posts/git-commit/#end) ~~.~~
-- Allways end the commit message with the `issueNumber` including the "#"
+- Keep the subject line shorter than 50 characters
+- Do not commit more than a few changes at the time
+- Use imperative
+- Do not end the commit message with a period
+- Always end the commit message with the `issueNumber` including the "#"
 
 Examples of commit message: `Added function with some method #42` or `Update documentation for commit messages #1`
 
-#### 2.4 Fix your latest commit message
+#### Fix your latest commit message
 
 Do you want to improve your latest commit message? <br>
 Is your latest commit not pushed yet? <br>
@@ -165,83 +115,63 @@ Edit the commit message of your latest commit:
 git commit --amend
 ```
 
-### 3. Push your commits
+### Push your commits
 
 Push your `local` branch on the remote server `origin`. <br>
 If your branch does not exist on the remote server yet, use:
 
 ```bash
-git push --set-upstream origin feature-1314-my-feature
+git push --set-upstream origin feature-my-feature
 ```
 
-Then push regularly with:
+When pushing directly to production or after having gone through the previous
+step, push regularly with:
 
 ```bash
 git push
 ```
 
-### 4. Submit a pull request (PR)
+### Submit a pull request (PR)
 
-Follow the GitHub guide [creating-a-pull-request](https://help.github.com/en/articles/creating-a-pull-request). <br>
-The PR should be directed: `base: develop` <- `compare: feature-1-collaboration`. <br>
+Only if you want others to review a larger set of changes you made, create a pull request. <br>
 The `PR title` describes the problem you have solved. <br>
 Fill the PR template:
 
 - Summary of the discussion
-- Type of change (CHANGELOG.md)
-- Workflow checklist
+- Type of change
 
 Add `close #issueNumber` to [automatically close](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) the corresponding issue. <br>
 Assign a `Reviewer` or GitHub team. <br>
 Assign yourself as `Assignee` <br>
 Add suitable GitHub `Labels` <br>
 Link the corresponding issue in `Development` <br>
-`Create draft pull request` <br>
+Create the PR
 
-#### 4.1. Update the Changelog
+#### Let someone else review your PR
 
-Update comment of PR with `#PullRequestNumber` <br>
-Add to the corresponding sections in `CHANGELOG.md` <br>
-Commit and push changelog <br>
-
-#### 4.2. Update the Documentation
-
-Update the documentation <br>
-Commit and push documentation <br>
-
-#### 4.3. Convert draft to Pull Request
-
-Check `Ready for review`
-
-#### 4.4. Let someone else review your PR
-
-Follow the GitHub guide [approving a pull request with required reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews). <br>
 Assign one reviewer or a user group and get into contact.
 
 If you are the reviewer:
 
 - Check the changes in all corresponding files.
-- Checkout the branch and run code.
+- Checkout the branch and if applicable, run code.
 - Comment if you would like to change something (Use `Request changes`)
 - If all tests pass and all changes are good, `Approve` the PR.
 - Leave a comment and some nice words!
 
-#### 4.1. Merge the PR
+#### Merge the PR
 
-Follow the GitHub guide [merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request).
+Merging in this repository should not privode any problems. If anything out of the ordinary occurs, follow the GitHub guide [merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request).
 
-#### 4.2. Delete the feature branch
+#### Delete the feature branch
 
-Follow the GitHub guide [deleting a branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#deleting-a-branch).
+After merging you can delete the feature branch. If truly necessary git allows reconstruction of deleted branches. 
 
-### 5. Close the issue
+### Close the issue
 
-Document the result in a few sentences and close the issue. <br>
-Check that all steps have been documented:
+Check that all steps have taken place:
 
-- Issue title describes the problem you solved?
-- All commit messages are linked in the issue?
-- The branch was deleted?
-- Entry in CHANGELOG.md?
-- PR is closed?
-- Issue is closed?
+- Issue title describes the problem you solved
+- The branch was deleted
+- PR is closed
+- Issue is closed

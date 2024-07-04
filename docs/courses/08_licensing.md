@@ -103,8 +103,8 @@ Typically, the attribution string should contain the following elements:
 
 - **Title**: Include the title or name of the dataset, providing a clear and concise description of its content.
 - **Source**: Specify the source from which the data originated, indicating the repository, website, or platform where it was obtained. A link to the source of the data, can be a URL or DOI.
-- **Author / Copyright holder**: Acknowledge the individual or organisation that holds the copyright or is the primary creator of the data. The information from **attribution**
-- **Author link**: A link to the homepage
+- **Author / Copyright holder**: Acknowledge the individual or organisation that holds the copyright or is the primary creator of the data. The information from **attribution**.
+- **Author link**: A link to the homepage.
 - **License**: Clearly state the license under which the data is released, ensuring compliance with its terms and conditions. Name and identifier of the license.
 - **License link**: A link to the license text.
 
@@ -197,7 +197,7 @@ subtle nuances.
 ### DALICC
 
 The project [DALICC ("Data Licenses Clearance Center")](https://docs.dalicc.net/)
-iss an EU-funded research project aimed at developing a platform and tools to
+is an EU-funded research project aimed at developing a platform and tools to
 support the identification, clearance, and management of data licenses.
 The project's goal is to address the challenges surrounding data licensing in
 order to foster data interoperability, reuse, and sharing while ensuring legal
@@ -253,7 +253,7 @@ librarians, research administrators, and graduate schools - can benefit from
 the portal.
 In order to meet their needs, the existing materials will be extended from
 basic to more advanced-level resources. In addition, discipline-specific
-resources will be created.\_
+resources will be created.
 
 :oep-icon-info: [FORSTER Course: Open Licensing](https://www.fosteropenscience.eu/learning/open-licensing)
 
