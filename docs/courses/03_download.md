@@ -15,8 +15,9 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 - be able to find data on the OEP via the data search functionality
 - be able to download data tables as .csv or as a datapackage including the metadata
-- be able to select and filter data that resides on the OEP via the REST-full-HTTP API in Python
-- be able to use the REST-full-HTTP API in Python for selecting data on the OEP, make calculations with it and save the results to a file
+- be able to use the REST-full-HTTP API in Python for selecting and downloading data from the OEP 
+- be able to use the oeclient with Python or the command line to select and download data from the OEP
+- know that you can check the scenario bundles on the OEP to learnm ore about scenarios, the corresponding data and context
 
 ## How can I find relevant information on the OEP?
 
@@ -27,23 +28,16 @@ This tutorial teaches you how to use the free text search and tags to filter for
 ## How can I download / interact with data on the OEP?
 
 :oep-icon-text: [How to download data - CSV and data package](../tutorials/99_other/download.md) (tutorial):
-
 Learn how easy it is do download any data table you are viewing on the OEP table with only one click and why a data package makes a difference.
 
-:oep-icon-code: [Process query result data and save to file](../tutorials/01_api/01_api_download.ipynb) (tutorial):
-
-Learn how to use the REST-full-HTTP API in Python for selecting data on the OEP, make calculations
-with it and save the results to a file.
-
 :oep-icon-code: [Data queries via API](../tutorials/01_api/01_api_download.ipynb) (tutorial):
-
 This tutorial provides an overview of how you can select, filter and download data that resides on the OEP via the REST-full-HTTP
 API in Python
 
-:oep-icon-code: [Data queries via API](../tutorials/01_api/01_client_python_download/) (tutorial):
+:oep-icon-code: [Data queries with the oecient via Python ](../tutorials/02_oep_client/01_client_python_download/) (tutorial):
 The oeclient is another way on how you can download data from the OEP. This turorial teaches you how to do so using a python script. 
 
-:oep-icon-code: [Data queries via API](../tutorials/01_api/03_client_cli_download/) (tutorial):
+:oep-icon-code: [Data queries with the oeclient via command line](../tutorials/02_oep_client/03_client_cli_download/) (tutorial):
 If you prefer command line over python, we have you covered: please check this turorial for learning how to use the oeclient on the command line to download data from the OEP.
 
 
