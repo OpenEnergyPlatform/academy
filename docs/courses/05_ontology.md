@@ -1,4 +1,6 @@
-# 05 - The Open Energy Ontology
+# 05 - The Open Energy Ontology (OEO)
+Learn about how to become an OEO developer and which skills are helpful to join in on developing the OEO. 
+You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
 ## How to become an OEO developer
 
@@ -69,7 +71,7 @@ Energy is a complex physical phenomenon and challenging to describe ontologicall
 
 ### I have read everything - how can I join the developer team now?
 
-1. Get in touch with us!
+1. Get in touch with us! You can use the [contact form on the OEP](https://openenergyplatform.org/contact/) to establish initial contact and we will back to you. 
 2. We always welcome new members to the development team in our regular oeo-dev-meetings, where we discuss organisational things and content related issues.
 3. To participate in the OEO development and discussion process on GitHub, you will need to become part of the [OpenEnergyFamily organisation](https://github.com/OpenEnergyPlatform).
 4. Afterwards, you can follow all instructions and explanations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub.
