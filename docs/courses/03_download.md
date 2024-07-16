@@ -23,7 +23,6 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 ## How can I find relevant information on the OEP?
 
 :oep-icon-text: [How to find data on the OEP?](../tutorials/99_other/find_data.md) (tutorial):
-
 This tutorial teaches you how to use the free text search and tags to filter for data on the OEP. You will see that you can use both approaches individually, but also combine freetext and tags to specify your data filter further.
 
 ## How can I download / interact with data on the OEP?
