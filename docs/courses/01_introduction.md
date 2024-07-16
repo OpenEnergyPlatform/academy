@@ -8,9 +8,9 @@ To get familiar with research data management in general, we recommend to visit 
 Each of the training courses here on the OEA are targeted at working with the Open Energy Platform and its tools. The courses contain written content and / or links to learning materials which cater to different levels of expertise. Some materials are targeted at fluent programmers, others are targeted at persons who prefer to interact with the OEP visually.
 As a visual guide regarding what to expect behind links you may find in a training course, we use the following icons:
 
-:oep-icon-code: links to written training material. The material may include some code for guidance.
+ :oep-icon-text: links to written training material. The material may include some code for guidance.
 
-:oep-icon-text: links to material focussing on code.
+ :oep-icon-code: links to material focussing on code.
 
 :oep-icon-info: is some informational text without a link to specific material.
 
