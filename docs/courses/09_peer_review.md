@@ -7,6 +7,8 @@ tags:
 
 # 09 - Open Peer Review
 
+This course will introduce you to Open Peer Review on the OEP. At the moment it provides basic insights into Open Peer Review. 
+
 You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/189](https://github.com/OpenEnergyPlatform/academy/issues/189)
 
 !!! note
@@ -39,7 +41,7 @@ evaluation process.
 Additionally, we explore how OPR facilitates broader involvement from experts
 and interest groups, leading to improved quality and validation of research findings.
 
-Ross-Hellauer's 2017 study identified four key features that differentiate
+[Ross-Hellauer's 2017 study](https://doi.org/10.1371/journal.pone.0189311) identified four key features that differentiate
 an open peer review from conventional peer review.
 
 ### Open Identities
