@@ -10,6 +10,7 @@ You can provide feedback to this course on github: [https://github.com/OpenEnerg
 
 - wants to find and view data on the OEP
 - wants to find and download data on the OEP
+- wants to find out which data belongs to which scenarios
 
 :oep-icon-info: **After reading the sections of this training course you will**
 
@@ -34,7 +35,7 @@ Learn how easy it is do download any data table you are viewing on the OEP table
 This tutorial provides an overview of how you can select, filter and download data that resides on the OEP via the REST-full-HTTP
 API in Python
 
-:oep-icon-code: [Data queries with the oecient via Python ](../tutorials/02_oep_client/01_client_python_download/) (tutorial):
+:oep-icon-code: [Data queries with the oeclient via Python ](../tutorials/02_oep_client/01_client_python_download/) (tutorial):
 The oeclient is another way on how you can download data from the OEP. This turorial teaches you how to do so using a python script. 
 
 :oep-icon-code: [Data queries with the oeclient via command line](../tutorials/02_oep_client/03_client_cli_download/) (tutorial):
