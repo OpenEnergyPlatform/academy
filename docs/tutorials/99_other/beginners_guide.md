@@ -34,17 +34,19 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
   - Follow the instructions received in the email.
 
-  - After successfully activating and logging into your account, you will see your information as in the screenshot below:
-
-    ![](https://github.com/OpenEnergyPlatform/academy/blob/production/docs/tutorials/99_other/images/token.png?raw=true)
+  - After successfully activating and logging into your account, you will be able to view your user information.
 
   - API-Token
 
     - The API token is necessary to make authenticated requests to the API.
 
-    - After you logged into the OEP, click the member icon at the upper right corner
+    - After you logged into the OEP, click the member icon at the upper right corner of the page
 
     - You can find your API-Token under **Your Security Information** by clicking on **Show token:**
+
+    ![](https://github.com/OpenEnergyPlatform/academy/blob/production/docs/tutorials/99_other/images/token.png?raw=true)
+
+
 
 ## 1.2. Register at github and get invited to OpenEnergyPlatform Group
 
