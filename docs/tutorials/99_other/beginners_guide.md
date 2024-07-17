@@ -26,9 +26,7 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
   - Click [Login](https://openenergyplatform.org/user/login/?next=/) button on Homepage and choose the option **Create a new account.**
 
-  - OR: go directly to <https://openenergyplatform.org/user/register>:
-
-    ![](https://openenergyplatform.org/media/image/2020/12/register.png)
+  - OR: go directly to <https://openenergyplatform.org/user/register>
 
   - Fill out the required fields and click on **Submit.**
 
@@ -38,15 +36,13 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
   - After successfully activating and logging into your account, you will see your information as in the screenshot below:
 
-    ![](https://openenergyplatform.org/media/image/2020/12/apitoken.png)
+    ![](https://github.com/OpenEnergyPlatform/academy/blob/production/docs/tutorials/99_other/images/token.png?raw=true)
 
   - API-Token
 
     - The API token is necessary to make authenticated requests to the API.
 
-    - After you logged into the OEP, click the member icon at the upper right corner:
-
-      ![](https://openenergyplatform.org/media/image/2020/12/logout.png)
+    - After you logged into the OEP, click the member icon at the upper right corner
 
     - You can find your API-Token under **Your Security Information** by clicking on **Show token:**
 
