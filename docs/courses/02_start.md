@@ -39,6 +39,7 @@ The API token is necessary to make authenticated requests to the API (API = Appl
 
 When you interact with the OEP you also interact with the Open Energy Family (OEF). The development of the OEF and OEP is a community effort that takes place openly at github in the github group [Open Energy Platform](https://github.com/OpenEnergyPlatform). There, the various family members of the OEF are developed in different [repositories](https://github.com/orgs/OpenEnergyPlatform/repositories). We welcome you to also participate in their development. To be able to do so, you will thus need to register with github. You can do so at no cost.
 
+
 :oep-icon-info: **How to register with github and become part of the Open Energy Family team?**
 
 If you do not yet have a github account, you need to [register with github](https://github.com/join). You will then need to become a member of the group [OpenEnergyPlatform](https://github.com/OpenEnergyPlatform) by getting invited to the group. This works as follows: Get in touch via the [OpenEnergy Platform contact form](https://openenergyplatform.org/contact). Fill in the form with your request to be added to the OpenEnergyPlatform group on github. An example text is provided in the screenshot below:
@@ -46,6 +47,8 @@ If you do not yet have a github account, you need to [register with github](http
 ![image](../data/img/02_contact.JPG)
 
 The response is not automated and thus not immediate. Please wait until you receive an invitation to the github group.
+
+We collected a few links to GitHub and git basics [here](https://openenergyplatform.github.io/academy/courses/05_ontology/#3-github-and-git-basics) for your first steps. 
 
 ---
 
