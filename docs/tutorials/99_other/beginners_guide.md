@@ -289,6 +289,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
 ## 2.2. Create metadata
 
 You can create metadata that describes the context of your data in various ways. The easiest way is to navigate to the Meta information attached your table and then click Edit. 
+![image](../data/img/02_contact.JPG)
 
 
 # 3. Complete your contribution
