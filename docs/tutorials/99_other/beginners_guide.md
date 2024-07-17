@@ -294,6 +294,8 @@ You will then be presented with a set of fields that need and can be completed, 
 
 ![image](../../data/img/sirop-meta-fields.JPG)
 
+Info: The .json specification of the metadata can be found [here](https://github.com/OpenEnergyPlatform/oemetadata/blob/master/metadata/latest/metadata_key_description.md). 
+
 # 3. Complete your contribution
 
 This document described how to upload data and metadata to the OpenEnergy Platform. For your contribution to become even more useful to other users of the platform and as further support for the community, we encourage you to create factsheets to describe the data you provided and their context in more detail.
