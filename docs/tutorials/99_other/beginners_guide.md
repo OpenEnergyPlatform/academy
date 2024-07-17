@@ -1,4 +1,4 @@
-# Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process
+# Beginners Guide: How to upload data to the OpenEnergy Platform
 
 # About this guide
 
