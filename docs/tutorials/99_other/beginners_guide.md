@@ -99,7 +99,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
 ### 2.1.1. Create a new table
 
-- You will need to create the tables at first in the **model_draft** topic. This topic is used for data that is still preliminary and subject to changes. After a successful review later, the table will be moved to the target topic.
+- You will need to create the tables at first in the **model_draft** topic. This topic is used for data that is still preliminary and subject to changes. After a successful review later, the table will be moved to the final target topic.
 
 - You need to specify the name of the new table (TABLE_NAME), which should be a valid PostgreSQL table name, without spaces, ideally only containing lower case letters, numbers and underscores.
 
@@ -288,47 +288,8 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
 ## 2.2. Create metadata
 
-- You must save your meta data in a json file following the examples from [github](https://github.com/OpenEnergyPlatform/examples/blob/master/metadata/oep_metadata_template.json). (A plain text file with the suffix .json, following the JSON specifications. Here is one of many tutorials for that: <https://www.digitalocean.com/community/tutorials/an-introduction-to-json>)
+You can create metadata that describes the context of your data in various ways. The easiest way is to navigate to the Meta information attached your table and then click Edit. 
 
-- A documentation of the OEP metadata standard can be found [here](https://github.com/OpenEnergyPlatform/oemetadata/blob/master/metadata/latest/metadata_key_description.md). This can guide you what information to put where and in which format.
-
-- Although optional, we recommend that you fill out as many fields as possible to make the data meaningful to other users.
-
-- Then upload metadata to github as described below.
-
-_Prerequisite for this step is that you have a github account and you are member of the OpenEnergy Platform group on github._
-
-- Once your data table(s) have been uploaded to _model_draft_ topic on the OpenEnergy Platform, you will need to submit this information and the metadata to github into the [data-preprocessing repository](https://github.com/OpenEnergyPlatform/data-preprocessing/tree/master/data-review)
-
-- In the [data-review folder](https://github.com/OpenEnergyPlatform/data-preprocessing/tree/master/data-review) you need to **create a new branch** with a suitable name for your data:
-
-  - Click [upload files](https://github.com/OpenEnergyPlatform/data-preprocessing/upload/master/data-review)
-
-    - Select your meta data json file(s)
-
-    - Describe the files and context, to make it easier for the reviewer.
-
-    - At the end of the form create the new branch **/review/###NAME###** and give it a suitable name (e.g. name of the scenario)
-
-    ![](https://openenergyplatform.org/media/image/2020/12/review.png)
-
-## 2.3. Initiate review
-
-_Prerequisite for this step is that you have a github account and you are member of the OpenEnergy Platform group._
-
-- Create a new issue in the [data-preprocessing](https://github.com/OpenEnergyPlatform/data-preprocessing/issues) repository to describe your recent upload and the context:
-
-  ![](https://openenergyplatform.org/media/image/2020/12/issue.png)
-
-- See an example issue here: <https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27>
-
-- Assign the user **Ludee** and **christian-rli** to this issue. They will coordinate the review.
-
-- Select the label **review**.
-
-  ![](https://openenergyplatform.org/media/image/2020/12/review2.png)
-
-- Now you have completed the whole process from your side. All you need to do now is to wait until a reviewer has dedicated time to review your data. If you have not enabled email-notifications in github, we suggest you check back into the issue you created on a regular basis.
 
 # 3. Complete your contribution
 
@@ -336,29 +297,16 @@ This document described how to upload data and metadata to the OpenEnergy Platfo
 
 ## 3.1. Create Factsheets
 
-- The drop-down menu shows you the 3 different Factsheet categories and the tab **Overview**, which offers an introduction and explanation of the Factsheet options
+- The drop-down menu **Scenario Bundles** shows you the 3 different Factsheet categories.
 
 - Select a suitable factsheet category from the drop-down menu
 
-  - Frameworks: to describe the fundamental structure or toolbox to build a model, e.g. TIMES
+  - Scenario Bundle: this is the place that ties together all of the information that you may want to describe regarding the data you have just uploaded. You can provide information on the scenario characteristics, the study reports that deal with your data, the sectors and technologies depicted, the models and frameworks used. Use this factsheet to enrich your contribution. 
 
-  - Models: to describe a model that has been used to run a scenario; ideally this relates to a scenario for which you have uploaded data to the OEP
+  - Frameworks: use this factsheet to add information about the fundamental structure or toolbox to build a model, e.g. TIMES. Under **Scenario Bundle** you can then attach such a framework via a drop-down menu. 
 
-  - Scenarios: to describe a scenario; ideally one for which you have uploaded data to the OEP already
+  - Models: to describe a model that has been used to run a scenario; ideally this relates to a scenario for which you have uploaded data to the OEP. Under **Scenario Bundle** you can then attach models via a drop-down menu to your scenario. 
 
-- Each category has a plus button next to the title to access the fill out form
-
-- Scenario Factsheet option offers you to create a new scenario factsheet for a new study or add a Scenario Factsheet to an existing study
-
-  ![](https://openenergyplatform.org/media/image/2020/12/factsheet.png)
-
-- Fill out the interactive fields and choose from the pre-defined responses
-
-  - There are different tabs including further required fields marked with a \*
-
-  - When you are done – click on **Submit all**
-
-- Ideally you will continue to create one Factsheet for each category to complete your contribution
 
 ---
 
