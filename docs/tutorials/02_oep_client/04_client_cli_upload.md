@@ -25,8 +25,7 @@ To execute the following code you will need to need to be a registered user on t
   - use the command line
 
 ## Feedback
-You can provide feedback on this tutorial here: https://github.com/OpenEnergyPlatform/academy/issues/238 
-
+You can provide feedback on this tutorial here: https://github.com/OpenEnergyPlatform/academy/issues/238
 
 ## Setup
 
