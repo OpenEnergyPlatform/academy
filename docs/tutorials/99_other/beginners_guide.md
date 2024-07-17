@@ -290,8 +290,9 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
 You can create metadata that describes the context of your data in various ways. The easiest way is to navigate to the Meta information attached your table and click the Edit button:
 ![image](../../data/img/sirop_meta-information.JPG)
-You will then be presented with a set of fields that need and can be completed:
-![image](../../data/img/sirop_meta-fields.JPG)
+You will then be presented with a set of fields that need and can be completed, see the display below:
+
+![image](../../data/img/sirop-meta-fields.JPG)
 
 # 3. Complete your contribution
 
