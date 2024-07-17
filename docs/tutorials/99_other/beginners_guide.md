@@ -99,7 +99,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
 ### 2.1.1. Create a new table
 
-- You will need to create the tables at first in the **model_draft** schema. This schema is used for data that is still preliminary and subject to changes. After a successful review later, the table will be moved to the final target schema.
+- You will need to create the tables at first in the **model_draft** topic. This topic is used for data that is still preliminary and subject to changes. After a successful review later, the table will be moved to the target topic.
 
 - You need to specify the name of the new table (TABLE_NAME), which should be a valid PostgreSQL table name, without spaces, ideally only containing lower case letters, numbers and underscores.
 
@@ -125,7 +125,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
      }
     }
     # prepare api url
-    url = API_URL + '/schema/model_draft/tables/' + TABLE_NAME
+    url = API_URL + '/topic/model_draft/tables/' + TABLE_NAME
     # make request and check using PUT
     res = session.put(url, json=data)
     res.raise_for_status() # check: throws exception if not successful
@@ -149,7 +149,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
     # prepare request payload
     data = {'query': records}
     # prepare api url
-    url = API_URL + '/schema/model_draft/tables/' + TABLE_NAME + '/rows/new'
+    url = API_URL + '/topic/model_draft/tables/' + TABLE_NAME + '/rows/new'
     # make request
     res = session.post(url, json=data)
     res.raise_for_status() # check
@@ -163,7 +163,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
 ```python
     # prepare api url
-    url = API_URL + '/schema/model_draft/tables/' + TABLE_NAME
+    url = API_URL + '/topic/model_draft/tables/' + TABLE_NAME
     # make request
     res = session.delete(url)
     res.raise_for_status() # check
@@ -197,7 +197,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
     # delete table (in case it already exists)
     # --------------------------------------
     # prepare api url
-    url = API_URL + '/schema/model_draft/tables/' + TABLE_NAME
+    url = API_URL + '/topic/model_draft/tables/' + TABLE_NAME
     # make request
     res = session.delete(url)
 ```
@@ -232,7 +232,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
      ]
     }}
     # prepare api url
-    url = API_URL + '/schema/model_draft/tables/' + TABLE_NAME + '/'
+    url = API_URL + '/topic/model_draft/tables/' + TABLE_NAME + '/'
     # make request and check using PUT
     res = session.put(url, json=data)
     res.raise_for_status() # check: throws exception if not successful
@@ -256,7 +256,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
     # 'records' is a list of dictionaries (field name: value)
     data = {'query': records}
     # prepare api url
-    url = API_URL + '/schema/model_draft/tables/' + TABLE_NAME + '/rows/new'
+    url = API_URL + '/topic/model_draft/tables/' + TABLE_NAME + '/rows/new'
     # make request
     res = session.post(url, json=data)
     res.raise_for_status()  # check
@@ -269,7 +269,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
     # https://openenergyplatform.org/dataedit/view/model_draft/tables/my_example_table
     # --------------------------------------
     # prepare api url
-    url = API_URL + '/schema/model_draft/tables/' + TABLE_NAME + '/rows'
+    url = API_URL + '/topic/model_draft/tables/' + TABLE_NAME + '/rows'
     # make request
     res = session.get(url)
     print(res.json())
@@ -280,7 +280,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
     # delete table (because it was just a test)
     # --------------------------------------
     # prepare api url
-    url = API_URL + '/schema/model_draft/tables/' + TABLE_NAME
+    url = API_URL + '/topic/model_draft/tables/' + TABLE_NAME
     # make request
     res = session.delete(url)
     res.raise_for_status()  # check
@@ -298,7 +298,7 @@ _Please note: code snippets below are shown to highlight specific instances of a
 
 _Prerequisite for this step is that you have a github account and you are member of the OpenEnergy Platform group on github._
 
-- Once your data table(s) have been uploaded to _model_draft_ schema on the OpenEnergy Platform, you will need to submit this information and the metadata to github into the [data-preprocessing repository](https://github.com/OpenEnergyPlatform/data-preprocessing/tree/master/data-review)
+- Once your data table(s) have been uploaded to _model_draft_ topic on the OpenEnergy Platform, you will need to submit this information and the metadata to github into the [data-preprocessing repository](https://github.com/OpenEnergyPlatform/data-preprocessing/tree/master/data-review)
 
 - In the [data-review folder](https://github.com/OpenEnergyPlatform/data-preprocessing/tree/master/data-review) you need to **create a new branch** with a suitable name for your data:
 
