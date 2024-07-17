@@ -24,6 +24,10 @@ To execute the following code you will need to need to be a registered user on t
 - Skills:
   - use the command line
 
+## Feedback
+You can provide feedback on this tutorial here: https://github.com/OpenEnergyPlatform/academy/issues/238 
+
+
 ## Setup
 
 For the setup commands to work, you need to set your personal OEP API token as an environment variable. Alternatively, you can assign your token directly to the token variable. You can find the token on your OEP profile page.

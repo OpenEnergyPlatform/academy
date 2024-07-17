@@ -20,6 +20,10 @@ This tutorials will enable you to:
 - Skills:
   - use the command line
 
+## Feedback
+You can provide feedback on this tutorial here: https://github.com/OpenEnergyPlatform/academy/issues/237
+
+
 ## Setup
 
 - Linux
