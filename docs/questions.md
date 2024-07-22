@@ -32,7 +32,7 @@ If you would like to learn how to **upload data tables with the API**, we recomm
 
 ## Data upload: How can I upload data to the OEP using the API?
 
-You can read the **[API documentation](https://oep-data-interface.readthedocs.io/en/latest/api/how_to.html)** and then build your custom queries for data upload. The **[Beginners Guide (Section 2.1)](tutorials/99_other/beginners_guide.md)** provides some code snippets if you want to take a short-cut.
+You can read the **[API documentation](https://openenergyplatform.github.io/oeplatform/install-and-documentation/oeplatform-code/web-api/oedb-rest-api/)** and then build your custom queries for data upload. The **[Beginners Guide (Section 2.1)](tutorials/99_other/beginners_guide.md)** provides some code snippets if you want to take a short-cut.
 
 ---
 
