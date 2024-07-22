@@ -27,7 +27,7 @@ You can also go directly to [Register](https://openenergyplatform.org/user/regis
 
 This includes your profile information and any data tables you have already contributed to the OEP. Under _Settings_, you will be able to view your API token, by clicking _Show token:_
 
-![image](../data/img/02_profile-api.JPG)
+![image](https://raw.githubusercontent.com/OpenEnergyPlatform/academy/production/docs/tutorials/99_other/images/token.png)
 
 The API token is necessary to make authenticated requests to the API (API = Application Programming Interface). You will use the API in case you want to connect to the OEP using programming skills.
 
