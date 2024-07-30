@@ -19,6 +19,7 @@ This tutorials will enable you to:
 - metadata for set table must be available
 
 - Skills:
+	- Knowledge of the Peer Review Process
  
 ## Feedback 
  
