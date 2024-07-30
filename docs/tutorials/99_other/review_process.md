@@ -18,8 +18,6 @@ This tutorials will enable you to:
 - table or dataset uploaded to the [OpenEnergyPlatform](https://openenergyplatform.org/) (OEP)
 - metadata for set table must be available
 
-- Skills:
-	- Knowledge of the Peer Review Process
  
 ## Feedback 
  
