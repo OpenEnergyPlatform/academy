@@ -1,4 +1,4 @@
-# 02 - What is a scenario bundle and how to create one 
+# 10 - What is a scenario bundle and how to create one 
 THIS COURSE IS UNDER DEVELOPMENT
 
 ## For whom is this trainin and what can you learn?
