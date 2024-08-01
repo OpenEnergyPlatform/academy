@@ -1,7 +1,7 @@
 # 10 - What is a scenario bundle and how to create one 
 THIS COURSE IS UNDER DEVELOPMENT
 
-## For whom is this trainin and what can you learn?
+## For whom is this training and what can you learn?
 
 :oep-icon-info: **This course is aimed at researchers, no matter whether you have programming skills or not, who want**
 
@@ -20,7 +20,7 @@ Scenario bundles  also inform about models (if available as a model factsheet) a
 
 In a nutshell: A scenario bundle provides you with all relevant information to understand a scenario's context and to ease a potential re-use of quantitative data for your own purposes.
 
-## How to create a scenario bunlde
+## How to create a scenario bundle
 tba. 
 
 
