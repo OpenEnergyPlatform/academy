@@ -42,6 +42,11 @@ In a nutshell: A scenario bundle provides you with all relevant information to u
 * **Publications**: This area gives you room to provide all publications that were made based on the scenarios you describe. You can add more than one study by clicking the **+** button on the left. 
     ![image](../data/img/10_publications.JPG)
 
+* **Sectors and technologies**: Here you specify details about the [scenario projections](https://openenergyplatform.org/ontology/oeo/OEO_00010262/) you have provided in the scenario bundle. Which sectors have they projected? Please note you can hover over the (i) to receive definitions and explanations. A [**sector division**](https://openenergyplatform.org/ontology/oeo/OEO_00000368/) informs about the "method" according to which [sectors](https://openenergyplatform.org/ontology/oeo/OEO_00000367/) in a scenario are defined and made distinct from one another. Since the scenario bundles work with defintions available in the Open Energy Ontology, this area will let you choose from those sector divisions that are currently depicted by the OEO. If yours does not match any of these, please choose "other". Under **Sectors** you can then specify in more detail which sectors are depicted in your scenario projection. The ones available from the drop-down correspond to a sector divsion accordingly. If you have chosen "other" under sector divison, you do not need to choose items from the list here, unless the definition matches your definition. To check this, hover over the (i). 
+
+    Below the sector area you will be able to provide information on which technologies are depicted in your scenario projection. Check the boxes of these technologies and use the (i) to read its defintion in the OEO. 
+
+    ![image](../data/img/10_sectors.JPG)
 
 
 
