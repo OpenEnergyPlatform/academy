@@ -56,6 +56,14 @@ At the bottom you can link any input and output dataset that elong to your scena
 
 
 
+* **Models and frameworks**: This area is dedicated to document which **models** were used in your study to project the scenario(s) into the future. For your models to show up in the drop-down menu *models*, a model factsheet needs to be present on the OEP. So if you wish to link your models here, but they are not available as a factsheet yet, please head over to the [model factsheet area](https://openenergyplatform.org/factsheets/models/) and add it there, and then come back here. Please note that the model factsheet area is not yet a perfect place, but it will work to document a few key characteristics and provide links to documentation. The same holds true for the area where you can document the  **frameworks** that were used to project the scenario(s) you are documenting. Head over to the [framework factsheet area](https://openenergyplatform.org/factsheets/frameworks/) if yours is not yet available from the drop-down menu. 
+
+    ![image](../data/img/10_models.JPG)
+
+
+
+At the end: do not forget to click the **Save** button.
+
 ## About this course
 
 :oep-logo-sirop:
