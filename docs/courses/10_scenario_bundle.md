@@ -62,7 +62,7 @@ At the bottom you can link any input and output dataset that elong to your scena
 
 
 
-At the end: do not forget to click the **Save** button.
+At the end: do not forget to click the **Save** button. And voilà, you have created a scenario bundle that links a lot of context to data you have supplied on the OEP. Thank you for increasing transparency and re-use possibilities of that data.
 
 ## About this course
 
