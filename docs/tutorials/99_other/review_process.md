@@ -23,6 +23,9 @@ This tutorials will enable you to:
  
 You can provide feedback on this tutorial here: https://github.com/OpenEnergyPlatform/academy/issues/189
 
+## Introduction
+
+This course will teach you step-by-step how the open peer review process from the OEP works. For a more general overview of the peer review process have a look at the course [09 - Open Peer Review](https://openenergyplatform.github.io/academy/courses/09_peer_review/).
 
 ## Metadata Upload
 
@@ -36,7 +39,7 @@ The review process is exclusive; menanig once the review process has started, no
 
 ## Review Process
 
-The reviewer who initiated the process must review all fields except contributor and resources metadatafields or empty fields. Review options are to accept the field, suggest a change, or reject it and provide an alternative. The  review is then transmitted from the reviewer back to the contributer. The reviewer can only forward their review to the contributor once they have evaluated all non-empty fields i.e. accepted, suggested or rejected them.
+The reviewer who initiated the process must review all fields except empty fields, contributor fields and technical resource metadata fields. Review options are to accept the field, suggest a change, or reject it and provide an alternative. The review is then transmitted from the reviewer back to the contributer`. The reviewer can only forward their review to the contributor once they have evaluated all non-empty fields i.e. accepted, suggested or rejected them. (See also: [How do you review open data?](https://openenergyplatform.github.io/academy/courses/09_peer_review/#how-do-you-review-open-data))
 
 ## Handling Review Suggestions
 
