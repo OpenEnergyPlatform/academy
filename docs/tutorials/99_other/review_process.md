@@ -23,6 +23,9 @@ This tutorials will enable you to:
  
 You can provide feedback on this tutorial here: https://github.com/OpenEnergyPlatform/academy/issues/189
 
+## Introduction
+
+This course will teach you step-by-step how the open peer review process from the OEP works. For a more general overview of the peer review process have a look at the course [09 - Open Peer Review](https://openenergyplatform.github.io/academy/courses/09_peer_review/).
 
 ## Metadata Upload
 
@@ -31,12 +34,12 @@ The contributer (metadata owner) has to [upload the metadata](https://openenergy
 
 ## Initiation of the Review Process
 
-Once the metadata is publicly accessible in the [modal_draft](https://openenergyplatform.org/dataedit/view/model_draft) section, anyone can start the review process by going to the 'Open Peer Review' View (next to 'Meta information') and clicking on 'Start Open Peer Review' at the end of the page.  (Note: The metadata owner cannot review their own metadata.)
+Once the metadata is publicly accessible in the [modal_draft](https://openenergyplatform.org/dataedit/view/model_draft) section, anyone can start the review process by going to the 'Open Peer Review' View (next to 'Meta information') and clicking on 'Start Open Peer Review' at the end of the page.  (Note: The metadata owner cannot review their own metadata.) 
 The review process is exclusive; menanig once the review process has started, no one else can initiate the review process for the same metadata. (Note: After a review is finished a new review can be started.)
 
 ## Review Process
 
-The reviewer who initiated the process must review all fields (except contributor and resources metadatafields or empty fields) with the options to accept the field, suggest a change, or reject it and provide an alternative. Then follows the transimission of the review from the reviewer back to the contributer. (Mote: The reviewer can only forward the review to the contributor once they has evaluated all non-empty fields (accepted, suggested, rejected).)
+The reviewer who initiated the process must review all fields (except contributor and resources metadatafields or empty fields) with the options to accept the field, suggest a change, or reject it and provide an alternative. Then follows the transimission of the review from the reviewer back to the contributer. (Mote: The reviewer can only forward the review to the contributor once they has evaluated all non-empty fields (accepted, suggested, rejected).) (See also: [How do you review open data?](https://openenergyplatform.github.io/academy/courses/09_peer_review/#how-do-you-review-open-data))
 
 ## Handling Review Suggestions
 
