@@ -62,7 +62,7 @@ The documentation of the OEO development, its discussion and version control all
 :oep-icon-text: [Introducing the Open Energy Ontology: Enhancing data interpretation and interfacing in energy systems analysis](https://www.sciencedirect.com/science/article/pii/S2666546821000288)
 We published an introductory paper about the OEO in the journal Energy and AI in 2021. It provides a good overview over the domain, the structure and the workflow of OEO development.
 
-:oep-icon-text: [OEO Wiki](https://github.com/OpenEnergyPlatform/ontology/wiki/Best-Practice-Principles)
+:oep-icon-text: [OEO Wiki](https://github.com/OpenEnergyPlatform/ontology/wiki/)
 The OEO wiki provides details on how best practice principles of ontology development are applied to OEO development.
 
 :oep-icon-text: [The representation of energy, energy carriers and
