@@ -34,12 +34,14 @@ The contributer (metadata owner) [uploads metadata](https://openenergyplatform.o
 
 ## Initiation of the Review Process
 
-Once the metadata are publicly accessible in the [modal_draft](https://openenergyplatform.org/dataedit/view/model_draft) section, anyone can start the review process by going to the 'Open Peer Review' View (next to 'Meta information') and clicking on 'Start Open Peer Review' at the end of the page. Note that the metadata owner cannot review their own metadata.)
+Once the metadata are publicly accessible in the [modal_draft](https://openenergyplatform.org/dataedit/view/model_draft) section, anyone can start the review process by going to the 'Open Peer Review' View (next to 'Meta information') and clicking on 'Start Open Peer Review' at the end of the page. (Note that the metadata owner cannot review their own metadata.)
 The review process is exclusive; menanig once the review process has started, no one else can initiate the review process for the same metadata. However, after a review is finished, a new review can be started.
 
 ## Review Process
 
-The reviewer who initiated the process must review all fields except empty fields, contributor fields and technical resource metadata fields. Review options are to accept the field, suggest a change, or reject it and provide an alternative. The review is then transmitted from the reviewer back to the contributer`. The reviewer can only forward their review to the contributor once they have evaluated all non-empty fields i.e. accepted, suggested or rejected them. (See also: [How do you review open data?](https://openenergyplatform.github.io/academy/courses/09_peer_review/#how-do-you-review-open-data))
+The reviewer who initiated the process must review all fields except empty fields ('None'), contributor fields and technical resource metadata fields. The metadata is devided into sections; General, Spatial & temporal, Source, License and Summary. The `Summary` gives an overview over all fields and shows for which fields a review is missing. When selected a division, while reviewing the reviewer sees on the left hand side the list with all fields that need reviewing, on the right hand side a window opens according to the field which is being reviewed. There the definition of the field and an correct example is given, as well as the badge. Below the review options are given; accept the field, suggest a change, or reject it and provide an alternative. To navigate one can click on the fields on the left hand side or use the small arrows in the window on the right hand side. It is possible to save your progress with the button in the rigth upper corner `Save Progress`.
+
+Once the review is completed, it can be submitted in the right upper corner with `Submit`. The review is then transmitted from the reviewer back to the contributer. The reviewer can only forward their review to the contributor once they have evaluated all non-empty fields i.e. accepted, suggested or rejected them. (See also: [How do you review open data?](https://openenergyplatform.github.io/academy/courses/09_peer_review/#how-do-you-review-open-data))
 
 ## Handling Review Suggestions
 
