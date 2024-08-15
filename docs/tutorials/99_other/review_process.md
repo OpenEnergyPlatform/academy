@@ -49,7 +49,7 @@ If the reviewer has suggestions for certain fields, these are sent to the contri
 
 ## Completion of the Review Process
 
-When the reviewer agrees with all fields during the review process, after accepting all fields, they can choose a [badge](https://openenergyplatform.github.io/academy/courses/09_peer_review/#how-to-evaluate-and-present-the-review-what-are-badges) and complete the review.
+When both, the reviewer and the contributer come to an agreement and mutually accept all fields the reviewer can choose a [badge](https://openenergyplatform.github.io/academy/courses/09_peer_review/#how-to-evaluate-and-present-the-review-what-are-badges) and complete the review.
 
 ## Post-Review Metadata Management
 
