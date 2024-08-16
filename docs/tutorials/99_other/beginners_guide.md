@@ -8,7 +8,7 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 - **(once)** Register at the OpenEnergy Platform
 
-- **(once)** Register at Github and get invited to the OpenEnergy Platform Group
+- **(once)** Register at GitHub and get invited to the OpenEnergy Platform Group
 
 - Create data table(s) and upload data table(s)
 
@@ -40,7 +40,7 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
     - The API token is necessary to make authenticated requests to the API.
 
-    - After you logged into the OEP, click the member icon at the upper right corner of the page
+    - After you logged into the OEP, click the member icon in the upper right corner of the page
 
     - You can find your API-Token under **Your Security Information** by clicking on **Show token:**
 
@@ -306,7 +306,7 @@ This document described how to upload data and metadata to the OpenEnergy Platfo
 
 - Select a suitable factsheet category from the drop-down menu
 
-  - Scenario Bundle: this is the place that ties together all of the information that you may want to describe regarding the data you have just uploaded. You can provide information on the scenario characteristics, the study reports that deal with your data, the sectors and technologies depicted, the models and frameworks used. Use this factsheet to enrich your contribution. 
+  - Scenario Bundle: this is the place that ties together all the information that you may want to describe regarding the data you have just uploaded. You can provide information on the scenario characteristics, the study reports that deal with your data, the sectors and technologies depicted, the models and frameworks used. Use this factsheet to enrich your contribution. 
 
   - Frameworks: use this factsheet to add information about the fundamental structure or toolbox to build a model, e.g. TIMES. Under **Scenario Bundle** you can then attach such a framework via a drop-down menu. 
 

@@ -1,6 +1,6 @@
 # Checklist for working with open data
 
-All data generated in publicly funded research projects should be available to the public and the modeling community for reuse. This means ideally, all of the following 6 points should be fulfilled:
+All data generated in publicly funded research projects should be available to the public and the modeling community for reuse. This means ideally, all the following 6 points should be fulfilled:
 
 1. All data should be available in machine-readable formats, meaning that they should be structured so that a computer can process the contained information (as opposed to just the letters and the styling). File formats that are generally suitable for this are csv, json, xml and rdf. Databases are suitable as well. Unsuitable file formats include pdf files, word documents and presentations.
 2. All data is accompanied with metadata.

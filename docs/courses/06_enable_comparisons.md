@@ -22,7 +22,7 @@ The OEP allows you to contribute numerical data in any structure and in any unit
 
 This potential heterogenity of how numerical data is structured and documented in terms of units, makes it challenging for semi-automated scenario projection comparisons to provide spot on results.
 
-Thus we decided to provide some guidance on how to document your data so that the likelihood increases this data contributes to good quality semi-automated scenario projection comparisons that - sometime in the future - the OEKG will offer on the OEP.
+Thus, we decided to provide some guidance on how to document your data so that the likelihood increases this data contributes to good quality semi-automated scenario projection comparisons that - sometime in the future - the OEKG will offer on the OEP.
 
 Below we compiled a limited list of key input- and output data to many energy systems models. For those we suggest to report data in specific units.
 

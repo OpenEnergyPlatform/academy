@@ -28,7 +28,7 @@ This tutorial teaches you how to use the free text search and tags to filter for
 ## How can I download / interact with data on the OEP?
 
 :oep-icon-text: [How to download data - CSV and data package](../tutorials/99_other/download.md) (tutorial):
-Learn how easy it is do download any data table you are viewing on the OEP table with only one click and why a data package makes a difference.
+Learn how easy it is to download any data table you are viewing on the OEP table with only one click and why a data package makes a difference.
 
 :oep-icon-code: [Data queries via API](../tutorials/01_api/01_api_download.ipynb) (tutorial):
 This tutorial provides an overview of how you can select, filter and download data that resides on the OEP via the REST-full-HTTP
