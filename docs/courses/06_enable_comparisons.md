@@ -3,7 +3,7 @@
 This training course provides guidance on how you can document typical numerical data from climate and energy modelling so
 that the likelihood of a good-quality semi-automated scenario projection comparison based on the Open Enrgy Knowledgegraph (OEKG) increases.
 
-You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/174](https://github.com/OpenEnergyPlatform/academy/issues/174)
+You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/174](https://github.com/OpenEnergyPlatform/academy/issues/174)
 
 ## For whom is this training and what can you learn?
 
@@ -78,4 +78,4 @@ If a variable / parameter is already represented in the [Open Energy Ontology](h
 - Contact: oedb@oeko.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2023): Comparing data - Enable scenario projection comparison on the Open Energy Platform.
 - Last update: :oep-auto-lastupdate:
-- You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/174](https://github.com/OpenEnergyPlatform/academy/issues/174)
+- You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/174](https://github.com/OpenEnergyPlatform/academy/issues/174)

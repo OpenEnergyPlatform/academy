@@ -48,19 +48,19 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 
 
-## 1.2. Register at github and get invited to OpenEnergyPlatform Group
+## 1.2. Register at GitHub and get invited to OpenEnergyPlatform Group
 
-- If you do not yet have a github account, you need to register: <https://github.com/join>.
+- If you do not yet have a GitHub account, you need to register: <https://github.com/join>.
 
 - You will then need to become a member of the group OpenEnergyPlatform: <https://github.com/OpenEnergyPlatform> by getting invited to the group. This works as follows:
 
   - Get in touch via the contact form on the OpenEnergyPlatform: <https://openenergyplatform.org/contact/>.
 
-  - Fill in the form with your request to be added to the OpenEnergyPlatform group on github. An example text is provided in the screenshot below.
+  - Fill in the form with your request to be added to the OpenEnergyPlatform group on GitHub. An example text is provided in the screenshot below.
 
     ![](https://openenergyplatform.org/media/image/2020/12/contact.png)
 
-  - A response will not be immediate. Please wait until you receive an invitation to the github group. Only then you will be able to upload metadata and initiate data review.
+  - A response will not be immediate. Please wait until you receive an invitation to the GitHub group. Only then you will be able to upload metadata and initiate data review.
 
 # 2. Things you will need to do any time you contribute new data and metadata
 

@@ -9,7 +9,7 @@ tags:
 
 This course will introduce you to Open Peer Review on the OEP. At the moment it provides basic insights into Open Peer Review. 
 
-You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/189](https://github.com/OpenEnergyPlatform/academy/issues/189)
+You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/189](https://github.com/OpenEnergyPlatform/academy/issues/189)
 
 !!! note
 
@@ -163,4 +163,4 @@ The editor is not implemented yet.
 - Contact: datenzentrum@rl-institut.de
 - License: Creative Commons Attribution 4.0 International ([CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en))
 - Attribution: Open Energy Academy - Licensing Course © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/) | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/189](https://github.com/OpenEnergyPlatform/academy/issues/189)
+- You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/189](https://github.com/OpenEnergyPlatform/academy/issues/189)

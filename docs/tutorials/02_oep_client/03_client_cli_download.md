@@ -64,7 +64,7 @@ requires execution of [setup](#setup)
 
 ## Download filtered data
 
-In this example, we dont save the data to a file
+In this example, we don't save the data to a file
 but just show results in the command line:
 
 - Linux

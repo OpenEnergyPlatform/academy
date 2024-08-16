@@ -1,6 +1,6 @@
 # 05 - The Open Energy Ontology (OEO)
 Learn about how to become an OEO developer and which skills are helpful to join in on developing the OEO. 
-You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
+You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
 ## How to become an OEO developer
 
@@ -89,6 +89,6 @@ Energy is a complex physical phenomenon and challenging to describe ontologicall
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO.
 - Last update: :oep-auto-lastupdate:
-- You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
+- You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
 ---

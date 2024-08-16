@@ -1,6 +1,6 @@
 # 08 - Licensing
 
-You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/188](https://github.com/OpenEnergyPlatform/academy/issues/188)
+You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/188](https://github.com/OpenEnergyPlatform/academy/issues/188)
 
 ## For whom is this training and what can you learn?
 
@@ -268,4 +268,4 @@ resources will be created.
 - Contact:
 - License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Open Energy Academy - Licensing Course © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
-- You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/188](https://github.com/OpenEnergyPlatform/academy/issues/188)
+- You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/188](https://github.com/OpenEnergyPlatform/academy/issues/188)
