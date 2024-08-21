@@ -3,7 +3,7 @@
 This training course provides guidance on how you can document typical numerical data from climate and energy modelling so
 that the likelihood of a good-quality semi-automated scenario projection comparison based on the Open Enrgy Knowledgegraph (OEKG) increases.
 
-You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/174](https://github.com/OpenEnergyPlatform/academy/issues/174)
+You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/174](https://github.com/OpenEnergyPlatform/academy/issues/174)
 
 ## For whom is this training and what can you learn?
 
@@ -22,7 +22,7 @@ The OEP allows you to contribute numerical data in any structure and in any unit
 
 This potential heterogenity of how numerical data is structured and documented in terms of units, makes it challenging for semi-automated scenario projection comparisons to provide spot on results.
 
-Thus we decided to provide some guidance on how to document your data so that the likelihood increases this data contributes to good quality semi-automated scenario projection comparisons that - sometime in the future - the OEKG will offer on the OEP.
+Thus, we decided to provide some guidance on how to document your data so that the likelihood increases this data contributes to good quality semi-automated scenario projection comparisons that - sometime in the future - the OEKG will offer on the OEP.
 
 Below we compiled a limited list of key input- and output data to many energy systems models. For those we suggest to report data in specific units.
 
@@ -78,4 +78,4 @@ If a variable / parameter is already represented in the [Open Energy Ontology](h
 - Contact: oedb@oeko.de. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2023): Comparing data - Enable scenario projection comparison on the Open Energy Platform.
 - Last update: :oep-auto-lastupdate:
-- You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/174](https://github.com/OpenEnergyPlatform/academy/issues/174)
+- You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/174](https://github.com/OpenEnergyPlatform/academy/issues/174)

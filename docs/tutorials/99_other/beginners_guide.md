@@ -8,7 +8,7 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 - **(once)** Register at the OpenEnergy Platform
 
-- **(once)** Register at Github and get invited to the OpenEnergy Platform Group
+- **(once)** Register at GitHub and get invited to the OpenEnergy Platform Group
 
 - Create data table(s) and upload data table(s)
 
@@ -40,7 +40,7 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
     - The API token is necessary to make authenticated requests to the API.
 
-    - After you logged into the OEP, click the member icon at the upper right corner of the page
+    - After you logged into the OEP, click the member icon in the upper right corner of the page
 
     - You can find your API-Token under **Your Security Information** by clicking on **Show token:**
 
@@ -48,19 +48,19 @@ Several steps are needed to contribute actively to the platform. Some of them yo
 
 
 
-## 1.2. Register at github and get invited to OpenEnergyPlatform Group
+## 1.2. Register at GitHub and get invited to OpenEnergyPlatform Group
 
-- If you do not yet have a github account, you need to register: <https://github.com/join>.
+- If you do not yet have a GitHub account, you need to register: <https://github.com/join>.
 
 - You will then need to become a member of the group OpenEnergyPlatform: <https://github.com/OpenEnergyPlatform> by getting invited to the group. This works as follows:
 
   - Get in touch via the contact form on the OpenEnergyPlatform: <https://openenergyplatform.org/contact/>.
 
-  - Fill in the form with your request to be added to the OpenEnergyPlatform group on github. An example text is provided in the screenshot below.
+  - Fill in the form with your request to be added to the OpenEnergyPlatform group on GitHub. An example text is provided in the screenshot below.
 
     ![](https://openenergyplatform.org/media/image/2020/12/contact.png)
 
-  - A response will not be immediate. Please wait until you receive an invitation to the github group. Only then you will be able to upload metadata and initiate data review.
+  - A response will not be immediate. Please wait until you receive an invitation to the GitHub group. Only then you will be able to upload metadata and initiate data review.
 
 # 2. Things you will need to do any time you contribute new data and metadata
 
@@ -306,7 +306,7 @@ This document described how to upload data and metadata to the OpenEnergy Platfo
 
 - Select a suitable factsheet category from the drop-down menu
 
-  - Scenario Bundle: this is the place that ties together all of the information that you may want to describe regarding the data you have just uploaded. You can provide information on the scenario characteristics, the study reports that deal with your data, the sectors and technologies depicted, the models and frameworks used. Use this factsheet to enrich your contribution. 
+  - Scenario Bundle: this is the place that ties together all the information that you may want to describe regarding the data you have just uploaded. You can provide information on the scenario characteristics, the study reports that deal with your data, the sectors and technologies depicted, the models and frameworks used. Use this factsheet to enrich your contribution. 
 
   - Frameworks: use this factsheet to add information about the fundamental structure or toolbox to build a model, e.g. TIMES. Under **Scenario Bundle** you can then attach such a framework via a drop-down menu. 
 

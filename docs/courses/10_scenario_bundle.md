@@ -23,9 +23,9 @@ In a nutshell: A scenario bundle provides you with all relevant information to u
 ## How to create a scenario bundle
 * Navigate to: https://openenergyplatform.org/scenario-bundles/main
 * Click the **+Create** button 
-* Now you will presented with various areas that you can populate with information about your scenario.
+* Now you will be presented with various areas that you can populate with information about your scenario.
 
-**Note: if you are presented with a drop-down menu in the following forms, you will see already existing entries that may fit what you want to add. Then simply choose this information. If the information (e.g. an author) is not yet available from a drop-down menu, simply start typing what you would want to enter and your information will be added to the open energy knowledge graph that works in the background. Some drop-down menus (e.g. scenario years) have fixed entries and you won't be able to add your own information**
+**Note: if you are presented with a drop-down menu in the following forms, you will see already existing entries that may fit what you want to add. Then simply choose this information. If the information (e.g. an author) is not yet available from a drop-down menu, simply start typing what you would want to enter and your information will be added to the open energy knowledge graph that works in the background. Some drop-down menus (e.g. scenario years) have fixed entries, and you won't be able to add your own information**
 
 
 

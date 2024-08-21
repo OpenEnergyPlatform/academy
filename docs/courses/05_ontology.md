@@ -1,6 +1,6 @@
 # 05 - The Open Energy Ontology (OEO)
 Learn about how to become an OEO developer and which skills are helpful to join in on developing the OEO. 
-You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
+You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
 ## How to become an OEO developer
 
@@ -71,7 +71,7 @@ Energy is a complex physical phenomenon and challenging to describe ontologicall
 
 ### I have read everything - how can I join the developer team now?
 
-1. Get in touch with us! You can use the [contact form on the OEP](https://openenergyplatform.org/contact/) to establish initial contact and we will back to you. 
+1. Get in touch with us! You can use the [contact form on the OEP](https://openenergyplatform.org/contact/) to establish initial contact, and we will come back to you. 
 2. We always welcome new members to the development team in our regular oeo-dev-meetings, where we discuss organisational things and content related issues.
 3. To participate in the OEO development and discussion process on GitHub, you will need to become part of the [OpenEnergyFamily organisation](https://github.com/OpenEnergyPlatform).
 4. Afterwards, you can follow all instructions and explanations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub.
@@ -89,6 +89,6 @@ Energy is a complex physical phenomenon and challenging to describe ontologicall
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO.
 - Last update: :oep-auto-lastupdate:
-- You can provide feedback to this course on github: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
+- You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
 ---
