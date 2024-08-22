@@ -35,11 +35,24 @@ The contributer (metadata owner) [uploads metadata](https://openenergyplatform.o
 ## Initiation of the Review Process
 
 Once the metadata are publicly accessible in the [modal_draft](https://openenergyplatform.org/dataedit/view/model_draft) section, anyone can start the review process by going to the 'Open Peer Review' View (next to 'Meta information') and clicking on 'Start Open Peer Review' at the end of the page. (Note that the metadata owner cannot review their own metadata.)
-The review process is exclusive; menanig once the review process has started, no one else can initiate the review process for the same metadata. However, after a review is finished, a new review can be started.
+![Start](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Start%20Open%20Peer%20Review%20at%2021.38.47.png)
+The review process is exclusive; menanig once the review process has started, no one else can initiate the review process for the same metadata. 
+![Blocked](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Blocked%20Review%20at%2021.38.20.png)
+However, after a review is finished, a new review can be started.
 
 ## Review Process
 
-The reviewer who initiated the process must review all fields except empty fields ('None'), contributor fields and technical resource metadata fields. The metadata is devided into sections; General, Spatial & temporal, Source, License and Summary. The `Summary` gives an overview over all fields and shows for which fields a review is missing. When selected a division, while reviewing the reviewer sees on the left hand side the list with all fields that need reviewing, on the right hand side a window opens according to the field which is being reviewed. There the definition of the field and an correct example is given, as well as the badge. Below the review options are given; accept the field, suggest a change, or reject it and provide an alternative. To navigate one can click on the fields on the left hand side or use the small arrows in the window on the right hand side. It is possible to save your progress with the button in the rigth upper corner `Save Progress`. (Note: The button `quit` leads only back to the database without saving changes done after the last save. Once you started a review process it is not possible to cancel it!). You can find all your reviews in progress on your profile page under `Reviews`.
+The reviewer who initiated the process must review all fields except empty fields ('None'), contributor fields and technical resource metadata fields. The metadata is devided into sections; General, Spatial & temporal, Source, License and Summary.
+When selected a division, while reviewing the reviewer sees on the left hand side the list with all fields that need reviewing, on the right hand side a window opens according to the field which is being reviewed. There the definition of the field and an correct example is given, as well as the badge. Below the review options are given; accept the field, suggest a change, or reject it and provide an alternative. To navigate one can click on the fields on the left hand side or use the small arrows in the window on the right hand side.
+
+Under `General` the basic informations (e.g. id and title) must be given. ![Generale](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Generale%20at%2021.43.11.png)
+The data for spatial and temporal information are given under `Spatial & temporal`. ![Spatial&temporal](missing)
+Please provide the information about the used sources under `Sources`. ![Source](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Source%20at%2021.53.15.png)
+Under `License` the information on the used license must be given. ![License](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/License%20at%2021.42.32.png)
+The `Summary` gives an overview over all fields and shows for which fields a review is missing. ![Summary](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Summary%20at%2021.55.38.png)
+It is possible to save your progress with the button in the rigth upper corner `Save Progress`. (Note: The button `quit` leads only back to the database without saving changes done after the last save. Once you started a review process it is not possible to cancel it!). 
+
+You can find all your reviews in progress on your profile page under `Reviews`. ![Pofile](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Profil%20at%2021.44.54.png)
 
 Once the review is completed, it can be submitted in the right upper corner with `Submit`. The review is then transmitted from the reviewer back to the contributer. The reviewer can only forward their review to the contributor once they have evaluated all non-empty fields i.e. accepted, suggested or rejected them. (See also: [How do you review open data?](https://openenergyplatform.github.io/academy/courses/09_peer_review/#how-do-you-review-open-data))
 
@@ -49,11 +62,11 @@ If the reviewer has suggestions for certain fields, these are sent to the contri
 
 ## Completion of the Review Process
 
-When both, the reviewer and the contributer come to an agreement and mutually accept all fields the reviewer can choose a [badge](https://openenergyplatform.github.io/academy/courses/09_peer_review/#how-to-evaluate-and-present-the-review-what-are-badges) and complete the review.
+When both, the reviewer and the contributer come to an agreement and mutually accept all fields the reviewer can choose a [badge](https://openenergyplatform.github.io/academy/courses/09_peer_review/#how-to-evaluate-and-present-the-review-what-are-badges) and complete the review. ![Badge](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Badge%20at%2021.54.44.png)
 
 ## Post-Review Metadata Management
 
-After the review process is completed, the table & metadata owner can move the metadata from the model_draft to one of the 12 other topics. An embargo period of 6 months or 1 year may be applied.
+After the review process is completed, the table & metadata owner can move the metadata from the model_draft to one of the 12 other topics. An embargo period of 6 months or 1 year may be applied. ![Embargo](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Embargo%20at%2021.58.09.png)
 
 ## About this tutorial
 
