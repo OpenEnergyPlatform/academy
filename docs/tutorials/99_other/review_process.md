@@ -37,15 +37,17 @@ However, after a review is finished, a new review can be started right away.
 
 ## Review Process
 
-The reviewer who initiated the process must review all fields except empty fields ('None'), contributor fields and technical resource metadata fields. The metadata is devided into sections; General, Spatial & temporal, Source, License and Summary.
-When selected a division, while reviewing the reviewer sees on the left hand side the list with all fields that need reviewing, on the right hand side a window opens according to the field which is being reviewed. There the definition of the field and an correct example is given, as well as the badge. Below the review options are given; accept the field, suggest a change, or reject it and provide an alternative. To navigate one can click on the fields on the left hand side or use the small arrows in the window on the right hand side.
+The reviewer who initiated the process needs to review all regular fields to complete the process. Only empty fields ('None'), contributor fields and technical resource metadata fields don't have to be reviewed. The metadata are devided into sections: General, Spatial & temporal, Source, License and Summary.
+In any section tab the reviewer sees on the left hand side a list of all fields that need reviewing. Every selected field, refreshes the right hand side of the window. It shows the field in question, the definition of the field and a correct example, as well as the corresponding badge. Below that, the review options are given; accept the field, suggest a change or reject it and provide an alternative. Navigating the fields can be done via mouse clicks on the fields of the left hand side or by use of the small arrows in the window on the right hand side.
 
-Under `General` the basic informations (e.g. id and title) must be given. ![Generale](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Generale%20at%2021.43.11.png)
-The data for spatial and temporal information are given under `Spatial & temporal`. ![Spatial&temporal](missing)
-Please provide the information about the used sources under `Sources`. ![Source](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Source%20at%2021.53.15.png)
-Under `License` the information on the used license must be given. ![License](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/License%20at%2021.42.32.png)
-The `Summary` gives an overview over all fields and shows for which fields a review is missing. ![Summary](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Summary%20at%2021.55.38.png)
-It is possible to save your progress with the button in the rigth upper corner `Save Progress`. (Note: The button `quit` leads only back to the database without saving changes done after the last save. Once you started a review process it is not possible to cancel it!). 
+
+Under `General`, basic informations such as id and title must be given. ![General](images/section_general.png)
+The data for spatial and temporal information are given under `Spatial & temporal. TODO Missing Screenshot.
+Please provide the information about the used sources under `Sources. ![Sources](images/section_sources.png)
+Under `License` the information on the used license must be given. ![License](images/section_license.png)
+The `Summary` gives an overview over all fields and shows for which fields a review is missing. ![Summary](images/section_summary.png)
+
+It's possible to save your progress with the button in the rigth upper corner `Save Progress`. (Note: The button `quit` leads only back to the database without saving changes done after the last save. Once you started a review process it is not possible to cancel it!). 
 
 You can find all your reviews in progress on your profile page under `Reviews`. ![Pofile](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Profil%20at%2021.44.54.png)
 
