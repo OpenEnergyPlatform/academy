@@ -7,38 +7,33 @@
 
 This tutorials will enable you to:
 
-- Workflow of the Review Process
+- Complete every step in the workflow of the Review Process
 	- Initiation
 	- Review
 	- Completion
 
 ## Requirements
 
-- OEP Account 
-- table or dataset uploaded to the [OpenEnergyPlatform](https://openenergyplatform.org/) (OEP)
-- metadata for set table must be available
-
- 
-## Feedback 
- 
-You can provide feedback on this tutorial here: https://github.com/OpenEnergyPlatform/academy/issues/189
+- OEP Account
+- a table or dataset uploaded to the [OpenEnergyPlatform](https://openenergyplatform.org/) (OEP)
+- metadata for that table or dataset
 
 ## Introduction
 
-This course will teach you step-by-step how the open peer review process from the OEP works. For a more general overview of the peer review process have a look at the course [09 - Open Peer Review](https://openenergyplatform.github.io/academy/courses/09_peer_review/).
+This course will teach you step-by-step how the open peer review process on the OEP works. For a more general overview of the peer review process have a look at the course [09 - Open Peer Review](https://openenergyplatform.github.io/academy/courses/09_peer_review/).
 
 ## Metadata Upload
 
-The contributer (metadata owner) [uploads metadata](https://openenergyplatform.org/dataedit/wizard/) to the [OpenEnergyPlatform](https://openenergyplatform.org/) (OEP). If you are unsure how to do that, have a look at [this tutorial](https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/#22-create-metadata). Make sure that the metadata include a license and a possible embargo period of 6 months or 1 year. The metadata is automatically uploaded to [modal_draft](https://openenergyplatform.org/dataedit/view/model_draft). Note that a prerequisite to upload metadata is an existing table.
+In a first step, a contributer [uploads metadata](https://openenergyplatform.org/dataedit/wizard/) to the [OpenEnergyPlatform](https://openenergyplatform.org/) (OEP). Note that a prerequisite to upload metadata is an existing table. We are going to call this person metadata owner from now on. If you are unsure how to create and upload metadata, have a look at [this tutorial](https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/#22-create-metadata). The metadata owner has to make sure that the metadata include a license. They can also apply an embargo period of 6 months or 1 year if they need to. The metadata are automatically uploaded to the [modal_draft](https://openenergyplatform.org/dataedit/view/model_draft) schema.
 
 
 ## Initiation of the Review Process
 
-Once the metadata are publicly accessible in the [modal_draft](https://openenergyplatform.org/dataedit/view/model_draft) section, anyone can start the review process by going to the 'Open Peer Review' View (next to 'Meta information') and clicking on 'Start Open Peer Review' at the end of the page. (Note that the metadata owner cannot review their own metadata.)
+Once the metadata are publicly accessible in the [modal_draft](https://openenergyplatform.org/dataedit/view/model_draft) section, anyone (except the metadata owner) can start a review by going to the 'Open Peer Review' View (next to 'Meta information') and clicking on 'Start Open Peer Review' at the end of the page.
 ![Start](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Start%20Open%20Peer%20Review%20at%2021.38.47.png)
-The review process is exclusive; menanig once the review process has started, no one else can initiate the review process for the same metadata. 
+The review process is exclusive; meaning that once the review process has started, no one else can initiate another review process for the same metadata.
 ![Blocked](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Blocked%20Review%20at%2021.38.20.png)
-However, after a review is finished, a new review can be started.
+However, after a review is finished, a new review can be started right away.
 
 ## Review Process
 
@@ -67,6 +62,10 @@ When both, the reviewer and the contributer come to an agreement and mutually ac
 ## Post-Review Metadata Management
 
 After the review process is completed, the table & metadata owner can move the metadata from the model_draft to one of the 12 other topics. An embargo period of 6 months or 1 year may be applied. ![Embargo](https://github.com/OpenEnergyPlatform/academy/blob/feature-review-process/docs/tutorials/99_other/images/Embargo%20at%2021.58.09.png)
+
+## Feedback
+
+You can provide feedback on this tutorial here: https://github.com/OpenEnergyPlatform/academy/issues/189
 
 ## About this tutorial
 
