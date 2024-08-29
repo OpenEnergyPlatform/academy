@@ -29,8 +29,8 @@ Beneath are listed all of your tables in the [model draft](https://openenergypla
 From this tables you can select the table you want to publish. Note: Only tables with an valid id and license in their metadata can be published on the OEP. Stimmt das so?
 
 ## Choosing an embargo and a topic
-Once you selected the table you want to publish, a pop-up field `Publish Table` will open. 
-First you can apply an embargo; in a drop down menu you can select between none, and a 6 or 12 months embargo period.
+Once you selected the table you want to publish, a pop-up field `Publish Table` will open. Next to the fields is an `i` icon giving more information if you hover your mouse over it.
+First you can apply an embargo; in a drop down menu you can select between none, and a 6 months or 1 year embargo period.
 Second you have to `Select data topic` from one of the 12 oder 11? available topics; scenario?, boundaries, climate, demand, economy, enviromente, grid, openstreetmap, policy, refernce, society and supply.
 Note: You can only choose one data topic. With tags it is possible to mark the content of you data even more precisely. Stimmt das so?
 
