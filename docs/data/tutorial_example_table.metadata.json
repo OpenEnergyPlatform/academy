@@ -2,6 +2,13 @@
   "id": "test_table",
   "keywords": ["energy", "installations", "geo"],
   "languages": ["EN"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://spdx.github.io/license-list-data/CC-BY-4.0.html",
+      "title": "Creative Commons Attribution 4.0 International"      
+    }
+  ],
   "resources": [
     {
       "name": "test_table",
