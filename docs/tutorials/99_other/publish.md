@@ -19,7 +19,7 @@ This tutorials will enable you to:
 
 ## Introduction
 
-This course will teach you step-by-step how to publish your data and metadata. Comment: Later will be a corresponding course linked here.
+This course will teach you step-by-step how to publish your data and metadata using the OEP wizard. If you want to use the API, please have a look at this tutorial. For more general information und the piblishing process and the empbargo period, see this course. Comment: Links will be implemented once they are avalaible.
 
 
 ## Choosing a table to be published
