@@ -24,18 +24,20 @@ This course will teach you step-by-step how to publish your data and metadata. C
 
 ## Choosing a table to be published
 If you want to publish a table (including [data and] metadata) you have to go to your [profile page](https://openenergyplatform.org/user/profile/959/settings) on the OEP.
-Now select the tab [`Tables`](https://openenergyplatform.org/user/profile/959/tables). Now you see all tables you contributed; First are listed all tables you have already published, if you have not published any tables yet, this field will show 'You have never published a table.'.
+Now select the tab [`Tables`](https://openenergyplatform.org/user/profile/959/tables). Listed are data tables that you have uploaded or where you got group permissions assinged to; First are listed all tables you have already published, if you have not published any tables yet, this field will show 'You have never published a table.'.
 Beneath are listed all of your tables in the [model draft](https://openenergyplatform.org/dataedit/view/model_draft) section. 
-From this tables you can select the table you want to publish. Note: Only tables with an valid id and license in their metadata can be published on the OEP. Stimmt das so?
+From this tables you can select the table you want to publish. Note: Only tables with an valid id and license in their metadata can be published on the OEP.
 
 ## Choosing an embargo and a topic
 Once you selected the table you want to publish, a pop-up field `Publish Table` will open. Next to the fields is an `i` icon giving more information if you hover your mouse over it.
-First you can apply an embargo; in a drop down menu you can select between none, and a 6 months or 1 year embargo period.
-Second you have to `Select data topic` from one of the 12 oder 11? available topics; scenario?, boundaries, climate, demand, economy, enviromente, grid, openstreetmap, policy, refernce, society and supply.
-Note: You can only choose one data topic. With tags it is possible to mark the content of you data even more precisely. Stimmt das so?
+First you can apply an embargo; in a drop down menu you can select between none, and a 6 months or 1 year embargo period. 
+Note: If you selct `None` there will be no embargo periode applied, even if you selected one while uploading the table.
+Second you have to `Select data topic` from one of the 12 available topics; scenario, boundaries, climate, demand, economy, enviromente, grid, openstreetmap, policy, refernce, society and supply.
+Note: You can only choose one data topic. With tags it is possible to mark the content of you data even more precisely.
 
 ## Finishing the process
-Once you click `Confirm` in the pop-up window the table will be moved from the model draft to the data topic you selected. Now it can be seen in the [Database](https://openenergyplatform.org/dataedit/schemas) under the selcted topic and in your profile page under [Published tables](https://openenergyplatform.org/user/profile/959/tables).
+Once you click `Confirm` in the pop-up window the table will be moved from the model draft to the data topic you selected. 
+Now it can be seen in the [Database](https://openenergyplatform.org/dataedit/schemas) under the selcted topic and on the profile page it is now visible as [Published datatables](https://openenergyplatform.org/user/profile/959/tables).
 
 
 
