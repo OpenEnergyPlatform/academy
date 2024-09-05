@@ -4,7 +4,7 @@ tags:
   - api
 ---
 
-# 04 - Upload - Contribute data to the OEP
+# 04 - Upload and Publish - Contribute data to the OEP
 
 Learn how to publish data on the [OpenEnergyPlatform](https://openenergyplatform.org/) (OEP).
 You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/166](https://github.com/OpenEnergyPlatform/academy/issues/166)
@@ -28,7 +28,6 @@ You can provide feedback to this course on GitHub: [https://github.com/OpenEnerg
 Generally 'upload' refers to transimitting any data from a computer system onto another through means of a network. In this case specifically it stands for:
 - Move data and metadata onto the model draft section of the OEP.
 - Create data and metadata on the OEP.
-- 
 
 ## How can I upload data to the OEP without programming skills?
 
