@@ -75,7 +75,7 @@ Note: As long as the data is published, it cannot be changed. It is possible to 
 
 Generally an 'embargo period' means a period during which access to academic publication is not allowed to users who have not paid for access. In this case it stands for:
 - A period of time during which data cannot be accessed without permission. Von wem?
-- The OEP Dataviewer is blocked,as well as the API-based data access.
+- The OEP Dataviewer is blocked, as well as the API-based data access.
     
 ## How can I apply an embargo period?
 
