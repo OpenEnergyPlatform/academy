@@ -71,13 +71,13 @@ For data to be publish onto the OEP it must have an Open Data license.
 Comment: all tutorials and chapters will be linked here.
 Note: As long as the data is published, it cannot be changed. It is possible to 'unpublish' data.
 
-##What does 'embargo' mean?
+## What does 'embargo' mean?
 
 Generally an 'embargo period' means a period during which access to academic publication is not allowed to users who have not paid for access. In this case it stands for:
 - A period of time during which data cannot be accessed without permission. Von wem?
 - The OEP Dataviewer is blocked,as well as the API-based data access.
     
-##How can I apply an embargo period?
+## How can I apply an embargo period?
 
 Comment: all tutorials and chapters will be linked here.
 Note: The embargo can be set during data upload and data publication. Only embargo periods of 6 months or 1 year are possible. Embargoed data still requires an open license in order to be published.
