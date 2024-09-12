@@ -62,7 +62,7 @@ This jupyter notebook tutorial provides you a quick way of having all the code a
 ## What does 'publish' mean?
 
 To publish something generally means to make it accessable to people. In this case specifically it stands for:
-- Move table from the model draft to a target data theme on the OEP
+- Move table from the model draft to a target data theme on the OEP.
 For data to be publish onto the OEP it must have an Open Data license.
 :oep-icon-text: For further information see [SPDX-Datalicense list](https://spdx.org/licenses/)
 
