@@ -59,7 +59,7 @@ This jupyter notebook tutorial provides you a quick way of having all the code a
 
 This jupyter notebook tutorial provides you a quick way of having all the code at hand for using the OEP Client to upload your data and metadata to the OEP. You will use the command line.
 
-##What does 'publish' mean?
+## What does 'publish' mean?
 
 To publish something generally means to make it accessable to people. In this case specifically it stands for:
 - Move table from the model draft to a target data theme on the OEP
