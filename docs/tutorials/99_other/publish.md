@@ -49,8 +49,8 @@ You can provide feedback on this tutorial here: https://github.com/OpenEnergyPla
 
 :oep-logo-sirop:
 
-- Author: Christian Winger
-- Copyright: [Öko-Institut](https://www.oeko.de) (2024)
+- Author: Vismaya Jochem
+- Copyright: Reiner Lemoine Institut
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2024): OEP Client Tutorial 03 - Download data from the Open Energy Platform using the OEP Client in the command line
+- Attribution: Open Energy Academy - OEMetaData Tutorial © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
 - Last update: :oep-auto-lastupdate:
