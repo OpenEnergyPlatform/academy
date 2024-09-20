@@ -83,3 +83,14 @@ If you want to reference another table  you can provide the foreign table in the
 At the end you can provide an explantation of your data in terms defined by the OEO and a URI via the DBpedia Databus.
 ![Ende](images/Screenshots_OEMetaData/25_Ende.png)
 You can submit your OEMetaData if there already exist a table for your dataset. You can always download the dataset as a JSON-file or cancel the process using the buttons at the very end of the page.
+
+
+## About this tutorial
+
+:oep-logo-sirop:
+
+- Author: Vismaya Jochem
+- Copyright: Reiner Lemoine Institut
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Open Energy Academy - OEMetaData Tutorial © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
+- Last update: :oep-auto-lastupdate:
