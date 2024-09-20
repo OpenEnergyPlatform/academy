@@ -41,3 +41,7 @@ In order for the OEMetaData dataset to exist on the OEP the ID field must be fil
 ![Anfang](images/Screenshots_OEMetaData/1_Anfang.png)
 Under `Subject` you can provide subjects which describe your data. In the `Name`-field please provide the human readable name of the subject, e.g. energy. In the `Path`-field please provide the corresponding URL to the OEO, e.g. https://openenergy-platform.org/ontology/oeo/OEO_00000150. You can add subjects by clicking on the `+` right next to the headline `Subject`. Note: Subjects help other users to find you data and know what it is about.
 ![Subject](images/Screenshots_OEMetaData/2_Subject.png)
+You can provide language tag(s) for all languages used in your data, inculding the table and the OEMetaData dataset. You can add multiple languages by the `+` right next to the headline `Language`. Note: Please use the required standard (IETF (BCP47)). 
+![Language](images/Screenshots_OEMetaData/3_Language.png)
+Additionally to the Subjects you can also provide `Keywors`. These don't have to be defined in the OEO, but can help to describe the content of your data even more precisly.
+![Language](images/Screenshots_OEMetaData/4_Keywords.png)
