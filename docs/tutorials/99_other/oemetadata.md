@@ -34,3 +34,10 @@ On the OEP there is a tool to create your OEMetaData directly on the platfrom. I
 
 ## How to use the OEMetaDataBuilder
 
+You can find the [OEMetaDataBuilder](https://openenergyplatform.org/dataedit/oemetabuilder/) on the OEP under [Database](https://openenergyplatform.org/dataedit/schemas) by clicking on `OEMetaBuilder` in the upper right corner. 
+![Database](images/Screenshots_OEMetaData/0_Database.png)
+Then the OEMetaDataBuilder opens and you can see all the fields. Right next to the headline `Create new Metadata` there are two buttons; With the first one (the pen) you can edit and/or copy the code on which this page is based on in a popup window. With the second (the menu) you can choose which fields will be shown or hidden by clicking on them in the list in the popup window. Beneath all fields is a description of what values and information may be filled in the field above. For more detailed information please see the [key descriptions](https://github.com/OpenEnergyPlatform/oemetadata/blob/develop/metadata/v160/metadata_key_description.md). 
+In order for the OEMetaData dataset to exist on the OEP the ID field must be filled out. You can also give a name, title and description to your OEMetaData.
+![Anfang](images/Screenshots_OEMetaData/1_Anfang.png)
+Under `Subject` you can provide subjects which describe your data. In the `Name`-field please provide the human readable name of the subject, e.g. energy. In the `Path`-field please provide the corresponding URL to the OEO, e.g. https://openenergy-platform.org/ontology/oeo/OEO_00000150. You can add subjects by clicking on the `+` right next to the headline `Subject`. Note: Subjects help other users to find you data and know what it is about.
+![Subject](images/Screenshots_OEMetaData/2_Subject.png)
