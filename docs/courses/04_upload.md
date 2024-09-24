@@ -92,7 +92,7 @@ Note: The embargo can be set during data upload and data publication. Only embar
 
 :oep-logo-sirop:
 
-- Authors: Hannah Förster, Anne Siemons
+- Authors: Hannah Förster, Anne Siemons, Vismaya Jochem
 - Copyright: [Öko-Institut](https://www.oeko.de) (2022)
 - Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
