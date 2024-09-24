@@ -8,6 +8,7 @@ This tutorial will enable you to:
 
 - know what OEMetaData are
 - create and modify OEMetaData
+- use the OEO-extended to create new units
 
 ## Introduction
 
@@ -71,6 +72,11 @@ You can specify the content of a field in your table by identifying the field, g
 ![Field](images/Screenshots_OEMetaData/18_Field-1.png)
 The important step of making the connection between the entries in your table and the classes of the ontology happens now by providing the human readable term and the path to the OEO.
 ![isabout](images/Screenshots_OEMetaData/19_isabout.png)
+**Using the OEOextended**
+If you want to use an unit which is not in the OEO yet, meaning you can't find it via the implemented search, you can click on the button `Open OEO-extended`. This will open a popup window.
+![OEOex](images/Screenshots_OEMetaData/19-1_OEOex.png)
+In the OEO-extended (OEOX) it is possible to create an additional unit using units already existing in the OEO. All created units will be reviewed and published on [GitHub](https://github.com/OpenEnergyPlatform/oeo-extended) and uploaded to the OEO. For further information on the OEOX please see [this paper](https://www.utwente.nl/en/eemcs/fois2024/resources/papers/kohler-et-al-oeox-a-post-coordination-extension-for-the-open-energy-ontology.pdf). To create the new unit you can choose your `Numerator(s)` and `Denominator(s). You can respectively choose the unit name from all units implemented in the OEO, e.g. hour, a `Unit Type` according to the power you want to have (linear, squared or cubic) and, if neccessarry, a `Unit Prefix` e.g. mega. Once you entered something in the `Unit Name`-field a fraction will appear showing you the unit you are about to create. It is possible to choose mulitple Numerator and Denominator, which will be each multiplied by each other. When you created the unit you want to use, click `Save`. Then the URI to the new unit in the OEOX will appear. You have to copy and paste it to your browser in order to entry the `Name` and `Path` in the `isAbout`-field. The OEOX is implemented on different fields in the OEMetaDataBuilder to make it easier to create new units. 
+![isabout](images/Screenshots_OEMetaData/19-2_Result.png)
 You can also provide a class of the OEO for entries of a whole column. By giving the name of the column and the name and path of the OEO class as well as the unit. Of course you can do this for multiples rows by clicking on the `+` right next to the headline `ValueReferences`.
 ![ValueReferences](images/Screenshots_OEMetaData/20_ValueReferences.png)
 ![EndeField](images/Screenshots_OEMetaData/21_EndeField.png)
