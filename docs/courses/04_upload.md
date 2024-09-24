@@ -68,6 +68,8 @@ For data to be publish onto the OEP it must have an Open Data license.
 
 ## How can I publish my uploaded table?
 
+ :oep-icon-text: [Tutorial to the publishing process]((../tutorials/99_other/publish.md)
+  :oep-icon-code: [Tutorial to the publishing process using the API](../tutorials/03_api/03_api_publish.ipynb)
 Comment: all tutorials and chapters will be linked here.
 Note: As long as the data is published, it cannot be changed. It is possible to 'unpublish' data.
 
