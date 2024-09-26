@@ -32,6 +32,8 @@ We are logged in on the open energy platform
 - The first column must always be a numerical type named `id`. The wizard has this as a default.
 - We don't have to use all the columns from the csv file and we also don't have to use the same names, these can be mapped later. In this example, we use the following columns:
   ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img3.png)
+- Beneath the columns of the table is the option to `Apply Embargo`. The default is set to `None` but in the drop down menu the options 6 Months and 1 Year are also given. Comment: Here a link to the course explaining embargo will be inserted.
+- Next to all tabs is a small `i`. If you hover your mouse over it you will get information about the correponding field.
 - Click on `Create table`.
 - If successful, you are redirected to the upload section.
 
