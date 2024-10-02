@@ -29,6 +29,9 @@ authors:
   - name: Christian Winger
     alias: @wingechr
     affiliation: Öko-Institut e.V
+  - name: Madeleine Breitkrutz
+    alias: @madbkr
+    affiliation: OvGU
 title: "Open Energy Academy"
 license: AGPL-3.0
 url: "https://github.com/OpenEnergyPlatform/academy"
