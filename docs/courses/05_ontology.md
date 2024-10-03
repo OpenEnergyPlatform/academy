@@ -64,10 +64,12 @@ You can find the OWL2 and Manchester Syntax documentation [here](https://www.w3.
 #### 3. GitHub and git basics
 
 The documentation of the OEO development, its discussion and version control all take place on GitHub. Therefore, it is necessary to be familiar with versioning control via [git](https://git-scm.com/) and GitHub as a platform.
-
 - GitHub provides a helpful guide for the [first steps with your GitHub account](https://docs.github.com/de/get-started/onboarding/getting-started-with-your-github-account).
 - There, you can also learn, how to [set up git](https://docs.github.com/en/get-started/quickstart/set-up-git).
 - An introductory tutorial on how to use git is available [here](https://githowto.com/).
+- You will also have to get familiar with the workflow used on GitHub. Before you start working on anything, please read [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) carefully. 
+- You can also check out the [wiki](https://github.com/OpenEnergyPlatform/ontology/wiki/Workflow) for more detailed information on the workflow for different tasks. 
+
 
 ### Which OEO specific knowledge do I need?
 
