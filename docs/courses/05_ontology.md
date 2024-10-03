@@ -2,22 +2,26 @@
 Learn about how to become an OEO developer and which skills are helpful to join in on developing the OEO. 
 You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
+## What is the OEO?
+The [project's README](https://github.com/OpenEnergyPlatform/ontology/blob/dev/README.md) will give you a good idea what the OEO is, what it is used for, how to install it and who to contact. It will also point you to the necissary information you need to get started - including this very course.
+
 ## How to become an OEO developer
 
 ### For whom is this training and what can you learn?
 
 :oep-icon-info: **This course is aimed at (energy system) researchers who want to**
 
-- understand the OEO design choices,
-- get to know the OEO development processes,
-- participate in ontology development and
-- collaborate developping a powerful open-source tool to enhance data management in the energy domain under the FAIR principles.
+- Understand the OEO design choices,
+- Get to know the OEO development processes,
+- Participate in ontology development and
+- Collaborate developing a powerful open-source tool to enhance data management in the energy domain under the [FAIR principles (website currently unavailable)](https://www.go-fair.org/fair-principles/). FAIR is an acronym for findability, accessibility, interoperability, and reusability and describe a good standard for data
+- Understand how to collaborate using Git and GitHub
 
 :oep-icon-info: **After reading the sections of this module, you will know**
 
-- which skills you need for OEO development,
-- how the OEO development process works and
-- how to participate in OEO development.
+- Which skills you need for OEO development,
+- How the OEO development process works and
+- How to participate in OEO development.
 
 ### What are prerequisit skills for ontology development?
 
@@ -31,12 +35,15 @@ The following skills will help you understand the OEO better and enable you to p
 #### 1. BFO basics
 
 The OEO uses the formal structure and design principles of the Basic Formal Ontology (BFO).
-The more familiar you are with BFO, the better you will be able to contribute to the OEO development process.
+The more familiar you are with BFO, the better you will be able to contribute to the OEO development process. 
 
-:oep-icon-video: This video tutorial (78 min) provides an overview and introduction to BFO.
-[Building Ontologies with Basic Formal Ontology](https://www.youtube.com/watch?v=joC4NZgLtqA)
+:oep-icon-text: For a brief overview of the BFO hierarchy you can read the [OEO wiki article](https://github.com/OpenEnergyPlatform/ontology/wiki/BFO-Upper-Ontology-Classes). This however is a very condensed version. 
 
 :oep-icon-text: The standard literature on BFO is [_Arp, Smith and Spear (2015): Building Ontologies with Basic Formal Ontology_](https://direct.mit.edu/books/book/4044/Building-Ontologies-with-Basic-Formal-Ontology). If you decide to become an OEO developer, you should read this book. It is also a helpful work of reference.
+
+:oep-icon-video: This video tutorial (78 min) provides an overview and introduction to BFO.
+[Building Ontologies with Basic Formal Ontology](https://www.youtube.com/watch?v=joC4NZgLtqA). It is the recording of a presentation held by the author of the BFO and will inform you how the BFO came to be, what some of the most important classes are and how they are used. It does however not decribe all the classes and may be more useful if you already gained a basic understanding of the concepts from the previous texts.
+
 
 The [BFO code](https://github.com/BFO-ontology/BFO) is hosted on GitHub where the [wiki page](https://github.com/BFO-ontology/BFO/wiki) also provides further publications and information on BFO.
 
