@@ -74,10 +74,19 @@ The documentation of the OEO development, its discussion and version control all
 ### Which OEO specific knowledge do I need?
 
 :oep-icon-text: [Introducing the Open Energy Ontology: Enhancing data interpretation and interfacing in energy systems analysis](https://www.sciencedirect.com/science/article/pii/S2666546821000288)
-We published an introductory paper about the OEO in the journal Energy and AI in 2021. It provides a good overview over the domain, the structure and the workflow of OEO development.
+We published an introductory paper about the OEO in the journal Energy and AI in 2021. It provides a good overview over the domain, the structure and the workflow of OEO development. This talks about why the OEO was developed and what benefits are expected.
 
 :oep-icon-text: [OEO Wiki](https://github.com/OpenEnergyPlatform/ontology/wiki/)
-The OEO wiki provides details on how best practice principles of ontology development are applied to OEO development.
+The OEO wiki provides details on how best practice principles of ontology development are applied to OEO development. <br>
+For general information the most useful wiki pages to a newcomer are:
+- [How to Participate](https://github.com/OpenEnergyPlatform/ontology/wiki/Welcome!-How-to-participate)
+- [Best Practice Principles](https://github.com/OpenEnergyPlatform/ontology/wiki/Best-Practice-Principles) including subsections
+- [BFO Upper Ontology](https://github.com/OpenEnergyPlatform/ontology/wiki/BFO-Upper-Ontology-Classes) including subsections
+- [Explaination on Mass Nouns](https://github.com/OpenEnergyPlatform/ontology/wiki/Explanation-on-mass-nouns)
+- [Handeling Ambiguous Terms](https://github.com/OpenEnergyPlatform/ontology/wiki/Handling-ambiguous-terms)
+- [Use Protégé to Change the Ontology](https://github.com/OpenEnergyPlatform/ontology/wiki/How-to-use-prot%C3%A9g%C3%A9-to-change-the-ontology)
+- [Term Tracker Annotation](https://github.com/OpenEnergyPlatform/ontology/wiki/Term-Tracker-Annotation)
+
 
 :oep-icon-text: [The representation of energy, energy carriers and
 fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-3249/paper1-Ensusto.pdf)
@@ -88,7 +97,7 @@ Energy is a complex physical phenomenon and challenging to describe ontologicall
 1. Get in touch with us! You can use the [contact form on the OEP](https://openenergyplatform.org/contact/) to establish initial contact, and we will come back to you. 
 2. We always welcome new members to the development team in our regular oeo-dev-meetings, where we discuss organisational things and content related issues.
 3. To participate in the OEO development and discussion process on GitHub, you will need to become part of the [OpenEnergyFamily organisation](https://github.com/OpenEnergyPlatform).
-4. Afterwards, you can follow all instructions and explanations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub.
+4. Afterwards, you can follow all instructions and explanations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub. Also check out the wiki to [set up your work environment](https://github.com/OpenEnergyPlatform/ontology/wiki/Setup-your-work-environment-and-get-involved).
 5. In all discussions, whether in an online meeting or on GitHub, we follow our [Code of Conduct](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CODE_OF_CONDUCT.md).
 
 ---
