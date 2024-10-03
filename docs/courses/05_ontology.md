@@ -39,13 +39,16 @@ The more familiar you are with BFO, the better you will be able to contribute to
 
 :oep-icon-text: For a brief overview of the BFO hierarchy you can read the [OEO wiki article](https://github.com/OpenEnergyPlatform/ontology/wiki/BFO-Upper-Ontology-Classes). This however is a very condensed version. 
 
-:oep-icon-text: The standard literature on BFO is [_Arp, Smith and Spear (2015): Building Ontologies with Basic Formal Ontology_](https://direct.mit.edu/books/book/4044/Building-Ontologies-with-Basic-Formal-Ontology). If you decide to become an OEO developer, you should read this book. It is also a helpful work of reference.
+:oep-icon-text: The standard literature on BFO is [_Arp, Smith and Spear (2015): Building Ontologies with Basic Formal Ontology_](https://direct.mit.edu/books/book/4044/Building-Ontologies-with-Basic-Formal-Ontology). If you decide to become an OEO developer, you should read this book. It is also a helpful work of reference. It has to be noted though that the book is not open access and has to be bought.
+To understand the BFO concepts you mostly need chapters 5 and 6. To work on an ontology yourself chapters 3, 4 and 7 are especially helpful.
 
 :oep-icon-video: This video tutorial (78 min) provides an overview and introduction to BFO.
-[Building Ontologies with Basic Formal Ontology](https://www.youtube.com/watch?v=joC4NZgLtqA). It is the recording of a presentation held by the author of the BFO and will inform you how the BFO came to be, what some of the most important classes are and how they are used. It does however not decribe all the classes and may be more useful if you already gained a basic understanding of the concepts from the previous texts.
+[Building Ontologies with Basic Formal Ontology](https://www.youtube.com/watch?v=joC4NZgLtqA). It is the recording of a presentation held by Barry Smith of the BFO and will inform you how the BFO came to be, what some of the most important classes are and how they are used. It does however not decribe all the classes and may be more useful if you already gained a basic understanding of the concepts from the previous texts. 
+
+:oep-icon-video: For a more throughout discussion of all the BFO concepts by Barry Smith you may check out the whole [tutorial playlist](https://youtube.com/playlist?list=PLyngZgIl3WTj6tWcypTLpCnYXu6o93kD4&feature=shared) (110 min).
 
 
-The [BFO code](https://github.com/BFO-ontology/BFO) is hosted on GitHub where the [wiki page](https://github.com/BFO-ontology/BFO/wiki) also provides further publications and information on BFO.
+The [BFO code](https://github.com/BFO-ontology/BFO) is hosted on GitHub where the [wiki page](https://github.com/BFO-ontology/BFO/wiki) also provides further publications and information on BFO. This however goes into great detail, documenting changes across time and releases and is **not** needed when you first start working with the OEO. You can however download the BFO classes and take a look at them in Protége to familiarize yourself with them.
 
 #### 2. Protégé and OWL basics
 
