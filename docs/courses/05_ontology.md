@@ -55,9 +55,11 @@ The [BFO code](https://github.com/BFO-ontology/BFO) is hosted on GitHub where th
 The OEO is based on the Web Ontology Language OWL and uses Manchester Syntax. Protégé is the tool used for OEO development.
 
 :oep-icon-text: To become familiar with Protégé and OWL, we recommend studying the [Pizza tutorial](https://www.michaeldebellis.com/post/new-protege-pizza-tutorial) by Micheal DeBellis, especially chapter 1 to 7.
-For the tutorial, as well as OEO development, you will have to install Protégé on your computer.
+For the tutorial, as well as OEO development, you will have to install [Protégé](https://protege.stanford.edu/) on your computer.
 
-You can find the OWL2 and Manchester Syntax documentation [here](https://www.w3.org/TR/owl2-manchester-syntax/) for further reading.
+:oep-icon-video: For a full introduction to OWL you can check out [part 4.2](https://www.youtube.com/watch?v=x7GtYNEWIKE&list=PLoOmvuyo5UAcBXlhTti7kzetSsi1PpJGR&index=38), [part 4.3](https://www.youtube.com/watch?v=CXw-P7H2rOQ&list=PLoOmvuyo5UAcBXlhTti7kzetSsi1PpJGR&index=40), [part 4.4](https://www.youtube.com/watch?v=u8AXayzKuSg&list=PLoOmvuyo5UAcBXlhTti7kzetSsi1PpJGR&index=41), [part 4.5](https://www.youtube.com/watch?v=z95PYaOxPMs&list=PLoOmvuyo5UAcBXlhTti7kzetSsi1PpJGR&index=42) and [part 4.6](https://www.youtube.com/watch?v=lFDqMlogssI&list=PLoOmvuyo5UAcBXlhTti7kzetSsi1PpJGR&index=43) of this tutorial course. This is more than what you will need for getting started but if you want to look further into ontologys it will be helpful.
+
+You can find the OWL2 and Manchester Syntax documentation [here](https://www.w3.org/TR/owl2-manchester-syntax/) for further reading. This is helpful for looking things up and not the be read from start to finish.
 
 #### 3. GitHub and git basics
 
