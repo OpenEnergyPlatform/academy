@@ -1,4 +1,4 @@
-# OEMetaData
+# Tutorial - Working with OEMetaData
 
 <!-- keep img below title and without align="left"  -->
 <img src="https://raw.githubusercontent.com/OpenEnergyPlatform/academy/develop/docs/data/img/OEP_logo_2_no_text.svg" alt="OpenEnergy Platform" height="75" width="75" />
