@@ -1,0 +1,1958 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A collection of courses, tutorials, and questions for the Open Energy Family">
+      
+      
+      
+        <link rel="canonical" href="https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/">
+      
+      
+        <link rel="prev" href="../OEP_Research_Data_Publishing_Guidebook/">
+      
+      
+        <link rel="next" href="../checklist/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Beginners Guide: How to upload data to the OpenEnergy Platform - Open Energy Academy</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#beginners-guide-how-to-upload-data-to-the-openenergy-platform" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://openenergyplatform.github.io/academy/" title="Open Energy Academy" class="md-header__button md-logo" aria-label="Open Energy Academy" data-md-component="logo">
+      
+  <img src="../../../data/img/OpenEnergyFamily_Logo_Academy_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Open Energy Academy
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Beginners Guide: How to upload data to the OpenEnergy Platform
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/OpenEnergyPlatform/academy" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    academy
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Start
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../courses/01_introduction/" class="md-tabs__link">
+          
+  
+    
+  
+  Courses
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+    
+  
+  Tutorials
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../questions/" class="md-tabs__link">
+        
+  
+    
+  
+  Questions
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../meta/" class="md-tabs__link">
+        
+  
+    
+  
+  Metainfo
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://openenergyplatform.github.io/academy/" title="Open Energy Academy" class="md-nav__button md-logo" aria-label="Open Energy Academy" data-md-component="logo">
+      
+  <img src="../../../data/img/OpenEnergyFamily_Logo_Academy_white.png" alt="logo">
+
+    </a>
+    Open Energy Academy
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/OpenEnergyPlatform/academy" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    academy
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Start
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Courses
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Courses
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../courses/01_introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    01 - Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../courses/02_start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    02 - How to get started with the Open Energy Family and Platform
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../courses/03_download/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    03 - Download - Find and download / interact with data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../courses/04_upload/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    04 - Upload and Publish - Contribute data to the OEP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../courses/05_ontology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    05 - The Open Energy Ontology (OEO)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../courses/06_enable_comparisons/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    06 - Comparing data - Enable scenario projection comparison
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../courses/07_metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    07 - Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../courses/08_licensing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    08 - Licensing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../courses/09_peer_review/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    09 - Open Peer Review
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../courses/10_scenario_bundle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10 - What is a scenario bundle on the Open Energy Platform and how to create one
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tutorials
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    API
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            API
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_api/01_api_download/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Tutorial 01 - Download data from the Open Energy Platform using the API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_api/02_api_upload/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Tutorial 02 - Upload data to the Open Energy Platform using the API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_api/03_api_publish/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Tutorial 03 - Publish data to the Open Energy Platform using the API.
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    OEP Client
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            OEP Client
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_oep_client/01_client_python_download/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OEP Client Tutorial 01 - Download data from the Open Energy Platform using the OEP Client in a python script
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_oep_client/02_client_python_upload/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OEP Client Tutorial 02 - Upload data to the Open Energy Platform using the OEP Client in a python script
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_oep_client/03_client_cli_download/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OEP Client Tutorial 03 - Download data from the Open Energy Platform using the OEP Client in the command line
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_oep_client/04_client_cli_upload/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OEP Client Tutorial 04 - Upload data to the Open Energy Platform using the OEP Client in the command line
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    External
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            External
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_external/external_resources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    External resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Other
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Other
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OEP_Research_Data_Publishing_Guidebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guidebook - How to Publish Your Data on the OEP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Beginners Guide: How to upload data to the OpenEnergy Platform
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../checklist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Checklist for working with open data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../database_data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to generate database conform data?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../download/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to download data from the OEP - CSV and datapackage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../find_data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Find data on the OEP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting_started_with_OEMetadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction to OpenEnergyMetadata (OEM)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oemetadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tutorial - Working with OEMetaData
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../publish/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tutorial - How to Publish data and metadata on the OEP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../review_process/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tutorial - Open Peer Review for OEMetadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorial_open-data-licenses/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Open Data Licenses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../video_oeo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Open Energy Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wizard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create and upload table from csv using the platform wizard
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../questions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metainfo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="beginners-guide-how-to-upload-data-to-the-openenergy-platform">Beginners Guide: How to upload data to the OpenEnergy Platform<a class="headerlink" href="#beginners-guide-how-to-upload-data-to-the-openenergy-platform" title="Permanent link">#</a></h1>
+<h1 id="about-this-guide">About this guide<a class="headerlink" href="#about-this-guide" title="Permanent link">#</a></h1>
+<p>This document describes how to upload data to the <a href="https://openenergyplatform.org/">OpenEnergy Platform</a> (OEP) using <a href="https://www.python.org/">Python</a> and the <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST-API</a> as well as a description on how to initiate the review process of that data.</p>
+<p>Several steps are needed to contribute actively to the platform. Some of them you only need to do once to get started. The steps described in this document are the following:</p>
+<ul>
+<li>
+<p><strong>(once)</strong> Register at the OpenEnergy Platform</p>
+</li>
+<li>
+<p><strong>(once)</strong> Register at GitHub and get invited to the OpenEnergy Platform Group</p>
+</li>
+<li>
+<p>Create data table(s) and upload data table(s)</p>
+</li>
+<li>
+<p>Create metadata and upload metadata to Github</p>
+</li>
+<li>
+<p>Initiate review</p>
+</li>
+<li>
+<p>Create factsheets</p>
+</li>
+</ul>
+<h1 id="1-things-you-only-need-to-do-once">1. Things you only need to do once<a class="headerlink" href="#1-things-you-only-need-to-do-once" title="Permanent link">#</a></h1>
+<h2 id="11-register-at-the-openenergy-platform">1.1. Register at the OpenEnergy Platform<a class="headerlink" href="#11-register-at-the-openenergy-platform" title="Permanent link">#</a></h2>
+<ul>
+<li>
+<p>Registration</p>
+</li>
+<li>
+<p>Click <a href="https://openenergyplatform.org/user/login/?next=/">Login</a> button on Homepage and choose the option <strong>Create a new account.</strong></p>
+</li>
+<li>
+<p>OR: go directly to <a href="https://openenergyplatform.org/user/register">https://openenergyplatform.org/user/register</a></p>
+</li>
+<li>
+<p>Fill out the required fields and click on <strong>Submit.</strong></p>
+</li>
+<li>
+<p>You will receive an activation email, sent to your email address.</p>
+</li>
+<li>
+<p>Follow the instructions received in the email.</p>
+</li>
+<li>
+<p>After successfully activating and logging into your account, you will be able to view your user information.</p>
+</li>
+<li>
+<p>API-Token</p>
+<ul>
+<li>
+<p>The API token is necessary to make authenticated requests to the API.</p>
+</li>
+<li>
+<p>After you logged into the OEP, click the member icon in the upper right corner of the page</p>
+</li>
+<li>
+<p>You can find your API-Token under <strong>Your Security Information</strong> by clicking on <strong>Show token:</strong></p>
+</li>
+</ul>
+<p><img alt="" src="https://github.com/OpenEnergyPlatform/academy/blob/production/docs/tutorials/99_other/images/token.png?raw=true"/></p>
+</li>
+</ul>
+<h2 id="12-register-at-github-and-get-invited-to-openenergyplatform-group">1.2. Register at GitHub and get invited to OpenEnergyPlatform Group<a class="headerlink" href="#12-register-at-github-and-get-invited-to-openenergyplatform-group" title="Permanent link">#</a></h2>
+<ul>
+<li>
+<p>If you do not yet have a GitHub account, you need to register: <a href="https://github.com/join">https://github.com/join</a>.</p>
+</li>
+<li>
+<p>You will then need to become a member of the group OpenEnergyPlatform: <a href="https://github.com/OpenEnergyPlatform">https://github.com/OpenEnergyPlatform</a> by getting invited to the group. This works as follows:</p>
+</li>
+<li>
+<p>Get in touch via the contact form on the OpenEnergyPlatform: <a href="https://openenergyplatform.org/contact/">https://openenergyplatform.org/contact/</a>.</p>
+</li>
+<li>
+<p>Fill in the form with your request to be added to the OpenEnergyPlatform group on GitHub. An example text is provided in the screenshot below.</p>
+<p><img alt="" src="https://openenergyplatform.org/media/image/2020/12/contact.png"/></p>
+</li>
+<li>
+<p>A response will not be immediate. Please wait until you receive an invitation to the GitHub group. Only then you will be able to upload metadata and initiate data review.</p>
+</li>
+</ul>
+<h1 id="2-things-you-will-need-to-do-any-time-you-contribute-new-data-and-metadata">2. Things you will need to do any time you contribute new data and metadata<a class="headerlink" href="#2-things-you-will-need-to-do-any-time-you-contribute-new-data-and-metadata" title="Permanent link">#</a></h1>
+<h2 id="21-create-and-upload-data-tables">2.1. Create and upload data table(s)<a class="headerlink" href="#21-create-and-upload-data-tables" title="Permanent link">#</a></h2>
+<p><em>Prerequisite for this step is that you are a registered user on openenergyplatform.org</em></p>
+<p><strong>OPTION: CSV WIZARD:</strong> If you do not want to upload tables via the API, you can do so using the CSV-Wizard. Please consult <a href="../wizard/">this tutorial</a> and <strong>then continue reading <a href="https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/#2-things-you-will-need-to-do-any-time-you-contribute-new-data-and-metadata">Section 2.2</a></strong></p>
+<p><em>Please note: code snippets below are shown to highlight specific instances of a sequence of code. You find a complete sample code that you can copy &amp; paste and try under <a href="https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/#214-complete-code-for-one-example">2.1.4_ Complete code for one example</a></em></p>
+<ul>
+<li>
+<p>The REST-API can be used with any language that can make HTTP(s) requests.</p>
+</li>
+<li>
+<p>Most requests require you to add an authorization header: Authorization: <strong>Token API_TOKEN</strong>, where you substitute <strong>API_TOKEN</strong> with your token as described above.</p>
+</li>
+<li>
+<p>All requests (and most responses) will use json data as payload (the actual data content of the request).</p>
+</li>
+<li>
+<p>In the examples below, we use python and the <a href="https://2.python-requests.org/en/master/">requests package</a>. All requests will use a requests session with the authorization header.</p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code>    <span class="kn">import</span> <span class="nn">requests</span>
+    <span class="n">API_URL</span> <span class="o">=</span> <span class="s1">'https://openenergyplatform.org/api/v0'</span>
+    <span class="n">session</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">Session</span><span class="p">()</span>
+    <span class="n">session</span><span class="o">.</span><span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'Authorization'</span><span class="p">:</span> <span class="s1">'Token </span><span class="si">%s</span><span class="s1">'</span> <span class="o">%</span> <span class="n">API_TOKEN</span><span class="p">}</span>
+</code></pre></div>
+<ul>
+<li>
+<p>The requests in the following sections use roughly the same pattern:</p>
+</li>
+<li>
+<p>Prepare your request payload as a json object</p>
+</li>
+<li>
+<p>Prepare your request url</p>
+</li>
+<li>
+<p>Send your request using the correct <a href="https://www.restapitutorial.com/lessons/httpmethods.html">verb</a> (get, post, put, delete)</p>
+</li>
+<li>
+<p>Check if the request was successful</p>
+</li>
+</ul>
+<h3 id="211-create-a-new-table">2.1.1. Create a new table<a class="headerlink" href="#211-create-a-new-table" title="Permanent link">#</a></h3>
+<ul>
+<li>
+<p>You will need to create the tables at first in the <strong>model_draft</strong> topic. This topic is used for data that is still preliminary and subject to changes. After a successful review later, the table will be moved to the final target topic.</p>
+</li>
+<li>
+<p>You need to specify the name of the new table (TABLE_NAME), which should be a valid PostgreSQL table name, without spaces, ideally only containing lower case letters, numbers and underscores.</p>
+</li>
+<li>
+<p>You also need to specify names and data types of your columns, which also must be <a href="https://www.postgresql.org/docs/current/datatype.html">valid postgres data types</a>.</p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code>    <span class="c1"># prepare request payload</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+     <span class="s1">'query'</span><span class="p">:</span> <span class="p">{</span>
+      <span class="s1">'columns'</span><span class="p">:</span> <span class="p">[</span>
+       <span class="p">{</span>
+        <span class="s1">'name'</span><span class="p">:</span> <span class="s1">'id'</span><span class="p">,</span>
+        <span class="s1">'data_type'</span><span class="p">:</span> <span class="s1">'bigserial'</span>
+       <span class="p">},</span>
+      <span class="c1"># add more columns here</span>
+      <span class="p">],</span>
+      <span class="s1">'constraints'</span><span class="p">:</span> <span class="p">[</span>
+       <span class="p">{</span>
+        <span class="s1">'constraint_type'</span><span class="p">:</span> <span class="s1">'PRIMARY KEY'</span><span class="p">,</span>
+        <span class="s1">'constraint_parameter'</span><span class="p">:</span> <span class="s1">'id'</span>
+       <span class="p">}</span>
+      <span class="p">]</span>
+     <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="c1"># prepare api url</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">API_URL</span> <span class="o">+</span> <span class="s1">'/topic/model_draft/tables/'</span> <span class="o">+</span> <span class="n">TABLE_NAME</span>
+    <span class="c1"># make request and check using PUT</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">json</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">res</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span> <span class="c1"># check: throws exception if not successful</span>
+</code></pre></div>
+<h3 id="212-upload-data">2.1.2. Upload data<a class="headerlink" href="#212-upload-data" title="Permanent link">#</a></h3>
+<ul>
+<li>
+<p>To upload data, you must first load it into a json structure as a <a href="https://www.w3schools.com/python/python_lists.asp">list</a> representing data rows, each of which is a <a href="https://www.w3schools.com/python/python_dictionaries.asp">dictionary</a> mapping column names to values.</p>
+</li>
+<li>
+<p>In the example, we will use <a href="https://pypi.org/project/pandas/">pandas</a> to read data from an Excel workbook (WORKBOOK, WORKSHEET) into a <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html">data frame</a> which we will then convert into a json object. Please note that this step will most likely require some modification to accommodate the specifics of your input data.</p>
+</li>
+<li>
+<p>In addition to that, at the end, you need to load your data into the specified json structure.</p>
+</li>
+<li>
+<p>After that, the data can be uploaded making a request to the API:</p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code>    <span class="c1"># load data into dataframe, convert into json</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">WORKBOOK</span><span class="p">,</span> <span class="n">WORKSHEET</span><span class="p">)</span>
+    <span class="n">records</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">to_json</span><span class="p">(</span><span class="n">orient</span><span class="o">=</span><span class="s1">'records'</span><span class="p">)</span>
+    <span class="n">records</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">records</span><span class="p">)</span>
+    <span class="c1"># prepare request payload</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'query'</span><span class="p">:</span> <span class="n">records</span><span class="p">}</span>
+    <span class="c1"># prepare api url</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">API_URL</span> <span class="o">+</span> <span class="s1">'/topic/model_draft/tables/'</span> <span class="o">+</span> <span class="n">TABLE_NAME</span> <span class="o">+</span> <span class="s1">'/rows/new'</span>
+    <span class="c1"># make request</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">json</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">res</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span> <span class="c1"># check</span>
+</code></pre></div>
+<ul>
+<li>You can repeat this if you want to upload your data in multiple batches.</li>
+</ul>
+<h3 id="213-starting-over-deleting-your-table">2.1.3. Starting over: Deleting your table<a class="headerlink" href="#213-starting-over-deleting-your-table" title="Permanent link">#</a></h3>
+<ul>
+<li>While the table is still in the model draft, you can always delete the table and start over:</li>
+</ul>
+<div class="highlight"><pre><span></span><code>    <span class="c1"># prepare api url</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">API_URL</span> <span class="o">+</span> <span class="s1">'/topic/model_draft/tables/'</span> <span class="o">+</span> <span class="n">TABLE_NAME</span>
+    <span class="c1"># make request</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="n">res</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span> <span class="c1"># check</span>
+</code></pre></div>
+<h3 id="214-complete-code-for-one-example">2.1.4. Complete code for one example<a class="headerlink" href="#214-complete-code-for-one-example" title="Permanent link">#</a></h3>
+<ul>
+<li>
+<p>This is an example code that you can copy and paste to execute the workflow we have described above. The workflow described does not take into account any specific settings you will need to make in your personal work environment. It can, however, simply be executed in the python prompt.</p>
+</li>
+<li>
+<p>Let's say you have an Excel workbook named <strong>CountryValues.xlsx</strong>, with a worksheet named <strong>data</strong> as depicted below:</p>
+</li>
+</ul>
+<p><img alt="" src="https://openenergyplatform.org/media/image/2020/12/excel.png"/></p>
+<ul>
+<li>
+<p>Your API-Token is <strong>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</strong>, and your desired table name shall be <code>my_example_table</code>. Please note that, while it is highly unlikely, there may already exist a table with this particular name created by another person. If this is the case, the example below will not work. Then, please choose another name for your table and substitute every instance with 'my_example_table' below with the name you have chosen.</p>
+</li>
+<li>
+<p>Save the example code below as <code>example.py</code> in the same folder as the Excel workbook, then <a href="https://www.lifewire.com/how-to-open-command-prompt-2618089">open a command line</a>, <a href="https://www.wikihow.com/Change-Directories-in-Command-Prompt">navigate to the folder</a>, and type <code>python3 example.py</code></p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code>    <span class="kn">import</span> <span class="nn">json</span>
+    <span class="kn">import</span> <span class="nn">requests</span>
+    <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+    <span class="n">API_TOKEN</span> <span class="o">=</span> <span class="s1">'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'</span>
+    <span class="n">TABLE_NAME</span> <span class="o">=</span> <span class="s1">'my_example_table'</span>
+    <span class="n">API_URL</span> <span class="o">=</span> <span class="s1">'https://openenergyplatform.org/api/v0'</span>
+    <span class="n">session</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">Session</span><span class="p">()</span>
+    <span class="n">session</span><span class="o">.</span><span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'Authorization'</span><span class="p">:</span> <span class="s1">'Token </span><span class="si">%s</span><span class="s1">'</span> <span class="o">%</span> <span class="n">API_TOKEN</span><span class="p">}</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># delete table (in case it already exists)</span>
+    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># prepare api url</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">API_URL</span> <span class="o">+</span> <span class="s1">'/topic/model_draft/tables/'</span> <span class="o">+</span> <span class="n">TABLE_NAME</span>
+    <span class="c1"># make request</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># create table</span>
+    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># prepare request payload</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'query'</span><span class="p">:</span> <span class="p">{</span>
+     <span class="s1">'columns'</span><span class="p">:</span> <span class="p">[</span>
+     <span class="p">{</span>
+      <span class="s1">'name'</span><span class="p">:</span> <span class="s1">'id'</span><span class="p">,</span>
+      <span class="s1">'data_type'</span><span class="p">:</span> <span class="s1">'bigserial'</span>
+     <span class="p">},</span>
+     <span class="p">{</span>
+      <span class="s1">'name'</span><span class="p">:</span> <span class="s1">'country'</span><span class="p">,</span>
+      <span class="s1">'data_type'</span><span class="p">:</span> <span class="s1">'varchar'</span>
+     <span class="p">},</span>
+     <span class="p">{</span>
+      <span class="s1">'name'</span><span class="p">:</span> <span class="s1">'year'</span><span class="p">,</span>
+      <span class="s1">'data_type'</span><span class="p">:</span> <span class="s1">'int'</span>
+     <span class="p">},</span>
+     <span class="p">{</span>
+      <span class="s1">'name'</span><span class="p">:</span> <span class="s1">'value'</span><span class="p">,</span>
+      <span class="s1">'data_type'</span><span class="p">:</span> <span class="s1">'float'</span>
+     <span class="p">}</span>
+     <span class="c1"># add more columns here</span>
+     <span class="p">],</span>
+     <span class="s1">'constraints'</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span><span class="s1">'constraint_type'</span><span class="p">:</span> <span class="s1">'PRIMARY KEY'</span><span class="p">,</span> <span class="s1">'constraint_parameter'</span><span class="p">:</span> <span class="s1">'id'</span><span class="p">}</span>
+     <span class="p">]</span>
+    <span class="p">}}</span>
+    <span class="c1"># prepare api url</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">API_URL</span> <span class="o">+</span> <span class="s1">'/topic/model_draft/tables/'</span> <span class="o">+</span> <span class="n">TABLE_NAME</span> <span class="o">+</span> <span class="s1">'/'</span>
+    <span class="c1"># make request and check using PUT</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">json</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">res</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span> <span class="c1"># check: throws exception if not successful</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># read data</span>
+    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># load data into dataframe, convert into json</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s1">'CountryValues.xlsx'</span><span class="p">,</span> <span class="s1">'data'</span><span class="p">)</span>
+    <span class="n">records</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">to_json</span><span class="p">(</span><span class="n">orient</span><span class="o">=</span><span class="s1">'records'</span><span class="p">)</span>
+    <span class="n">records</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">records</span><span class="p">)</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># upload data</span>
+    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># prepare request payload</span>
+    <span class="c1"># 'records' is a list of dictionaries (field name: value)</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'query'</span><span class="p">:</span> <span class="n">records</span><span class="p">}</span>
+    <span class="c1"># prepare api url</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">API_URL</span> <span class="o">+</span> <span class="s1">'/topic/model_draft/tables/'</span> <span class="o">+</span> <span class="n">TABLE_NAME</span> <span class="o">+</span> <span class="s1">'/rows/new'</span>
+    <span class="c1"># make request</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">json</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">res</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span>  <span class="c1"># check</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># read data (to check if everything was ok)</span>
+    <span class="c1"># or search for your table here:</span>
+    <span class="c1"># https://openenergyplatform.org/dataedit/view/model_draft/tables/my_example_table</span>
+    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># prepare api url</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">API_URL</span> <span class="o">+</span> <span class="s1">'/topic/model_draft/tables/'</span> <span class="o">+</span> <span class="n">TABLE_NAME</span> <span class="o">+</span> <span class="s1">'/rows'</span>
+    <span class="c1"># make request</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># delete table (because it was just a test)</span>
+    <span class="c1"># --------------------------------------</span>
+    <span class="c1"># prepare api url</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">API_URL</span> <span class="o">+</span> <span class="s1">'/topic/model_draft/tables/'</span> <span class="o">+</span> <span class="n">TABLE_NAME</span>
+    <span class="c1"># make request</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="n">res</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span>  <span class="c1"># check</span>
+</code></pre></div>
+<h2 id="22-create-metadata">2.2. Create metadata<a class="headerlink" href="#22-create-metadata" title="Permanent link">#</a></h2>
+<p>You can create metadata that describes the context of your data in various ways. The easiest way is to navigate to the Meta information attached your table and click the Edit button:
+<img alt="image" src="../../../data/img/sirop_meta-information.JPG"/>
+You will then be presented with a set of fields that need and can be completed, see the display below:</p>
+<p><img alt="image" src="../../../data/img/sirop-meta-fields.JPG"/></p>
+<p>Info: The .json specification of the metadata can be found <a href="https://github.com/OpenEnergyPlatform/oemetadata/blob/master/metadata/latest/metadata_key_description.md">here</a>. </p>
+<h1 id="3-complete-your-contribution">3. Complete your contribution<a class="headerlink" href="#3-complete-your-contribution" title="Permanent link">#</a></h1>
+<p>This document described how to upload data and metadata to the OpenEnergy Platform. For your contribution to become even more useful to other users of the platform and as further support for the community, we encourage you to create factsheets to describe the data you provided and their context in more detail.</p>
+<h2 id="31-create-factsheets">3.1. Create Factsheets<a class="headerlink" href="#31-create-factsheets" title="Permanent link">#</a></h2>
+<ul>
+<li>
+<p>The drop-down menu <strong>Scenario Bundles</strong> shows you the 3 different Factsheet categories.</p>
+</li>
+<li>
+<p>Select a suitable factsheet category from the drop-down menu</p>
+</li>
+<li>
+<p>Scenario Bundle: this is the place that ties together all the information that you may want to describe regarding the data you have just uploaded. You can provide information on the scenario characteristics, the study reports that deal with your data, the sectors and technologies depicted, the models and frameworks used. Use this factsheet to enrich your contribution. </p>
+</li>
+<li>
+<p>Frameworks: use this factsheet to add information about the fundamental structure or toolbox to build a model, e.g. TIMES. Under <strong>Scenario Bundle</strong> you can then attach such a framework via a drop-down menu. </p>
+</li>
+<li>
+<p>Models: to describe a model that has been used to run a scenario; ideally this relates to a scenario for which you have uploaded data to the OEP. Under <strong>Scenario Bundle</strong> you can then attach models via a drop-down menu to your scenario. </p>
+</li>
+</ul>
+<hr/>
+<h2 class="section-about" id="about-this-tutorial">About this tutorial<a class="headerlink" href="#about-this-tutorial" title="Permanent link">#</a></h2>
+<p><img src="../../../data/img/SIROP_logo_50.png" alt="logo"></p>
+<p>Authors: Hannah Förster, Victoria Liste, Christian Winger (all Öko-Institut). 
+Copyright: Öko-Institut (2021). 
+License: <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC BY 4.0</a>. 
+Attribution: Öko-Institut: Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process. 
+Last update: 2024-10-21</p>
+<hr/>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../OEP_Research_Data_Publishing_Guidebook/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Guidebook - How to Publish Your Data on the OEP">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Guidebook - How to Publish Your Data on the OEP
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../checklist/" class="md-footer__link md-footer__link--next" aria-label="Next: Checklist for working with open data">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Checklist for working with open data
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.path", "navigation.tracking", "navigation.footer", "navigation.top", "toc.follow", "search.suggest", "search.share"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

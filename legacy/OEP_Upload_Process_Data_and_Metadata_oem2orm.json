@@ -1,0 +1,23 @@
+{
+  "name": "OEP_Upload_Process_Data_and_Metadata_oem2orm",
+  "displayName": "OEP Upload Process for data and metadata",
+  "category": {
+    "identifier": "io",
+    "names": "Upload/Download"
+  },
+  "level": {
+    "identifier": 2,
+    "names": "Intermediate"
+  },
+  "language": {
+    "identifier": "en",
+    "names": "english"
+  },
+  "medium": "jupyter",
+  "license": {
+    "identifier": "agpl",
+    "names": "AGPL"
+  },
+  "email_contact": "",
+  "github_contact": ["jh-RLI", "christian-RLI"]
+}
