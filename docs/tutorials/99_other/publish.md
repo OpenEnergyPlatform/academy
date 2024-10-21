@@ -19,7 +19,7 @@ This tutorials will enable you to:
 
 ## Introduction
 
-This tutorial will teach you step-by-step how to publish your data and metadata using the OEP wizard. If you want to use the API, please have a look at this tutorial. For more general information und the piblishing process and the empbargo period, see [this course](https://openenergyplatform.github.io/academy/courses/04_upload/). Comment: Links will be implemented once they are avalaible.
+This tutorial will teach you step-by-step how to publish your data and metadata using the OEP wizard. If you want to use the API, please have a look at [this tutorial]() and for the OEP Client see [this]() or [this tutorial](). For more general information on the publishing process and the empbargo period, see [this course](https://openenergyplatform.github.io/academy/courses/04_upload/). Comment: Links will be implemented once they are avalaible.
 
 
 ## Choosing a table to be published
