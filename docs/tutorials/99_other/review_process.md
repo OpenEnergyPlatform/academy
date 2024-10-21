@@ -37,8 +37,8 @@ However, after a review is finished, a new review can be started right away.
 
 ## Review Process
 
-The reviewer who initiated the process needs to review all regular fields to complete the process. Only empty fields ('None'), contributor fields and technical resource metadata fields don't have to be reviewed. The metadata are devided into sections: General, Spatial & temporal, Source, License and Summary.
-In any section tab the reviewer sees on the left hand side a list of all fields that need reviewing. Every selected field, refreshes the right hand side of the window. It shows the field in question, the definition of the field, an example and the corresponding badge. Below that, the review options are given: accept the field, suggest a change or reject it and provide an alternative. Navigating the fields can be done via mouse clicks on the fields of the left hand side or by use of the small arrows in the window on the right hand side.
+The reviewer who initiated the process must review all fields except empty fields ('None'), contributor fields and technical resource metadata fields. The metadata are devided into sections: General, Spatial & temporal, Source, License and Summary.
+When selected a division, while reviewing the reviewer sees on the left hand side the list with all fields that need reviewing, on the right hand side a window opens according to the field which is being reviewed. There the definition of the field and an correct example is given, as well as the badge. Below the review options are given; accept the field, suggest a change, or reject it and provide an alternative. To navigate one can click on the fields on the left hand side or use the small arrows in the window on the right hand side.
 
 
 Under `General`, basic informations such as id and title must be given. ![General](images/section_general.png)
@@ -47,15 +47,15 @@ Please provide the information about the used sources under `Sources. ![Sources]
 Under `License` the information on the used license must be given. ![License](images/section_license.png)
 The `Summary` gives an overview over all fields and shows for which fields a review is missing. ![Summary](images/section_summary.png)
 
-The reviewer can save their progress with the button in the upper right corner `Save Progress`. The button `quit` leads back to the database without saving changes done after the last save. Once started, a review process cennot be cancelled.
+It is possible to save your progress with the button in the rigth upper corner Save Progress. (Note: The button quit leads only back to the database. Once you started a review process it is not possible to cancel it!).
 
-Users can find all reviews they started on their profile page under `Reviews`. ![Active Reviews](images/profile_active_reviews.png)
+Users can find all reviews in progress on their profile page under `Reviews`. ![Active Reviews](images/profile_active_reviews.png)
 
 Once the review is completed, it can be submitted with the `Submit` button in the upper right corner. The review is then transmitted from the reviewer back to the contributer. The reviewer can only forward their review to the contributor once they have evaluated all non-empty fields i.e. accepted, suggested or rejected them. (See also: [How do you review open data?](https://openenergyplatform.github.io/academy/courses/09_peer_review/#how-do-you-review-open-data))
 
 ## Handling Review Suggestions
 
-If the reviewer has suggestions for certain fields, they are sent to the contributor. In the contributor's profile, under the Peer Review section, the review with the reviewer’s suggestions can be seen. The contributor can then accept or reject the reviewer’s suggestions, proposing alternatives if necessary. After the contributor has reacted to all suggestions, they send it back to the reviewer for verification. This process ends when all fields are mutually accepted.
+If the reviewer has suggestions for certain fields, these are send to the contributor. In the contributor's profile, under the Peer Review section, the review with the reviewer’s suggestions can be seen. The contributor can then accept or reject the reviewer’s suggestions, proposing alternatives if necessary. After the contributor has accepted/rejected all suggestions, they send it back to the reviewer for verification. This process ends when all fields are mutually accepted.
 
 ## Completion of the Review Process
 
