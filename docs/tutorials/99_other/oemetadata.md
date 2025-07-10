@@ -16,11 +16,11 @@ This tutorial will always refer specifically to OEMetadata (the Metadata used on
 
 ## Important Information on OEMetadata
 
-- OEMetadata follow the specifications of one of the release versions of the OEP. At the time v1.6.0, soon 2.0.0.
-- OEMetadata are always a JSON-file, which can refer to other elements, e.g. websides, classes from the [Open Energy Ontology](https://openenergyplatform.org/viewer/oeo/) (OEO) etc.. The OEMetadata in version v1.6.0 always describes one whole dataset to a table. 
-- OEMetadata follow a pattern. Find the key descriptions for the newest version of the OEMetadata on [GitHub](https://github.com/OpenEnergyPlatform/OEMetadata/blob/develop/metadata/v160/metadata_key_description.md).
+- OEMetadata follow the specifications of one of the release versions of the OEP. At the time v2.0.
+- OEMetadata are always a JSON-file, which can refer to other elements, e.g. websides, classes from the [Open Energy Ontology](https://openenergyplatform.org/viewer/oeo/) (OEO) etc.. The OEMetadata in version v2.0 always describes one whole dataset to a table. 
+- OEMetadata follow a pattern. Find the key descriptions for the newest version of the OEMetadata on [GitHub](https://github.com/OpenEnergyPlatform/oemetadata/blob/develop/oemetadata/v2/v20/metadata_key_description.md).
 - There can always only be one version of the OEMetadata on the OEP! Meaning that the livetime of OEMetadata is critical because othervise there might be multiple datasets to one table. In order for that not to happen the published OEMetadata for a published table on the OEP stay like this until there is a new version of the OEMetadata. (For more information on the publishing process see [this course](https://openenergyplatform.github.io/academy/courses/04_upload/).)  
-- The minimal requirement to the OEMetadata in order to exist on the OEP to an existing table is a filled out ID field. Here the URL of the tale must be incerted. For all other fields please follow the [key descriptions](https://github.com/OpenEnergyPlatform/OEMetadata/blob/develop/metadata/v160/metadata_key_description.md) or see the information provided in the OEMetaBuilder.
+- The minimal requirement to the OEMetadata in order to exist on the OEP to an existing table is a filled out ID field. Here the URL of the tale must be incerted. For all other fields please follow the [key descriptions](https://github.com/OpenEnergyPlatform/oemetadata/blob/develop/oemetadata/v2/v20/metadata_key_description.md) or see the information provided in the OEMetaBuilder.
 
 ## How to create OEMetadata
 
