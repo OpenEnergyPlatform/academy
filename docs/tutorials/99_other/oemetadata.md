@@ -44,14 +44,17 @@ Under `Dataset overview` you can provide general information over the resources 
 ![Anfang](images/oemetadata/01_DatasetOverview.jpeg)
 In order for the metadata to exist a minimum of one `Resource` must be added by clicking on the `+ Resource`button. Then under `Resources` different headlines will appear. 
 Under `General` you can provide information to describe and identify the resource. If you create OEMetadata to an already existing table some fields will be filled automatically once you filled in the `@ID` of the table. This makes it easier for you and minimizes the possible errors.
-In the `Name`-field please provide the human readable name of the subject, e.g. energy. In the `Path`-field please provide the corresponding URL to the OEO, e.g. https://openenergy-platform.org/ontology/oeo/OEO_00000150. You can add subjects by clicking on the `+` right next to the headline `Subject`. Note: Subjects help other users to find your data and know what it is about. 
-![Subject](images/oemetadata/2_Subject.png)
-You can provide language tag(s) for all languages used in your data, inculding the table and the OEMetadata dataset. You can add multiple languages by clicking on the `+` right next to the headline `Language`. Note: Please use the required standard (IETF (BCP47)). 
-![Language](images/oemetadata/3_Language.png)
+In the `Name`-field please provide the human readable name of the subject, e.g. energy. In the `Path`-field please provide the corresponding URL to the OEO, e.g. https://openenergy-platform.org/ontology/oeo/OEO_00000150. 
+![General](images/oemetadata/02_Resources_General.jpeg)
+With clicking on the `+Topic` under `Topics` you can an array of predefined topics.
+![Topics](images/oemetadata/03_Resources_Topics_1.jpeg)
+You can provide language tag(s) for all languages used in your data, inculding the table and the OEMetadata dataset. You can add multiple languages by clicking on the `+Language` right next to the headline `Language`. Note: Please use the required standard (IETF (BCP47)). 
+![Language](images/oemetadata/04_Resources_Languages.jpeg)
+Under `Subject` you can provide subjects which describe your data. You can add subjects by clicking on the `+ Subject`. In the Name-field please provide the human readable name of the subject, e.g. energy. In the Path-field please provide the corresponding URL to the OEO, e.g. https://openenergy-platform.org/ontology/oeo/OEO_00000150.  Note: Subjects help other users to find your data and know what it is about.
+![Subject](images/oemetadata/05_Resources_Subject_1.jpeg)
 Additionally to the Subjects you can also provide `Keywords`. These don't have to be defined in the OEO, but can help to describe the content of your data even more precisly. The Keywords make it also possible to filter the tables in the [OEO Database](https://openenergyplatform.org/dataedit/schemas).
-![Language](images/oemetadata/4_Keywords.png)
+![Keywords](images/oemetadata/06_Resources_Keywords_1.jpeg)
 You can give context to your data, e.g. a research project. This makes your data more comprehendable and traceable for others.
-![Context](/images/oemetadata/5_Context_1.png)
 ![Context](images/oemetadata/6_Context_2.png)
 You can specify the spatial context of your data, e.g. the region in which a research was done.
 ![Spatial](images/oemetadata/7_Spatial.png)
