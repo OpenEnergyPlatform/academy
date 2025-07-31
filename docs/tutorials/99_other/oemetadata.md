@@ -55,14 +55,12 @@ Under `Subject` you can provide subjects which describe your data. You can add s
 Additionally to the Subjects you can also provide `Keywords`. These don't have to be defined in the OEO, but can help to describe the content of your data even more precisly. The Keywords make it also possible to filter the tables in the [OEO Database](https://openenergyplatform.org/dataedit/schemas).
 ![Keywords](images/oemetadata/06_Resources_Keywords_1.jpeg)
 You can give context to your data, e.g. a research project. This makes your data more comprehendable and traceable for others.
-![Context](images/oemetadata/6_Context_2.png)
-You can specify the spatial context of your data, e.g. the region in which a research was done.
-![Spatial](images/oemetadata/7_Spatial.png)
-You can also define the time of your data. Either a reference date or a time span. 
-![Temporal](images/oemetadata/8_Temporal.png)
-You can add a `Timeseries` by clicking on the `+` next to the headline. There you can specify start, end and resolution of the series and information about how the data is implemented in the table. You can add multiple timeseries if neccessarry.
-![Timeseries-1](images/oemetadata/9_Timeseries-1.png)
-![Timeseries-2](images/oemetadata/10_Timeseries-2.png)
+![Context](images/oemetadata/07_Kontext_1.jpeg)
+You can specify the `Spatial` context of your data, by giving a `Location` and the `Extent`.
+![Spatial](images/oemetadata/08_Resources_Spatial_1.jpeg)
+![Spatial](images/oemetadata/08_Resources_Spatial_Extend_1.jpeg)
+You can also define the time of your data by giving a Reference Date. You can add `Timeseries` by clicking on the `+ Timeserie` next to the headline. There you can specify start, end and resolution of the series and information about how the data is implemented in the table. You can add multiple timeseries if neccessarry.
+![Temporal](images/oemetadata/09_Resources_Temporal_1.jpeg)
 You can provide information on your `Sources`, `Licenses`, `Contributers` and `Recourses`. You can add each of them by clicking on the `+` next to the headline.
 ![Sources-1](images/oemetadata/11_Sources-1.png)
 You can list your sources by providing a human readable title, a description of the source and the path to the source as URL. You can add multiple sources.
