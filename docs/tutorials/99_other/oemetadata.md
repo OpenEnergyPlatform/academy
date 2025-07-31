@@ -42,7 +42,7 @@ You can find the [OEMetaBuilder](https://openenergyplatform.org/dataedit/oemetab
 Then the OEMetaBuilder opens and you can see all the fields. Right next to the headline `Create new Metadata for your Dataset` there are two buttons; With the first one (the pen with `JSON`) you can edit and/or copy the code on which this page is based on in a popup window. With the second (the menu with `properties`) you can choose which fields will be shown or hidden by clicking on them in the list in the popup window. Whenever there is such a `menu` button next to a headline it enables you to choose which fields will be shown or hidden in the section the hedline belongs to. At the lower right corner three buttons appear to `Submit`, `Cancel` or `Download` your OEMetadata. You can submit your OEMetadata if there already exists a table for your dataset. You can always download the dataset as a JSON-file or cancel the process. Beneath all fields is a description of what values and information may be filled in the field above. For more detailed information please see the [key descriptions](https://github.com/OpenEnergyPlatform/oemetadata/blob/develop/oemetadata/v2/v20/metadata_key_description.md). 
 Under `Dataset overview` you can provide general information over the resources in your metadata. You can give a Name, Title, Description and Identifier to your dataset. 
 ![Anfang](images/oemetadata/01_DatasetOverview.jpeg)
-In order for the metadata to exist a minimum of one `Resource` must be added by clicking on the `+ Resource`button. Then under `Resources` different headlines will appear. 
+In order for the metadata to exist a minimum of one `Resource` must be added by clicking on the `+Resource`button. Then under `Resources` different headlines will appear. 
 Under `General` you can provide information to describe and identify the resource. If you create OEMetadata to an already existing table some fields will be filled automatically once you filled in the `@ID` of the table. This makes it easier for you and minimizes the possible errors.
 In the `Name`-field please provide the human readable name of the subject, e.g. energy. In the `Path`-field please provide the corresponding URL to the OEO, e.g. https://openenergy-platform.org/ontology/oeo/OEO_00000150. 
 ![General](images/oemetadata/02_Resources_General.jpeg)
@@ -50,7 +50,7 @@ With clicking on the `+Topic` under `Topics` you can an array of predefined topi
 ![Topics](images/oemetadata/03_Resources_Topics_1.jpeg)
 You can provide language tag(s) for all languages used in your data, inculding the table and the OEMetadata dataset. You can add multiple languages by clicking on the `+Language` right next to the headline `Language`. Note: Please use the required standard (IETF (BCP47)). 
 ![Language](images/oemetadata/04_Resources_Languages.jpeg)
-Under `Subject` you can provide subjects which describe your data. You can add subjects by clicking on the `+ Subject`. In the Name-field please provide the human readable name of the subject, e.g. energy. In the Path-field please provide the corresponding URL to the OEO, e.g. https://openenergy-platform.org/ontology/oeo/OEO_00000150.  Note: Subjects help other users to find your data and know what it is about.
+Under `Subject` you can provide subjects which describe your data. You can add subjects by clicking on the `+Subject`. In the Name-field please provide the human readable name of the subject, e.g. energy. In the Path-field please provide the corresponding URL to the OEO, e.g. https://openenergy-platform.org/ontology/oeo/OEO_00000150.  Note: Subjects help other users to find your data and know what it is about.
 ![Subject](images/oemetadata/05_Resources_Subject_1.jpeg)
 Additionally to the Subjects you can also provide `Keywords`. These don't have to be defined in the OEO, but can help to describe the content of your data even more precisly. The Keywords make it also possible to filter the tables in the [OEO Database](https://openenergyplatform.org/dataedit/schemas).
 ![Keywords](images/oemetadata/06_Resources_Keywords_1.jpeg)
@@ -59,41 +59,39 @@ You can give context to your data, e.g. a research project. This makes your data
 You can specify the `Spatial` context of your data, by giving a `Location` and the `Extent`.
 ![Spatial](images/oemetadata/08_Resources_Spatial_1.jpeg)
 ![Spatial](images/oemetadata/08_Resources_Spatial_Extend_1.jpeg)
-You can also define the time of your data by giving a Reference Date. You can add `Timeseries` by clicking on the `+ Timeserie` next to the headline. There you can specify start, end and resolution of the series and information about how the data is implemented in the table. You can add multiple timeseries if neccessarry.
+You can also define the time of your data by giving a Reference Date. You can add `Timeseries` by clicking on the `+Timeserie` next to the headline. There you can specify start, end and resolution of the series and information about how the data is implemented in the table. You can add multiple timeseries if neccessarry.
 ![Temporal](images/oemetadata/09_Resources_Temporal_1.jpeg)
-You can provide information on your `Sources`, `Licenses`, `Contributers` and `Recourses`. You can add each of them by clicking on the `+` next to the headline.
-![Sources-1](images/oemetadata/11_Sources-1.png)
-You can list your sources by providing a human readable title, a description of the source and the path to the source as URL. You can add multiple sources.
-![Sources-2](images/oemetadata/12_Sources-2.png)
-You can also provide the license of each source by providing the SPDX identifire, a human readable name as well as a path to the license and further information.
-![License-1](images/oemetadata/13_License-1.png)
-![License-2](images/oemetadata/14_License-2.png)
-You may provide information about the contributors of your data. You can add multiple contributors and add details about their contribution.
-![Contributors-1](images/oemetadata/15_Contributors-1.png)
-![Contributors-2](images/oemetadata/16_Contributors-2.png)
-You can also annotate the data in your table. This helps to make the data in your table comparable to others because it makes a connection between columns and/or fields to classes in the OEO. If you create OEMetadata for an already existing table, the names of the fields will be filled in autamatically and make the process of annotating more convinient. Note: If you want to annotate without an already on the OEO existing table you must have a basic understandning to datastructure and databases and their relations. In order to do so you must add resource(s) by clicking on the `+` next to the headline `Recourses`. For all resources you must add an unique name. Ich bin etwas verwirrt und weiß nicht, ob ich das folgende richtig beschreibe!
-![Resources](images/oemetadata/17_Resources.png)
-You can specify the content of a field in your table by identifying the field, giving its description and data type.
-![Field](images/oemetadata/18_Field-1.png)
+By clicking on `+Source` under the corresponding headline, under `Basic` you can provide a human readable title, a description of the source and the path to the source as URL. 
+![Sources_Basic](images/oemetadata/10_Resources_Sources_Basic_1.jpeg)
+You can add the `Authors` with their full names.
+![Sources_Authors](images/oemetadata/11_Resources_Sources_Authors_1.jpeg)
+And the License Information to the license under which the source is published. You can provide the SPDX identifier, a human readable name as well as a path to the license and further information.
+![Sources_License](images/oemetadata/12_Resources_Sources_Licenses_1.jpeg)
+You can add multiple sources and then multiple authors and licenses if needed.
+You can also provide the License Information to the license under which the data described in this resource is provided. Again you can provide the SPDX identifier, a human readable name as well as a path to the license and further information.
+![License](images/oemetadata/13_Resources_Licenses_1.jpeg)
+You may provide information about the contributors of your data. In addition to their name you can also add a qualified link to an relevant online location (e.g) You can add multiple contributors and add details about their contribution.
+![Contributors](images/oemetadata/14_Resources_Contributors_1.jpeg)
+You can also annotate the data in your table. This helps to make the data in your table comparable to others because it makes a connection between columns and/or fields to classes in the OEO. If you create OEMetadata for an already existing table, the names of the fields will be filled in autamatically and make the process of annotating more convinient. Note: If you want to annotate without an already on the OEO existing table you must have a basic understandning to datastructure and databases and their relations. In order to do so you must click on `+Filed` under `Data schema`.
+For each field you can specify the Column by giving the name of the field and adding description, type, nullable and/or unit.
+![Column](images/oemetadata/15_Resources_DataSchema_Field_Column_1.jpeg)
 The important step of making the connection between the entries in your table and the classes of the ontology happens now by providing the human readable term and the path to the OEO.
-![isabout](images/oemetadata/19_isabout.png)
+![isabout](images/oemetadata/16_Resources_DataSchema_Field_IsAbout_1.jpeg)
 **Using the OEOextended**
 If you want to use an unit which is not in the OEO yet, meaning you can't find it via the implemented search, you can click on the button `Open OEO-extended`. This will open a popup window.
 ![OEOex](images/oemetadata/19-1_OEOex.png)
 In the OEO-extended (OEOX) it is possible to create an additional unit using units already existing in the OEO. All created units will be reviewed and published on [GitHub](https://github.com/OpenEnergyPlatform/oeo-extended) and uploaded to the OEO. For further information on the OEOX please see [this paper](https://www.utwente.nl/en/eemcs/fois2024/resources/papers/kohler-et-al-oeox-a-post-coordination-extension-for-the-open-energy-ontology.pdf). To create the new unit you can choose your `Numerator(s)` and `Denominator(s)`. You can respectively choose the unit name from all units implemented in the OEO, e.g. hour, a `Unit Type` according to the power you want to have (linear, squared or cubic) and, if neccessarry, a `Unit Prefix` e.g. mega. Once you entered something in the `Unit Name`-field a fraction will appear showing you the unit you are about to create. It is possible to choose mulitple Numerator and Denominator, which will be each multiplied by each other. When you created the unit you want to use, click `Save`. Then the URI to the new unit in the OEOX will appear. You have to copy and paste it to your browser in order to entry the `Name` and `Path` in the `isAbout`-field. The OEOX is implemented on different fields in the OEMetaBuilder to make it easier to create new units. 
 ![isabout](images/oemetadata/19-2_Result.png)
-You can also provide a class of the OEO for entries of a whole column. By annotating the name of the column with the name and path of the OEO class. You only have to fill in the name fied and select one option from the drop down menu and the path will be filled in automatically. The result would be for example: The column name is 'sc' for 'scenario'. So the annotation name is 'scenario' and the path would be 'http://openenergy-platform.org/ontology/oeo/OEO_00000364'. 
+You can provide a class of the OEO for entries of a whole column. By annotating the name of the column with the name and path of the OEO class. You only have to fill in the name fied and select one option from the drop down menu and the path will be filled in automatically. The result would be for example: The column name is 'sc' for 'scenario'. So the annotation name is 'scenario' and the path would be 'http://openenergy-platform.org/ontology/oeo/OEO_00000364'. 
+
 To annotate a single value from a cell as part of the current column, you can annotate the specific value, e.g. column 'Gas' has the value 'co2eq' and should be annotated with 'Carbon Dioxide Equivalent Quantity Value'. The annotation can therefore only be made if values are already known. This value must be entered in the value field. The `Name` & `Path` fields are filled in in the same way as in the is About section. This type of annotation can be very time consuming. If you have many unique values in your column, we recommend creating an additional table that assigns the values and annotations, as this seems to make more sense. Meaning in some specific cases it might be better to manually create your annotations in the OEMetadata and the OEMetaBuilder is not the best option.
-![ValueReferences](images/oemetadata/20_ValueReferences.png)
-![EndeField](images/oemetadata/21_EndeField.png)
 You can also give a `Primary Key` which uniquely identifies each row of your table.
-![PrimaryKey](images/oemetadata/22_PrimaryKey.png)
+![PrimaryKey](images/oemetadata/18_Resources_DataSchema_PrimaryKeys_1.jpeg)
 You can also refer to an other table by giving a `Foreign Key`.
 ![ForeignKey](images/oemetadata/23_ForeignKeys.png)
 If you want to reference another table  you can provide the foreign table in the `Resource`-field and then specifying which column should be referencced in the `Field` below.
-![References](images/oemetadata/24_References.png)
-At the end you can provide an explanation of your data in terms defined by the OEO and a URI via the DBpedia Databus.
-![Ende](images/oemetadata/25_Ende.png)
+![References](images/oemetadata/19_Resources_DataSchema_ForeignKeys_1.jpeg)
+Congratulations! You build your own Metadata to your dataset.
 
 
 
