@@ -1,5 +1,8 @@
 # External resources
 
+<!-- keep img below title and without align="left"  -->
+<img src="https://raw.githubusercontent.com/OpenEnergyPlatform/organisation/refs/heads/production/logo/OpenEnergyFamily_Logo_OpenEnergyPlatform.svg" alt="OpenEnergy Platform" height="75" width="75" />
+
 The following is a collection of external resources that are helpful in the context of the OpenEnergyPlatform and related subjects.
 
 [Open Licensing](https://www.fosteropenscience.eu/learning/open-licensing/#/id/5b618775ddd75cab7db42b31) - This course will help you find the best open license for your research outputs. A course by the FOSTER project

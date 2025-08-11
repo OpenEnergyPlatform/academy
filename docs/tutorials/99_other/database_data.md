@@ -1,5 +1,8 @@
 # How to generate database conform data?
 
+<!-- keep img below title and without align="left"  -->
+<img src="https://raw.githubusercontent.com/OpenEnergyPlatform/organisation/refs/heads/production/logo/OpenEnergyFamily_Logo_OpenEnergyPlatform.svg" alt="OpenEnergy Platform" height="75" width="75" />
+
 The following checklist will help you to prepare your data in a way that you will have less trouble uploading it into the OEP. The main purpose is to have your data machine-readable and simultaneously for humans easy to understand.
 
 1. Only work with tables

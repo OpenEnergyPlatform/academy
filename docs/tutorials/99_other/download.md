@@ -1,5 +1,8 @@
 # How to download data from the OEP - CSV and datapackage
 
+<!-- keep img below title and without align="left"  -->
+<img src="https://raw.githubusercontent.com/OpenEnergyPlatform/organisation/refs/heads/production/logo/OpenEnergyFamily_Logo_OpenEnergyPlatform.svg" alt="OpenEnergy Platform" height="75" width="75" />
+
 You want to download and access data? Then simply look out for these two buttons when you are viewing a data table - green for csv download only, yellow for datapackage download. It is as easy as this.
 
 <a href="https://openenergyplatform.org/dataedit/view/scenario/eu_leg_data_2016_eea" target="blank"><img src="https://openenergyplatform.org/media/image/2022/02/grafik_QD5yqnf.png" width="200px"></a>
