@@ -8,3 +8,13 @@ This is an introductory talk on the OpenEnergyOntology given for the openmod com
 ## Video
 
 <https://www.youtube.com/embed/Cfz8Bdu0mic>
+
+---
+
+## About this tutorial
+
+:oep-logo-sirop:
+
+Author: Christian Winger (Öko-Institut). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Last update: :oep-auto-lastupdate:
+
+---
