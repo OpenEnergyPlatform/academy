@@ -1,5 +1,8 @@
 # Create and upload table from csv using the platform wizard
 
+<!-- keep img below title and without align="left"  -->
+<img src="https://raw.githubusercontent.com/OpenEnergyPlatform/organisation/refs/heads/production/logo/OpenEnergyFamily_Logo_OpenEnergyPlatform.svg" alt="OpenEnergy Platform" height="75" width="75" />
+
 ## Prerequisites
 
 We are using the following example csv `my_table.csv`, exported from Excel using semicolon as a delimiter and encoded in utf-8.
