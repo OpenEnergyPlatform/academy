@@ -10,11 +10,12 @@ This is an introductory talk on the OpenEnergyOntology given for the openmod com
 <https://www.youtube.com/embed/Cfz8Bdu0mic>
 
 ---
-
 ## About this tutorial
 
-:oep-logo-sirop:
-
-Author: Christian Winger (Öko-Institut). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Last update: :oep-auto-lastupdate:
+- Author: Christian Winger
+- Copyright: [Öko-Institut](https://www.oeko.de) (2023)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Öko-Institut (2023): Guidebook - How to Publish Your Data on the OEP
+- Last update: :oep-auto-lastupdate:
 
 ---
