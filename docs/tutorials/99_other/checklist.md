@@ -13,3 +13,12 @@ All data generated in publicly funded research projects should be available to t
 6. All uploaded data from third parties should indicate who holds intellectual property rights. It must be transparent to users as to who holds the intellectual property rights.
 
 More detailed information on these topics can be found in [Open Data for Electricity Modeling](https://www.bmwi.de/Redaktion/EN/Publikationen/Studien/open-Data-for-electricity-modeling.html).
+
+
+## About this tutorial
+
+- Author: Christian Winger
+- Copyright: [Öko-Institut](https://www.oeko.de) (2023)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Öko-Institut (2023): Checklist for working with open data
+- Last update: :oep-auto-lastupdate:
