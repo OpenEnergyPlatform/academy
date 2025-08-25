@@ -41,7 +41,8 @@ Here is a template for new release sections
 
 - Licensing course: Update link to UrhG [(#201)](https://github.com/OpenEnergyPlatform/academy/pull/201)
 - Update the GitHub repo link [(#200)](https://github.com/OpenEnergyPlatform/academy/pull/200)
-- Rework the academy course for oeo as discussed here (OpenEnergyPlatform/ontology#1808))
+- Rework the academy course for oeo as discussed here (OpenEnergyPlatform/ontology#1808)
+- Update tutorial to match metadata v2.0 [(#256)](https://github.com/OpenEnergyPlatform/academy/pull/256)
 
 ### Removed
 
