@@ -28,7 +28,7 @@ There are essentially two ways of creating OEMetadata. Both can be done with and
 
 **Manually creating OEMetadata using the OMI**
 
-You can manually create OEMetadata as a JSON-file on your computer. This might be useful if you want to create multiple OEMetadata datasets for tables, where some fields will be filled out the same. Then it is much easier to copy and paste the entries. It is possible to manually create OEMetadata and later on modify them via the OEMetaBuilder.
+You can manually create OEMetadata as a JSON-file [using the blank template JSON file](https://github.com/OpenEnergyPlatform/oemetadata/blob/develop/oemetadata/latest/template.json) on your computer. This might be useful if you want to create multiple OEMetadata datasets for tables, where some fields will be filled out the same. Then it is much easier to copy and paste the entries. It is possible to manually create OEMetadata and later on modify them via the OEMetaBuilder.
 Note: Should only be done while using the [OpenMetadataIntegration](https://github.com/OpenEnergyPlatform/omi) (OMI). This way of creating OEMetadata might result in faulty OEMetadata because the guidelines from the OEMetaBuilder are not provided while creating the dataset(s).
 
 **Creating OEMetadata using the OEMetaBuilder**
