@@ -55,7 +55,7 @@ Under `Subject` you can provide subjects which describe your data. You can add s
 Additionally to the Subjects you can also provide `Keywords`. These don't have to be defined in the OEO, but can help to describe the content of your data even more precisely. The Keywords make it also possible to filter the tables in the [OEO Database](https://openenergyplatform.org/dataedit/schemas).
 ![Keywords](images/oemetadata/06_Resources_Keywords_1.jpeg)
 You can give context to your data, e.g. a research project. This makes your data more comprehendible and traceable for others.
-![Context](images/oemetadata/07_Kontext_1.jpeg)
+![Context](images/oemetadata/07_Resources_Kontext_1.jpeg)
 You can specify the `Spatial` context of your data, by giving a `Location` and the `Extent`.
 ![Spatial](images/oemetadata/08_Resources_Spatial_1.jpeg)
 ![Spatial](images/oemetadata/08_Resources_Spatial_Extend_1.jpeg)
