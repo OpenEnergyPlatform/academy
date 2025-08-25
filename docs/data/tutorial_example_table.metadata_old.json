@@ -1,0 +1,58 @@
+{
+  "id": "test_table",
+  "keywords": ["energy", "installations", "geo"],
+  "languages": ["EN"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://spdx.github.io/license-list-data/CC-BY-4.0.html",
+      "title": "Creative Commons Attribution 4.0 International"      
+    }
+  ],
+  "resources": [
+    {
+      "name": "test_table",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "data_type": "bigserial",
+            "description": "numerical id of this data point",
+            "primary_key": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "data_type": "varchar(18)",
+            "description": "name of installation",
+            "is_nullable": false
+          },
+          {
+            "name": "is_active",
+            "type": "boolean",
+            "description": "true/false if installation is active"
+          },
+          {
+            "name": "capacity_mw",
+            "type": "number",
+            "data_type": "float",
+            "description": "installed capacity in MW"
+          },
+          {
+            "name": "installation_datetime_utc",
+            "type": "string",
+            "data_type": "datetime",
+            "description": "date (and time) when installation was build"
+          },
+          {
+            "name": "location",
+            "type": "geojson",
+            "data_type": "geometry",
+            "description": "point location of installation"
+          }
+        ]
+      }
+    }
+  ]
+}

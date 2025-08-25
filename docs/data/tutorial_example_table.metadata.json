@@ -1,58 +1,82 @@
 {
-  "id": "test_table",
-  "keywords": ["energy", "installations", "geo"],
-  "languages": ["EN"],
-  "licenses": [
-    {
-      "name": "CC-BY-4.0",
-      "path": "https://spdx.github.io/license-list-data/CC-BY-4.0.html",
-      "title": "Creative Commons Attribution 4.0 International"      
+    "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/production/oemetadata/v2/v20/context.json",
+    "resources": [
+        {
+            "name": "test_table",
+            "topics": [
+                "model_draft"
+            ],
+            "path": "",
+            "keywords": [
+                "energy",
+                "installations",
+                "geo"
+            ],
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://spdx.github.io/license-list-data/CC-BY-4.0.html"
+                }
+            ],
+            "type": "Table",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "numerical id of this data point",
+                        "type": "integer",
+                        "nullable": false,
+                        "data_type": "bigserial",
+                        "primary_key": true
+                    },
+                    {
+                        "name": "name",
+                        "description": "name of installation",
+                        "type": "string",
+                        "nullable": false,
+                        "data_type": "varchar(18)"
+                    },
+                    {
+                        "name": "is_active",
+                        "description": "true/false if installation is active",
+                        "type": "boolean",
+                        "nullable": true
+                    },
+                    {
+                        "name": "capacity_mw",
+                        "description": "installed capacity in MW",
+                        "type": "number",
+                        "nullable": true,
+                        "data_type": "float"
+                    },
+                    {
+                        "name": "installation_datetime_utc",
+                        "description": "date (and time) when installation was build",
+                        "type": "string",
+                        "nullable": true,
+                        "data_type": "datetime"
+                    },
+                    {
+                        "name": "location",
+                        "description": "point location of installation",
+                        "type": "geojson",
+                        "nullable": true,
+                        "data_type": "geometry"
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ]
+            }
+        }
+    ],
+    "metaMetadata": {
+        "metadataVersion": "OEMetadata-2.0.4",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "title": "Creative Commons Zero v1.0 Universal"
+        }
     }
-  ],
-  "resources": [
-    {
-      "name": "test_table",
-      "schema": {
-        "fields": [
-          {
-            "name": "id",
-            "type": "integer",
-            "data_type": "bigserial",
-            "description": "numerical id of this data point",
-            "primary_key": true
-          },
-          {
-            "name": "name",
-            "type": "string",
-            "data_type": "varchar(18)",
-            "description": "name of installation",
-            "is_nullable": false
-          },
-          {
-            "name": "is_active",
-            "type": "boolean",
-            "description": "true/false if installation is active"
-          },
-          {
-            "name": "capacity_mw",
-            "type": "number",
-            "data_type": "float",
-            "description": "installed capacity in MW"
-          },
-          {
-            "name": "installation_datetime_utc",
-            "type": "string",
-            "data_type": "datetime",
-            "description": "date (and time) when installation was build"
-          },
-          {
-            "name": "location",
-            "type": "geojson",
-            "data_type": "geometry",
-            "description": "point location of installation"
-          }
-        ]
-      }
-    }
-  ]
 }
