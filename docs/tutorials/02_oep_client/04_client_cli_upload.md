@@ -1,7 +1,7 @@
 # OEP Client Tutorial 04 - Upload data to the Open Energy Platform using the OEP Client in the command line
 
 <!-- keep img below title and without align="left"  -->
-<img src="https://raw.githubusercontent.com/OpenEnergyPlatform/academy/develop/docs/data/img/OEP_logo_2_no_text.svg" alt="OpenEnergy Platform" height="75" width="75" />
+<img src="https://raw.githubusercontent.com/OpenEnergyPlatform/organisation/refs/heads/production/logo/OpenEnergyFamily_Logo_OpenEnergyPlatform.svg" alt="OpenEnergy Platform" height="75" width="75" />
 
 ## Learnings
 

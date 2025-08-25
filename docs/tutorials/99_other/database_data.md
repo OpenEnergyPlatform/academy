@@ -1,5 +1,8 @@
 # How to generate database conform data?
 
+<!-- keep img below title and without align="left"  -->
+<img src="https://raw.githubusercontent.com/OpenEnergyPlatform/organisation/refs/heads/production/logo/OpenEnergyFamily_Logo_OpenEnergyPlatform.svg" alt="OpenEnergy Platform" height="75" width="75" />
+
 The following checklist will help you to prepare your data in a way that you will have less trouble uploading it into the OEP. The main purpose is to have your data machine-readable and simultaneously for humans easy to understand.
 
 1. Only work with tables
@@ -46,3 +49,12 @@ For good examples there are two options on how to split the timer series.
    ![](https://openenergyplatform.org/media/image/2020/11/grafik_6AiAzdf.png)
 2. This option is used if there are not as many wind turbines and solar parks
    ![](https://openenergyplatform.org/media/image/2020/11/grafik_dPJYucg.png)
+
+
+## About this tutorial
+
+- Author: Christian Winger
+- Copyright: [Öko-Institut](https://www.oeko.de) (2023)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Öko-Institut (2023): How to generate database conform data?
+- Last update: :oep-auto-lastupdate:

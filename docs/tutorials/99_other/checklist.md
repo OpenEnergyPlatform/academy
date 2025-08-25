@@ -1,5 +1,8 @@
 # Checklist for working with open data
 
+<!-- keep img below title and without align="left"  -->
+<img src="https://raw.githubusercontent.com/OpenEnergyPlatform/organisation/refs/heads/production/logo/OpenEnergyFamily_Logo_OpenEnergyPlatform.svg" alt="OpenEnergy Platform" height="75" width="75" />
+
 All data generated in publicly funded research projects should be available to the public and the modeling community for reuse. This means ideally, all the following 6 points should be fulfilled:
 
 1. All data should be available in machine-readable formats, meaning that they should be structured so that a computer can process the contained information (as opposed to just the letters and the styling). File formats that are generally suitable for this are csv, json, xml and rdf. Databases are suitable as well. Unsuitable file formats include pdf files, word documents and presentations.
@@ -10,3 +13,12 @@ All data generated in publicly funded research projects should be available to t
 6. All uploaded data from third parties should indicate who holds intellectual property rights. It must be transparent to users as to who holds the intellectual property rights.
 
 More detailed information on these topics can be found in [Open Data for Electricity Modeling](https://www.bmwi.de/Redaktion/EN/Publikationen/Studien/open-Data-for-electricity-modeling.html).
+
+
+## About this tutorial
+
+- Author: Christian Winger
+- Copyright: [Öko-Institut](https://www.oeko.de) (2023)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Öko-Institut (2023): Checklist for working with open data
+- Last update: :oep-auto-lastupdate:

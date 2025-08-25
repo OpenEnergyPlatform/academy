@@ -1,5 +1,8 @@
 # Beginners Guide: How to upload data to the OpenEnergy Platform
 
+<!-- keep img below title and without align="left"  -->
+<img src="https://raw.githubusercontent.com/OpenEnergyPlatform/organisation/refs/heads/production/logo/OpenEnergyFamily_Logo_OpenEnergyPlatform.svg" alt="OpenEnergy Platform" height="75" width="75" />
+
 # About this guide
 
 This document describes how to upload data to the [OpenEnergy Platform](https://openenergyplatform.org/) (OEP) using [Python](https://www.python.org/) and the [REST-API](https://en.wikipedia.org/wiki/Representational_state_transfer) as well as a description on how to initiate the review process of that data.

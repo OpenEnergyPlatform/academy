@@ -1,5 +1,8 @@
 # Create and upload table from csv using the platform wizard
 
+<!-- keep img below title and without align="left"  -->
+<img src="https://raw.githubusercontent.com/OpenEnergyPlatform/organisation/refs/heads/production/logo/OpenEnergyFamily_Logo_OpenEnergyPlatform.svg" alt="OpenEnergy Platform" height="75" width="75" />
+
 ## Prerequisites
 
 We are using the following example csv `my_table.csv`, exported from Excel using semicolon as a delimiter and encoded in utf-8.
@@ -58,11 +61,12 @@ We are logged in on the open energy platform
 - If everything checks out, click `Upload`.
 
 ---
-
 ## About this tutorial
 
-:oep-logo-sirop:
-
-Author: Christian Winger (Öko-Institut). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Last update: :oep-auto-lastupdate:
+- Author: Christian Winger
+- Copyright: [Öko-Institut](https://www.oeko.de) (2023)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Öko-Institut (2023): Guidebook - How to Publish Your Data on the OEP
+- Last update: :oep-auto-lastupdate:
 
 ---
