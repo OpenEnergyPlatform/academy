@@ -11,9 +11,8 @@ The following is a collection of external resources that are helpful in the cont
 
 ## About this tutorial
 
-
-- Author: Eike Broda
-- Copyright: 
+- Authors: Hannah Förster
+- Copyright: [Öko-Institut](https://www.oeko.de) (2024)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: External resources
-- Last update :oep-auto-lastupdate:
+- Attribution: Öko-Institut (2024): How to get started with the Open Energy Family and Platform.
+- Last update: :oep-auto-lastupdate:
