@@ -65,8 +65,9 @@ License and Citation
 .. |badge_contributing| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
     :alt: contributions
 
-.. |badge_repo_counts| image:: http://hits.dwyl.com/OpenEnergyPlatform/academy.svg
-    :alt: counter
+.. |badge_repo_counts| image:: https://hits.sh/github.com/OpenEnergyPlatform/academy.svg
+    :target: https://hits.sh/github.com/OpenEnergyPlatform/academy/
+    :alt: Hits
 
 .. |badge_contributors| image:: https://img.shields.io/github/contributors/OpenEnergyPlatform/academy
     :alt: contributors
