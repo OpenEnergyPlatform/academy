@@ -1,4 +1,4 @@
-# 05 - The Open Energy Ontology (OEO)
+# Course 5 - Introduction to the Open Energy Ontology (OEO)
 Learn about how to become an OEO developer and which skills are helpful to join in on developing the OEO. 
 You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
@@ -102,18 +102,32 @@ Energy is a complex physical phenomenon and challenging to describe ontologicall
 4. Afterwards, you can follow all instructions and explanations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub. Also check out the wiki to [set up your work environment](https://github.com/OpenEnergyPlatform/ontology/wiki/Setup-your-work-environment-and-get-involved).
 5. In all discussions, whether in an online meeting or on GitHub, we follow our [Code of Conduct](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CODE_OF_CONDUCT.md).
 
+### OEO annotations in documentation
+
+A python hook uses the annotation API and adds links to matching ontology clases.
+
+<!-- BEGIN-ANNOTATION: oeo -->
+electrical energy is a form of energy derived from the potential or kinetic energy of charged particles.
+<!-- END-ANNOTATION: oeo -->
+
 ---
 
 ## About this course
 
 :oep-logo-sirop:
 
-- Authors: Mirjam Stappel, Christian Hofmann, Hannah Förster, Christian Winger, Ulf Mueller, Madeleine Breitkreutz
-- Copyright: Otto-von-Guericke-Universität, Fraunhofer IEE, Öko-Institut, Reiner Lemoine Institut (2023)
-- Contact: SIROP@iee.fraunhofer.de.
-- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Title: OEAcademy - Course 5 - Introduction to the Open Energy Ontology (OEO)
+- Authors: Mirjam Stappel, Christian Hofmann, Hannah Förster, Christian Winger, Ulf Mueller, Madeleine Breitkreutz, Ludwig Hülk
+- Copyright: Otto-von-Guericke-Universität, Fraunhofer IEE, Öko-Institut, Reiner Lemoine Institut
+- License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO.
-- Last update: :oep-auto-lastupdate:
+- Link: https://openenergyplatform.github.io/academy/courses/05_ontology/
+- Description: Course about the Open Energy Ontology (OEO)
+- Keywords: API, OEP
+- Language: en
+- PublicationDate: 2023-07-13
+- LastUpdate: :oep-auto-lastupdate:
+- Version: 1.0
 - You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
 ---

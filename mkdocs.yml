@@ -89,9 +89,13 @@ plugins:
 extra:
   generator: false
   homepage: https://openenergyplatform.github.io/academy/
+  api_url: "https://service.tib.eu/sandbox/nfdi4energyannotator/annotate"
 
 extra_css:
   - css/extra.css
+
+hooks:
+  - annotation_hook.py
 
 nav:
   - Start: index.md
