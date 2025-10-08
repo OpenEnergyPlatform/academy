@@ -31,12 +31,12 @@ def get_ontology_annotations(config, ontology_id, text):
             api_endpoint,
             json = {'text': text, 'ontology_ids': [ontology_id]},
             headers = {'Content-Type': 'application/json'},
-            timeout = 30
+            timeout = 60
         )
 
         response.raise_for_status()
         response_data = response.json()
-        # print(f"Response from {ontology_id} ontology: {response_data}")
+        print(f"Response from {ontology_id} ontology: {response_data}")
 
         if 'matches' in response_data and isinstance(response_data['matches'], list):
             text_with_spans = wrap_terms_in_span(text, response_data['matches'])
@@ -58,8 +58,12 @@ def wrap_terms_in_span(text, matches):
     ]
 
     cleaner_matches = [
-        {'term': m['token'], 'matched_term': m['matched_term'], 'start': m['start'],
-         'end': m['end'], 'iri': m['iri']} for m in matches]
+        {'term': m['token'],
+         'matched_term': m.get('matched_term', m['label']),  # Fallback auf label
+         'start': m['start'],
+         'end': m['end'],
+         'iri': m['iri']} for m in matches
+    ]
     sorted_matches = sorted(cleaner_matches,
                             key = lambda m: (-len(m['matched_term']), -m['start']))
 
@@ -89,10 +93,25 @@ def wrap_terms_in_span(text, matches):
     result = ""
     last_end = 0
 
+    ontology_colors = {
+        "oeo": "#1F567D",
+        "sms": "#FFD6E0",
+        "fmi": "#FFEFCF",
+        "dogont": "#DCEDC2",
+        "brick": "#A8E6CE",
+        "s4grid": "#FFD3B5",
+        "sargon": "#D5E5F2",
+        "s4ener": "#E0F7FA",
+        "bont": "#FFF9C4",
+        "openadr": "#F8BBD0",
+        "dices": "#FFC0CB"
+    }
+
     for match in modifications:
         result += text[last_end:match['start']]
-        random_color = random.choice(pastel_colors)
-        result += f"<a href=\"{match['iri']}\" style='background-color: {random_color}; color: #333; text-decoration: none; padding: 0 3px; border-radius: 3px;'>{text[match['start']:match['end']]}</a>"
+        color = ontology_colors.get(match.get('ontology_id', ''), "#1F567D")  # Default
+        # random_color = random.choice(pastel_colors)
+        result += f"<a href=\"{match['iri']}\" style='background-color: {color}; color: #fff; text-decoration: none; padding: 0 3px; border-radius: 3px;'>{text[match['start']:match['end']]}</a>"
         last_end = match['end']
 
     result += text[last_end:]
@@ -101,13 +120,11 @@ def wrap_terms_in_span(text, matches):
 
 
 def on_page_markdown(markdown, page, config, files):
-    print(f"Annotating page: {page.file.src_path}")
+    print("Hook executed for page:", page.file.name)
     annotation_blocks = extract_annotation_blocks(markdown)
 
     for full_match, ontology_id, content in annotation_blocks:
         annotated_content = get_ontology_annotations(config, ontology_id, content)
         markdown = markdown.replace(full_match, annotated_content)
-
+    print("MkDocs hook loaded")
     return markdown
-
-print("MkDocs hook loaded")
