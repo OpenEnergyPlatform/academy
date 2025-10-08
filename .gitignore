@@ -109,3 +109,4 @@ venv.bak/
 
 .vscode
 *.code-workspace
+.idea/
