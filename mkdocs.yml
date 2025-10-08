@@ -95,7 +95,7 @@ extra_css:
   - css/extra.css
 
 hooks:
-  - ./hooks.py
+  - hooks.py
 
 nav:
   - Start: index.md
