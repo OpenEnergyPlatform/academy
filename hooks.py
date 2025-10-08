@@ -101,6 +101,7 @@ def wrap_terms_in_span(text, matches):
 
 
 def on_page_markdown(markdown, page, config, files):
+    print(f"Annotating page: {page.file.src_path}")
     annotation_blocks = extract_annotation_blocks(markdown)
 
     for full_match, ontology_id, content in annotation_blocks:
@@ -108,3 +109,5 @@ def on_page_markdown(markdown, page, config, files):
         markdown = markdown.replace(full_match, annotated_content)
 
     return markdown
+
+print("MkDocs hook loaded")
