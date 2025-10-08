@@ -1,21 +1,39 @@
+/* ============================= */
+/* Root variables and theme colors */
+/* ============================= */
 :root > * {
-  --md-primary-fg-color: #0f3b64;
-  --md-primary-fg-color--dark: #5d6cc0;
-  --md-typeset-a-color: #5ba6ec;
-  /* --md-text-font-color:         #ffffff;  */
-  /* --md-primary-fg-color--light: #ECB7B7; */
+  --md-primary-fg-color: #0f3b64;         /* Primary text color (light mode) */
+  --md-primary-fg-color--dark: #5d6cc0;   /* Primary text color (dark mode) */
+  --md-typeset-a-color: #5ba6ec;          /* Default link color */
+  /* --md-text-font-color: #ffffff; */     /* Optional text color override */
+  /* --md-primary-fg-color--light: #ECB7B7; */ /* Optional light theme primary color */
 }
 
-/* https://github.com/OpenEnergyPlatform/academy/issues/161
-make font in section after ## About ... small
-*/
+/* ============================= */
+/* Annotation styling for the Hook */
+/* ============================= */
+a.oep-annotation {
+  /* Hook annotations get a pastel background and readable text */
+  background-color: #FFD6E0 !important;  /* Default pastel color */
+  color: #333 !important;                /* Dark text for readability */
+  text-decoration: none;
+  padding: 0 3px;
+  border-radius: 3px;
+}
 
+/* ============================= */
+/* About section font-size adjustment */
+/* ============================= */
+/* Shrink font for content following ## About headers */
+/* https://github.com/OpenEnergyPlatform/academy/issues/161 */
 h2.section-about ~ * {
   font-size: x-small;
 }
 
+/* ============================= */
+/* Headings and paragraph spacing adjustments */
+/* ============================= */
 /* https://github.com/OpenEnergyPlatform/academy/issues/209 */
-
 .md-typeset h1 {
   margin-bottom: 0.5em;
 }
@@ -23,9 +41,12 @@ p {
   margin-bottom: 2.5em;
 }
 
+/* ============================= */
+/* Table first column adjustments */
+/* ============================= */
 table th:first-child,
 table td:first-child {
-    width: auto !important;  /* Set the desired width */
-    min-width: 1.5em !important;  /* Ensure the column doesn't shrink below this width */
-    word-wrap: break-word;  /* Break long words to fit within the column */
+    width: auto !important;         /* Set the desired width */
+    min-width: 1.5em !important;    /* Ensure the column doesn't shrink below this width */
+    word-wrap: break-word;          /* Break long words to fit within the column */
 }
