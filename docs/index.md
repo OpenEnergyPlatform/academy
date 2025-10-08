@@ -10,6 +10,10 @@ To get familiar with research data management in general, we recommend to visit 
 
  Please use the navigation bar on top of the page to navigate through the different training materials we provide. These are:
 
+# :material-hub: Concepts
+
+See: [ORKG Academy](https://academy.orkg.org/orkg-academy/main/concepts.html)
+
 # :material-school-outline: Courses
 
 Courses are training materials which are typically a longer read covering a topic, for example you can learn on [how to get started with the OEP](courses/02_start.md). We recommend visiting courses as an entrypoint for your work with the Open Energy Platform. A [course](courses/01_introduction.md) typically consists of a main text and a collection of several tutorials as well as other learning materials, so you can choose which of the materials fits best to your needs. 
@@ -20,3 +24,7 @@ The [tutorials](tutorials/index.md) are materials targeted at a specific topic a
 # :material-account-question-outline: Questions
 
 Browse short [questions](questions.md). Here we shortly answer some urgent questions that you may have. The answers may include links to further reading.
+
+# :material-seal: Best Practices
+
+See:[NFDI4Energy Best Practices for Energy Research](https://nfdi4energy.github.io/Best-Practice/)
