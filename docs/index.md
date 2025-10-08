@@ -12,7 +12,8 @@ To get familiar with research data management in general, we recommend to visit 
 
 # :material-hub: Concepts
 
-See: [ORKG Academy](https://academy.orkg.org/orkg-academy/main/concepts.html)
+Concepts provide clear explanations of the core ideas, structures, and terminology used on the platform, helping users understand how data, models, and processes are organized and presented.
+See examples at the [ORKG Academy Concepts](https://academy.orkg.org/orkg-academy/main/concepts.html).
 
 # :material-school-outline: Courses
 
@@ -27,4 +28,5 @@ Browse short [questions](questions.md). Here we shortly answer some urgent quest
 
 # :material-seal: Best Practices
 
-See:[NFDI4Energy Best Practices for Energy Research](https://nfdi4energy.github.io/Best-Practice/)
+The Best Practices section presents recommended workflows, guidelines, and examples for managing, sharing, and reusing energy research data. It highlights approaches that improve transparency, reproducibility, and efficiency in research projects.
+For examples and guidance, see the collection at [NFDI4Energy Best Practices for Energy Research](https://nfdi4energy.github.io/Best-Practice/).
