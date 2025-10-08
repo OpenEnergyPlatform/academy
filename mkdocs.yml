@@ -93,6 +93,12 @@ extra:
 extra_css:
   - css/extra.css
 
+<<<<<<< Updated upstream
+=======
+hooks:
+  - hooks.py
+
+>>>>>>> Stashed changes
 nav:
   - Start: index.md
   - Courses: courses/
