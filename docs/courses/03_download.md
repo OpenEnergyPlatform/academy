@@ -18,7 +18,7 @@ You can provide feedback to this course on GitHub: [https://github.com/OpenEnerg
 - be able to download data tables as .csv or as a datapackage including the metadata
 - be able to use the REST-full-HTTP API in Python for selecting and downloading data from the OEP 
 - be able to use the oeclient with Python or the command line to select and download data from the OEP
-- know that you can check the scenario bundles on the OEP to learnm ore about scenarios, the corresponding data and context
+- know that you can check the scenario bundles on the OEP to learn more about scenarios, the corresponding data and context
 
 ## How can I find relevant information on the OEP?
 
@@ -35,10 +35,10 @@ This tutorial provides an overview of how you can select, filter and download da
 API in Python
 
 :oep-icon-code: [Data queries with the oeclient via Python ](https://openenergyplatform.github.io/academy/tutorials/02_oep_client/01_client_python_download/) (tutorial):
-The oeclient is another way on how you can download data from the OEP. This turorial teaches you how to do so using a python script. 
+The oeclient is another way on how you can download data from the OEP. This tutorial teaches you how to do so using a python script. 
 
 :oep-icon-code: [Data queries with the oeclient via command line](https://openenergyplatform.github.io/academy/tutorials/02_oep_client/03_client_cli_download/) (tutorial):
-If you prefer command line over python, we have you covered: please check this turorial for learning how to use the oeclient on the command line to download data from the OEP.
+If you prefer command line over python, we have you covered: please check this tutorial for learning how to use the oeclient on the command line to download data from the OEP.
 
 
 
@@ -52,10 +52,18 @@ If you prefer command line over python, we have you covered: please check this t
 
 :oep-logo-sirop:
 
+- Title: 03 - Download - Find and download / interact with data
 - Authors: Hannah Förster, Anne Siemons
 - Copyright: [Öko-Institut](https://www.oeko.de) (2022)
-- Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2022): Download - Find and download / interact with data.
+- Link: https://openenergyplatform.github.io/academy/courses/03_download/
+- Description: Learn to find and download [data](https://openenergyplatform.org/dataedit/schemas) on the OEP.
+- ProficiencyLevel: intermediate
+- TargetGroup: community, researcher, data stewards
+- Keywords: API, OEP, data, tutorial
+- Language: en
+- PublicationDate: 2023-02-16
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0
 - You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/165](https://github.com/OpenEnergyPlatform/academy/issues/165)
