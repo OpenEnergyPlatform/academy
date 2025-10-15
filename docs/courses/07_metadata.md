@@ -68,9 +68,18 @@ This tutorial gives a detailed description on how to create and modify OEMetaDat
 
 :oep-logo-sirop:
 
+- Title: Course 07 - Metadata
 - Authors: christian-rli, Ludwig Hülk (@Ludee)
-- Copyright: Reiner Lemoine Institut
-- Contact: christian.hofmann@rl-institut.de
 - License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Open Energy Academy - Metadata Course © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
-- You can provide [feedback to this course](https://github.com/OpenEnergyPlatform/academy/issues/187) on GitHub
+- Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
+- Attribution: Reiner Lemoine Institut (2023): Metadata.
+- Link: https://openenergyplatform.github.io/academy/courses/07_metadata/
+- Description: A description of the OEMetadata Standard.
+- ProficiencyLevel: 
+- TargetGroup: 
+- Keywords: OEP, Metadata
+- Language: en
+- PublicationDate: 2023-06-07
+- LastUpdate: :oep-auto-lastupdate:
+- Version: 1.0
+- You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/187](https://github.com/OpenEnergyPlatform/academy/issues/187)
