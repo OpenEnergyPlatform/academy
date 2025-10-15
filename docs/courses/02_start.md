@@ -53,10 +53,18 @@ We collected a few links to GitHub and git basics [here](https://openenergyplatf
 
 :oep-logo-sirop:
 
+- Title: Course 02 - How to get started with the Open Energy Family and Platform
 - Authors: Hannah Förster
+- License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Copyright: [Öko-Institut](https://www.oeko.de) (2023)
-- Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform.
+- Link: https://openenergyplatform.github.io/academy/courses/02_start/
+- Description: A guide how to create required accounts.
+- ProficiencyLevel: 
+- TargetGroup: 
+- Keywords: OEP, Login, Access
+- Language: en
+- PublicationDate: 2023-04-17
 - Last update: :oep-auto-lastupdate:
 - You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/164](https://github.com/OpenEnergyPlatform/academy/issues/164)
