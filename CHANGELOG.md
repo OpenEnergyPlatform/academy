@@ -22,6 +22,7 @@ Here is a template for new release sections
 
 ### Added
 
+- Update the title of course 5 [(#263)](https://github.com/OpenEnergyPlatform/academy/pull/263)
 - Add annotation feature test [(#262)](https://github.com/OpenEnergyPlatform/academy/pull/262)
 - Add example table and metadata [(#204)](https://github.com/OpenEnergyPlatform/academy/pull/204)
 - Add general section to metadata tutorial [(#198)](https://github.com/OpenEnergyPlatform/academy/pull/198)

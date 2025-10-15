@@ -1,4 +1,4 @@
-# Course 5 - Introduction to the Open Energy Ontology (OEO)
+# 05 - Introduction to the Open Energy Ontology (OEO)
 Learn about how to become an OEO developer and which skills are helpful to join in on developing the OEO. 
 You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
