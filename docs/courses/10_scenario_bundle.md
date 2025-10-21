@@ -64,6 +64,8 @@ At the bottom you can link any input and output dataset that elong to your scena
 
 At the end: do not forget to click the **Save** button. And voilà, you have created a scenario bundle that links a lot of context to data you have supplied on the OEP. Thank you for increasing transparency and re-use possibilities of that data.
 
+---
+
 ## About this course
 
 :oep-logo-sirop:
@@ -72,7 +74,7 @@ At the end: do not forget to click the **Save** button. And voilà, you have cre
 - Authors: Hannah Förster, Eike Brod
 - Copyright: [Öko-Institut](https://www.oeko.de) (2024)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2022): What is a scenario bundle on the Open Energy Platform and how to create one.
+- Attribution: Öko-Institut (2024): What is a scenario bundle on the Open Energy Platform and how to create one.
 - Link: https://openenergyplatform.github.io/academy/courses/10_scenario_bundle/
 - ProficiencyLevel: 
 - TargetGroup: 
