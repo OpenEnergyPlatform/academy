@@ -68,9 +68,16 @@ At the end: do not forget to click the **Save** button. And voilà, you have cre
 
 :oep-logo-sirop:
 
-- Authors: Hannah Förster
+- Title: # 10 - What is a scenario bundle on the Open Energy Platform and how to create one 
+- Authors: Hannah Förster, Eike Brod
 - Copyright: [Öko-Institut](https://www.oeko.de) (2024)
-- Contact: oedb@oeko.de
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2024): What is a scenario bundle on the Open Energy Platform and how to create one
+- Attribution: Öko-Institut (2022): What is a scenario bundle on the Open Energy Platform and how to create one.
+- Link: https://openenergyplatform.github.io/academy/courses/10_scenario_bundle/
+- ProficiencyLevel: 
+- TargetGroup: 
+- PublicationDate: 2024-08-01
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0
+- You can provide feedback to this course on GitHub: 
+
