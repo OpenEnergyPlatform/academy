@@ -263,9 +263,18 @@ resources will be created.
 
 :oep-logo-sirop:
 
-- Authors: Ludwig Hülk, Christian Hofmann
+- Title: Course 08 - Licensing
+- Authors: Ludwig Hülk, Christian Hofmann, Christian Winger, Hannah Förster, Vismaya Jochem, Eike Broda
 - Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
-- Contact:
 - License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Open Energy Academy - Licensing Course © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
+- Attribution: Reiner Lemoine Institut (2023): Licensing
+- Link: https://openenergyplatform.github.io/academy/courses/08_licensing/
+- Description: An introduction to open data and licensing practices.
+- ProficiencyLevel: 
+- TargetGroup: 
+- Keywords: OEP, copyright, license, open data
+- Language: en
+- PublicationDate: 023-06-07
+- Last update: :oep-auto-lastupdate:
 - You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/188](https://github.com/OpenEnergyPlatform/academy/issues/188)
+
