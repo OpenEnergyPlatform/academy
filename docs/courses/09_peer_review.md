@@ -161,9 +161,17 @@ The editor is not implemented yet.
 
 :oep-logo-sirop:
 
-- Authors: Ludwig Hülk (Ludee), Christian Hofmann, Stephan Uller
+- Title: Course 09 - Open Peer Review
+- Authors: Ludwig Hülk, Christian Hofmann, Stephan Uller, Hannah Förster, Jonas Huber, Eike Broda, Vismaya Jochem, Christian Winger
+- License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
-- Contact: datenzentrum@rl-institut.de
-- License: Creative Commons Attribution 4.0 International ([CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en))
-- Attribution: Open Energy Academy - Licensing Course © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/) | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Reiner Lemoine Institut (2023): Course 09 - Open Peer Review
+- Link: https://openenergyplatform.github.io/academy/courses/09_peer_review/
+- Description: An introdution and guide to the open peer review on the OEP.
+- ProficiencyLevel: 
+- TargetGroup: 
+- Keywords: OEP, review process, open, guide
+- Language: en
+- PublicationDate: 2023-06-07
+- Last update: :oep-auto-lastupdate:
 - You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/189](https://github.com/OpenEnergyPlatform/academy/issues/189)
