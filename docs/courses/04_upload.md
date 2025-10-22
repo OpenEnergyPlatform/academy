@@ -94,10 +94,18 @@ Note: The embargo can be set during data upload and data publication. Only embar
 
 :oep-logo-sirop:
 
+- Title: Course 04 - Upload and Publish - Contribute data to the OEP
 - Authors: Hannah Förster, Anne Siemons, Vismaya Jochem
-- Copyright: [Öko-Institut](https://www.oeko.de) (2022)
-- Contact: oedb@oeko.de
+- Copyright: [Öko-Institut](https://www.oeko.de) (2023)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2022): Upload - Contribute data to the OEP.
+- Attribution: Öko-Institut (2023): Upload and Publish - Contribute data to the OEP.
+- Link: https://openenergyplatform.github.io/academy/courses/04_upload/
+- Description: A tutorial on uploading and publishing data to the OEP.
+- ProficiencyLevel:
+- TargetGroup:
+- Keywords: OEP, upload, publish, contribute, data
+- Language: en
+- PublicationDate: 2023-03-15
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0
 - You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/166](https://github.com/OpenEnergyPlatform/academy/issues/166)
