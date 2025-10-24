@@ -163,8 +163,8 @@ The editor is not implemented yet.
 
 - Title: Course 09 - Open Peer Review
 - Authors: Ludwig Hülk, Christian Hofmann, Stephan Uller, Hannah Förster, Jonas Huber, Eike Broda, Vismaya Jochem, Christian Winger
-- License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
+- License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Reiner Lemoine Institut (2023): Course 09 - Open Peer Review
 - Link: https://openenergyplatform.github.io/academy/courses/09_peer_review/
 - Description: An introdution and guide to the open peer review on the OEP.

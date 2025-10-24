@@ -70,8 +70,8 @@ This tutorial gives a detailed description on how to create and modify OEMetaDat
 
 - Title: Course 07 - Metadata
 - Authors: Ludwig Hülk, Christian Hofmann, Christian Winger, Hannah Förster, Vismaya Jochem
-- License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
+- License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Reiner Lemoine Institut (2023)
 - Link: https://openenergyplatform.github.io/academy/courses/07_metadata/
 - Description: A guide on what metadata is and how to work with metadata on the OEP.

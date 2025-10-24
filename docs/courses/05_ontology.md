@@ -123,7 +123,7 @@ electrical energy is a form of energy derived from the potential or kinetic ener
 - Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO.
 - Link: https://openenergyplatform.github.io/academy/courses/05_ontology/
 - Description: Course about the Open Energy Ontology (OEO)
-- Keywords: API, OEP
+- Keywords: API, OEP, OEO, ontology
 - Language: en
 - PublicationDate: 2023-07-13
 - LastUpdate: :oep-auto-lastupdate:
