@@ -22,7 +22,7 @@ Here is a template for new release sections
 
 ### Added
 
-- Update the title of course 5 [(#263)](https://github.com/OpenEnergyPlatform/academy/pull/263)
+- Add Open Energy Databus course [(#273)](https://github.com/OpenEnergyPlatform/academy/pull/273)
 - Add annotation feature test [(#262)](https://github.com/OpenEnergyPlatform/academy/pull/262)
 - Add example table and metadata [(#204)](https://github.com/OpenEnergyPlatform/academy/pull/204)
 - Add general section to metadata tutorial [(#198)](https://github.com/OpenEnergyPlatform/academy/pull/198)
@@ -41,6 +41,7 @@ Here is a template for new release sections
 
 ### Updated
 
+- Update the title of course 5 [(#263)](https://github.com/OpenEnergyPlatform/academy/pull/263)
 - Licensing course: Update link to UrhG [(#201)](https://github.com/OpenEnergyPlatform/academy/pull/201)
 - Update the GitHub repo link [(#200)](https://github.com/OpenEnergyPlatform/academy/pull/200)
 - Rework the academy course for oeo as discussed here (OpenEnergyPlatform/ontology#1808)
