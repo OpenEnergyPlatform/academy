@@ -118,9 +118,9 @@ electrical energy is a form of energy derived from the potential or kinetic ener
 
 - Title: OEAcademy - Course 5 - Introduction to the Open Energy Ontology (OEO)
 - Authors: Mirjam Stappel, Christian Hofmann, Hannah Förster, Christian Winger, Ulf Mueller, Madeleine Breitkreutz, Ludwig Hülk
-- Copyright: Otto-von-Guericke-Universität, Fraunhofer IEE, Öko-Institut, Reiner Lemoine Institut
+- Copyright: [Öko-Institut](https://www.oeko.de), [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/), Otto-von-Guericke-Universität, Fraunhofer IEE  (2023)
 - License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Contribute to the OEO.
+- Attribution: Fraunhofer IEE, Reiner Lemoine Institut, Otto-von-Guericke-Universität, Öko-Institut (2023): Introduction to the Open Energy Ontology (OEO)
 - Link: https://openenergyplatform.github.io/academy/courses/05_ontology/
 - Description: Course about the Open Energy Ontology (OEO)
 - Keywords: API, OEP, OEO, ontology
