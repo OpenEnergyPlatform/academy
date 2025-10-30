@@ -102,14 +102,6 @@ Energy is a complex physical phenomenon and challenging to describe ontologicall
 4. Afterwards, you can follow all instructions and explanations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub. Also check out the wiki to [set up your work environment](https://github.com/OpenEnergyPlatform/ontology/wiki/Setup-your-work-environment-and-get-involved).
 5. In all discussions, whether in an online meeting or on GitHub, we follow our [Code of Conduct](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CODE_OF_CONDUCT.md).
 
-### OEO annotations in documentation
-
-A python hook uses the annotation API and adds links to matching ontology clases.
-
-<!-- BEGIN-ANNOTATION: oeo -->
-electrical energy is a form of energy derived from the potential or kinetic energy of charged particles.
-<!-- END-ANNOTATION: oeo -->
-
 ---
 
 ## About this course
