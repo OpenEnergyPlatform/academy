@@ -91,11 +91,11 @@ It connects data via a loosely-coupled bus system and a common, but extensible m
 - Attribution: Reiner Lemoine Institut (2025): Introduction to the Open Energy Databus
 - Link: https://openenergyplatform.github.io/academy/courses/11_energy_databus/
 - Description: A description how to find and register data on the Open Energy Databus.
-- ProficiencyLevel: 
-- TargetGroup: 
+- ProficiencyLevel: advanced beginner - expert
+- TargetGroup: researcher
 - Keywords: OEP, databus
 - Language: en
 - PublicationDate: 2025-10-24
 - Last update: :oep-auto-lastupdate:
 - Version: 1.0
-- You can provide feedback to this course on GitHub:
+- You can provide feedback to this course on GitHub: https://github.com/OpenEnergyPlatform/academy/issues

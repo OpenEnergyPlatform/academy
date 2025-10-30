@@ -73,7 +73,7 @@ plugins:
         sirop: SIROP_logo_50.png
         oep: OEP_logo_2_no_text.svg
         bmwk: BMWK_Logo_mit_Foerderzusatz_en.png
-        nfdi4energy: nfdi4energy_logo_rgb.png
+        nfdi4energy: nfdi4energy_logo_300.png
   - redirects:
       # redirect pages where we already published the urls
       redirect_maps:
