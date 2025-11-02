@@ -322,10 +322,19 @@ This document described how to upload data and metadata to the OpenEnergy Platfo
 
 :oep-logo-sirop:
 
-Authors: Hannah Förster, Victoria Liste, Christian Winger (all Öko-Institut). 
-Copyright: Öko-Institut (2021). 
-License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). 
-Attribution: Öko-Institut: Beginners Guide: How to upload data to the OpenEnergy Platform and initiate the review process. 
-Last update: :oep-auto-lastupdate:
+- Title: Beginners Guide: How to upload data to the OpenEnergy Platform
+- Authors: Hannah Förster, Victoria Liste, Christian Winger (all Öko-Institut). 
+- Copyright: [Öko-Institut](https://www.oeko.de) (2023)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Öko-Institut (2023): Beginners Guide: How to upload data to the OpenEnergy Platform.
+- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/beginners_guide/
+- Description: A tutorial for beginning to work with the OEP and an overview over the different processes.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: OEP, beginner, registration
+- Language: en
+- PublicationDate: 2024-06-05
+- Last update: :oep-auto-lastupdate:
+- Version: 1.0
 
 ---

@@ -53,8 +53,17 @@ For good examples there are two options on how to split the timer series.
 
 ## About this tutorial
 
-- Author: Christian Winger
+- Title: How to generate database conform data?
+- Authors: Christian Winger
 - Copyright: [Öko-Institut](https://www.oeko.de) (2023)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2023): How to generate database conform data?
+- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/database_data/
+- Description: A detailed checklist on how to generate database conform data.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: open data, checklist
+- Language: en
+- PublicationDate: 2023-07-13
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0

@@ -17,8 +17,17 @@ More detailed information on these topics can be found in [Open Data for Electri
 
 ## About this tutorial
 
-- Author: Christian Winger
+- Title: Checklist for working with open data
+- Authors: Christian Winger
 - Copyright: [Öko-Institut](https://www.oeko.de) (2023)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2023): Checklist for working with open data
+- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/checklist/
+- Description: A detailed checklist on what needs to be considered while working with open data.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: open data, checklist
+- Language: en
+- PublicationDate: 2023-07-13
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0
