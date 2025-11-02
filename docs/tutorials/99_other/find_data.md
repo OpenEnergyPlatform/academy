@@ -16,10 +16,21 @@ The example below exemplarily shows you how to use free-text (_parameters_) and 
 
 :oep-logo-sirop:
 
+---
+
+- Title: Find data on the OEP
 - Authors: Hannah Förster
 - Copyright: [Öko-Institut](https://www.oeko.de) (2022)
-- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2022): Find data on the OEP. 
+- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/find_data/
+- Description: Tutorial on how to search for and find data on the OEP.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: OEP, data
+- Language: en
+- PublicationDate: 2023-07-13
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0
 
 ---
