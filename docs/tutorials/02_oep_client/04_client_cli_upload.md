@@ -137,8 +137,32 @@ To be able to execute this part you will need to have executed the [setup](#setu
 
 :oep-logo-sirop:
 
+- Title: OEP Client Tutorial 04 - Upload data to the Open Energy Platform using the OEP Client in the command line
 - Author: Christian Winger
 - Copyright: [Öko-Institut](https://www.oeko.de) (2024)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2024): OEP Client Tutorial 04 - Upload data to the Open Energy Platform using the OEP Client in the command line
+- Attribution: Öko-Institut (2024): Upload data to the Open Energy Platform using the OEP Client in the command line
+- Link: https://openenergyplatform.github.io/academy/tutorials/02_oep_client/04_client_cli_upload/
+- Description: Tutorial on how to set up the OEP client and use it for uploading data via the command line.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: OEP client, command line, upload
+- Language: en
+- PublicationDate: 2024-03-20
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0
+
+- Title: OEP Client Tutorial 03 - Download data from the Open Energy Platform using the OEP Client in the command line
+- Author: Christian Winger
+- Copyright: [Öko-Institut](https://www.oeko.de) (2024)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Öko-Institut (2024): Download data from the Open Energy Platform using the OEP Client in the command line
+- Link: https://openenergyplatform.github.io/academy/tutorials/02_oep_client/03_client_cli_download/
+- Description: Tutorial on how to set up the OEP client and use it for downloading data via the command line.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: OEP client, command line, download
+- Language: en
+- PublicationDate: 2024-03-20
+- Last update: :oep-auto-lastupdate:
+- Version: 1.0
