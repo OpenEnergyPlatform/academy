@@ -73,8 +73,17 @@ You can provide feedback on this tutorial [here](https://github.com/OpenEnergyPl
 
 :oep-logo-sirop:
 
+- Title: Tutorial - Open Peer Review for OEMetadata
 - Author: Vismaya Jochem, Christian Hofmann
-- Copyright: Reiner Lemoine Institut
+- Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de) (2024)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Open Energy Academy - OEMetaData Tutorial © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
+- Attribution: Reiner Lemoine Institut (2024): Open Peer Review for OEMetadata
+- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/review_process/
+- Description: This tutorial explains the oepen peer review process on the OEP.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: OEP, review, open
+- Language: en
+- PublicationDate: 2024-07-30
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0
