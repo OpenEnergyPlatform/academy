@@ -12,10 +12,19 @@ This is an introductory talk on the OpenEnergyOntology given for the openmod com
 ---
 ## About this tutorial
 
+- Title: Open Energy Ontology
 - Author: Christian Winger
 - Copyright: [Öko-Institut](https://www.oeko.de) (2023)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2023): Guidebook - How to Publish Your Data on the OEP
+- Attribution: Öko-Institut (2023): Open Energy Ontology
+- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/video_oeo/
+- Description: This tutorial provdes a link to a video on the OEO.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: OEO, ontology
+- Language: en
+- PublicationDate: 2023-07-13
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0
 
 ---
