@@ -102,6 +102,30 @@ Energy is a complex physical phenomenon and challenging to describe ontologicall
 4. Afterwards, you can follow all instructions and explanations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub. Also check out the wiki to [set up your work environment](https://github.com/OpenEnergyPlatform/ontology/wiki/Setup-your-work-environment-and-get-involved).
 5. In all discussions, whether in an online meeting or on GitHub, we follow our [Code of Conduct](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CODE_OF_CONDUCT.md).
 
+### Annotation of Long-Term Scenario Data in IAMC Format
+Disclaimer: This part is work in progress.
+
+Comparing long-term energy scenarios from different source is difficult because variables names are not standardised. However, to distill the best insights from
+scenario study, comparisons are an excellent tool and therefore necessary for policy advice. To enable the seamless comparison of scenarios from different sources
+one can map the individual scenarios to the OEO and thus make them available for automatic comparison. 
+
+Nevertheless, mapping scenario variables to the adequate OEO term can be quite challenging for first time OEO users which is why decided to write this guide and give an extensive example
+for the annotation. As an example we selected data from the Ariadne project (https://explorer.ariadneprojekt.de)  which has its variables named in the IAMC format.
+
+An example for a variable in the IAMC format is this: Capacity Additions|Electricity|Solar|PV
+Translating this into OEO Terms can be a little tricky since OEO terms, due to the way ontologies function, infer certain aspects that are explicity stated in the IAMC format.
+For example for this variable the OEO term [*photovoltaic technology*](https://openenergyplatform.org/ontology/oeo/OEO_00010428) would be fitting but encompasses the three latter parts of the variable in the IAMC
+format (PV as the name says, Solar because PV is a form of solar energy, and electricity because PV only produces electrical energy).
+However, there is also an issue here since *Capacity Additions* has no well matching term in the OEO currently which is why we could either add this term with an appropiate definition or 
+let it be defined implicity through the unit of the variable (here GW/yr) which makes it clear that it is about capacity additions. Since long-term scenario represenation was not the inital aim of the OEO
+we are still working on extending it for this purpose, but a lot of important variables for long-term scenarios can already be annotated with the OEO.
+
+Here is the full table in which every IAMC term used in Ariadne is annotated:
+[Annotated IAMC Terms](https://openenergyplatform.org/dataedit/view/data/iamc_terms_oeo_proposals_2025)
+This is however a preliminary version that will be updated in the next months, but it is good inital showcase how the process works.
+The proposals for the tokens were partly annotated by the NFDI4Energy Annotator tool developed by TIB [Annotator](https://terminology.nfdi4ing.de/ts/sandbox/nfdi4energyAnnotator)
+
+
 ---
 
 ## About this course
