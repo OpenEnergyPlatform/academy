@@ -99,8 +99,17 @@ Congratulations! You build your own Metadata to your dataset.
 
 :oep-logo-sirop:
 
-- Author: Vismaya Jochem
-- Copyright: Reiner Lemoine Institut
+- Title: Tutorial - Working with OEMetadata
+- Author: Vismaya Jochem, Jonas Huber
+- Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de) (2024)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Open Energy Academy - OEMetadata Tutorial © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
+- Attribution: Reiner Lemoine Institut (2024): Working with OEMetadata
+- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/oemetadata/
+- Description: This tutorial focusses on how to best work with metadata on the OEP.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: OEP, OEM, metadata
+- Language: en
+- PublicationDate: 2024-09-20
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0

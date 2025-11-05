@@ -49,8 +49,17 @@ You can provide feedback on this tutorial here: https://github.com/OpenEnergyPla
 
 :oep-logo-sirop:
 
-- Author: Vismaya Jochem
-- Copyright: Reiner Lemoine Institut
+- Title: Tutorial - How to Publish data and metadata on the OEP
+- Author: Vismaya Jochem, Jonas Huber
+- Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de) (2024)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Open Energy Academy - OEMetaData Tutorial © [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
+- Attribution: Reiner Lemoine Institut (2024): How to Publish data and metadata on the OEP
+- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/publish/
+- Description: This tutorial gives instructions on how to publish data on the OEP.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: OEP, publish
+- Language: en
+- PublicationDate: 2024-08-29
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0

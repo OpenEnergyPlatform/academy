@@ -63,6 +63,7 @@ We are logged in on the open energy platform
 ---
 ## About this tutorial
 
+- Title: 
 - Author: Christian Winger
 - Copyright: [Öko-Institut](https://www.oeko.de) (2023)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
@@ -70,3 +71,18 @@ We are logged in on the open energy platform
 - Last update: :oep-auto-lastupdate:
 
 ---
+
+- Title: Create and upload table from csv using the platform wizard
+- Author: Christian Winger
+- Copyright: [Öko-Institut](https://www.oeko.de) (2023)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Öko-Institut (2023): Create and upload table from csv using the platform wizard
+- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/wizard/
+- Description: Introduction on working with the upload wizard of the OEP.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: OEO, upload, wizard
+- Language: en
+- PublicationDate: 2023-07-13
+- Last update: :oep-auto-lastupdate:
+- Version: 1.0

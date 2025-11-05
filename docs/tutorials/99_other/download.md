@@ -20,10 +20,19 @@ The datapackage additionally holds the attached metadata as a [json string](http
 
 :oep-logo-sirop:
 
+- Title: How to download data from the OEP - CSV and datapackage
 - Authors: Hannah Förster
 - Copyright: [Öko-Institut](https://www.oeko.de) (2022)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2022): How to download data from the OEP - CSV and datapackage. 
+- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/download/
+- Description: Tutorial on downloading data from the OEP.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: OEP, download
+- Language: en
+- PublicationDate: 2023-07-13
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0
 
 ---

@@ -11,8 +11,17 @@ The following is a collection of external resources that are helpful in the cont
 
 ## About this tutorial
 
+- Title: External Ressources, Christian Hofmann
 - Authors: Hannah Förster
 - Copyright: [Öko-Institut](https://www.oeko.de) (2024)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2024): How to get started with the Open Energy Family and Platform.
+- Attribution: Öko-Institut (2024): External Ressources
+- Link: https://openenergyplatform.github.io/academy/tutorials/03_external/external_resources/
+- Description: A collection of external resources that are helpful in the context of the OpenEnergyPlatform and related subjects.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: links, ressources, external
+- Language: en
+- PublicationDate: 2024-06-05
 - Last update: :oep-auto-lastupdate:
+- Version: 1.0
