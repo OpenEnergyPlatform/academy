@@ -75,8 +75,8 @@ If a variable / parameter is already represented in the [Open Energy Ontology](h
 
 - Title: Course 06 - Comparing data - Enable scenario projection comparison
 - Authors: Hannah Förster
-- License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Copyright: [Öko-Institut](https://www.oeko.de) (2023)
+- License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2023): Comparing data - Enable scenario projection comparison on the Open Energy Platform.
 - Link: https://openenergyplatform.github.io/academy/courses/06_enable_comparisons/
 - Description: The first API Tutorial for the OEP.

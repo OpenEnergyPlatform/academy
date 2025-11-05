@@ -55,7 +55,6 @@ We collected a few links to GitHub and git basics [here](https://openenergyplatf
 
 - Title: Course 02 - How to get started with the Open Energy Family and Platform
 - Authors: Hannah Förster
-- License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Copyright: [Öko-Institut](https://www.oeko.de) (2023)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2023): How to get started with the Open Energy Family and Platform.

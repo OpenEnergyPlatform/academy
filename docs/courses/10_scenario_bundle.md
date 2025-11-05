@@ -71,7 +71,7 @@ At the end: do not forget to click the **Save** button. And voilà, you have cre
 :oep-logo-sirop:
 
 - Title: Course 10 - What is a scenario bundle on the Open Energy Platform and how to create one 
-- Authors: Hannah Förster, Eike Brod
+- Authors: Hannah Förster, Eike Broda
 - Copyright: [Öko-Institut](https://www.oeko.de) (2024)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2024): What is a scenario bundle on the Open Energy Platform and how to create one.

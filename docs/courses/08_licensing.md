@@ -264,8 +264,8 @@ resources will be created.
 :oep-logo-sirop:
 
 - Title: Course 08 - Licensing
-- Authors: Ludwig Hülk, Christian Hofmann, Christian Winger, Hannah Förster, Vismaya Jochem, Eike Broda
-- Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/)
+- Authors: Ludwig Hülk, Christian Hofmann, Christian Winger, Hannah Förster, Vismaya Jochem
+- Copyright: [Reiner Lemoine Institut](https://reiner-lemoine-institut.de/) (2023)
 - License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Reiner Lemoine Institut (2023): Licensing
 - Link: https://openenergyplatform.github.io/academy/courses/08_licensing/
