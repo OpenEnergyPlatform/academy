@@ -72,7 +72,7 @@ The whole development process of the OEP is Open Source, thus anyone can contrib
 - Copyright: [Öko-Institut](https://www.oeko.de) (2023)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - Attribution: Öko-Institut (2023): Questions
-- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/video_oeo/
+- Link: https://openenergyplatform.github.io/academy/questions/
 - Description: This section gives answers to frequently asked questions.
 - ProficiencyLevel: 
 - TargetGroup:  
