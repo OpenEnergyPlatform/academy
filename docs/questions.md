@@ -66,6 +66,20 @@ The whole development process of the OEP is Open Source, thus anyone can contrib
 
 :oep-logo-sirop:
 
-Authors: Hannah Förster (Öko-Institut). Copyright: Öko-Institut (2022). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en). Attribution: Öko-Institut (2022): Questions. Last update: :oep-auto-lastupdate:
+
+- Title: Questions
+- Author: Hannah Förster 
+- Copyright: [Öko-Institut](https://www.oeko.de) (2023)
+- License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+- Attribution: Öko-Institut (2023): Questions
+- Link: https://openenergyplatform.github.io/academy/tutorials/99_other/video_oeo/
+- Description: This section gives answers to frequently asked questions.
+- ProficiencyLevel: 
+- TargetGroup:  
+- Keywords: OEP, OEO, FAQ
+- Language: en
+- PublicationDate: 2023-03-16
+- Last update: :oep-auto-lastupdate:
+- Version: 1.0
 
 ---
