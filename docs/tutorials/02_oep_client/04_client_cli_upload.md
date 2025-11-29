@@ -78,13 +78,13 @@ To be able to execute this part you will need to have executed the
 - Linux
 
   ```shell
-    oep-client --token $token --schema $topic create $table $example_metadata
+    oep-client --token $token create $table $example_metadata
   ```
 
 - Windows
 
   ```cmd
-    oep-client --token %token% --schema %topic% create %table% %example_metadata%
+    oep-client --token %token% create %table% %example_metadata%
   ```
 
 ## Upload data
@@ -97,13 +97,13 @@ To be able to execute this part you will need to have executed the
 - Linux
 
   ```shell
-    oep-client --token $token --schema $topic insert $table $example_data
+    oep-client --token $token insert $table $example_data
   ```
 
 - Windows
 
   ```cmd
-    oep-client --token %token% --schema %topic% insert %table% %example_data%
+    oep-client --token %token% insert %table% %example_data%
   ```
 
 ## Upload metadata
@@ -117,13 +117,13 @@ To be able to execute this part you will need to have executed the
 - Linux
 
   ```shell
-    oep-client --token $token --schema $topic metadata set $table $example_metadata
+    oep-client --token $token metadata set $table $example_metadata
   ```
 
 - Windows
 
   ```cmd
-    oep-client --token %token% --schema %topic% metadata set %table% %example_metadata%
+    oep-client --token %token% metadata set %table% %example_metadata%
   ```
 
 ## Delete table
@@ -137,13 +137,13 @@ To be able to execute this part you will need to have executed the
 - Linux
 
   ```shell
-  oep-client --token $token --schema $topic drop $table
+  oep-client --token $token drop $table
   ```
 
 - Windows
 
   ```cmd
-  oep-client --token %token% --schema %topic% drop %table%
+  oep-client --token %token% drop %table%
   ```
 
 ## About this tutorial
