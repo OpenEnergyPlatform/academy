@@ -80,8 +80,8 @@ If a variable / parameter is already represented in the [Open Energy Ontology](h
 - Attribution: Öko-Institut (2023): Comparing data - Enable scenario projection comparison on the Open Energy Platform.
 - Link: https://openenergyplatform.github.io/academy/courses/06_enable_comparisons/
 - Description: The first API Tutorial for the OEP.
-- ProficiencyLevel: 
-- TargetGroup: 
+- ProficiencyLevel:
+- TargetGroup:
 - Keywords: OEP, Scenario, Comparision
 - Language: en
 - PublicationDate: 2023-04-17

@@ -44,11 +44,11 @@ Once the metadata are publicly accessible in the
 [draft](https://openenergyplatform.org/database/topic/draft) section, anyone
 (except the metadata owner) can start a review by going to the 'Open Peer
 Review' View (next to 'Meta information') and clicking on 'Start Open Peer
-Review' at the end of the page. ![Start](start_opr.png) The review process is
-exclusive; meaning that once the review process has started, no one else can
-initiate another review process for the same metadata.
-![Blocked](blocked_review.png) However, after a review is finished, a new review
-can be started right away.
+Review' at the end of the page. ![Start](images/start_opr.png) The review
+process is exclusive; meaning that once the review process has started, no one
+else can initiate another review process for the same metadata.
+![Blocked](images/blocked_review.png) However, after a review is finished, a new
+review can be started right away.
 
 ## Review Process
 

@@ -1,8 +1,10 @@
 # 05 - Introduction to the Open Energy Ontology (OEO)
-Learn about how to become an OEO developer and which skills are helpful to join in on developing the OEO. 
+
+Learn about how to become an OEO developer and which skills are helpful to join in on developing the OEO.
 You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/167](https://github.com/OpenEnergyPlatform/academy/issues/167)
 
 ## What is the OEO?
+
 The project's [README](https://github.com/OpenEnergyPlatform/ontology/blob/dev/README.md) will give you a good idea what the OEO is, what it is used for, how to install it and more. It will also point you to the necessary pieces of information you need to get started - including this very course.
 
 ## How to become an OEO developer
@@ -35,19 +37,18 @@ The following skills will help you understand the OEO better and enable you to p
 #### 1. BFO basics
 
 The OEO uses the formal structure and design principles of the Basic Formal Ontology (BFO).
-The more familiar you are with BFO, the better you will be able to contribute to the OEO development process. 
+The more familiar you are with BFO, the better you will be able to contribute to the OEO development process.
 
-:oep-icon-text: For a brief overview of the BFO hierarchy you can read the [OEO wiki article](https://github.com/OpenEnergyPlatform/ontology/wiki/BFO-Upper-Ontology-Classes). This is a very condensed version. 
+:oep-icon-text: For a brief overview of the BFO hierarchy you can read the [OEO wiki article](https://github.com/OpenEnergyPlatform/ontology/wiki/BFO-Upper-Ontology-Classes). This is a very condensed version.
 
 :oep-icon-text: The standard literature on BFO is [_Arp, Smith and Spear (2015): Building Ontologies with Basic Formal Ontology_](https://direct.mit.edu/books/book/4044/Building-Ontologies-with-Basic-Formal-Ontology). If you decide to become an OEO developer, you should read this book. It is also a helpful work of reference. It has to be noted though that the book is not open access and has to be bought.
 To understand the BFO concepts you mostly need chapters 5 and 6. To work on an ontology yourself chapters 3, 4 and 7 are especially helpful.
 
 :oep-icon-video: This video tutorial (78 min) provides an overview and introduction to BFO:
 ["Building Ontologies with Basic Formal Ontology"](https://www.youtube.com/watch?v=joC4NZgLtqA). <br>
-It is the recording of a presentation held by Barry Smith of the BFO and will inform you how the BFO came to be, what some of the most important classes are and how they are used. It does however not describe all the classes and may be more useful if you already gained a basic understanding of the concepts from the previous texts. 
+It is the recording of a presentation held by Barry Smith of the BFO and will inform you how the BFO came to be, what some of the most important classes are and how they are used. It does however not describe all the classes and may be more useful if you already gained a basic understanding of the concepts from the previous texts.
 
 :oep-icon-video: For a more throughout discussion of all the BFO concepts by Barry Smith you may check out the whole [tutorial playlist](https://youtube.com/playlist?list=PLyngZgIl3WTj6tWcypTLpCnYXu6o93kD4&feature=shared) (110 min).
-
 
 The [BFO code](https://github.com/BFO-ontology/BFO) is hosted on GitHub where the [wiki page](https://github.com/BFO-ontology/BFO/wiki) also provides further publications and information on BFO. This goes into great detail, documenting changes across time and releases and is **not** needed when you first start working with the OEO. <br>
 You can download the BFO classes and take a look at them in Protége to familiarize yourself with them. Of course the BFO is already part of the OEO so you may also look at the [current version of the OEO](https://github.com/OpenEnergyPlatform/ontology/tree/dev/src/ontology). The file is called "oeo.omn" and can be opened in Protégé.
@@ -66,12 +67,12 @@ You can find the OWL2 and Manchester Syntax documentation [here](https://www.w3.
 #### 3. GitHub and git basics
 
 The documentation of the OEO development, its discussion and version control all take place on GitHub. Therefore, it is necessary to be familiar with versioning control via [git](https://git-scm.com/) and GitHub as a platform.
+
 - GitHub provides a helpful guide for the [first steps with your GitHub account](https://docs.github.com/de/get-started/onboarding/getting-started-with-your-github-account).
 - There, you can also learn, how to [set up git](https://docs.github.com/en/get-started/quickstart/set-up-git).
 - An introductory tutorial on how to use git is available [here](https://githowto.com/).
-- You will also have to get familiar with the workflow used on GitHub. Before you start working on anything, please read [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) carefully. 
-- You can check out the [wiki](https://github.com/OpenEnergyPlatform/ontology/wiki/Workflow) for more detailed information on the workflow for different tasks. 
-
+- You will also have to get familiar with the workflow used on GitHub. Before you start working on anything, please read [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) carefully.
+- You can check out the [wiki](https://github.com/OpenEnergyPlatform/ontology/wiki/Workflow) for more detailed information on the workflow for different tasks.
 
 ### Which OEO specific knowledge do I need?
 
@@ -81,6 +82,7 @@ We published an introductory paper about the OEO in the journal Energy and AI in
 :oep-icon-text: [OEO Wiki](https://github.com/OpenEnergyPlatform/ontology/wiki/)
 The OEO wiki provides details on how best practice principles of ontology development are applied to OEO development. <br>
 For general information the most useful wiki pages to a newcomer are:
+
 - [How to Participate](https://github.com/OpenEnergyPlatform/ontology/wiki/Welcome!-How-to-participate)
 - [Best Practice Principles](https://github.com/OpenEnergyPlatform/ontology/wiki/Best-Practice-Principles) including subsections
 - [BFO Upper Ontology](https://github.com/OpenEnergyPlatform/ontology/wiki/BFO-Upper-Ontology-Classes) including subsections
@@ -89,14 +91,13 @@ For general information the most useful wiki pages to a newcomer are:
 - [Use Protégé to Change the Ontology](https://github.com/OpenEnergyPlatform/ontology/wiki/How-to-use-prot%C3%A9g%C3%A9-to-change-the-ontology)
 - [Term Tracker Annotation](https://github.com/OpenEnergyPlatform/ontology/wiki/Term-Tracker-Annotation)
 
-
 :oep-icon-text: [The representation of energy, energy carriers and
 fuels in the Open Energy Ontology](http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-3249/paper1-Ensusto.pdf)
 Energy is a complex physical phenomenon and challenging to describe ontologically. We published another OEO specific paper that describes how we decided to represent energy and energy carriers in the OEO.
 
 ### I have read everything - how can I join the developer team now?
 
-1. Get in touch with us! You can use the [contact form on the OEP](https://openenergyplatform.org/contact/) to establish initial contact, and we will come back to you. 
+1. Get in touch with us! You can use the [contact form on the OEP](https://openenergyplatform.org/contact/) to establish initial contact, and we will come back to you.
 2. We always welcome new members to the development team in our regular oeo-dev-meetings, where we discuss organisational things and content related issues.
 3. To participate in the OEO development and discussion process on GitHub, you will need to become part of the [OpenEnergyFamily organisation](https://github.com/OpenEnergyPlatform).
 4. Afterwards, you can follow all instructions and explanations of the general workflow in the [CONTRIBUTING.md](https://github.com/OpenEnergyPlatform/ontology/blob/dev/CONTRIBUTING.md) on GitHub. Also check out the wiki to [set up your work environment](https://github.com/OpenEnergyPlatform/ontology/wiki/Setup-your-work-environment-and-get-involved).

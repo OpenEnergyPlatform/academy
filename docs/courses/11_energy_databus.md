@@ -13,70 +13,75 @@
 
 ## What is the Open Energy Databus?
 
-The DBpedia Databus is a transformative platform for agile data integration, collaboration, and automation via a structured metadata Knowledge Graph. 
-The Databus implements well-known concepts from Software Engineering such as agile rapid prototyping, build automation, test-driven development for Data Engineering. 
+The DBpedia Databus is a transformative platform for agile data integration, collaboration, and automation via a structured metadata Knowledge Graph.
+The Databus implements well-known concepts from Software Engineering such as agile rapid prototyping, build automation, test-driven development for Data Engineering.
 It connects data via a loosely-coupled bus system and a common, but extensible metadata format through state-of-the-art semantic technologies such as ontologies, SPARQL, SHACL and Linked Data.
 
 ![image](../data/img/11_0_databus.png)
 
 🔥 Hot Fact: The DBpedia Databus condenses 15 years of expertise from the DBpedia Community into an accessible open-source tool.
 
-
-
 ## How to search data on the Databus?
-* Navigate to: https://databus.openenergyplatform.org/
-* Use the search bar, look at the newest datasets or browse most active users
-* You can filter for the collection, artifact, group, user, and version 
+
+- Navigate to: https://databus.openenergyplatform.org/
+- Use the search bar, look at the newest datasets or browse most active users
+- You can filter for the collection, artifact, group, user, and version
 
 ![image](../data/img/11_1_search.png)
 
 ## How to register data on the Databus?
-* Navigate to:  [Register Data](https://databus.openenergyplatform.org/app/publish-wizard)
-* You need to register to get a **User**
+
+- Navigate to: [Register Data](https://databus.openenergyplatform.org/app/publish-wizard)
+- You need to register to get a **User**
 
 ![image](../data/img/11_2_create.png)
 
 ### Create a Group
-* First create a **Group**
-* It organises the _Artifact_ by project, institut or other
+
+- First create a **Group**
+- It organises the _Artifact_ by project, institut or other
+
 1. Select your _User_
 2. The _Name_ must be lowercase
 3. The _Title_ should be human-readable
 4. Add short Abstract and Description
-5. Publish with "Register" 
+5. Publish with "Register"
 
-![image](../data/img/11_3_group.png) 
+![image](../data/img/11_3_group.png)
 
 ### Create an Artifact
-* Second create an **Artifact**
-* Like a dataset it organises data and versions
+
+- Second create an **Artifact**
+- Like a dataset it organises data and versions
+
 1. Select your _User_
 2. Select your _Group_
 3. The _Name_ must be lowercase
 4. The _Title_ should be human-readable
 5. Add short Abstract and Description
-6. Publish with "Register" 
+6. Publish with "Register"
 
 ### Create a Version
-* Then create a **Version**
-* A table of the Artifact or updated data 
+
+- Then create a **Version**
+- A table of the Artifact or updated data
+
 1. Select your _User_
 2. Select your _Group_
 3. Select your _Artifact_
-3. The _Name_ must be lowercase
-4. The _Title_ should be human-readable
-5. Add short Abstract and Description
-6. Publish with "Register" 
+4. The _Name_ must be lowercase
+5. The _Title_ should be human-readable
+6. Add short Abstract and Description
+7. Publish with "Register"
 
-![image](../data/img/11_4_version_1.png) 
+![image](../data/img/11_4_version_1.png)
 
 7. Select a License and add attribution
-![image](../data/img/11_4_version_2.png) 
+   ![image](../data/img/11_4_version_2.png)
 
 8. Add link to data (csv)
-9. Publish with "Register" 
-![image](../data/img/11_4_version_3.png) 
-
+9. Publish with "Register"
+   ![image](../data/img/11_4_version_3.png)
 
 ---
 

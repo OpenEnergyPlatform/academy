@@ -7,7 +7,7 @@ tags:
 
 # 09 - Open Peer Review
 
-This course will introduce you to Open Peer Review on the OEP. At the moment it provides basic insights into Open Peer Review. 
+This course will introduce you to Open Peer Review on the OEP. At the moment it provides basic insights into Open Peer Review.
 
 You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/189](https://github.com/OpenEnergyPlatform/academy/issues/189)
 
@@ -105,7 +105,7 @@ of knowledge and fostering innovation in the field of energy.
 
 ## How do you review open data?
 
-:oep-icon-code: [Tutorial on Open Peer Review] (link to tutorial once its published) 
+:oep-icon-code: [Tutorial on Open Peer Review] (link to tutorial once its published)
 This tutorial gives a detailed step by step description of the Open Peer Review Process on the OEP.
 
 Adapting an open peer review process to open data and its metadata
@@ -168,8 +168,8 @@ The editor is not implemented yet.
 - Attribution: Reiner Lemoine Institut (2023): Course 09 - Open Peer Review
 - Link: https://openenergyplatform.github.io/academy/courses/09_peer_review/
 - Description: An introdution and guide to the open peer review on the OEP.
-- ProficiencyLevel: 
-- TargetGroup: 
+- ProficiencyLevel:
+- TargetGroup:
 - Keywords: OEP, review process, open, guide
 - Language: en
 - PublicationDate: 2023-06-07

@@ -270,11 +270,10 @@ resources will be created.
 - Attribution: Reiner Lemoine Institut (2023): Licensing
 - Link: https://openenergyplatform.github.io/academy/courses/08_licensing/
 - Description: An introduction to open data and licensing practices.
-- ProficiencyLevel: 
-- TargetGroup: 
+- ProficiencyLevel:
+- TargetGroup:
 - Keywords: OEP, copyright, license, open data
 - Language: en
 - PublicationDate: 023-06-07
 - Last update: :oep-auto-lastupdate:
 - You can provide feedback to this course on GitHub: [https://github.com/OpenEnergyPlatform/academy/issues/188](https://github.com/OpenEnergyPlatform/academy/issues/188)
-

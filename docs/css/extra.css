@@ -2,10 +2,10 @@
 /* Root variables and theme colors */
 /* ============================= */
 :root > * {
-  --md-primary-fg-color: #0f3b64;         /* Primary text color (light mode) */
-  --md-primary-fg-color--dark: #5d6cc0;   /* Primary text color (dark mode) */
-  --md-typeset-a-color: #5ba6ec;          /* Default link color */
-  /* --md-text-font-color: #ffffff; */     /* Optional text color override */
+  --md-primary-fg-color: #0f3b64; /* Primary text color (light mode) */
+  --md-primary-fg-color--dark: #5d6cc0; /* Primary text color (dark mode) */
+  --md-typeset-a-color: #5ba6ec; /* Default link color */
+  /* --md-text-font-color: #ffffff; */ /* Optional text color override */
   /* --md-primary-fg-color--light: #ECB7B7; */ /* Optional light theme primary color */
 }
 
@@ -14,8 +14,8 @@
 /* ============================= */
 a.oep-annotation {
   /* Hook annotations get a pastel background and readable text */
-  background-color: #FFD6E0 !important;  /* Default pastel color */
-  color: #333 !important;                /* Dark text for readability */
+  background-color: #ffd6e0 !important; /* Default pastel color */
+  color: #333 !important; /* Dark text for readability */
   text-decoration: none;
   padding: 0 3px;
   border-radius: 3px;
@@ -46,7 +46,7 @@ p {
 /* ============================= */
 table th:first-child,
 table td:first-child {
-    width: auto !important;         /* Set the desired width */
-    min-width: 1.5em !important;    /* Ensure the column doesn't shrink below this width */
-    word-wrap: break-word;          /* Break long words to fit within the column */
+  width: auto !important; /* Set the desired width */
+  min-width: 1.5em !important; /* Ensure the column doesn't shrink below this width */
+  word-wrap: break-word; /* Break long words to fit within the column */
 }

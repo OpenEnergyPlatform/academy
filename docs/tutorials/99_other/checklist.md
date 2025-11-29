@@ -14,7 +14,6 @@ All data generated in publicly funded research projects should be available to t
 
 More detailed information on these topics can be found in [Open Data for Electricity Modeling](https://www.bmwi.de/Redaktion/EN/Publikationen/Studien/open-Data-for-electricity-modeling.html).
 
-
 ## About this tutorial
 
 - Author: Christian Winger

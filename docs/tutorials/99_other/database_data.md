@@ -50,7 +50,6 @@ For good examples there are two options on how to split the timer series.
 2. This option is used if there are not as many wind turbines and solar parks
    ![](https://openenergyplatform.org/media/image/2020/11/grafik_dPJYucg.png)
 
-
 ## About this tutorial
 
 - Author: Christian Winger
