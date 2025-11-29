@@ -5,7 +5,8 @@
 
 ## Prerequisites
 
-We are using the following example csv `my_table.csv`, exported from Excel using semicolon as a delimiter and encoded in utf-8.
+We are using the following example csv `my_table.csv`, exported from Excel using
+semicolon as a delimiter and encoded in utf-8.
 
 ```
 id;center_lon;center_lat;rs;name;date_valid;population;area_km2;has_dist;geometry_wkt
@@ -25,48 +26,71 @@ We are logged in on the open energy platform
 
 ## Create table using the wizard
 
-- On the platform go to the [database section](https://openenergyplatform.org/dataedit/schemas).
+- On the platform go to the
+  [database section](https://openenergyplatform.org/database/).
   ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img1.png)
-- Click on [+ data set](https://openenergyplatform.org/dataedit/wizard/) in the `model_draft` section.
+- Click on [+ data set](https://openenergyplatform.org/database/wizard/) in the
+  `draft` section.
 - Unfold the `Create Table` section of the wizard.
-- Enter a valid table name (only lowercase, only characters, number and underscore).
-- Add your data columns with the appropriate [PostgreSQL data types](https://www.postgresql.org/docs/current/datatype.html)
+- Enter a valid table name (only lowercase, only characters, number and
+  underscore).
+- Add your data columns with the appropriate
+  [PostgreSQL data types](https://www.postgresql.org/docs/current/datatype.html)
 - Small popup windows give hints or explanations.
-- The first column must always be a numerical type named `id`. The wizard has this as a default.
-- We don't have to use all the columns from the csv file and we also don't have to use the same names, these can be mapped later. In this example, we use the following columns:
+- The first column must always be a numerical type named `id`. The wizard has
+  this as a default.
+- We don't have to use all the columns from the csv file and we also don't have
+  to use the same names, these can be mapped later. In this example, we use the
+  following columns:
   ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img3.png)
-- Beneath the columns of the table is the option to `Apply Embargo`. The default is set to `None` but in the drop down menu the options 6 Months and 1 Year are also given. Comment: Here a link to the course explaining embargo will be inserted.
-- Next to all tabs is a small `i`. If you hover your mouse over it you will get information about the correponding field.
+- Beneath the columns of the table is the option to `Apply Embargo`. The default
+  is set to `None` but in the drop down menu the options 6 Months and 1 Year are
+  also given. Comment: Here a link to the course explaining embargo will be
+  inserted.
+- Next to all tabs is a small `i`. If you hover your mouse over it you will get
+  information about the correponding field.
 - Click on `Create table`.
 - If successful, you are redirected to the upload section.
 
 ## Upload a csv file using the wizard
 
-- On the platform go to the [database section](https://openenergyplatform.org/dataedit/schemas).
-- Click on [+ data set](https://openenergyplatform.org/dataedit/wizard/) in the `model_draft` section.
+- On the platform go to the
+  [database section](https://openenergyplatform.org/database/).
+- Click on [+ data set](https://openenergyplatform.org/database/wizard/) in the
+  `draft` section.
 - Unfold the `Upload CSV` section of the wizard.
 - Click on `Browse` and select your csv file from your local drive.
-- You may specify the csv file encoding and delimiter character, or leave it blank for automatic detection (which may be wrong though). The `Header` checkbox is activated to indicate that the first line in the file contains column names.
-- You can click on `Show example csv for current configuration` to see an example snippet of a valid csv file for your table.
-- You can click on `Show preview` to see the first few lines of your file. This may help to detect encoding errors.
+- You may specify the csv file encoding and delimiter character, or leave it
+  blank for automatic detection (which may be wrong though). The `Header`
+  checkbox is activated to indicate that the first line in the file contains
+  column names.
+- You can click on `Show example csv for current configuration` to see an
+  example snippet of a valid csv file for your table.
+- You can click on `Show preview` to see the first few lines of your file. This
+  may help to detect encoding errors.
 
 ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img4.png)
 
-- Map the columns from your csv file to the columns in your database. Columns with the same name are automatically filled out for you.
-- In our example, we ignore the columns `center_lon`, `center_lat` and `area_km2` and rename `rs` to `region_key`.
-- While you change the column mappings, the preview below shows the application of the mapping for the first few rows.
+- Map the columns from your csv file to the columns in your database. Columns
+  with the same name are automatically filled out for you.
+- In our example, we ignore the columns `center_lon`, `center_lat` and
+  `area_km2` and rename `rs` to `region_key`.
+- While you change the column mappings, the preview below shows the application
+  of the mapping for the first few rows.
 
   ![](https://openenergyplatform.org/media/image/2021/02/tutorial_upload_img5.png)
 
 - If everything checks out, click `Upload`.
 
 ---
+
 ## About this tutorial
 
 - Author: Christian Winger
 - Copyright: [Öko-Institut](https://www.oeko.de) (2023)
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
-- Attribution: Öko-Institut (2023): Guidebook - How to Publish Your Data on the OEP
+- Attribution: Öko-Institut (2023): Guidebook - How to Publish Your Data on the
+  OEP
 - Last update: :oep-auto-lastupdate:
 
 ---

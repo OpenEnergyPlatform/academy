@@ -23,7 +23,7 @@ insp = inspect(db.engine)
 # add a slug to filter tables
 filter_list = "oemof_b3"
 
-SCHEMA = "model_draft"
+SCHEMA = "draft"
 
 for table_name in insp.get_table_names(schema=SCHEMA):
     if filter_list in table_name:
@@ -32,5 +32,5 @@ for table_name in insp.get_table_names(schema=SCHEMA):
         TableClass = getattr(importlib.import_module("saio." + SCHEMA), table_name)
         # instance = TableClass()
 
-        filename = "model_draft/" + table_name + ".pdf"
+        filename = "draft/" + table_name + ".pdf"
         eralchemy.render_er(TableClass, filename)
