@@ -14,7 +14,6 @@ This tutorials will enable you to:
 ## Requirements
 
 - Python packages:
-
   - `oep-client>=0.17` (installs also the command line tool)
 
 - Skills:

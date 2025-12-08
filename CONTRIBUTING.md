@@ -165,7 +165,7 @@ Merging in this repository should not privode any problems. If anything out of t
 
 #### Delete the feature branch
 
-After merging you can delete the feature branch. If truly necessary git allows reconstruction of deleted branches. 
+After merging you can delete the feature branch. If truly necessary git allows reconstruction of deleted branches.
 
 ### Close the issue
 

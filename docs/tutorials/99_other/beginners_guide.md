@@ -32,7 +32,6 @@ are the following:
 ## 1.1. Register at the OpenEnergy Platform
 
 - Registration
-
   - Click [Login](https://openenergyplatform.org/user/login/?next=/) button on
     Homepage and choose the option **Create a new account.**
 
@@ -48,7 +47,6 @@ are the following:
     able to view your user information.
 
   - API-Token
-
     - The API token is necessary to make authenticated requests to the API.
 
     - After you logged into the OEP, click the member icon in the upper right
@@ -67,7 +65,6 @@ are the following:
 - You will then need to become a member of the group OpenEnergyPlatform:
   <https://github.com/OpenEnergyPlatform> by getting invited to the group. This
   works as follows:
-
   - Get in touch via the contact form on the OpenEnergyPlatform:
     <https://openenergyplatform.org/contact/>.
 
@@ -374,7 +371,6 @@ factsheets to describe the data you provided and their context in more detail.
   categories.
 
 - Select a suitable factsheet category from the drop-down menu
-
   - Scenario Bundle: this is the place that ties together all the information
     that you may want to describe regarding the data you have just uploaded. You
     can provide information on the scenario characteristics, the study reports

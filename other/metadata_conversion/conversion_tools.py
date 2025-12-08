@@ -222,12 +222,12 @@ def json_conversion(
         "(YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)"
     )
     d_comment["units"] = "Use a space between numbers and units (100 m)"
-    d_comment[
-        "languages"
-    ] = "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)"
-    d_comment[
-        "licenses"
-    ] = "License name must follow the SPDX License List (https://spdx.org/licenses/"
+    d_comment["languages"] = (
+        "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)"
+    )
+    d_comment["licenses"] = (
+        "License name must follow the SPDX License List (https://spdx.org/licenses/"
+    )
     d_comment["review"] = (
         "Following the OEP Data Review "
         "(https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)"
