@@ -23,7 +23,6 @@ and
 - Set the OEP_API_TOKEN env.variable to your token: (OEP_API_TOKEN='your token')
 
 - Python packages:
-
   - `oep-client>=0.19` (installs also the command line tool)
 
 - Skills:
