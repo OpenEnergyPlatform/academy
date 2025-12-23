@@ -8,7 +8,7 @@ text and tags**. You can use either one of these, or combine them for your
 search. **Together, they make up filters.** You can **either search across all
 topics** by navigating to [topics](https://openenergyplatform.org/database/)
 **or within a desired topic**, by directly navigating to it, for example the
-[scenario topic](https://openenergyplatform.org/database/or **click on any of
+[scenario topic](https://openenergyplatform.org/database/topic/scenario) **click on any of
 the desired tags** to create your search query. When you have selected the
 desired free text and / or tags, the search will be performed automatically.
 <br><br>
