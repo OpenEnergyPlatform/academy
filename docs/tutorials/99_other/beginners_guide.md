@@ -87,7 +87,8 @@ are the following:
 _Prerequisite for this step is that you are a registered user on
 openenergyplatform.org_
 
-The preferred way to create and upload data tables is via the [API](../01_api/)
+The preferred way to create and upload data tables is
+via the [API](../01_api/02_api_upload.ipynb)
 
 If you do not want to upload tables via the API, you can
 do so using the [CSV-Wizard](wizard.md)
