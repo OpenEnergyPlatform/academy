@@ -1,14 +1,28 @@
-import requests
 import re
-import random
+
+import requests
 
 
 def extract_annotation_blocks(markdown):
-    supported_ontologies = ["oeo", "sms", "fmi", "dogont", "brick", "s4grid", "sargon",
-                            "s4ener", "bont", "openadr", "dices"]
+    supported_ontologies = [
+        "oeo",
+        "sms",
+        "fmi",
+        "dogont",
+        "brick",
+        "s4grid",
+        "sargon",
+        "s4ener",
+        "bont",
+        "openadr",
+        "dices",
+    ]
 
-    ontology_pattern = '|'.join(supported_ontologies)
-    annotation_pattern = fr'<!-- BEGIN-ANNOTATION: ({ontology_pattern}) -->(.*?)<!-- END-ANNOTATION: \1 -->'
+    ontology_pattern = "|".join(supported_ontologies)
+    annotation_pattern = (
+        f"<!-- BEGIN-ANNOTATION: ({ontology_pattern}) -->"
+        f"(.*?)<!-- END-ANNOTATION: \1 -->"
+    )
     annotation_matches = re.finditer(annotation_pattern, markdown, re.DOTALL)
 
     annotation_blocks = []
@@ -23,26 +37,27 @@ def extract_annotation_blocks(markdown):
 
 
 def get_ontology_annotations(config, ontology_id, text):
-    api_endpoint = config.get('api_url',
-                              'https://service.tib.eu/sandbox/nfdi4energyannotator/annotate')
+    api_endpoint = config.get(
+        "api_url", "https://service.tib.eu/sandbox/nfdi4energyannotator/annotate"
+    )
 
     try:
         response = requests.post(
             api_endpoint,
-            json = {'text': text, 'ontology_ids': [ontology_id]},
-            headers = {'Content-Type': 'application/json'},
-            timeout = 60
+            json={"text": text, "ontology_ids": [ontology_id]},
+            headers={"Content-Type": "application/json"},
+            timeout=60,
         )
 
         response.raise_for_status()
         response_data = response.json()
         print(f"Response from {ontology_id} ontology: {response_data}")
 
-        if 'matches' in response_data and isinstance(response_data['matches'], list):
-            text_with_spans = wrap_terms_in_span(text, response_data['matches'])
+        if "matches" in response_data and isinstance(response_data["matches"], list):
+            text_with_spans = wrap_terms_in_span(text, response_data["matches"])
             return text_with_spans
-        elif 'annotated_text' in response_data:
-            return response_data['annotated_text']
+        elif "annotated_text" in response_data:
+            return response_data["annotated_text"]
         else:
             return text
 
@@ -52,20 +67,19 @@ def get_ontology_annotations(config, ontology_id, text):
 
 
 def wrap_terms_in_span(text, matches):
-    pastel_colors = [
-        "#FFD6E0", "#FFEFCF", "#DCEDC2", "#A8E6CE", "#DCEDC2",
-        "#FFD3B5", "#D5E5F2", "#E0F7FA", "#FFF9C4", "#F8BBD0"
-    ]
-
     cleaner_matches = [
-        {'term': m['token'],
-         'matched_term': m.get('matched_term', m['label']),  # Fallback auf label
-         'start': m['start'],
-         'end': m['end'],
-         'iri': m['iri']} for m in matches
+        {
+            "term": m["token"],
+            "matched_term": m.get("matched_term", m["label"]),  # Fallback auf label
+            "start": m["start"],
+            "end": m["end"],
+            "iri": m["iri"],
+        }
+        for m in matches
     ]
-    sorted_matches = sorted(cleaner_matches,
-                            key = lambda m: (-len(m['matched_term']), -m['start']))
+    sorted_matches = sorted(
+        cleaner_matches, key=lambda m: (-len(m["matched_term"]), -m["start"])
+    )
 
     modified_positions = set()
 
@@ -74,7 +88,7 @@ def wrap_terms_in_span(text, matches):
     # First pass: determine which matches to process
     for match in sorted_matches:
         overlap = False
-        for pos in range(match['start'], match['end'] + 1):
+        for pos in range(match["start"], match["end"] + 1):
             if pos in modified_positions:
                 overlap = True
                 break
@@ -82,12 +96,12 @@ def wrap_terms_in_span(text, matches):
         if overlap:
             continue
 
-        for pos in range(match['start'], match['end'] + 1):
+        for pos in range(match["start"], match["end"] + 1):
             modified_positions.add(pos)
 
         modifications.append(match)
 
-    modifications.sort(key = lambda m: m['start'])
+    modifications.sort(key=lambda m: m["start"])
 
     # Second pass: apply modifications
     result = ""
@@ -104,15 +118,18 @@ def wrap_terms_in_span(text, matches):
         "s4ener": "#E0F7FA",
         "bont": "#FFF9C4",
         "openadr": "#F8BBD0",
-        "dices": "#FFC0CB"
+        "dices": "#FFC0CB",
     }
 
     for match in modifications:
-        result += text[last_end:match['start']]
-        color = ontology_colors.get(match.get('ontology_id', ''), "#1F567D")  # Default
-        # random_color = random.choice(pastel_colors)
-        result += f"<a href=\"{match['iri']}\" style='background-color: {color}; color: #fff; text-decoration: none; padding: 0 3px; border-radius: 3px;'>{text[match['start']:match['end']]}</a>"
-        last_end = match['end']
+        result += text[last_end : match["start"]]
+        color = ontology_colors.get(match.get("ontology_id", ""), "#1F567D")  # Default
+        result += (
+            f'<a href="{match["iri"]}" style=\'background-color: {color}; '
+            "color: #fff; text-decoration: none; padding: 0 3px; border-radius: 3px;'>"
+            f"{text[match['start'] : match['end']]}</a>"
+        )
+        last_end = match["end"]
 
     result += text[last_end:]
 
