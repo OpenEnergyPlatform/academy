@@ -24,7 +24,7 @@ and
 
 - Python packages:
 
-  - `oep-client>=0.17` (installs also the command line tool)
+  - `oep-client>=0.19` (installs also the command line tool)
 
 - Skills:
   - use the command line
