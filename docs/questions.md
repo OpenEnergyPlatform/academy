@@ -98,9 +98,9 @@ on the OEO's Wiki.
 ## OEP development: How can I contribute?
 
 The whole development process of the OEP is Open Source, thus anyone can
-contribute to the OEP development. To do so, please read the
-**[contributing.md](https://github.com/OpenEnergyPlatform/oeplatform/blob/develop/CONTRIBUTING.md)**
-carefully.
+contribute to the OEP development. To get started, please consult the **[OEP Developer Documentation](https://openenergyplatform.github.io/oeplatform/dev/)**
+which includes the Developer Guidelines
+**[contributing.md](https://github.com/OpenEnergyPlatform/oeplatform/blob/develop/CONTRIBUTING.md)**.
 
 ---
 
