@@ -105,7 +105,7 @@ of knowledge and fostering innovation in the field of energy.
 
 ## How do you review open data?
 
-:oep-icon-code: [Tutorial on Open Peer Review] (link to tutorial once its published)
+:oep-icon-code: [Tutorial on Open Peer Review](https://openenergyplatform.github.io/academy/tutorials/99_other/review_process/)
 This tutorial gives a detailed step by step description of the Open Peer Review Process on the OEP.
 
 Adapting an open peer review process to open data and its metadata
