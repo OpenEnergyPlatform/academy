@@ -52,7 +52,13 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.details
-  - pymdownx.superfences
+  # The custom fence renders ```mermaid blocks as diagrams, matching the
+  # oeplatform docs. Without it a mermaid block shows as source code.
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - toc:
       permalink: "#"
 
