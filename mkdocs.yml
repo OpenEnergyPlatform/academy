@@ -107,6 +107,7 @@ nav:
       - API: tutorials/01_api/
       - OEP Client: tutorials/02_oep_client/
       - External: tutorials/03_external/
+      - Integrated Workflows: tutorials/04_integrated_workflows/
       - Other: tutorials/99_other/
   - Questions: questions.md
   - Metainfo: meta.md
