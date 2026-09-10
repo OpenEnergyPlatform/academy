@@ -1,0 +1,23 @@
+{
+  "name": "tutorial_open-data-licenses",
+  "displayName": "Open Data Licensing Guide",
+  "category": {
+    "identifier": "publication",
+    "names": "Publication/Licensing"
+  },
+  "level": {
+    "identifier": 1,
+    "names": "Beginner"
+  },
+  "language": {
+    "identifier": "en",
+    "names": "english"
+  },
+  "medium": "jupyter",
+  "license": {
+    "identifier": "agpl",
+    "names": "AGPL"
+  },
+  "email_contact": "",
+  "github_contact": ["Ludee", "christian-RLI"]
+}

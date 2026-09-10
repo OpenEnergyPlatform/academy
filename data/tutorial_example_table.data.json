@@ -1,0 +1,23 @@
+[
+  {
+    "name": "unit1",
+    "is_active": true,
+    "capacity_mw": 1.2,
+    "installation_datetime_utc": "2010-02-03 00:00:00",
+    "location": "POINT(53.12 8.345)"
+  },
+  {
+    "name": "unit2",
+    "is_active": false,
+    "capacity_mw": 2.1,
+    "installation_datetime_utc": "2010-01-08",
+    "location": null
+  },
+  {
+    "name": "unit3",
+    "is_active": true,
+    "capacity_mw": 100.0,
+    "installation_datetime_utc": "2010-01-02 10:30:00",
+    "location": "Point(55.34 7.34)"
+  }
+]
