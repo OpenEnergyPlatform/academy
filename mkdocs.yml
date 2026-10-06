@@ -108,6 +108,7 @@ nav:
       - OEP Client: tutorials/02_oep_client/
       - External: tutorials/03_external/
       - Integrated Workflows: tutorials/04_integrated_workflows/
+      - Scenario Bundles: tutorials/05_scenario_bundles/
       - Other: tutorials/99_other/
   - Questions: questions.md
   - Metainfo: meta.md
