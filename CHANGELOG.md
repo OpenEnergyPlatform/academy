@@ -23,6 +23,7 @@ Here is a template for new release sections
 ### Added
 
 - Add scenario bundle tutorial 01: publish a scenario bundle using the API [(#)](https://github.com/OpenEnergyPlatform/academy/pull/)
+- Add scenario bundle tutorial 02: re-import a scenario bundle from a pipeline [(#)](https://github.com/OpenEnergyPlatform/academy/pull/)
 - Add Open Energy Databus course [(#273)](https://github.com/OpenEnergyPlatform/academy/pull/273)
 - Add annotation feature test [(#262)](https://github.com/OpenEnergyPlatform/academy/pull/262)
 - Add example table and metadata [(#204)](https://github.com/OpenEnergyPlatform/academy/pull/204)
